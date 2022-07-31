@@ -176,14 +176,20 @@
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/d95b970c-bb79-477d-8f2d-262e72f77908"
       (reference "#PWR013") (unit 1) (value "GND") (footprint "")
     )
-    (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/1b17c8d9-d025-46ee-8484-69a28f8a564b"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/1e70b36f-13b2-45d2-b5a3-9315cd3c1bfd"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/20825150-e8a2-4c94-87d1-d1646951b847"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/23dc6dbb-bf13-49cc-a3a1-08aab09c63a8"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/2ecc89ff-16c8-435c-910d-8473d369adda"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/45d68a7c-e4d1-4ba5-aca5-9c239602dc9f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/538a7b84-7472-42e9-9eaf-0b0d75b67157"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -193,9 +199,6 @@
     )
     (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/75a19ac5-7499-446a-9985-59d649e34bda"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/91b8cc31-645a-4dc8-a809-647b552b7895"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/c65e49e9-f231-4cd6-accb-f838cae11fa0"
       (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
@@ -242,8 +245,8 @@
     (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/c09ff602-a691-4d23-afd6-871195375475"
       (reference "J?") (unit 1) (value "CAN") (footprint "")
     )
-    (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/d552af7e-6b97-41c2-8495-a42a06d64db9"
-      (reference "J?") (unit 1) (value "BLE") (footprint "")
+    (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/fac18e40-e84c-4b50-ae1d-49c2742ae22e"
+      (reference "J?") (unit 1) (value "Conn_ARM_JTAG_SWD_10") (footprint "")
     )
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/21b9b2b5-ff97-447a-a56e-396f0ea09701"
       (reference "R1") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -274,6 +277,9 @@
     )
     (path "/a908ff77-32fe-48f6-8dc7-bc7bb4d76281/4daf13d7-13e7-49ab-af3d-ccd1855406b6"
       (reference "U?") (unit 1) (value "BQ76200PW") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
+    )
+    (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/76980827-46fa-4e4b-b3e0-e8d3d945e1fc"
+      (reference "U?") (unit 1) (value "E73-2G4M08S1C") (footprint "vesc-bms:E73-2G4M08S1C")
     )
     (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/a13371f6-167e-435f-9292-05922ed3f024"
       (reference "U?") (unit 1) (value "MCP2562-E-SN") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
