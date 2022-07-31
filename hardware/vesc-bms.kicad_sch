@@ -112,16 +112,16 @@
       (reference "J1") (unit 1) (value "Conn_ARM_JTAG_SWD_10") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD")
     )
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/21b9b2b5-ff97-447a-a56e-396f0ea09701"
-      (reference "R1") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R1") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/3a456d76-fae8-41f6-8005-597506331c4a"
-      (reference "R2") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R2") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/fd1a8cd8-06e9-4d52-af0e-ed2b061904eb"
-      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_B3S-1000")
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3")
     )
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/4d538473-c25c-4a8d-999f-ecd2ffd9b70a"
-      (reference "SW2") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_B3S-1000")
+      (reference "SW2") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3")
     )
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/cfe202db-7a07-41ea-849b-c0da94eb6992"
       (reference "U1") (unit 1) (value "STM32L476RGTx") (footprint "Package_QFP:LQFP-64_10x10mm_P0.5mm")
