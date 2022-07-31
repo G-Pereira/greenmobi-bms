@@ -519,7 +519,7 @@
   (symbol (lib_id "Battery_Management:BQ76200PW") (at 208.28 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4daf13d7-13e7-49ab-af3d-ccd1855406b6)
-    (property "Reference" "U?" (id 0) (at 210.2994 80.01 0)
+    (property "Reference" "U3" (id 0) (at 210.2994 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BQ76200PW" (id 1) (at 210.2994 82.55 0)
