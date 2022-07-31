@@ -332,6 +332,10 @@
     [
       "6e2b1342-9746-4a38-93af-9ab1059c6272",
       "comms"
+    ],
+    [
+      "600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8",
+      "Power Supply"
     ]
   ],
   "text_variables": {}
