@@ -20,9 +20,22 @@
     )
   )
 
+  (sheet (at 106.68 88.9) (size 12.7 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid a908ff77-32fe-48f6-8dc7-bc7bb4d76281)
+    (property "Sheet name" "AFE" (id 0) (at 106.68 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "afe.kicad_sch" (id 1) (at 106.68 107.2646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9" (page "2"))
+    (path "/a908ff77-32fe-48f6-8dc7-bc7bb4d76281" (page "3"))
   )
 
   (symbol_instances
@@ -109,6 +122,9 @@
     )
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/fd1a8cd8-06e9-4d52-af0e-ed2b061904eb"
       (reference "SW?") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_B3S-1000")
+    )
+    (path "/a908ff77-32fe-48f6-8dc7-bc7bb4d76281/34348477-674a-4d34-a991-a78d1c621f1a"
+      (reference "U?") (unit 1) (value "LTC6813-1") (footprint "Package_QFP:LQFP-64-1EP_10x10mm_P0.5mm_EP5x5mm")
     )
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/cfe202db-7a07-41ea-849b-c0da94eb6992"
       (reference "U?") (unit 1) (value "STM32L476RGTx") (footprint "Package_QFP:LQFP-64_10x10mm_P0.5mm")

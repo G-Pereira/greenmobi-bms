@@ -324,6 +324,10 @@
     [
       "1c5935ea-6f80-435f-8ae1-741f5546f8d9",
       "MCU"
+    ],
+    [
+      "a908ff77-32fe-48f6-8dc7-bc7bb4d76281",
+      "AFE"
     ]
   ],
   "text_variables": {}
