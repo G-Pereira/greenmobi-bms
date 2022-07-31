@@ -8,6 +8,15 @@
   )
 
 
+  (wire (pts (xy 162.56 62.23) (xy 196.85 62.23))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid ab1db1f5-fd71-419a-861e-7a93acfb5463)
+  )
+  (wire (pts (xy 162.56 59.69) (xy 196.85 59.69))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid fc0ef84f-e5eb-43b2-8f30-71e857c3b1e4)
+  )
+
   (sheet (at 134.62 48.26) (size 27.94 77.47) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -17,6 +26,34 @@
     )
     (property "Sheet file" "mcu.kicad_sch" (id 1) (at 134.62 126.3146 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "NRF5x_SWDIO" output (at 162.56 62.23 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 2f936994-7919-4c16-a682-7cf7237049f2)
+    )
+    (pin "NRF5x_SWCLK" output (at 162.56 59.69 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 0039bd80-6e85-4119-8b1f-9baf1b2d6d0b)
+    )
+  )
+
+  (sheet (at 196.85 57.15) (size 16.51 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6e2b1342-9746-4a38-93af-9ab1059c6272)
+    (property "Sheet name" "comms" (id 0) (at 196.85 56.4384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "comms.kicad_sch" (id 1) (at 196.85 72.9746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "NRF5x_SWCLK" input (at 196.85 59.69 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 9e05a8c6-bd8c-4309-a290-32ddca7985c1)
+    )
+    (pin "NRF5x_SWDIO" input (at 196.85 62.23 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid d31f4650-a8d6-4a4f-90e3-434d74e9b316)
     )
   )
 
@@ -36,6 +73,7 @@
     (path "/" (page "1"))
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9" (page "2"))
     (path "/a908ff77-32fe-48f6-8dc7-bc7bb4d76281" (page "3"))
+    (path "/6e2b1342-9746-4a38-93af-9ab1059c6272" (page "4"))
   )
 
   (symbol_instances
@@ -78,6 +116,12 @@
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/d95b970c-bb79-477d-8f2d-262e72f77908"
       (reference "#PWR013") (unit 1) (value "GND") (footprint "")
     )
+    (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/1b17c8d9-d025-46ee-8484-69a28f8a564b"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/91b8cc31-645a-4dc8-a809-647b552b7895"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/3d53b2c0-0ab8-418a-a174-d479fe6d5385"
       (reference "C1") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -111,6 +155,9 @@
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/b6cbb8ea-1784-4059-9a07-19b7c70fa644"
       (reference "J1") (unit 1) (value "Conn_ARM_JTAG_SWD_10") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD")
     )
+    (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/d552af7e-6b97-41c2-8495-a42a06d64db9"
+      (reference "J?") (unit 1) (value "BLE") (footprint "")
+    )
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/21b9b2b5-ff97-447a-a56e-396f0ea09701"
       (reference "R1") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -128,6 +175,9 @@
     )
     (path "/a908ff77-32fe-48f6-8dc7-bc7bb4d76281/34348477-674a-4d34-a991-a78d1c621f1a"
       (reference "U2") (unit 1) (value "LTC6813-1") (footprint "Package_QFP:LQFP-64-1EP_10x10mm_P0.5mm_EP5x5mm")
+    )
+    (path "/a908ff77-32fe-48f6-8dc7-bc7bb4d76281/4daf13d7-13e7-49ab-af3d-ccd1855406b6"
+      (reference "U?") (unit 1) (value "BQ76200PW") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
     )
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/0827f1d0-8e1d-46d4-92fd-80f7ab36b847"
       (reference "Y1") (unit 1) (value "DNP") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
