@@ -12,7 +12,6 @@ Since there is not yet a opensource design of a VESC compatible BMS and only a c
 
 - Popular and easy to source connectors are used (JST XH, scre terminals, etc) even if in most end uses it would be better to have weatherproof panel connectors.
 - QFN and BGA chips are avoided at all costs to ease hand assembly.
-- 
 
 ## Contributions
 
