@@ -10,7 +10,7 @@ This project is under development and the board is not yet ready and contributio
 
 Since there is not yet a opensource design of a VESC compatible BMS and only a commercial product was found form MAXKGO (which has its own firmware) this board is being designed with ease of development in mind. So the following principles are followed:
 
-- Popular and easy to source connectors are used (JST XH, scre terminals, etc) even if in most end uses it would be better to have weatherproof panel connectors.
+- Popular and easy to source connectors are used (JST XH, screw terminals, etc) even if in most end uses it would be better to have weatherproof panel connectors.
 - QFN and BGA chips are avoided at all costs to ease hand assembly.
 
 ## Contributions
