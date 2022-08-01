@@ -616,13 +616,13 @@
     (path "/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8/f55e1cba-f27b-4b04-9aa4-8502ed96b41b"
       (reference "C40") (unit 1) (value "2.2u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/95476253-acbc-4b80-80be-f4a25f0f1538/fc1479f0-081a-4b3d-8813-844957f05f0a/31656d7d-9ae1-4c93-885b-4becbf380333"
-      (reference "C?") (unit 1) (value "10u") (footprint "")
-    )
     (path "/95476253-acbc-4b80-80be-f4a25f0f1538/093546ac-4b32-4941-93d8-34442ea23c06/31656d7d-9ae1-4c93-885b-4becbf380333"
       (reference "C?") (unit 1) (value "10u") (footprint "")
     )
     (path "/95476253-acbc-4b80-80be-f4a25f0f1538/ea0333f0-2b96-4936-8a1d-d23c72d3c285/31656d7d-9ae1-4c93-885b-4becbf380333"
+      (reference "C?") (unit 1) (value "10u") (footprint "")
+    )
+    (path "/95476253-acbc-4b80-80be-f4a25f0f1538/fc1479f0-081a-4b3d-8813-844957f05f0a/31656d7d-9ae1-4c93-885b-4becbf380333"
       (reference "C?") (unit 1) (value "10u") (footprint "")
     )
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/45dfc5f9-fc16-4874-a75d-dc985113aec0"
@@ -940,13 +940,13 @@
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/76a980b3-9192-4320-b57f-39b75f4a1f2f"
       (reference "R?") (unit 1) (value "220") (footprint "")
     )
+    (path "/95476253-acbc-4b80-80be-f4a25f0f1538/fc1479f0-081a-4b3d-8813-844957f05f0a/8bce89ec-8c06-4ee7-ac74-119790a4c260"
+      (reference "R?") (unit 1) (value "4.7k") (footprint "")
+    )
     (path "/95476253-acbc-4b80-80be-f4a25f0f1538/093546ac-4b32-4941-93d8-34442ea23c06/8bce89ec-8c06-4ee7-ac74-119790a4c260"
       (reference "R?") (unit 1) (value "4.7k") (footprint "")
     )
     (path "/95476253-acbc-4b80-80be-f4a25f0f1538/ea0333f0-2b96-4936-8a1d-d23c72d3c285/8bce89ec-8c06-4ee7-ac74-119790a4c260"
-      (reference "R?") (unit 1) (value "4.7k") (footprint "")
-    )
-    (path "/95476253-acbc-4b80-80be-f4a25f0f1538/fc1479f0-081a-4b3d-8813-844957f05f0a/8bce89ec-8c06-4ee7-ac74-119790a4c260"
       (reference "R?") (unit 1) (value "4.7k") (footprint "")
     )
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/8ed7bfd7-4858-4d8d-bd47-416c120b0720"
