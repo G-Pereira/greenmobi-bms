@@ -16,3 +16,7 @@ Since there is not yet a opensource design of a VESC compatible BMS and only a c
 ## Contributions
 
 Since the design is at a schematic phase, it would be helpful if you can review the board's schematic to look for misconnections and erros using any of the given ICs. However, any other kind of productive feedback and work is welcome. Be sure to read the [design approach](#desing-approach) so your contributions match the goals of the project.
+
+## Credits
+
+This project is meant to be interoperable with the VESC, which is a [registred trademark](https://vesc-project.com/trademark_policies), held by Benjamin Vedder and the BMS firmware and its hardware design hints that are in it that this designs follows are of Benjamin Vedder's authoring.
