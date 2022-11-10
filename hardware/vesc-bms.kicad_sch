@@ -641,7 +641,7 @@
       (reference "J3") (unit 1) (value "DNP") (footprint "")
     )
     (path "/a908ff77-32fe-48f6-8dc7-bc7bb4d76281/7fc22c10-0052-435b-ac39-268c7141defb"
-      (reference "J4") (unit 1) (value "Conn_01x19_Male") (footprint "")
+      (reference "J4") (unit 1) (value "Conn_01x19_Male") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-2000_2x10_P3.00mm_Horizontal")
     )
     (path "/6e2b1342-9746-4a38-93af-9ab1059c6272/12343cfa-1752-4448-8b3b-d413f6f0d315"
       (reference "J5") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "")

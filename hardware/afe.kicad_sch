@@ -3621,7 +3621,7 @@
     (property "Value" "Conn_01x19_Male" (id 1) (at 240.03 86.3599 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 238.76 85.09 0)
+    (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-2000_2x10_P3.00mm_Horizontal" (id 2) (at 238.76 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 238.76 85.09 0)
