@@ -496,6 +496,27 @@
     (path "/95476253-acbc-4b80-80be-f4a25f0f1538/ea0333f0-2b96-4936-8a1d-d23c72d3c285/581092af-1e76-44d7-837e-bd5acc6e1834"
       (reference "#PWR048") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a908ff77-32fe-48f6-8dc7-bc7bb4d76281/43e42fa0-a635-41f9-8612-db8b22a024e5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a908ff77-32fe-48f6-8dc7-bc7bb4d76281/5dc4a642-3fd8-42ae-8c65-e46a042328d7"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/a908ff77-32fe-48f6-8dc7-bc7bb4d76281/6ac8ce3c-e388-4ada-9028-9cd358aa077d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a908ff77-32fe-48f6-8dc7-bc7bb4d76281/950a9bb7-0ea5-47c1-b273-96bbbcbafc2e"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/a908ff77-32fe-48f6-8dc7-bc7bb4d76281/c547f1be-1608-4b1b-b5e8-c7c41dbee351"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a908ff77-32fe-48f6-8dc7-bc7bb4d76281/ef7320d8-1fcb-4926-bf86-8bed2ad84ad2"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a908ff77-32fe-48f6-8dc7-bc7bb4d76281/f14080b2-3906-4eef-ad35-403db07a4a5b"
+      (reference "#PWR?") (unit 1) (value "-BATT") (footprint "")
+    )
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/3d53b2c0-0ab8-418a-a174-d479fe6d5385"
       (reference "C1") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -624,6 +645,12 @@
     )
     (path "/95476253-acbc-4b80-80be-f4a25f0f1538/ea0333f0-2b96-4936-8a1d-d23c72d3c285/31656d7d-9ae1-4c93-885b-4becbf380333"
       (reference "C43") (unit 1) (value "10u") (footprint "")
+    )
+    (path "/a908ff77-32fe-48f6-8dc7-bc7bb4d76281/7b2437db-7b12-420a-8f73-ba42bfec6c36"
+      (reference "C?") (unit 1) (value "100n") (footprint "")
+    )
+    (path "/a908ff77-32fe-48f6-8dc7-bc7bb4d76281/faebf045-960f-498f-b8e0-ca9438a60864"
+      (reference "C?") (unit 1) (value "100n") (footprint "")
     )
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/6f3f9990-8584-4a25-a757-32341a320e23"
       (reference "D1") (unit 1) (value "Red") (footprint "LED_SMD:LED_0805_2012Metric")
@@ -955,6 +982,9 @@
     (path "/95476253-acbc-4b80-80be-f4a25f0f1538/ea0333f0-2b96-4936-8a1d-d23c72d3c285/8bce89ec-8c06-4ee7-ac74-119790a4c260"
       (reference "R81") (unit 1) (value "4.7k") (footprint "")
     )
+    (path "/a908ff77-32fe-48f6-8dc7-bc7bb4d76281/3384b427-c944-43e9-aca0-9b9d29b2c712"
+      (reference "R?") (unit 1) (value "2.7k") (footprint "")
+    )
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/fd1a8cd8-06e9-4d52-af0e-ed2b061904eb"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3")
     )
@@ -993,6 +1023,9 @@
     )
     (path "/95476253-acbc-4b80-80be-f4a25f0f1538/9a902132-2cd9-4ed2-addd-2c5fe48e29b9"
       (reference "U7") (unit 1) (value "HDC1080") (footprint "Package_SON:Texas_PWSON-N6")
+    )
+    (path "/a908ff77-32fe-48f6-8dc7-bc7bb4d76281/dd27d2c3-23ac-40d5-8df1-f3d57631cd8f"
+      (reference "U?") (unit 1) (value "ACS758xCB-050B-PFF") (footprint "Sensor_Current:Allegro_CB_PFF")
     )
     (path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/0827f1d0-8e1d-46d4-92fd-80f7ab36b847"
       (reference "Y1") (unit 1) (value "DNP") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
