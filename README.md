@@ -2,7 +2,7 @@
 
 The [VESC BMS board system is under closed development](https://vesc-project.com/node/311) at the time of this writing although the BMS firmware is publicly available so this project consists on a VESC compatible BMS board that is able to run [VESC BMS firmware](https://github.com/vedderb/vesc_bms_fw).
 
-This project is under development and the board is not yet ready. [KiCAD v6](https://www.kicad.org/) is being used for the board's design and contributions are welcome.
+This project is under development and the board is not yet ready. [KiCAD](https://www.kicad.org/) is being used for the board's design and contributions are welcome.
 
 [**Join us on discord**](https://discord.gg/AxKemSxhaV)
 
