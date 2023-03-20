@@ -227,6 +227,11 @@
     (uuid f02a9b1c-01c5-42c2-bc69-9b0284921b47)
   )
 
+  (text "~10mA balance current" (at 168.91 101.6 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 821613d2-17f6-4a25-beaa-69352d50af32)
+  )
+
   (hierarchical_label "DISCHARGE_EN" (shape input) (at 137.16 101.6 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 06271da1-c77c-4cb6-9ccc-ebca27e9ae59)
