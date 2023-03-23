@@ -8,10 +8,14 @@ This project is under development and the board is not yet ready. [KiCAD](https:
 
 ## Desing approach
 
-Since there is not yet a opensource design of a VESC compatible BMS and only a commercial product was found form MAXKGO (which has its own fork of the firmware) this board is being designed with ease of development in mind so it can be used to contribute directly to the VESC project and extend its potential. So the following principles are followed:
+Since there is not yet a opensource design of a VESC fully compatible BMS this board is being designed with ease of development in mind so it can be used as a reference design to contribute directly to the VESC project and extend its potential. So the following principles are followed:
 
 - Popular and easy to source connectors are used (JST XH, screw terminals, etc) even if in most end uses it would be better to have weatherproof panel connectors.
 - QFN and BGA chips are avoided at all costs to ease hand assembly.
+
+Here it is a block diagram of the design:
+
+![Block diagram](docs/block-diagram.jpg)
 
 ## Contributions
 
