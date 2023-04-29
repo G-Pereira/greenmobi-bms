@@ -530,7 +530,7 @@
     (property "Value" "Thermistor_NTC" (at 151.13 104.4574 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_2010_5025Metric" (at 148.59 101.6 0)
+    (property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" (at 148.59 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 148.59 101.6 0)
