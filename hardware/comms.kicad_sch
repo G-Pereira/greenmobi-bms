@@ -1297,7 +1297,7 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 68.58 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12343cfa-1752-4448-8b3b-d413f6f0d315)
-    (property "Reference" "J5" (at 68.58 101.6 0)
+    (property "Reference" "J401" (at 68.58 101.6 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_Receptacle_USB2.0" (at 68.58 104.14 0)
@@ -1329,7 +1329,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "J5") (unit 1)
+          (reference "J401") (unit 1)
         )
       )
     )
@@ -1338,7 +1338,7 @@
   (symbol (lib_id "power:GND") (at 104.14 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e70b36f-13b2-45d2-b5a3-9315cd3c1bfd)
-    (property "Reference" "#PWR034" (at 104.14 132.08 0)
+    (property "Reference" "#PWR0406" (at 104.14 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 130.81 0)
@@ -1354,7 +1354,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR0406") (unit 1)
         )
       )
     )
@@ -1363,7 +1363,7 @@
   (symbol (lib_id "Device:R_Small") (at 99.06 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f616f84-9a10-467f-aa5e-36109bec8528)
-    (property "Reference" "R21" (at 101.6 66.0399 0)
+    (property "Reference" "R401" (at 101.6 66.0399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "120" (at 101.6 68.5799 0)
@@ -1380,7 +1380,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "R21") (unit 1)
+          (reference "R401") (unit 1)
         )
       )
     )
@@ -1389,7 +1389,7 @@
   (symbol (lib_id "power:+3.3V") (at 58.42 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20825150-e8a2-4c94-87d1-d1646951b847)
-    (property "Reference" "#PWR029" (at 58.42 69.85 0)
+    (property "Reference" "#PWR0401" (at 58.42 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 58.42 60.96 0)
@@ -1405,7 +1405,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR0401") (unit 1)
         )
       )
     )
@@ -1414,7 +1414,7 @@
   (symbol (lib_id "power:+3.3V") (at 175.26 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23dc6dbb-bf13-49cc-a3a1-08aab09c63a8)
-    (property "Reference" "#PWR035" (at 175.26 86.36 0)
+    (property "Reference" "#PWR0407" (at 175.26 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 175.26 77.47 0)
@@ -1430,7 +1430,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR0407") (unit 1)
         )
       )
     )
@@ -1439,7 +1439,7 @@
   (symbol (lib_id "power:GND") (at 175.26 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ecc89ff-16c8-435c-910d-8473d369adda)
-    (property "Reference" "#PWR036" (at 175.26 120.65 0)
+    (property "Reference" "#PWR0408" (at 175.26 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.26 119.38 0)
@@ -1455,7 +1455,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR0408") (unit 1)
         )
       )
     )
@@ -1464,7 +1464,7 @@
   (symbol (lib_id "power:GND") (at 229.87 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45d68a7c-e4d1-4ba5-aca5-9c239602dc9f)
-    (property "Reference" "#PWR038" (at 229.87 132.08 0)
+    (property "Reference" "#PWR0410" (at 229.87 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 229.87 130.81 0)
@@ -1480,7 +1480,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR0410") (unit 1)
         )
       )
     )
@@ -1489,7 +1489,7 @@
   (symbol (lib_id "power:GND") (at 68.58 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 538a7b84-7472-42e9-9eaf-0b0d75b67157)
-    (property "Reference" "#PWR030" (at 68.58 156.21 0)
+    (property "Reference" "#PWR0402" (at 68.58 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 68.58 154.94 0)
@@ -1505,7 +1505,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR0402") (unit 1)
         )
       )
     )
@@ -1514,7 +1514,7 @@
   (symbol (lib_id "Device:R") (at 99.06 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 657241cc-d3c2-4ce6-975d-8487bcc12f91)
-    (property "Reference" "R22" (at 101.6 119.3799 0)
+    (property "Reference" "R402" (at 101.6 119.3799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 101.6 121.9199 0)
@@ -1531,7 +1531,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "R22") (unit 1)
+          (reference "R402") (unit 1)
         )
       )
     )
@@ -1540,7 +1540,7 @@
   (symbol (lib_id "power:GND") (at 83.82 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75a19ac5-7499-446a-9985-59d649e34bda)
-    (property "Reference" "#PWR032" (at 83.82 83.82 0)
+    (property "Reference" "#PWR0404" (at 83.82 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 82.55 0)
@@ -1556,7 +1556,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR0404") (unit 1)
         )
       )
     )
@@ -1565,7 +1565,7 @@
   (symbol (lib_id "vesc-bms:E73-2G4M08S1C") (at 229.87 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76980827-46fa-4e4b-b3e0-e8d3d945e1fc)
-    (property "Reference" "U5" (at 231.8894 125.73 0)
+    (property "Reference" "U402" (at 231.8894 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "E73-2G4M08S1C" (at 231.8894 128.27 0)
@@ -1623,7 +1623,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "U5") (unit 1)
+          (reference "U402") (unit 1)
         )
       )
     )
@@ -1632,7 +1632,7 @@
   (symbol (lib_id "power:+3.3V") (at 228.6 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ce85d7c-e64c-4669-b4db-04bfa32faff1)
-    (property "Reference" "#PWR037" (at 228.6 62.23 0)
+    (property "Reference" "#PWR0409" (at 228.6 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 228.6 53.34 0)
@@ -1648,7 +1648,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR0409") (unit 1)
         )
       )
     )
@@ -1657,7 +1657,7 @@
   (symbol (lib_id "Device:R") (at 107.95 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ad75f93-e9e8-417d-8844-d45471c5a363)
-    (property "Reference" "R23" (at 110.49 119.3799 0)
+    (property "Reference" "R403" (at 110.49 119.3799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 110.49 121.9199 0)
@@ -1674,7 +1674,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "R23") (unit 1)
+          (reference "R403") (unit 1)
         )
       )
     )
@@ -1683,7 +1683,7 @@
   (symbol (lib_id "Interface_CAN_LIN:MCP2562-E-SN") (at 83.82 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a13371f6-167e-435f-9292-05922ed3f024)
-    (property "Reference" "U4" (at 85.8394 54.61 0)
+    (property "Reference" "U401" (at 85.8394 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MCP2562-E-SN" (at 85.8394 57.15 0)
@@ -1706,7 +1706,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "U4") (unit 1)
+          (reference "U401") (unit 1)
         )
       )
     )
@@ -1715,7 +1715,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 111.76 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c09ff602-a691-4d23-afd6-871195375475)
-    (property "Reference" "J6" (at 114.3 66.0399 0)
+    (property "Reference" "J402" (at 114.3 66.0399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN" (at 114.3 68.5799 0)
@@ -1732,7 +1732,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "J6") (unit 1)
+          (reference "J402") (unit 1)
         )
       )
     )
@@ -1741,7 +1741,7 @@
   (symbol (lib_id "power:VBUS") (at 86.36 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c65e49e9-f231-4cd6-accb-f838cae11fa0)
-    (property "Reference" "#PWR033" (at 86.36 111.76 0)
+    (property "Reference" "#PWR0405" (at 86.36 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 86.36 102.87 0)
@@ -1757,7 +1757,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR0405") (unit 1)
         )
       )
     )
@@ -1766,7 +1766,7 @@
   (symbol (lib_id "power:+5V") (at 83.82 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd323df5-6f48-48ec-bfec-79ac6f18ca63)
-    (property "Reference" "#PWR031" (at 83.82 60.96 0)
+    (property "Reference" "#PWR0403" (at 83.82 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 83.82 52.07 0)
@@ -1782,7 +1782,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR0403") (unit 1)
         )
       )
     )
@@ -1791,7 +1791,7 @@
   (symbol (lib_id "Connector:Conn_ARM_JTAG_SWD_10") (at 175.26 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fac18e40-e84c-4b50-ae1d-49c2742ae22e)
-    (property "Reference" "J7" (at 163.83 96.5199 0)
+    (property "Reference" "J403" (at 163.83 96.5199 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_ARM_JTAG_SWD_10" (at 163.83 99.0599 0)
@@ -1816,7 +1816,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "J7") (unit 1)
+          (reference "J403") (unit 1)
         )
       )
     )

@@ -341,7 +341,7 @@
   (symbol (lib_id "power:GND") (at 67.31 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c777041-5cf1-41b0-926d-5f719e8273bc)
-    (property "Reference" "#PWR040" (at 67.31 110.49 0)
+    (property "Reference" "#PWR0502" (at 67.31 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 109.22 0)
@@ -357,7 +357,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR0502") (unit 1)
         )
       )
     )
@@ -366,7 +366,7 @@
   (symbol (lib_id "Device:R_Small") (at 62.23 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9c79f4c-38dd-46dd-89b0-64d0a5910646)
-    (property "Reference" "R24" (at 62.23 74.93 90)
+    (property "Reference" "R501" (at 62.23 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 62.23 77.47 90)
@@ -383,7 +383,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-          (reference "R24") (unit 1)
+          (reference "R501") (unit 1)
         )
       )
     )
@@ -392,7 +392,7 @@
   (symbol (lib_id "Regulator_Switching:LM5164DDA") (at 109.22 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid deb1b356-6b13-4777-a25c-1e6c644c15c0)
-    (property "Reference" "U6" (at 109.22 73.66 0)
+    (property "Reference" "U501" (at 109.22 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM5164DDA" (at 109.22 76.2 0)
@@ -419,7 +419,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-          (reference "U6") (unit 1)
+          (reference "U501") (unit 1)
         )
       )
     )
@@ -428,7 +428,7 @@
   (symbol (lib_id "power:+BATT") (at 55.88 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f318570c-d25f-4828-8a5f-09306e4d0123)
-    (property "Reference" "#PWR039" (at 55.88 81.28 0)
+    (property "Reference" "#PWR0501" (at 55.88 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 55.88 72.39 0)
@@ -444,7 +444,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR0501") (unit 1)
         )
       )
     )
@@ -453,7 +453,7 @@
   (symbol (lib_id "Device:C_Small") (at 67.31 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f55e1cba-f27b-4b04-9aa4-8502ed96b41b)
-    (property "Reference" "C40" (at 69.85 83.8262 0)
+    (property "Reference" "C501" (at 69.85 83.8262 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 69.85 86.3662 0)
@@ -470,7 +470,7 @@
     (instances
       (project "vesc-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-          (reference "C40") (unit 1)
+          (reference "C501") (unit 1)
         )
       )
     )
