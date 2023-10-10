@@ -587,20 +587,12 @@
       "NTC1"
     ],
     [
-      "ea0333f0-2b96-4936-8a1d-d23c72d3c285",
-      "NTC2"
-    ],
-    [
       "b1abebf7-38b9-44bd-9506-7ade495be8e0",
       "Charger monitoring"
     ],
     [
       "8331fb18-4942-4880-a12f-c73df369bf91",
       "NTC3"
-    ],
-    [
-      "17178c98-8beb-40cf-b2d2-307d0f34da43",
-      "NTC4"
     ]
   ],
   "text_variables": {}
