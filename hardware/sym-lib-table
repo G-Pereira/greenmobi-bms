@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "vesc-bms")(type "KiCad")(uri "${KIPRJMOD}/vesc-bms.kicad_sym")(options "")(descr ""))
-)

@@ -355,7 +355,7 @@
     )
     (pin "1" (uuid a30c4feb-3c1a-4413-adbd-7c6f6c9486a6))
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
           (reference "#PWR0502") (unit 1)
         )
@@ -381,7 +381,7 @@
     (pin "1" (uuid 0b953342-086b-4085-8ad6-b3d373d6162c))
     (pin "2" (uuid e00a7a01-1426-49a7-90a4-9ef4774be0fa))
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
           (reference "R501") (unit 1)
         )
@@ -417,7 +417,7 @@
     (pin "8" (uuid f58894a5-c101-4f10-b0a1-e95f92a500f1))
     (pin "9" (uuid cfd5679d-281b-4218-84b5-1b593525bc74))
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
           (reference "U501") (unit 1)
         )
@@ -442,7 +442,7 @@
     )
     (pin "1" (uuid 9515f53d-ddeb-4931-9192-39f81a944803))
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
           (reference "#PWR0501") (unit 1)
         )
@@ -468,7 +468,7 @@
     (pin "1" (uuid c6273fbd-60a2-4aa8-894d-f7d8bf87f2f7))
     (pin "2" (uuid 4f6fde50-e547-4789-9f0a-3038f0f3f578))
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
           (reference "C501") (unit 1)
         )

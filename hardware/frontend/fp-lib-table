@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "greenmobi-bms")(type "KiCad")(uri "${KIPRJMOD}/../_lib/greenmobi-bms.pretty")(options "")(descr ""))
+)

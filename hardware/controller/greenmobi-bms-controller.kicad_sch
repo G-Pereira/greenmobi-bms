@@ -76,6 +76,98 @@
         )
       )
     )
+    (symbol "Connector:Conn_01x04_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x04_Pin" (at 0 -7.62 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x04, script generated" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x04_Pin_1_1"
+        (polyline
+          (pts
+            (xy 1.27 -5.08)
+            (xy 0.8636 -5.08)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -2.54)
+            (xy 0.8636 -2.54)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy 0.8636 0)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 2.54)
+            (xy 0.8636 2.54)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 0.8636 -4.953) (end 0 -5.207)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 2.667) (end 0 2.413)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (pin passive line (at 5.08 2.54 180) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 0 180) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -2.54 180) (length 3.81)
+          (name "Pin_3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -5.08 180) (length 3.81)
+          (name "Pin_4" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector:Conn_01x05_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 7.62 0)
         (effects (font (size 1.27 1.27)))
@@ -477,38 +569,14 @@
   (junction (at 104.14 129.54) (diameter 0) (color 0 0 0 0)
     (uuid 4cdd78c0-884a-4913-87a0-448f8fe6b079)
   )
-  (junction (at 177.8 68.58) (diameter 0) (color 0 0 0 0)
-    (uuid 5a85e36e-5821-4ab0-b59b-007cf1f74ad9)
-  )
-  (junction (at 58.42 101.6) (diameter 0) (color 0 0 0 0)
-    (uuid b6df1826-599d-4184-9fcf-db57da5c2aa4)
-  )
-  (junction (at 176.53 66.04) (diameter 0) (color 0 0 0 0)
-    (uuid d44493d3-3000-4815-a9f8-fc19bf216de7)
-  )
-
-  (no_connect (at 148.59 88.9) (uuid 083485a3-ad6f-497d-83ec-5efd70c3e44f))
-  (no_connect (at 148.59 83.82) (uuid 4a0f1e06-5192-4a87-b100-c57db123e427))
-  (no_connect (at 148.59 91.44) (uuid 7c78415a-f92b-494c-bbeb-adc0f211069b))
-  (no_connect (at 148.59 93.98) (uuid c5532bf9-fadd-48d7-8fbb-59ff8c9da0c1))
-  (no_connect (at 148.59 86.36) (uuid c6e7d2cf-f1f8-49ab-8f22-6d6e0fa1e215))
-  (no_connect (at 148.59 96.52) (uuid e8026256-0312-471f-8a23-ff24fd97dda8))
 
   (wire (pts (xy 69.85 68.58) (xy 58.42 68.58))
     (stroke (width 0) (type default))
     (uuid 0059a5a3-168f-4c98-bb3b-c7a17851e084)
   )
-  (wire (pts (xy 129.54 76.2) (xy 148.59 76.2))
-    (stroke (width 0) (type default))
-    (uuid 039b30d0-af2e-4184-870d-cf6b3aa6435e)
-  )
   (wire (pts (xy 49.53 114.3) (xy 49.53 124.46))
     (stroke (width 0) (type default))
     (uuid 0ba50e9c-ae18-4568-b706-fc745fa8fb91)
-  )
-  (wire (pts (xy 129.54 68.58) (xy 177.8 68.58))
-    (stroke (width 0) (type default))
-    (uuid 0ce802ae-4559-46b7-ac05-c948ed1e85cf)
   )
   (wire (pts (xy 52.07 43.18) (xy 52.07 54.61))
     (stroke (width 0) (type default))
@@ -521,10 +589,6 @@
   (wire (pts (xy 82.55 132.08) (xy 85.09 132.08))
     (stroke (width 0) (type default))
     (uuid 12000c7f-8eb4-446f-9f8b-09a3ea7810b2)
-  )
-  (wire (pts (xy 129.54 78.74) (xy 148.59 78.74))
-    (stroke (width 0) (type default))
-    (uuid 190999cd-f78b-4f09-a511-6b388d5b3ee6)
   )
   (wire (pts (xy 210.82 83.82) (xy 245.11 83.82))
     (stroke (width 0) (type default))
@@ -625,10 +689,6 @@
     (stroke (width 0) (type default))
     (uuid acccd857-8213-46de-b675-40eb2938db7f)
   )
-  (wire (pts (xy 148.59 101.6) (xy 58.42 101.6))
-    (stroke (width 0) (type default))
-    (uuid b759f821-62ae-4fc3-b35f-08dbd3c59b2a)
-  )
   (wire (pts (xy 210.82 92.71) (xy 245.11 92.71))
     (stroke (width 0) (type default))
     (uuid c06aa0be-54bf-4261-a01f-727c4bf39827)
@@ -658,10 +718,6 @@
     (stroke (width 0) (type default))
     (uuid e19553b4-0ce3-4ce4-b71a-2c61de4cfe08)
   )
-  (wire (pts (xy 129.54 66.04) (xy 176.53 66.04))
-    (stroke (width 0) (type default))
-    (uuid ec60ed30-9b70-4a9b-8039-13e2cb4aa6ba)
-  )
   (wire (pts (xy 58.42 68.58) (xy 58.42 101.6))
     (stroke (width 0) (type default))
     (uuid ecc9a05d-f717-4a37-b4d8-90d2c6f055ba)
@@ -673,10 +729,6 @@
   (wire (pts (xy 177.8 68.58) (xy 177.8 50.8))
     (stroke (width 0) (type default))
     (uuid f158a57a-0622-4650-b29b-0b911af8b029)
-  )
-  (wire (pts (xy 129.54 109.22) (xy 148.59 109.22))
-    (stroke (width 0) (type default))
-    (uuid f4a78c75-c8c8-4886-bdac-68e5d25b6c9e)
   )
   (wire (pts (xy 48.26 43.18) (xy 52.07 43.18))
     (stroke (width 0) (type default))
@@ -698,10 +750,6 @@
     (stroke (width 0) (type default))
     (uuid fc0ef84f-e5eb-43b2-8f30-71e857c3b1e4)
   )
-  (wire (pts (xy 129.54 81.28) (xy 148.59 81.28))
-    (stroke (width 0) (type default))
-    (uuid fd228976-8d54-4fd9-bff0-7ecd7ea39e55)
-  )
   (wire (pts (xy 176.53 66.04) (xy 176.53 45.72))
     (stroke (width 0) (type default))
     (uuid ff251306-8078-41fb-831d-7890d7bc65c9)
@@ -710,6 +758,10 @@
   (text "Place close to ADC input" (at 92.71 147.32 0)
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid 75f57b3a-38bb-4877-8f59-b46128ea406a)
+  )
+  (text "TODO: isolated interface" (at 130.81 78.74 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8d4e7f84-ed64-4152-a6dd-5708d9e5d6f6)
   )
 
   (hierarchical_label "Total_current" (shape output) (at 115.57 129.54 0) (fields_autoplaced)
@@ -734,7 +786,7 @@
     )
     (pin "1" (uuid 454155f2-f4b1-4414-9635-1c6a5cf49b74))
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
           (reference "#PWR0105") (unit 1)
         )
@@ -759,10 +811,7 @@
     )
     (pin "1" (uuid 4c3be2f0-31ff-4a8a-9e4c-d51cb79fb663))
     (instances
-      (project "vesc-bms"
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3/a908ff77-32fe-48f6-8dc7-bc7bb4d76281"
-          (reference "#PWR?") (unit 1)
-        )
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
           (reference "#PWR02801") (unit 1)
         )
@@ -790,7 +839,7 @@
     )
     (pin "1" (uuid bc2578f2-daa0-4716-9c7f-0293de2dd753))
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
           (reference "J101") (unit 1)
         )
@@ -816,10 +865,7 @@
     (pin "1" (uuid c4fa6af5-d930-4e30-9904-0f919c21629c))
     (pin "2" (uuid fc8560c1-4239-4b34-a314-62610b6f63bc))
     (instances
-      (project "vesc-bms"
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3/a908ff77-32fe-48f6-8dc7-bc7bb4d76281"
-          (reference "R?") (unit 1)
-        )
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
           (reference "R2802") (unit 1)
         )
@@ -848,9 +894,37 @@
     (pin "1" (uuid aa9fc547-7078-4ada-9667-ae682ccca954))
     (pin "2" (uuid 69fa1c76-48cd-4457-a1b0-061bd8fbe510))
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
           (reference "J104") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x04_Pin") (at 160.02 78.74 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3ef4d12c-0f9a-4ce3-bbe4-717bb7e64d0e)
+    (property "Reference" "J1" (at 160.655 71.12 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "AFE" (at 160.655 73.66 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 160.02 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 160.02 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "3" (uuid 3e1f3083-dbbb-4cd6-bfee-cbb446f4a62d))
+    (pin "4" (uuid 3311aa6f-3730-4021-8d74-bbb7944ec40c))
+    (pin "1" (uuid a99e597e-bc0d-4710-b9b1-7b6ca4b74c73))
+    (pin "2" (uuid 22358c34-afcd-423e-b879-7f1c049bba65))
+    (instances
+      (project "greenmobi-bms-controller"
+        (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -880,7 +954,7 @@
     (pin "7" (uuid 1100ad53-c5b7-43d4-ac38-bd08f2204a76))
     (pin "8" (uuid 8d0e19b7-17ab-4440-869c-fa4a342dccc3))
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
           (reference "U102") (unit 1)
         )
@@ -905,10 +979,7 @@
     )
     (pin "1" (uuid 6d0daac3-791c-4f55-b1a5-362f0c9b3dcb))
     (instances
-      (project "vesc-bms"
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3/a908ff77-32fe-48f6-8dc7-bc7bb4d76281"
-          (reference "#PWR?") (unit 1)
-        )
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
           (reference "#PWR02807") (unit 1)
         )
@@ -937,10 +1008,7 @@
     (pin "1" (uuid a2e54e02-0cd9-458b-8b3e-ea5dc0728fd4))
     (pin "2" (uuid 0d85698b-e2d7-484c-ac06-da112d0c7698))
     (instances
-      (project "vesc-bms"
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3/a908ff77-32fe-48f6-8dc7-bc7bb4d76281"
-          (reference "C?") (unit 1)
-        )
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
           (reference "C2801") (unit 1)
         )
@@ -968,10 +1036,7 @@
     )
     (pin "1" (uuid 110457a1-c8c5-4315-9880-1a3f88290916))
     (instances
-      (project "vesc-bms"
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3/a908ff77-32fe-48f6-8dc7-bc7bb4d76281"
-          (reference "#PWR?") (unit 1)
-        )
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
           (reference "#PWR02804") (unit 1)
         )
@@ -999,7 +1064,7 @@
     )
     (pin "1" (uuid 4062ba68-1a31-48cd-8ad5-568724ddc6c4))
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
           (reference "#PWR0102") (unit 1)
         )
@@ -1024,7 +1089,7 @@
     )
     (pin "1" (uuid 919ce57f-e041-468a-be3b-dc2716c1301f))
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
           (reference "#PWR0104") (unit 1)
         )
@@ -1049,10 +1114,7 @@
     )
     (pin "1" (uuid 7500b336-7685-4d0d-93ef-6e2eb85340f1))
     (instances
-      (project "vesc-bms"
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3/a908ff77-32fe-48f6-8dc7-bc7bb4d76281"
-          (reference "#PWR?") (unit 1)
-        )
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
           (reference "#PWR02805") (unit 1)
         )
@@ -1080,7 +1142,7 @@
     )
     (pin "1" (uuid bfa271f1-09fe-4ad1-8e5b-e1560c56f243))
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
           (reference "#PWR0111") (unit 1)
         )
@@ -1106,7 +1168,7 @@
     (pin "1" (uuid 6adcc394-3c33-482e-bc98-231f311f85ac))
     (pin "2" (uuid 4625de82-8bbd-4bba-a69f-f84aaa9791b0))
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
           (reference "C2802") (unit 1)
         )
@@ -1138,7 +1200,7 @@
     (pin "4" (uuid 5b146ff7-17ef-41db-911e-f3f05f98e6f8))
     (pin "5" (uuid fb3a67b5-7485-47ca-a8b7-ae7d43fe6833))
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
           (reference "J103") (unit 1)
         )
@@ -1163,7 +1225,7 @@
     )
     (pin "1" (uuid 71ebc1c1-07c7-4670-9391-cf6b2fa3a02c))
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
           (reference "J102") (unit 1)
         )
@@ -1188,7 +1250,7 @@
     )
     (pin "1" (uuid 3887360e-ad3f-4734-9d9d-b97360b8e44b))
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
           (reference "J105") (unit 1)
         )
@@ -1213,10 +1275,7 @@
     )
     (pin "1" (uuid 367cc18f-3046-4937-ab85-f7f81b948e40))
     (instances
-      (project "vesc-bms"
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3/a908ff77-32fe-48f6-8dc7-bc7bb4d76281"
-          (reference "#PWR?") (unit 1)
-        )
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
           (reference "#PWR02802") (unit 1)
         )
@@ -1244,7 +1303,7 @@
     )
     (pin "1" (uuid 11764250-8b56-4267-85a2-90a8e80474de))
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
           (reference "J106") (unit 1)
         )
@@ -1269,10 +1328,7 @@
     )
     (pin "1" (uuid 54706296-097a-49f6-9b0d-c84396a6e82b))
     (instances
-      (project "vesc-bms"
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3/a908ff77-32fe-48f6-8dc7-bc7bb4d76281"
-          (reference "#PWR?") (unit 1)
-        )
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
           (reference "#PWR02809") (unit 1)
         )
@@ -1301,10 +1357,7 @@
     (pin "1" (uuid 7e23c22e-122d-49cb-ad84-8e45368f0564))
     (pin "2" (uuid 021e7f13-ae82-4fbc-93c9-94d6d0eeccbf))
     (instances
-      (project "vesc-bms"
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3/a908ff77-32fe-48f6-8dc7-bc7bb4d76281"
-          (reference "C?") (unit 1)
-        )
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
           (reference "C2804") (unit 1)
         )
@@ -1390,7 +1443,7 @@
       (uuid 94780f4b-f0ae-40a3-9116-06f53eb73ad2)
     )
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3" (page "2"))
       )
     )
@@ -1411,7 +1464,7 @@
       (uuid 729b3f19-47bd-411c-b20d-b672cf9d42bc)
     )
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3" (page "5"))
       )
     )
@@ -1464,126 +1517,8 @@
       (uuid 437b00e3-42a5-4b87-9bff-6bcb2e7755ca)
     )
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 116.84 63.5) (size 12.7 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 95476253-acbc-4b80-80be-f4a25f0f1538)
-    (property "Sheetname" "Thermal" (at 116.84 62.7884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "thermal.kicad_sch" (at 116.84 84.4046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "SCL" input (at 129.54 66.04 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid a00a9bcc-7323-4d98-bbe3-7b18c2c7e4d0)
-    )
-    (pin "SDA" bidirectional (at 129.54 68.58 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 62fcbda3-29cc-4bb3-b170-bf72811ba701)
-    )
-    (pin "TEMP_0" output (at 129.54 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid dfd75df3-720d-4dcf-8be0-2ca95cb20b39)
-    )
-    (pin "TEMP_2" output (at 129.54 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 7711aa4a-5846-453b-bc72-374d1d6b63a4)
-    )
-    (pin "TEMP_1" output (at 129.54 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 45186c72-33ee-44cb-b2b0-e9b1bca73e97)
-    )
-    (instances
-      (project "vesc-bms"
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3" (page "24"))
-      )
-    )
-  )
-
-  (sheet (at 148.59 73.66) (size 16.51 45.72) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid a908ff77-32fe-48f6-8dc7-bc7bb4d76281)
-    (property "Sheetname" "AFE" (at 148.59 72.9484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "afe.kicad_sch" (at 148.59 119.9646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "BALANCE_EN" input (at 148.59 109.22 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid b72ce63c-fd38-42a9-a49e-e9e95081c389)
-    )
-    (pin "GPIO8" input (at 148.59 93.98 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid f60ff9f3-b190-4114-adb3-3af085b0c501)
-    )
-    (pin "GPIO5" input (at 148.59 86.36 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 1967d609-4435-4954-a3a8-41efee82074d)
-    )
-    (pin "GPIO6" input (at 148.59 88.9 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid d7987394-3153-40b5-94a4-663ad92ac09c)
-    )
-    (pin "GPIO7" input (at 148.59 91.44 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 755bf39e-cfa0-441a-914d-f9a6b8eb1b25)
-    )
-    (pin "GPIO9" input (at 148.59 96.52 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 25284edd-4f27-4564-b463-62fe3f7defb1)
-    )
-    (pin "GPIO3" input (at 148.59 81.28 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 0e844aab-879b-4223-961b-3f53c82f7ed2)
-    )
-    (pin "GPIO1" input (at 148.59 76.2 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid c3084d5b-3ff5-4f96-b231-9cb9bb24ecb8)
-    )
-    (pin "GPIO2" input (at 148.59 78.74 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 8772a414-d361-429c-a367-320ae719f5da)
-    )
-    (pin "GPIO4" input (at 148.59 83.82 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 518338a4-65d7-4f03-ba6a-951b74915651)
-    )
-    (pin "SDI" input (at 165.1 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid f7a1ce61-6b1b-42fb-ab31-1e7c3349d16f)
-    )
-    (pin "SDO" output (at 165.1 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid a5cbda69-f374-4fdc-8e6a-9360197c1eec)
-    )
-    (pin "CS" input (at 165.1 83.82 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 2648345e-994c-498d-9fd3-845d43b2e211)
-    )
-    (pin "SCK" input (at 165.1 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 2ae03b9a-9694-4c02-9302-48038332ccee)
-    )
-    (pin "BAT+" input (at 148.59 101.6 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 4f71f8bb-18ce-4c17-83be-50cc3edf2907)
-    )
-    (pin "WDT" output (at 165.1 87.63 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 556bb320-ee5f-4a5c-9f92-9446ed03b1eb)
-    )
-    (instances
-      (project "vesc-bms"
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3" (page "3"))
       )
     )
   )
@@ -1638,7 +1573,7 @@
       (uuid de387296-438d-4e3c-b659-66cd197461ae)
     )
     (instances
-      (project "vesc-bms"
+      (project "greenmobi-bms-controller"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3" (page "28"))
       )
     )

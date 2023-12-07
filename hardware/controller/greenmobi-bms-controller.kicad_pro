@@ -396,7 +396,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "vesc-bms.kicad_pro",
+    "filename": "greenmobi-bms-controller.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -491,10 +491,6 @@
       "MCU"
     ],
     [
-      "a908ff77-32fe-48f6-8dc7-bc7bb4d76281",
-      "AFE"
-    ],
-    [
       "6e2b1342-9746-4a38-93af-9ab1059c6272",
       "comms"
     ],
@@ -503,96 +499,8 @@
       "Power Supply"
     ],
     [
-      "68eb3d1f-d8b2-40dc-9a23-003e6707b568",
-      "balance_front_end"
-    ],
-    [
-      "b42285c0-0531-4974-ab97-5ea410e59bf0",
-      "balance_front_end1"
-    ],
-    [
-      "17132a84-18b5-4038-9cf3-ee6def01cb55",
-      "balance_front_end2"
-    ],
-    [
-      "1bc79a25-4bd1-4a48-bcf3-f178d6188139",
-      "balance_front_end3"
-    ],
-    [
-      "865e154b-971b-45ec-b582-12435f584458",
-      "balance_front_end6"
-    ],
-    [
-      "c9f061de-2ae7-4d16-8a24-4eae8f3cbc47",
-      "balance_front_end5"
-    ],
-    [
-      "e25c9a7e-4087-4c3b-91b9-24c6b2764225",
-      "balance_front_end4"
-    ],
-    [
-      "e0ef42e9-de4d-4c5f-bee1-d09c217cb05c",
-      "balance_front_end10"
-    ],
-    [
-      "a99362be-c379-48c3-8037-a7a11d295b31",
-      "balance_front_end9"
-    ],
-    [
-      "51695c54-0cf3-4b8f-be30-4404ac5fe8ea",
-      "balance_front_end7"
-    ],
-    [
-      "f36afa92-d996-4ab8-a11e-4f16513c179d",
-      "balance_front_end11"
-    ],
-    [
-      "89537d58-2a73-447d-b1ef-f3e9361cafd4",
-      "balance_front_end12"
-    ],
-    [
-      "6ed2937b-4ec1-4406-a336-89172eae631b",
-      "balance_front_end8"
-    ],
-    [
-      "c4506835-d6b3-49fe-9b9e-6335bd1effa3",
-      "balance_front_end13"
-    ],
-    [
-      "ae772b4d-7319-4a50-b5ae-fde25bae6ff6",
-      "balance_front_end16"
-    ],
-    [
-      "4323a896-4f8f-453d-b6c7-874fc837d497",
-      "balance_front_end14"
-    ],
-    [
-      "711334f4-9d01-445d-830a-b84ab280a54d",
-      "balance_front_end15"
-    ],
-    [
-      "f4075ecf-6a58-42c4-92c1-2c1243acb229",
-      "balance_front_end17"
-    ],
-    [
-      "95476253-acbc-4b80-80be-f4a25f0f1538",
-      "Thermal"
-    ],
-    [
-      "fc1479f0-081a-4b3d-8813-844957f05f0a",
-      "NTC"
-    ],
-    [
-      "093546ac-4b32-4941-93d8-34442ea23c06",
-      "NTC1"
-    ],
-    [
       "b1abebf7-38b9-44bd-9506-7ade495be8e0",
       "Charger monitoring"
-    ],
-    [
-      "8331fb18-4942-4880-a12f-c73df369bf91",
-      "NTC3"
     ]
   ],
   "text_variables": {}
