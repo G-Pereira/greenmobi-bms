@@ -328,6 +328,10 @@
       ""
     ],
     [
+      "f86f80aa-619b-466e-8686-507b937406f0",
+      "Thermistor1"
+    ],
+    [
       "675f9315-5b1e-42bd-b9ca-7a4b24da6b8f",
       "balance_front_end9"
     ],
@@ -396,8 +400,40 @@
       "balance_front_end2"
     ],
     [
+      "68edac19-e882-4fd1-8fed-68dbc62a6a13",
+      "Thermistor"
+    ],
+    [
       "5efa1e0e-92cc-4b6d-a759-ee370ac3b2d1",
       "balance_front_end14"
+    ],
+    [
+      "48bbfc31-f9a0-4644-842c-e8376173bbea",
+      "Thermistor2"
+    ],
+    [
+      "908e3851-046c-4381-a432-0b3882de42b2",
+      "Thermistor3"
+    ],
+    [
+      "1c82c17a-eaab-4b29-a978-128dd4289fd0",
+      "Thermistor4"
+    ],
+    [
+      "9795362a-ac3e-4f62-b4a9-3e669d2f2b0d",
+      "Thermistor6"
+    ],
+    [
+      "3279afc3-df57-4539-ac81-72988c6e5aad",
+      "Thermistor5"
+    ],
+    [
+      "8d48eeda-b333-48bd-952b-966ea500518e",
+      "Thermistor8"
+    ],
+    [
+      "30371848-2967-4eba-bd4f-068379c7680a",
+      "Thermistor7"
     ]
   ],
   "text_variables": {}
