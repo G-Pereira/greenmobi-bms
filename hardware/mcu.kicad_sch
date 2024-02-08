@@ -1749,7 +1749,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 49e5e984-4c51-4092-8be3-8956ad640241)
   )
-  (hierarchical_label "OLED_RST" (shape output) (at 120.65 109.22 0) (fields_autoplaced)
+  (hierarchical_label "OLED_RST" (shape output) (at 120.65 96.52 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5e7a6878-0fc4-496f-a593-f2ed5f102067)
   )
