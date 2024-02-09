@@ -1259,10 +1259,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b8de0ee9-1fb1-4208-9346-cfd56aa2a989)
   )
-  (text "To be replaced by a discrete circuit" (at 153.67 63.5 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid bfd921c6-17b6-47a1-b5f7-9493043270e3)
-  )
 
   (hierarchical_label "CAN_TX" (shape input) (at 71.12 62.23 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
