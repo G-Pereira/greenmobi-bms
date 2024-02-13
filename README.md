@@ -10,8 +10,8 @@ This project is under development and the board is not yet ready. [KiCAD](https:
 
 Since there is not yet a opensource design of a VESC fully compatible BMS this board is being designed with ease of development in mind so it can be used as a reference design to contribute directly to the VESC project and extend its potential. So the following principles are followed:
 
-- Popular and easy to source connectors are used (JST XH, screw terminals, etc) even if in most end uses it would be better to have weatherproof panel connectors.
-- QFN and BGA chips are avoided at all costs to ease hand assembly.
+- Popular and easy to source connectors are used (JST PH, screw terminals, etc) even if in most end uses it would be better to have weatherproof panel connectors.
+- SMD packages optimized for JLC assembly or PnP on premises (down to 0402 passives).
 - Daisychaining multiple AFEs and ESD protection are targeted to a second iteration of the design.
 
 Here it is a block diagram of the design:
