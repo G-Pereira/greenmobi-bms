@@ -2220,7 +2220,7 @@
   (symbol (lib_id "power:GND") (at 55.88 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 04a8d2cc-4488-4f89-9bab-2ebaa2c871f9)
-    (property "Reference" "#PWR016" (at 55.88 105.41 0)
+    (property "Reference" "#PWR017" (at 55.88 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 102.87 0)
@@ -2236,7 +2236,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2273,7 +2273,7 @@
   (symbol (lib_id "power:+3.3V") (at 250.19 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f3e1354-323d-4229-9a90-973d8aa8e10f)
-    (property "Reference" "#PWR032" (at 250.19 86.36 0)
+    (property "Reference" "#PWR033" (at 250.19 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 250.19 78.74 0)
@@ -2289,7 +2289,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -2377,7 +2377,7 @@
   (symbol (lib_id "power:+3.3V") (at 180.34 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 330d991c-d2e7-47ad-a0dc-560b7089f626)
-    (property "Reference" "#PWR025" (at 180.34 78.74 0)
+    (property "Reference" "#PWR026" (at 180.34 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 180.34 69.85 0)
@@ -2393,7 +2393,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -2408,7 +2408,7 @@
     (property "Value" "1u" (at 238.76 48.2599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 235.9152 50.8 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 235.9152 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 234.95 46.99 0)
@@ -2460,7 +2460,7 @@
     (property "Value" "DNP" (at 40.64 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 45.72 93.98 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 45.72 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 45.72 93.98 0)
@@ -2532,7 +2532,7 @@
   (symbol (lib_id "power:GND") (at 215.9 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4995bacf-1534-43d1-a64e-fbadc52762c2)
-    (property "Reference" "#PWR029" (at 215.9 110.49 0)
+    (property "Reference" "#PWR030" (at 215.9 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 215.9 107.95 0)
@@ -2548,7 +2548,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -2613,7 +2613,7 @@
   (symbol (lib_id "power:GND") (at 97.79 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5790de93-f476-480c-8300-d97bb5ef83c9)
-    (property "Reference" "#PWR018" (at 97.79 149.86 0)
+    (property "Reference" "#PWR019" (at 97.79 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 148.59 0)
@@ -2629,7 +2629,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2644,7 +2644,7 @@
     (property "Value" "100n" (at 208.28 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 215.9 96.52 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 215.9 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 215.9 96.52 0)
@@ -2664,7 +2664,7 @@
   (symbol (lib_id "power:+3.3V") (at 222.25 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a3a09a7-6ac2-4390-b78c-2d4cfc84b18e)
-    (property "Reference" "#PWR030" (at 222.25 46.99 0)
+    (property "Reference" "#PWR031" (at 222.25 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 222.25 38.1 0)
@@ -2680,7 +2680,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -2689,7 +2689,7 @@
   (symbol (lib_id "power:+5V") (at 259.08 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c98b5c6-c7db-49ea-9a37-020582ef5d88)
-    (property "Reference" "#PWR034" (at 259.08 133.35 0)
+    (property "Reference" "#PWR035" (at 259.08 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 259.08 124.46 0)
@@ -2705,7 +2705,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -2714,7 +2714,7 @@
   (symbol (lib_id "power:VBUS") (at 105.41 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b627aa3-28c0-4b68-b71c-fd2f9aa3f986)
-    (property "Reference" "#PWR019" (at 105.41 50.8 0)
+    (property "Reference" "#PWR020" (at 105.41 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 105.41 41.91 0)
@@ -2730,7 +2730,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2745,7 +2745,7 @@
     (property "Value" "100n" (at 182.88 48.2599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 180.0352 50.8 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 180.0352 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 179.07 46.99 0)
@@ -2843,7 +2843,7 @@
   (symbol (lib_id "power:GND") (at 222.25 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 78249a6d-7015-42c7-a31b-2e64611e12a2)
-    (property "Reference" "#PWR031" (at 222.25 57.15 0)
+    (property "Reference" "#PWR032" (at 222.25 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 222.25 55.88 0)
@@ -2859,7 +2859,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -2868,7 +2868,7 @@
   (symbol (lib_id "power:+3.3V") (at 209.55 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ce5c035-6d07-476a-b0af-d45c46b505b4)
-    (property "Reference" "#PWR026" (at 209.55 132.08 0)
+    (property "Reference" "#PWR027" (at 209.55 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 209.55 123.19 0)
@@ -2884,7 +2884,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -2899,7 +2899,7 @@
     (property "Value" "DNP" (at 67.31 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 66.04 93.98 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 66.04 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 66.04 93.98 0)
@@ -2919,7 +2919,7 @@
   (symbol (lib_id "power:GND") (at 179.07 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8855f663-173b-420d-a359-12239a93dd8a)
-    (property "Reference" "#PWR024" (at 179.07 113.03 0)
+    (property "Reference" "#PWR025" (at 179.07 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.07 111.76 0)
@@ -2935,7 +2935,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -2976,7 +2976,7 @@
     (property "Value" "100n" (at 170.18 48.2599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 167.3352 50.8 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 167.3352 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 166.37 46.99 0)
@@ -3002,7 +3002,7 @@
     (property "Value" "100n" (at 195.58 48.2599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 192.7352 50.8 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 192.7352 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 191.77 46.99 0)
@@ -3022,7 +3022,7 @@
   (symbol (lib_id "power:+3.3V") (at 215.9 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a541c024-5390-4ab8-93c8-694086fd6f03)
-    (property "Reference" "#PWR028" (at 215.9 86.36 0)
+    (property "Reference" "#PWR029" (at 215.9 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 215.9 78.74 0)
@@ -3038,7 +3038,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -3053,7 +3053,7 @@
     (property "Value" "10n" (at 226.06 48.2599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 223.2152 50.8 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 223.2152 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 222.25 46.99 0)
@@ -3134,7 +3134,7 @@
   (symbol (lib_id "power:+3.3V") (at 171.45 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7c0edb9-0804-4516-be7d-06ee226a009d)
-    (property "Reference" "#PWR022" (at 171.45 132.08 0)
+    (property "Reference" "#PWR023" (at 171.45 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 171.45 123.19 0)
@@ -3150,7 +3150,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -3165,7 +3165,7 @@
     (property "Value" "4.7u" (at 208.28 48.2599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 205.4352 50.8 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 205.4352 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 204.47 46.99 0)
@@ -3211,7 +3211,7 @@
   (symbol (lib_id "power:GND") (at 166.37 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd5791f7-0242-4035-b190-bb6078f5bcce)
-    (property "Reference" "#PWR021" (at 166.37 57.15 0)
+    (property "Reference" "#PWR022" (at 166.37 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.37 55.88 0)
@@ -3227,7 +3227,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -3327,7 +3327,7 @@
   (symbol (lib_id "power:GND") (at 250.19 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d95b970c-bb79-477d-8f2d-262e72f77908)
-    (property "Reference" "#PWR033" (at 250.19 110.49 0)
+    (property "Reference" "#PWR034" (at 250.19 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.19 107.95 0)
@@ -3343,7 +3343,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -3352,7 +3352,7 @@
   (symbol (lib_id "power:GND") (at 171.45 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dcdc6e65-f77a-4c1c-b1fb-cd70404c1509)
-    (property "Reference" "#PWR023" (at 171.45 158.75 0)
+    (property "Reference" "#PWR024" (at 171.45 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 171.45 157.48 0)
@@ -3368,7 +3368,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -3377,7 +3377,7 @@
   (symbol (lib_id "power:+3.3V") (at 97.79 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7b82764-134f-4c86-89cb-98c649d51e66)
-    (property "Reference" "#PWR017" (at 97.79 50.8 0)
+    (property "Reference" "#PWR018" (at 97.79 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 97.79 41.91 0)
@@ -3393,7 +3393,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -3402,7 +3402,7 @@
   (symbol (lib_id "power:GND") (at 209.55 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ecdb05b3-8534-4605-8e60-cce6bc12e326)
-    (property "Reference" "#PWR027" (at 209.55 158.75 0)
+    (property "Reference" "#PWR028" (at 209.55 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 209.55 157.48 0)
@@ -3418,7 +3418,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -3427,7 +3427,7 @@
   (symbol (lib_id "power:+3.3V") (at 166.37 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ee39d913-28b4-409e-b803-a8f30175ff9f)
-    (property "Reference" "#PWR020" (at 166.37 46.99 0)
+    (property "Reference" "#PWR021" (at 166.37 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 166.37 38.1 0)
@@ -3443,7 +3443,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -3452,7 +3452,7 @@
   (symbol (lib_id "power:GND") (at 259.08 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3605c40-8134-4da6-91c1-45f831f90b97)
-    (property "Reference" "#PWR035" (at 259.08 156.21 0)
+    (property "Reference" "#PWR036" (at 259.08 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 259.08 154.94 0)
@@ -3468,7 +3468,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/1c5935ea-6f80-435f-8ae1-741f5546f8d9"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -3483,7 +3483,7 @@
     (property "Value" "100n" (at 260.1468 100.203 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 257.81 99.06 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 257.81 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 257.81 99.06 0)

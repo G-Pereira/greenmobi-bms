@@ -293,7 +293,7 @@
   (symbol (lib_id "power:GND") (at 146.05 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 48ebdda0-736f-4da4-b315-66606a907483)
-    (property "Reference" "#PWR083" (at 146.05 107.95 0)
+    (property "Reference" "#PWR088" (at 146.05 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 106.68 0)
@@ -309,31 +309,31 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7c25443d-8c73-4e11-9720-cba2f4ec29a1"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/a2300550-129a-47b6-8784-f536412fe251"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/078c855d-b824-47c9-a621-296a259ef388"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/3aab3d88-5529-4e85-b991-f7c6ee71bbf7"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/484a6d3a-88ee-44e4-8a75-af6244a04325"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/883020c8-539f-40d8-a644-a2f371b520d6"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/2f409825-5fc3-4421-93fa-79ca209c7f02"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/53c3f682-dc62-4fbb-8d2a-22de97dcfdf2"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/28f3053f-0704-4478-9995-335b84161805"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
       )
     )
@@ -348,7 +348,7 @@
     (property "Value" "100n" (at 133.35 100.9713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 130.81 99.06 0)
+    (property "Footprint" "" (at 130.81 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 130.81 99.06 0)
@@ -392,7 +392,7 @@
   (symbol (lib_id "power:GND") (at 130.81 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c00b0607-a3ce-4041-abaf-7544a7eec1c5)
-    (property "Reference" "#PWR082" (at 130.81 107.95 0)
+    (property "Reference" "#PWR087" (at 130.81 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 106.68 0)
@@ -408,31 +408,31 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7c25443d-8c73-4e11-9720-cba2f4ec29a1"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/a2300550-129a-47b6-8784-f536412fe251"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/078c855d-b824-47c9-a621-296a259ef388"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/3aab3d88-5529-4e85-b991-f7c6ee71bbf7"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/484a6d3a-88ee-44e4-8a75-af6244a04325"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/883020c8-539f-40d8-a644-a2f371b520d6"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/2f409825-5fc3-4421-93fa-79ca209c7f02"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/53c3f682-dc62-4fbb-8d2a-22de97dcfdf2"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/28f3053f-0704-4478-9995-335b84161805"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR0113") (unit 1)
         )
       )
     )
@@ -447,7 +447,7 @@
     (property "Value" "100n" (at 148.59 100.9713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 146.05 99.06 0)
+    (property "Footprint" "" (at 146.05 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 146.05 99.06 0)

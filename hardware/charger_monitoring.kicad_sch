@@ -1226,7 +1226,7 @@
   (symbol (lib_id "power:GND") (at 176.53 100.33 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c282ef5-00ca-42ed-ba47-12af385f8714)
-    (property "Reference" "#PWR0102" (at 176.53 106.68 0)
+    (property "Reference" "#PWR0107" (at 176.53 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 176.53 105.41 0)
@@ -1242,7 +1242,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -1277,7 +1277,7 @@
   (symbol (lib_id "power:GND") (at 86.36 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 207531e3-1e45-4736-9483-1ab060ee0fb3)
-    (property "Reference" "#PWR099" (at 86.36 163.83 0)
+    (property "Reference" "#PWR0104" (at 86.36 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 162.56 0)
@@ -1293,7 +1293,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -1328,7 +1328,7 @@
   (symbol (lib_id "power:GND") (at 152.4 100.33 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31f3839c-774a-4fae-9272-f61eed484ac3)
-    (property "Reference" "#PWR0101" (at 152.4 106.68 0)
+    (property "Reference" "#PWR0106" (at 152.4 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 105.41 0)
@@ -1344,7 +1344,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -1542,7 +1542,7 @@
   (symbol (lib_id "power:GND") (at 74.93 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d45ddd2-7e37-4d68-a527-8e64d6cec5fc)
-    (property "Reference" "#PWR097" (at 74.93 182.88 0)
+    (property "Reference" "#PWR0102" (at 74.93 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 181.61 0)
@@ -1558,7 +1558,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -1619,7 +1619,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 215.9 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 771bb612-55bb-4763-87f6-b4a289f8a3a0)
-    (property "Reference" "#FLG08" (at 215.9 56.515 0)
+    (property "Reference" "#FLG09" (at 215.9 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 215.9 53.34 0)
@@ -1635,7 +1635,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
-          (reference "#FLG08") (unit 1)
+          (reference "#FLG09") (unit 1)
         )
       )
     )
@@ -1644,7 +1644,7 @@
   (symbol (lib_id "power:+3.3V") (at 74.93 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c2e2f11-1b6b-4205-a88f-81ae5b5af314)
-    (property "Reference" "#PWR096" (at 74.93 175.26 0)
+    (property "Reference" "#PWR0101" (at 74.93 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 74.93 166.37 0)
@@ -1660,7 +1660,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -1721,7 +1721,7 @@
   (symbol (lib_id "Battery_Management:BQ76200PW") (at 195.58 78.74 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 908d490d-577e-4fb8-ac88-bb8461fe01cd)
-    (property "Reference" "U11" (at 193.5606 93.98 0)
+    (property "Reference" "U10" (at 193.5606 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BQ76200PW" (at 193.5606 96.52 0)
@@ -1752,7 +1752,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
-          (reference "U11") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -1813,7 +1813,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 189.23 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a8af07e-9fa4-494f-ab23-6dc18ee31d1e)
-    (property "Reference" "#FLG09" (at 189.23 42.545 0)
+    (property "Reference" "#FLG08" (at 189.23 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 189.23 39.37 0)
@@ -1829,7 +1829,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
-          (reference "#FLG09") (unit 1)
+          (reference "#FLG08") (unit 1)
         )
       )
     )
@@ -1864,7 +1864,7 @@
   (symbol (lib_id "power:GND") (at 195.58 93.98 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bedfa838-fb03-479a-a1c1-0ec658a30d2e)
-    (property "Reference" "#PWR0104" (at 195.58 100.33 0)
+    (property "Reference" "#PWR0109" (at 195.58 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 99.06 0)
@@ -1880,7 +1880,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -1941,7 +1941,7 @@
   (symbol (lib_id "greenmobi-bms:IRFR120NTRPBF") (at 132.08 38.1 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d39edbf4-9312-42c2-9519-7a355cc7f1d5)
-    (property "Reference" "Q4" (at 132.08 29.21 90)
+    (property "Reference" "Q22" (at 132.08 29.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "IRFR120NTRPBF" (at 132.08 31.75 90)
@@ -1959,7 +1959,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
-          (reference "Q4") (unit 1)
+          (reference "Q22") (unit 1)
         )
       )
     )
@@ -1968,7 +1968,7 @@
   (symbol (lib_id "power:+3.3V") (at 86.36 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4ae5958-7d1e-4e9d-9655-20c9fffbf3a8)
-    (property "Reference" "#PWR098" (at 86.36 146.05 0)
+    (property "Reference" "#PWR0103" (at 86.36 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 86.36 137.16 0)
@@ -1984,7 +1984,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -1993,7 +1993,7 @@
   (symbol (lib_id "Sensor_Current:ACS770xCB-050U-PFF") (at 86.36 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d619013b-5d42-451d-b164-d82ff38ab0e4)
-    (property "Reference" "U10" (at 88.9 140.97 0)
+    (property "Reference" "U9" (at 88.9 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ACS770xCB-050U-PFF" (at 97.79 143.51 0)
@@ -2013,7 +2013,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
-          (reference "U10") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -2107,7 +2107,7 @@
   (symbol (lib_id "power:GND") (at 215.9 64.77 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3be1b3b-3c99-4f85-976f-32619c15f31b)
-    (property "Reference" "#PWR0105" (at 215.9 71.12 0)
+    (property "Reference" "#PWR0110" (at 215.9 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 215.9 69.85 0)
@@ -2123,7 +2123,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -2132,7 +2132,7 @@
   (symbol (lib_id "power:GND") (at 118.11 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e56722c6-2fbd-465d-9e25-68af1b9862f0)
-    (property "Reference" "#PWR0100" (at 118.11 162.56 0)
+    (property "Reference" "#PWR0105" (at 118.11 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.11 161.29 0)
@@ -2148,7 +2148,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -2157,7 +2157,7 @@
   (symbol (lib_id "power:GND") (at 189.23 50.8 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e9e4e82d-71cb-4fb9-a8a1-f51d30e4e158)
-    (property "Reference" "#PWR0103" (at 189.23 57.15 0)
+    (property "Reference" "#PWR0108" (at 189.23 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.23 55.88 0)
@@ -2173,7 +2173,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/b1abebf7-38b9-44bd-9506-7ade495be8e0"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )

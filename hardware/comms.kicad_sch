@@ -878,7 +878,7 @@
   (symbol (lib_id "power:GND") (at 104.14 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e70b36f-13b2-45d2-b5a3-9315cd3c1bfd)
-    (property "Reference" "#PWR041" (at 104.14 132.08 0)
+    (property "Reference" "#PWR042" (at 104.14 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 130.81 0)
@@ -894,7 +894,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -929,7 +929,7 @@
   (symbol (lib_id "power:+3.3V") (at 58.42 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20825150-e8a2-4c94-87d1-d1646951b847)
-    (property "Reference" "#PWR036" (at 58.42 69.85 0)
+    (property "Reference" "#PWR037" (at 58.42 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 58.42 60.96 0)
@@ -945,7 +945,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -954,7 +954,7 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0_14P") (at 68.58 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44b17818-c691-4a10-a4d3-4e210e77a95d)
-    (property "Reference" "J23" (at 68.58 101.6 0)
+    (property "Reference" "J10" (at 68.58 101.6 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_Receptacle_USB2.0_14P" (at 68.58 104.14 0)
@@ -984,7 +984,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "J23") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -993,7 +993,7 @@
   (symbol (lib_id "power:GND") (at 68.58 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 538a7b84-7472-42e9-9eaf-0b0d75b67157)
-    (property "Reference" "#PWR037" (at 68.58 156.21 0)
+    (property "Reference" "#PWR038" (at 68.58 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 68.58 154.94 0)
@@ -1009,7 +1009,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -1069,7 +1069,7 @@
   (symbol (lib_id "power:GND") (at 83.82 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75a19ac5-7499-446a-9985-59d649e34bda)
-    (property "Reference" "#PWR039" (at 83.82 83.82 0)
+    (property "Reference" "#PWR040" (at 83.82 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 82.55 0)
@@ -1085,7 +1085,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -1178,7 +1178,7 @@
   (symbol (lib_id "power:VBUS") (at 86.36 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c65e49e9-f231-4cd6-accb-f838cae11fa0)
-    (property "Reference" "#PWR040" (at 86.36 111.76 0)
+    (property "Reference" "#PWR041" (at 86.36 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 86.36 102.87 0)
@@ -1194,7 +1194,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -1203,7 +1203,7 @@
   (symbol (lib_id "power:+5V") (at 83.82 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd323df5-6f48-48ec-bfec-79ac6f18ca63)
-    (property "Reference" "#PWR038" (at 83.82 60.96 0)
+    (property "Reference" "#PWR039" (at 83.82 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 83.82 52.07 0)
@@ -1219,7 +1219,7 @@
     (instances
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/6e2b1342-9746-4a38-93af-9ab1059c6272"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
