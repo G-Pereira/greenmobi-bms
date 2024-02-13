@@ -12,6 +12,7 @@ Since there is not yet a opensource design of a VESC fully compatible BMS this b
 
 - Popular and easy to source connectors are used (JST XH, screw terminals, etc) even if in most end uses it would be better to have weatherproof panel connectors.
 - QFN and BGA chips are avoided at all costs to ease hand assembly.
+- Daisychaining multiple AFEs and ESD protection are targeted to a second iteration of the design.
 
 Here it is a block diagram of the design:
 
