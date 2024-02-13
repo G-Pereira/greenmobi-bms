@@ -189,10 +189,6 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c074a94e-92b7-4b17-843c-f09ba7a9e551)
   )
-  (hierarchical_label "NTC-" (shape input) (at 160.02 101.6 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid de9724ee-c3eb-4823-8124-0dc59abdcd61)
-  )
 
   (symbol (lib_id "Device:R_Small") (at 139.7 95.25 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
@@ -289,55 +285,6 @@
         )
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/28f3053f-0704-4478-9995-335b84161805"
           (reference "R136") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 160.02 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3c054aba-1bb5-43e0-997a-30a137e876e5)
-    (property "Reference" "#PWR0115" (at 160.02 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 160.02 106.68 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 160.02 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 160.02 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6120cbe2-866f-487d-bc7f-a1ef767ad062))
-    (instances
-      (project "greenmobi-bms"
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/883020c8-539f-40d8-a644-a2f371b520d6"
-          (reference "#PWR0115") (unit 1)
-        )
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7c25443d-8c73-4e11-9720-cba2f4ec29a1"
-          (reference "#PWR0110") (unit 1)
-        )
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/a2300550-129a-47b6-8784-f536412fe251"
-          (reference "#PWR0111") (unit 1)
-        )
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/078c855d-b824-47c9-a621-296a259ef388"
-          (reference "#PWR0112") (unit 1)
-        )
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/3aab3d88-5529-4e85-b991-f7c6ee71bbf7"
-          (reference "#PWR0113") (unit 1)
-        )
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/484a6d3a-88ee-44e4-8a75-af6244a04325"
-          (reference "#PWR0114") (unit 1)
-        )
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/2f409825-5fc3-4421-93fa-79ca209c7f02"
-          (reference "#PWR0116") (unit 1)
-        )
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/53c3f682-dc62-4fbb-8d2a-22de97dcfdf2"
-          (reference "#PWR0117") (unit 1)
-        )
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/28f3053f-0704-4478-9995-335b84161805"
-          (reference "#PWR0118") (unit 1)
         )
       )
     )
