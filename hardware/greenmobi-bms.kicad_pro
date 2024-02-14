@@ -471,7 +471,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../../../../Downloads/",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -491,10 +491,6 @@
       "MCU"
     ],
     [
-      "6ce41d7a-a92c-4e89-8935-833e0c1d9c83",
-      "balance_front_end9"
-    ],
-    [
       "6e2b1342-9746-4a38-93af-9ab1059c6272",
       "comms"
     ],
@@ -507,36 +503,12 @@
       "Frontend"
     ],
     [
-      "ee45f89f-6e93-4551-8a16-ad2b7a63f95b",
-      "balance_front_end2"
-    ],
-    [
-      "1708db31-d263-425b-8595-2cf25a88aaf6",
-      "balance_front_end6"
-    ],
-    [
       "7c25443d-8c73-4e11-9720-cba2f4ec29a1",
       "Thermistor7"
     ],
     [
-      "7612d9cd-113c-498d-9fb2-6ab3e0f2ffb4",
-      "balance_front_end"
-    ],
-    [
-      "6992d7dc-facc-4b3a-a45c-5d6080d9166d",
-      "balance_front_end13"
-    ],
-    [
       "a2300550-129a-47b6-8784-f536412fe251",
       "Thermistor2"
-    ],
-    [
-      "b6045782-e20c-4a96-8c30-488acf04096e",
-      "balance_front_end17"
-    ],
-    [
-      "578755b7-b3a0-4222-b810-64bd6a8db561",
-      "balance_front_end10"
     ],
     [
       "078c855d-b824-47c9-a621-296a259ef388",
@@ -547,48 +519,16 @@
       "Thermistor1"
     ],
     [
-      "bec5278b-36b9-40b9-9222-98b713aedc8c",
-      "balance_front_end8"
-    ],
-    [
-      "1a4c567e-4956-494d-b379-76f50f2ffbe4",
-      "balance_front_end4"
-    ],
-    [
-      "1ae61dff-de7a-47b7-85e5-cca410bcbcb1",
-      "balance_front_end5"
-    ],
-    [
-      "bc3528c2-a054-4184-845e-3797e70598d4",
-      "balance_front_end7"
-    ],
-    [
-      "888aba1b-6720-40db-b053-b66bb6513a47",
-      "balance_front_end15"
-    ],
-    [
       "484a6d3a-88ee-44e4-8a75-af6244a04325",
       "Thermistor4"
-    ],
-    [
-      "be26f197-bbc3-44bb-87d3-848408aaa0a6",
-      "balance_front_end11"
     ],
     [
       "883020c8-539f-40d8-a644-a2f371b520d6",
       "Thermistor"
     ],
     [
-      "6fbd96ce-34e7-4106-813f-751dd7f080b2",
-      "balance_front_end12"
-    ],
-    [
       "2f409825-5fc3-4421-93fa-79ca209c7f02",
       "Thermistor3"
-    ],
-    [
-      "4c6fcb51-3ce3-4a7a-9a8e-9bb38bca2e84",
-      "balance_front_end1"
     ],
     [
       "b1abebf7-38b9-44bd-9506-7ade495be8e0",
@@ -597,18 +537,6 @@
     [
       "53c3f682-dc62-4fbb-8d2a-22de97dcfdf2",
       "Thermistor5"
-    ],
-    [
-      "cc9d5cd9-b3f0-4e7b-bbf7-8391cf58c96e",
-      "balance_front_end16"
-    ],
-    [
-      "c01e140b-420b-4c14-9fba-70dfd34114eb",
-      "balance_front_end3"
-    ],
-    [
-      "818b37e9-fd39-493d-968a-62f7bc85e4cf",
-      "balance_front_end14"
     ],
     [
       "28f3053f-0704-4478-9995-335b84161805",
