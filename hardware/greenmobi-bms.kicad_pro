@@ -491,10 +491,6 @@
       "MCU"
     ],
     [
-      "6e2b1342-9746-4a38-93af-9ab1059c6272",
-      "comms"
-    ],
-    [
       "600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8",
       "Power Supply"
     ],
@@ -503,44 +499,8 @@
       "Frontend"
     ],
     [
-      "7c25443d-8c73-4e11-9720-cba2f4ec29a1",
-      "Thermistor7"
-    ],
-    [
-      "a2300550-129a-47b6-8784-f536412fe251",
-      "Thermistor2"
-    ],
-    [
-      "078c855d-b824-47c9-a621-296a259ef388",
-      "Thermistor6"
-    ],
-    [
-      "3aab3d88-5529-4e85-b991-f7c6ee71bbf7",
-      "Thermistor1"
-    ],
-    [
-      "484a6d3a-88ee-44e4-8a75-af6244a04325",
-      "Thermistor4"
-    ],
-    [
-      "883020c8-539f-40d8-a644-a2f371b520d6",
-      "Thermistor"
-    ],
-    [
-      "2f409825-5fc3-4421-93fa-79ca209c7f02",
-      "Thermistor3"
-    ],
-    [
       "b1abebf7-38b9-44bd-9506-7ade495be8e0",
       "Charger monitoring"
-    ],
-    [
-      "53c3f682-dc62-4fbb-8d2a-22de97dcfdf2",
-      "Thermistor5"
-    ],
-    [
-      "28f3053f-0704-4478-9995-335b84161805",
-      "Thermistor8"
     ]
   ],
   "text_variables": {}
