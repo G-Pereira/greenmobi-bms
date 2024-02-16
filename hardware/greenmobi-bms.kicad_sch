@@ -2091,33 +2091,8 @@
     (uuid fb8802e3-158f-42e1-aa12-6f39e9236229)
   )
 
-  (symbol (lib_id "power:+3.3V") (at 178.435 40.005 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00159092-81c6-4949-9ce1-4632c0741e1e)
-    (property "Reference" "#PWR016" (at 182.245 40.005 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 174.625 40.005 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 178.435 40.005 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 178.435 40.005 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 454155f2-f4b1-4414-9635-1c6a5cf49b74))
-    (instances
-      (project "greenmobi-bms"
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-          (reference "#PWR016") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Sensor_Humidity:HDC1080") (at 149.86 45.085 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 0871da10-d54d-4270-abef-29ed58d6d85d)
     (property "Reference" "U2" (at 154.305 36.195 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -2275,7 +2250,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x04_Socket") (at 183.515 40.005 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 28a2d18d-2999-404d-9fad-35ae897bffaf)
     (property "Reference" "J8" (at 185.42 40.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2297,6 +2272,31 @@
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
           (reference "J8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3VP") (at 147.32 37.465 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2b0f4f48-3d94-46e0-933d-bb33fa0acf9f)
+    (property "Reference" "#PWR013" (at 151.13 38.735 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3VP" (at 147.32 32.385 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 147.32 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 147.32 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2260333f-4601-44b9-8b32-7c4fcbdb22f2))
+    (instances
+      (project "greenmobi-bms"
+        (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2354,7 +2354,7 @@
   )
 
   (symbol (lib_id "Motor:Fan") (at 149.225 142.24 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 34ca2836-0aed-44d6-a74c-7b9c727857cc)
     (property "Reference" "M1" (at 153.67 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2620,31 +2620,6 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 147.32 37.465 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5699eb8c-d1f2-4c7b-adf3-367b69ea0515)
-    (property "Reference" "#PWR013" (at 147.32 41.275 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 147.32 32.385 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 147.32 37.465 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 147.32 37.465 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 396fc765-fdf5-49b0-a542-979d4a3527eb))
-    (instances
-      (project "greenmobi-bms"
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-          (reference "#PWR013") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 271.78 125.095 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 574f563e-e53a-4303-aeb5-c055ff69ca91)
@@ -2823,7 +2798,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 159.385 127.635 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 76e60827-c64f-4feb-a72d-8cc89095db95)
     (property "Reference" "R68" (at 159.385 121.92 90)
       (effects (font (size 1.27 1.27)))
@@ -2924,7 +2899,7 @@
   )
 
   (symbol (lib_id "Diode:SM4007") (at 133.985 140.97 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 90dcdacd-defa-4740-8add-ab4d2f60aa29)
     (property "Reference" "D3" (at 137.16 139.7 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2981,7 +2956,7 @@
   )
 
   (symbol (lib_id "Transistor_FET:AO3401A") (at 151.765 127.635 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid a435bee5-0bd8-4bf0-ab7d-b071f892fe09)
     (property "Reference" "Q27" (at 145.415 128.905 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3002,6 +2977,31 @@
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
           (reference "Q27") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3VP") (at 133.985 42.545 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ac57faa7-6de9-460f-8bf1-ddf1760de075)
+    (property "Reference" "#PWR010" (at 137.795 43.815 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3VP" (at 133.985 37.465 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 133.985 42.545 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 133.985 42.545 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 382e8a3f-fcf4-4a35-95da-b9c32d64cb87))
+    (instances
+      (project "greenmobi-bms"
+        (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -3063,7 +3063,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 133.985 45.085 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid b5ec3dc1-68eb-4c22-975b-a9b5a10a81c8)
     (property "Reference" "C3" (at 136.525 43.8213 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3140,31 +3140,6 @@
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
           (reference "#PWR037") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 133.985 42.545 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c578db4d-3890-4c1e-b397-7d848fc17b18)
-    (property "Reference" "#PWR010" (at 133.985 46.355 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 133.985 37.465 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 133.985 42.545 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 133.985 42.545 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9c89e211-d72d-4801-9a4b-8af602bec2e2))
-    (instances
-      (project "greenmobi-bms"
-        (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -3365,6 +3340,31 @@
       (project "greenmobi-bms"
         (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
           (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3VP") (at 178.435 40.005 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f2750679-7cf1-4444-a630-99a7d87202ac)
+    (property "Reference" "#PWR016" (at 179.705 36.195 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3VP" (at 175.26 40.005 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 178.435 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 178.435 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cfec60c0-a07e-4544-8230-bb5ead557e30))
+    (instances
+      (project "greenmobi-bms"
+        (path "/3e668e3e-3e16-4665-a807-4735962c41d3"
+          (reference "#PWR016") (unit 1)
         )
       )
     )
