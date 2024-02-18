@@ -1601,7 +1601,6 @@
     (uuid ff8f3fce-fb98-4073-ad1c-066223a0b6c0)
   )
 
-  (no_connect (at 105.41 77.47) (uuid 07252416-b9cd-4139-a36d-fea6708bdfc6))
   (no_connect (at 105.41 110.49) (uuid 0f4c7b16-b885-47af-868f-b3337cfbd079))
   (no_connect (at 105.41 62.23) (uuid 17a61433-1f92-4f39-8f49-4a337f312f43))
   (no_connect (at 105.41 133.35) (uuid 24353611-1b82-4dc1-81a8-cc182bffdf02))
@@ -2167,6 +2166,10 @@
   (hierarchical_label "CAN_TX" (shape output) (at 105.41 120.65 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0953f77b-651f-4c61-8439-c36520ce8d1c)
+  )
+  (hierarchical_label "~{OLED_RESET}" (shape output) (at 105.41 77.47 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 1a179482-405e-42dc-99ee-19e5b49bd48f)
   )
   (hierarchical_label "AFE_MOSI" (shape output) (at 69.85 110.49 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
