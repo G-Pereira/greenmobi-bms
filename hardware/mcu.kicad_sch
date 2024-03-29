@@ -3971,10 +3971,6 @@
 		(uuid "ba0f5f3a-d71d-466f-bfc3-4c82479d339b")
 	)
 	(no_connect
-		(at 105.41 107.95)
-		(uuid "d1002d52-6be3-4a0f-90b3-aa0ec6f5eb6e")
-	)
-	(no_connect
 		(at 69.85 92.71)
 		(uuid "d294aaf3-739f-4fdd-a238-cbd0bbfbb3e3")
 	)
@@ -5561,6 +5557,18 @@
 			(justify left)
 		)
 		(uuid "f70a2077-8e38-4896-8237-1814ec0eec22")
+	)
+	(hierarchical_label "12V_OUT_EN"
+		(shape output)
+		(at 105.41 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fee7713d-d817-46af-8b85-bc8966155362")
 	)
 	(symbol
 		(lib_id "power:GND")

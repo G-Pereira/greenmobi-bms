@@ -2440,6 +2440,12 @@
 		(uuid "045ae303-b218-488e-aa83-05a272a65459")
 	)
 	(junction
+		(at 95.25 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2406ea2b-7100-425c-8101-882993cf6fa8")
+	)
+	(junction
 		(at 170.18 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2452,19 +2458,19 @@
 		(uuid "2954a650-92a1-4f48-86e0-ddc68d9ed535")
 	)
 	(junction
-		(at 213.36 149.86)
+		(at 121.92 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fdbbe22-fdae-4e44-882f-8969e471cafd")
 	)
 	(junction
-		(at 213.36 143.51)
+		(at 121.92 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36edf3fd-69b9-4b9d-b116-bf794bb55425")
 	)
 	(junction
-		(at 226.06 143.51)
+		(at 134.62 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52198e38-8016-45f2-a37b-f83f86b6e090")
@@ -2494,7 +2500,7 @@
 		(uuid "644076ce-06ff-40cb-a40c-93e76fcbd3b8")
 	)
 	(junction
-		(at 222.25 143.51)
+		(at 130.81 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77307365-8766-4b91-8ff5-335eaaad5301")
@@ -2572,12 +2578,6 @@
 		(uuid "c2f8aeda-2b4c-41d2-b659-69fb16b61d30")
 	)
 	(junction
-		(at 93.98 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb5ae0a9-5137-4d68-93b5-f468e199a9ab")
-	)
-	(junction
 		(at 187.96 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2653,7 +2653,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 62.23) (xy 198.12 59.69)
+			(xy 219.71 62.23) (xy 219.71 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2693,7 +2693,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 143.51) (xy 194.31 143.51)
+			(xy 95.25 152.4) (xy 102.87 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2703,7 +2703,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 143.51) (xy 226.06 143.51)
+			(xy 130.81 152.4) (xy 134.62 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2903,7 +2903,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 149.86) (xy 213.36 149.86)
+			(xy 118.11 158.75) (xy 121.92 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2943,7 +2943,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 144.78) (xy 226.06 143.51)
+			(xy 134.62 153.67) (xy 134.62 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2983,7 +2983,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 149.86) (xy 213.36 151.13)
+			(xy 121.92 158.75) (xy 121.92 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3003,7 +3003,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 143.51) (xy 222.25 149.86)
+			(xy 130.81 152.4) (xy 130.81 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3063,16 +3063,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 57.15) (xy 93.98 57.785)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70029445-0b53-4b1c-9a96-86eb41eb4691")
-	)
-	(wire
-		(pts
 			(xy 125.73 113.03) (xy 125.73 109.22)
 		)
 		(stroke
@@ -3083,7 +3073,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 149.86) (xy 222.25 149.86)
+			(xy 121.92 158.75) (xy 130.81 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3113,7 +3103,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 143.51) (xy 222.25 143.51)
+			(xy 121.92 152.4) (xy 130.81 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3163,7 +3153,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 148.59) (xy 213.36 149.86)
+			(xy 121.92 157.48) (xy 121.92 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3183,7 +3173,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 146.05) (xy 209.55 149.86)
+			(xy 118.11 154.94) (xy 118.11 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3273,7 +3263,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 59.69) (xy 201.93 59.69)
+			(xy 219.71 59.69) (xy 223.52 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3333,7 +3323,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 144.78) (xy 186.69 143.51)
+			(xy 95.25 153.67) (xy 95.25 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3433,6 +3423,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 57.15) (xy 223.52 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ed195a-318d-4b7b-ace4-4089a9bffe5a")
+	)
+	(wire
+		(pts
 			(xy 137.16 57.15) (xy 139.7 57.15)
 		)
 		(stroke
@@ -3483,7 +3483,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 57.15) (xy 201.93 57.15)
+			(xy 198.12 57.15) (xy 205.74 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3553,13 +3553,25 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 143.51) (xy 213.36 143.51)
+			(xy 118.11 152.4) (xy 121.92 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fd7bc6b8-b654-492e-95e1-5eb54586acdb")
+	)
+	(hierarchical_label "12V_OUT_EN"
+		(shape input)
+		(at 204.47 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b545250-cf5e-4285-9d24-7fdf9da3d932")
 	)
 	(hierarchical_label "HW_EN"
 		(shape input)
@@ -3654,7 +3666,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 226.06 147.32 0)
+		(at 134.62 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3663,7 +3675,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b8b168b-1c21-4819-93b0-fb7aa77cc2ce")
 		(property "Reference" "C61"
-			(at 228.6 146.0563 0)
+			(at 137.16 154.9463 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,7 +3684,7 @@
 			)
 		)
 		(property "Value" "470n"
-			(at 228.6 148.5963 0)
+			(at 137.16 157.4863 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +3693,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 147.32 0)
+			(at 134.62 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3690,7 +3702,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 147.32 0)
+			(at 134.62 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,7 +3711,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 147.32 0)
+			(at 134.62 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +4291,7 @@
 	)
 	(symbol
 		(lib_id "greenmobi-bms:TPS71501")
-		(at 201.93 146.05 0)
+		(at 110.49 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4288,7 +4300,7 @@
 		(fields_autoplaced yes)
 		(uuid "3bd94b19-ebc0-4239-afd4-8c43cd243def")
 		(property "Reference" "U7"
-			(at 201.93 135.89 0)
+			(at 110.49 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4296,7 +4308,7 @@
 			)
 		)
 		(property "Value" "TPS71501"
-			(at 201.93 138.43 0)
+			(at 110.49 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4316,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 201.93 140.335 0)
+			(at 110.49 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +4326,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps715.pdf"
-			(at 201.93 151.13 0)
+			(at 110.49 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +4335,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 146.05 0)
+			(at 110.49 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +4568,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 151.13 0)
+		(at 110.49 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4565,7 +4577,7 @@
 		(fields_autoplaced yes)
 		(uuid "4520e659-38bb-4523-ab0e-0895f305c415")
 		(property "Reference" "#PWR099"
-			(at 201.93 157.48 0)
+			(at 110.49 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +4586,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 156.21 0)
+			(at 110.49 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4582,7 +4594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 151.13 0)
+			(at 110.49 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4591,7 +4603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 151.13 0)
+			(at 110.49 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4600,7 +4612,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 151.13 0)
+			(at 110.49 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,6 +4703,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 95.25 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48ff11b2-08cc-4543-bcd2-11fc716069dd")
+		(property "Reference" "#PWR012"
+			(at 95.25 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 95.25 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10d68da2-6d13-4248-b366-e9e3e13bd2e6")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 180.34 64.77 0)
 		(unit 1)
@@ -4762,7 +4840,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 62.23 0)
+		(at 219.71 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4771,7 +4849,7 @@
 		(fields_autoplaced yes)
 		(uuid "56dde173-eec8-4f55-ba64-4c4542aad8e8")
 		(property "Reference" "#PWR060"
-			(at 198.12 68.58 0)
+			(at 219.71 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4780,7 +4858,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 67.31 0)
+			(at 219.71 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4788,7 +4866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 62.23 0)
+			(at 219.71 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,7 +4875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 62.23 0)
+			(at 219.71 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4806,7 +4884,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 62.23 0)
+			(at 219.71 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4969,7 +5047,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 213.36 146.05 0)
+		(at 121.92 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4978,7 +5056,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bb783e3-f8e1-4418-bd1e-ae22b2c4e9f7")
 		(property "Reference" "R97"
-			(at 215.9 144.78 0)
+			(at 124.46 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,7 +5065,7 @@
 			)
 		)
 		(property "Value" "6.49M"
-			(at 215.9 147.32 0)
+			(at 124.46 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4996,7 +5074,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 146.05 0)
+			(at 121.92 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,7 +5083,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 146.05 0)
+			(at 121.92 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +5092,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 146.05 0)
+			(at 121.92 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,7 +5117,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 213.36 153.67 0)
+		(at 121.92 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5048,7 +5126,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c8a9180-3849-4555-a96f-bfe73ce65510")
 		(property "Reference" "R96"
-			(at 215.9 152.4 0)
+			(at 124.46 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,7 +5135,7 @@
 			)
 		)
 		(property "Value" "1.3M"
-			(at 215.9 154.94 0)
+			(at 124.46 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +5144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 153.67 0)
+			(at 121.92 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5075,7 +5153,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 153.67 0)
+			(at 121.92 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,7 +5162,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 153.67 0)
+			(at 121.92 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5238,6 +5316,81 @@
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 210.82 59.69 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "722c997f-4866-4e4a-9472-77ab363dfca4")
+		(property "Reference" "Q28"
+			(at 210.82 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 210.82 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 208.915 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 207.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "aa92171d-15c2-4256-afff-cf99664129bb")
+		)
+		(pin "1"
+			(uuid "aef5e26b-9509-46cc-b6df-5fdb51ce4ff9")
+		)
+		(pin "2"
+			(uuid "0857a8b6-4868-427c-8b00-bd65820e299d")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
+					(reference "Q28")
 					(unit 1)
 				)
 			)
@@ -5660,7 +5813,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 207.01 57.15 0)
+		(at 228.6 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5669,7 +5822,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f8a1785-e0a2-4af2-8865-a8475fff23e2")
 		(property "Reference" "J12"
-			(at 209.55 57.15 0)
+			(at 231.14 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,8 +5830,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 209.55 59.69 0)
+		(property "Value" "12V_OUT"
+			(at 231.14 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5687,7 +5840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 57.15 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +5849,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 57.15 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +5858,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 57.15 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6209,7 +6362,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 156.21 0)
+		(at 121.92 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6218,7 +6371,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7994b85-44ea-4f1d-a450-3d7e62a675df")
 		(property "Reference" "#PWR0103"
-			(at 213.36 162.56 0)
+			(at 121.92 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,7 +6380,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 161.29 0)
+			(at 121.92 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,7 +6388,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 156.21 0)
+			(at 121.92 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6244,7 +6397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 156.21 0)
+			(at 121.92 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +6406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 156.21 0)
+			(at 121.92 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6268,72 +6421,6 @@
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
 					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 93.98 62.865 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab2842a1-f4a9-42ea-9960-9cc164dc3ef3")
-		(property "Reference" "#PWR094"
-			(at 93.98 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.98 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09ae4add-2f62-42ae-b6fe-61d65594863a")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -6507,7 +6594,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 149.86 0)
+		(at 95.25 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6516,7 +6603,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3984f82-125a-4cc6-b0f0-c2fa704d6755")
 		(property "Reference" "#PWR015"
-			(at 186.69 156.21 0)
+			(at 95.25 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,7 +6612,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 154.94 0)
+			(at 95.25 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6533,7 +6620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 149.86 0)
+			(at 95.25 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6542,7 +6629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 149.86 0)
+			(at 95.25 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +6638,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 149.86 0)
+			(at 95.25 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6705,7 +6792,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 226.06 143.51 0)
+		(at 134.62 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6714,7 +6801,7 @@
 		(fields_autoplaced yes)
 		(uuid "be397a0f-6a9d-42e7-9c3b-d6deac2a7f6f")
 		(property "Reference" "#PWR0111"
-			(at 226.06 147.32 0)
+			(at 134.62 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,7 +6810,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 226.06 138.43 0)
+			(at 134.62 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6731,7 +6818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 143.51 0)
+			(at 134.62 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,7 +6827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 143.51 0)
+			(at 134.62 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6749,7 +6836,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 143.51 0)
+			(at 134.62 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6771,7 +6858,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 226.06 149.86 0)
+		(at 134.62 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6780,7 +6867,7 @@
 		(fields_autoplaced yes)
 		(uuid "be437278-a99c-43eb-91ff-afadaed10269")
 		(property "Reference" "#PWR0100"
-			(at 226.06 156.21 0)
+			(at 134.62 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6789,7 +6876,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 154.94 0)
+			(at 134.62 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6797,7 +6884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 149.86 0)
+			(at 134.62 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6806,7 +6893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 149.86 0)
+			(at 134.62 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,7 +6902,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 149.86 0)
+			(at 134.62 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6982,7 +7069,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4662536-facd-4d79-9418-76cd62c37775")
 		(property "Reference" "R22"
-			(at 172.72 77.47 0)
+			(at 172.72 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6990,8 +7077,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9"
-			(at 172.72 80.01 0)
+		(property "Value" "49.9k"
+			(at 172.72 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7549,7 +7636,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 186.69 147.32 0)
+		(at 95.25 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7558,7 +7645,7 @@
 		(fields_autoplaced yes)
 		(uuid "dce3f18c-ec8a-43a4-9f18-ec37a255e1b2")
 		(property "Reference" "C60"
-			(at 189.23 146.0563 0)
+			(at 97.79 154.9463 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7567,7 +7654,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 189.23 148.5963 0)
+			(at 97.79 157.4863 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,7 +7663,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 147.32 0)
+			(at 95.25 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7585,7 +7672,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 147.32 0)
+			(at 95.25 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7594,7 +7681,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 147.32 0)
+			(at 95.25 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,76 +8256,6 @@
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 93.98 60.325 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "f87db888-03b7-47f1-a0a3-6ec7f855d935")
-		(property "Reference" "R83"
-			(at 96.52 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 96.52 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc14c76b-aded-4473-ae90-c8cb7af15497")
-		)
-		(pin "2"
-			(uuid "51c5f2a8-f51b-4fb1-a4cd-639a67688ecc")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-					(reference "R83")
 					(unit 1)
 				)
 			)
