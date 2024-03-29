@@ -5642,7 +5642,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0827f1d0-8e1d-46d4-92fd-80f7ab36b847")
 		(property "Reference" "Y1"
 			(at 41.275 87.63 0)
@@ -5653,7 +5653,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "8 MHz"
 			(at 38.735 92.71 0)
 			(effects
 				(font
@@ -6199,7 +6199,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3d53b2c0-0ab8-418a-a174-d479fe6d5385")
 		(property "Reference" "C4"
 			(at 30.48 93.98 0)
@@ -6210,7 +6210,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "8p"
 			(at 30.48 96.52 0)
 			(effects
 				(font
@@ -7573,7 +7573,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7f324268-9f73-48c6-9202-6dfc802557cb")
 		(property "Reference" "C5"
 			(at 58.42 93.98 0)
@@ -7584,7 +7584,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "8p"
 			(at 57.15 96.52 0)
 			(effects
 				(font
