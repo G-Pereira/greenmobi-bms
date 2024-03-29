@@ -5430,7 +5430,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 129.54 0)
 			(effects
 				(font
@@ -5566,7 +5566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 148.59 117.856 0)
 			(effects
 				(font
@@ -5769,7 +5769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G"
 			(at 234.315 64.77 0)
 			(effects
 				(font
@@ -6286,7 +6286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical"
 			(at 271.78 125.095 0)
 			(effects
 				(font

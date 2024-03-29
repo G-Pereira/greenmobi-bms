@@ -5800,7 +5800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 247.65 144.78 0)
 			(effects
 				(font
@@ -6499,7 +6499,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 209.55 132.08 90)
 			(effects
 				(font
@@ -6519,6 +6519,15 @@
 		)
 		(property "Description" ""
 			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2895492"
+			(at 209.55 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7258,7 +7267,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 171.45 132.08 90)
 			(effects
 				(font
@@ -7278,6 +7287,15 @@
 		)
 		(property "Description" ""
 			(at 171.45 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2895548"
+			(at 171.45 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7325,7 +7343,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 198.12 147.32 0)
 			(effects
 				(font
@@ -8374,7 +8392,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 160.02 147.32 0)
 			(effects
 				(font
