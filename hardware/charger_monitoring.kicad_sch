@@ -6020,7 +6020,7 @@
 				)
 			)
 		)
-		(property "Value" "0.2m"
+		(property "Value" "1m"
 			(at 74.93 140.97 90)
 			(effects
 				(font
@@ -6055,7 +6055,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C558625"
+		(property "LCSC" "C5224158"
 			(at 74.93 143.51 0)
 			(effects
 				(font
