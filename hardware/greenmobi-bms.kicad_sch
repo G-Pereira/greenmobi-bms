@@ -3706,7 +3706,7 @@
 		(uuid "68cc15a1-e04b-4ac6-9e7d-fc3ee0ed3ce0")
 	)
 	(junction
-		(at 46.99 71.12)
+		(at 36.83 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "708d681b-7457-45c4-a75f-13e8c813077a")
@@ -3762,16 +3762,6 @@
 			(type default)
 		)
 		(uuid "0025c9c2-da8f-4d56-91bc-c5b35c42c531")
-	)
-	(wire
-		(pts
-			(xy 67.31 62.23) (xy 54.61 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0059a5a3-168f-4c98-bb3b-c7a17851e084")
 	)
 	(wire
 		(pts
@@ -4035,7 +4025,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 83.82) (xy 45.72 83.82)
+			(xy 45.72 67.31) (xy 67.31 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4045,7 +4035,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 71.12) (xy 45.72 71.12)
+			(xy 36.83 29.21) (xy 35.56 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4275,17 +4265,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 67.31) (xy 60.96 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2db360c-d7b4-40fd-91e7-d8e772f6f5b5")
-	)
-	(wire
-		(pts
-			(xy 46.99 71.12) (xy 54.61 71.12)
+			(xy 36.83 29.21) (xy 44.45 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4585,16 +4565,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 67.31) (xy 60.96 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6a7005f-c100-40ad-b09a-4c68995ea3d5")
-	)
-	(wire
-		(pts
 			(xy 170.18 48.26) (xy 170.18 62.23)
 		)
 		(stroke
@@ -4622,16 +4592,6 @@
 			(type default)
 		)
 		(uuid "ecb430b9-eb15-4563-9da7-52915eee048c")
-	)
-	(wire
-		(pts
-			(xy 54.61 62.23) (xy 54.61 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecc9a05d-f717-4a37-b4d8-90d2c6f055ba")
 	)
 	(wire
 		(pts
@@ -5098,7 +5058,7 @@
 		(uuid "f586057b-3019-4e37-9985-49297b73d34c")
 	)
 	(label "PACK+"
-		(at 46.99 83.82 0)
+		(at 46.99 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6824,7 +6784,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 46.99 71.12 0)
+		(at 36.83 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6833,7 +6793,7 @@
 		(fields_autoplaced yes)
 		(uuid "6481c5ff-d81b-41f8-9ba9-8afacdf0d2db")
 		(property "Reference" "#PWR01"
-			(at 46.99 74.93 0)
+			(at 36.83 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6842,7 +6802,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 46.99 66.04 0)
+			(at 36.83 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6850,7 +6810,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 71.12 0)
+			(at 36.83 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6859,7 +6819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 71.12 0)
+			(at 36.83 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,7 +6828,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 71.12 0)
+			(at 36.83 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7403,7 +7363,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 40.64 83.82 180)
+		(at 40.64 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7412,7 +7372,7 @@
 		(fields_autoplaced yes)
 		(uuid "91547ac0-9b3c-4053-bd10-113b4355ccc5")
 		(property "Reference" "J8"
-			(at 40.64 77.47 0)
+			(at 40.64 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7420,7 +7380,7 @@
 			)
 		)
 		(property "Value" "PACK+"
-			(at 40.64 80.01 0)
+			(at 40.64 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +7388,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 40.64 83.82 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,7 +7397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 83.82 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7446,7 +7406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 83.82 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8108,7 +8068,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 40.64 71.12 180)
+		(at 30.48 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8117,7 +8077,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc5cd5e8-b385-4a7b-ace2-4fe61f4bd9ae")
 		(property "Reference" "J4"
-			(at 40.64 64.77 0)
+			(at 30.48 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,7 +8085,7 @@
 			)
 		)
 		(property "Value" "BAT+"
-			(at 40.64 67.31 0)
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +8093,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 40.64 71.12 0)
+			(at 30.48 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8142,7 +8102,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 71.12 0)
+			(at 30.48 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,7 +8111,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 71.12 0)
+			(at 30.48 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8240,7 +8200,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 46.99 71.12 180)
+		(at 36.83 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8249,7 +8209,7 @@
 		(fields_autoplaced yes)
 		(uuid "da5c3a4b-3467-4417-b0b7-0b2d1d3dc95d")
 		(property "Reference" "#FLG01"
-			(at 46.99 73.025 0)
+			(at 36.83 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8258,7 +8218,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 46.99 76.2 0)
+			(at 36.83 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8267,7 +8227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 71.12 0)
+			(at 36.83 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8276,7 +8236,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 71.12 0)
+			(at 36.83 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8285,7 +8245,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 71.12 0)
+			(at 36.83 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9390,16 +9350,6 @@
 				(justify left)
 			)
 			(uuid "d0160e5d-08f5-4ee7-8cdd-ebc2a3e66229")
-		)
-		(pin "BAT+" output
-			(at 67.31 62.23 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "de387296-438d-4e3c-b659-66cd197461ae")
 		)
 		(pin "PACK+" bidirectional
 			(at 67.31 67.31 180)
