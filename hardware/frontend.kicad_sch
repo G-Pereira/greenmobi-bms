@@ -13929,7 +13929,7 @@
 		(fields_autoplaced yes)
 		(uuid "76530e40-1146-446e-a39c-bb48aab261c8")
 		(property "Reference" "FB1"
-			(at 191.77 64.7319 0)
+			(at 191.77 64.7318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13937,8 +13937,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
-			(at 191.77 67.2719 0)
+		(property "Value" "Bead"
+			(at 191.77 67.2718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
