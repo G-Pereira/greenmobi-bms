@@ -2863,7 +2863,7 @@
 	)
 	(wire
 		(pts
-			(xy 94.615 118.11) (xy 94.615 120.015)
+			(xy 95.25 118.11) (xy 95.25 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2890,6 +2890,16 @@
 			(type default)
 		)
 		(uuid "33bf472d-696c-4deb-b97d-b9434277ec65")
+	)
+	(wire
+		(pts
+			(xy 210.82 69.85) (xy 210.82 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34773ae8-e2f4-442f-a427-321b6f3ea1d8")
 	)
 	(wire
 		(pts
@@ -2930,6 +2940,16 @@
 			(type default)
 		)
 		(uuid "3c95d108-f190-4f8b-80c3-a33421d2c1e3")
+	)
+	(wire
+		(pts
+			(xy 204.47 78.74) (xy 210.82 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4321c692-cd80-4552-9c67-dbd1062896e3")
 	)
 	(wire
 		(pts
@@ -3053,7 +3073,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 118.11) (xy 94.615 118.11)
+			(xy 100.33 118.11) (xy 95.25 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3153,6 +3173,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 78.74) (xy 210.82 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f15d63c-8464-48d9-ba74-af1b1b291cc4")
+	)
+	(wire
+		(pts
 			(xy 121.92 157.48) (xy 121.92 158.75)
 		)
 		(stroke
@@ -3220,6 +3250,16 @@
 			(type default)
 		)
 		(uuid "a76736d6-204e-43ad-aa1c-55c4d3753bca")
+	)
+	(wire
+		(pts
+			(xy 95.25 124.46) (xy 95.25 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d34b05-3b63-48cc-a035-cde3fc1fd2fa")
 	)
 	(wire
 		(pts
@@ -3563,7 +3603,7 @@
 	)
 	(hierarchical_label "12V_OUT_EN"
 		(shape input)
-		(at 204.47 69.85 180)
+		(at 204.47 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3596,6 +3636,76 @@
 			(justify right)
 		)
 		(uuid "c87eed14-f455-46d1-af8b-35ec010c5bfe")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 210.82 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03bf7769-4b4e-430a-804a-4257d0f285bf")
+		(property "Reference" "R63"
+			(at 213.36 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 213.36 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50876b31-cd5a-4d55-9f9f-e7bc9334e47a")
+		)
+		(pin "2"
+			(uuid "bfe57f03-8181-4355-aade-4b7a82317090")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -6081,7 +6191,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 94.615 126.365 0)
+		(at 95.25 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6090,7 +6200,7 @@
 		(fields_autoplaced yes)
 		(uuid "987248f7-0e19-4e0d-ae1e-dbc8d4d15e4b")
 		(property "Reference" "#PWR044"
-			(at 94.615 132.715 0)
+			(at 95.25 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6099,7 +6209,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 94.615 130.81 0)
+			(at 95.25 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,7 +6217,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 94.615 126.365 0)
+			(at 95.25 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6116,7 +6226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 94.615 126.365 0)
+			(at 95.25 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,7 +6235,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 94.615 126.365 0)
+			(at 95.25 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,7 +7676,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 94.615 122.555 0)
+		(at 95.25 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7575,7 +7685,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcdec1c4-2c7b-41f0-92ee-5b3502b5f177")
 		(property "Reference" "R75"
-			(at 97.155 121.285 0)
+			(at 97.79 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,7 +7694,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 97.155 123.825 0)
+			(at 97.79 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7593,7 +7703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 94.615 122.555 0)
+			(at 95.25 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7602,7 +7712,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 94.615 122.555 0)
+			(at 95.25 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7611,7 +7721,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 94.615 122.555 0)
+			(at 95.25 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
