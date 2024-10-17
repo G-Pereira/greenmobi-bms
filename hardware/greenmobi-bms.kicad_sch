@@ -3706,7 +3706,7 @@
 		(uuid "68cc15a1-e04b-4ac6-9e7d-fc3ee0ed3ce0")
 	)
 	(junction
-		(at 36.83 29.21)
+		(at 59.69 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "708d681b-7457-45c4-a75f-13e8c813077a")
@@ -4025,7 +4025,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 67.31) (xy 67.31 67.31)
+			(xy 41.91 88.9) (xy 63.5 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4035,7 +4035,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 29.21) (xy 35.56 29.21)
+			(xy 59.69 67.31) (xy 58.42 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4265,7 +4265,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 29.21) (xy 44.45 29.21)
+			(xy 59.69 67.31) (xy 67.31 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4375,7 +4375,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 55.88) (xy 49.53 55.88)
+			(xy 58.42 55.88) (xy 67.31 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4605,7 +4605,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 45.72) (xy 67.31 45.72)
+			(xy 58.42 45.72) (xy 67.31 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4737,17 +4737,6 @@
 			(justify right bottom)
 		)
 		(uuid "17efc339-2537-42b5-a693-63d629d93d9b")
-	)
-	(label "CHG_EN"
-		(at 99.06 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a017245-aab1-4239-9ddd-dbdcedc49116")
 	)
 	(label "HW_EN"
 		(at 160.02 172.72 0)
@@ -4914,28 +4903,6 @@
 		)
 		(uuid "97b70272-cbcc-4158-a1e8-f1f05b933be4")
 	)
-	(label "CP_EN"
-		(at 99.06 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "98527b1b-7432-46f7-b6e9-69ceb4547f9c")
-	)
-	(label "DSG_EN"
-		(at 99.06 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a098520a-0a1a-444c-ab69-0d5150ded05b")
-	)
 	(label "PMON_EN"
 		(at 171.45 110.49 180)
 		(fields_autoplaced yes)
@@ -5002,17 +4969,6 @@
 		)
 		(uuid "bf9ce823-20a6-4765-a026-481c03b10d1d")
 	)
-	(label "PCHG_EN"
-		(at 99.06 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3251cde-1f16-4c85-ab72-7722bfa1d9f9")
-	)
 	(label "Total_current"
 		(at 113.03 138.43 0)
 		(fields_autoplaced yes)
@@ -5023,17 +4979,6 @@
 			(justify left bottom)
 		)
 		(uuid "d8b8aa88-88a6-4d78-82e4-e2e720f97445")
-	)
-	(label "PMON_EN"
-		(at 99.06 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df2401ea-0030-4a4e-b47a-a8caf5193a8e")
 	)
 	(label "12V_OUT_EN"
 		(at 171.45 116.84 180)
@@ -5058,7 +5003,7 @@
 		(uuid "f586057b-3019-4e37-9985-49297b73d34c")
 	)
 	(label "PACK+"
-		(at 46.99 67.31 0)
+		(at 43.18 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5232,7 +5177,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 40.64 45.72 180)
+		(at 53.34 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5241,7 +5186,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c69faa1-1ae1-4cb7-9fc4-92bffc5564fd")
 		(property "Reference" "J2"
-			(at 40.64 39.37 0)
+			(at 53.34 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5249,7 +5194,7 @@
 			)
 		)
 		(property "Value" "CHG+"
-			(at 40.64 41.91 0)
+			(at 53.34 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +5202,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 40.64 45.72 0)
+			(at 53.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +5211,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 45.72 0)
+			(at 53.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,7 +5220,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 45.72 0)
+			(at 53.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,7 +6045,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 40.64 55.88 180)
+		(at 53.34 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6109,7 +6054,7 @@
 		(fields_autoplaced yes)
 		(uuid "4afd76e2-c921-4bea-84c5-d19a053a4f98")
 		(property "Reference" "J1"
-			(at 40.64 49.53 0)
+			(at 53.34 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +6062,7 @@
 			)
 		)
 		(property "Value" "CHG-"
-			(at 40.64 52.07 0)
+			(at 53.34 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,7 +6070,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 40.64 55.88 0)
+			(at 53.34 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +6079,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 55.88 0)
+			(at 53.34 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +6088,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 55.88 0)
+			(at 53.34 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6361,72 +6306,6 @@
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 49.53 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a022687-a956-4f80-bdaf-3026bda4b9e6")
-		(property "Reference" "#PWR02"
-			(at 49.53 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 49.53 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c13bad04-37fb-4369-857e-d7ab960a9ef6")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6784,7 +6663,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 36.83 29.21 0)
+		(at 59.69 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6793,7 +6672,7 @@
 		(fields_autoplaced yes)
 		(uuid "6481c5ff-d81b-41f8-9ba9-8afacdf0d2db")
 		(property "Reference" "#PWR01"
-			(at 36.83 33.02 0)
+			(at 59.69 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6802,7 +6681,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 36.83 24.13 0)
+			(at 59.69 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,7 +6689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 29.21 0)
+			(at 59.69 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6819,7 +6698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 29.21 0)
+			(at 59.69 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,7 +6707,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 29.21 0)
+			(at 59.69 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7363,7 +7242,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 40.64 67.31 180)
+		(at 36.83 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7372,7 +7251,7 @@
 		(fields_autoplaced yes)
 		(uuid "91547ac0-9b3c-4053-bd10-113b4355ccc5")
 		(property "Reference" "J8"
-			(at 40.64 60.96 0)
+			(at 36.83 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +7259,7 @@
 			)
 		)
 		(property "Value" "PACK+"
-			(at 40.64 63.5 0)
+			(at 36.83 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7388,7 +7267,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 40.64 67.31 0)
+			(at 36.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7397,7 +7276,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 67.31 0)
+			(at 36.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7406,7 +7285,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 67.31 0)
+			(at 36.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8068,7 +7947,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 30.48 29.21 180)
+		(at 53.34 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8077,7 +7956,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc5cd5e8-b385-4a7b-ace2-4fe61f4bd9ae")
 		(property "Reference" "J4"
-			(at 30.48 22.86 0)
+			(at 53.34 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8085,7 +7964,7 @@
 			)
 		)
 		(property "Value" "BAT+"
-			(at 30.48 25.4 0)
+			(at 53.34 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8093,7 +7972,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 30.48 29.21 0)
+			(at 53.34 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +7981,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 29.21 0)
+			(at 53.34 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8111,7 +7990,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 29.21 0)
+			(at 53.34 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,7 +8079,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 36.83 29.21 180)
+		(at 59.69 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8209,7 +8088,7 @@
 		(fields_autoplaced yes)
 		(uuid "da5c3a4b-3467-4417-b0b7-0b2d1d3dc95d")
 		(property "Reference" "#FLG01"
-			(at 36.83 31.115 0)
+			(at 59.69 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,7 +8097,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 36.83 34.29 0)
+			(at 59.69 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,7 +8106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 29.21 0)
+			(at 59.69 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,7 +8115,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 29.21 0)
+			(at 59.69 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8245,7 +8124,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 29.21 0)
+			(at 59.69 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9281,66 +9160,6 @@
 			)
 			(uuid "d93c4609-11cc-4b2e-98d8-05b3ba46bfd8")
 		)
-		(pin "PACK_V" output
-			(at 99.06 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5f8441bf-e17b-48bd-870c-520b8f62fd40")
-		)
-		(pin "CP_EN" input
-			(at 99.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "8a1ac3a9-81dd-46a5-befd-201c8565cdfe")
-		)
-		(pin "CHG_EN" input
-			(at 99.06 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3e8f1f63-4c82-432c-8fd7-8a0e75bb623e")
-		)
-		(pin "PMON_EN" input
-			(at 99.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7b738f86-fbae-497c-937b-75206e8cdea8")
-		)
-		(pin "DSG_EN" input
-			(at 99.06 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4d06b148-727c-4bf8-932d-ccb3dab0d20d")
-		)
-		(pin "PCHG_EN" input
-			(at 99.06 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5dda75f8-c066-47fb-8203-a9c0ed549309")
-		)
 		(pin "Charger" input
 			(at 67.31 45.72 180)
 			(effects
@@ -9350,16 +9169,6 @@
 				(justify left)
 			)
 			(uuid "d0160e5d-08f5-4ee7-8cdd-ebc2a3e66229")
-		)
-		(pin "PACK+" bidirectional
-			(at 67.31 67.31 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "934d14ab-3554-4dfb-8c89-5e1a4b19c7a1")
 		)
 		(instances
 			(project "greenmobi-bms"
