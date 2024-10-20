@@ -1,6 +1,6 @@
 # GreenMobi BMS - A BMS board compatible with the VESC BMS firmware
 
-The [VESC BMS board system is under closed development](https://vesc-project.com/node/311) at the time of this writing although the BMS firmware is publicly available so this project consists on a VESC compatible BMS board that is able to run [VESC BMS firmware](https://github.com/vedderb/vesc_bms_fw).
+The [VESC BMS board system is under closed development](https://vesc-project.com/node/311) at the time of this writing although the BMS firmware is publicly available so this project consists on a VESC compatible BMS board that is able to run [VESC BMS firmware](https://github.com/vedderb/vesc_express).
 
 This project is under development and the board is not yet ready. [KiCAD](https://www.kicad.org/) is being used for the board's design and contributions are welcome.
 
