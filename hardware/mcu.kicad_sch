@@ -4286,6 +4286,7 @@
 	)
 	(label "DP"
 		(at 54.61 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4472,6 +4473,7 @@
 	)
 	(label "DN"
 		(at 54.61 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5385,7 +5387,7 @@
 		(fields_autoplaced yes)
 		(uuid "45dfc5f9-fc16-4874-a75d-dc985113aec0")
 		(property "Reference" "D2002"
-			(at 212.09 130.7465 90)
+			(at 212.09 130.7464 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +5396,7 @@
 			)
 		)
 		(property "Value" "Red"
-			(at 212.09 133.2865 90)
+			(at 212.09 133.2864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,7 +5404,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 209.55 132.08 90)
 			(effects
 				(font
@@ -6006,7 +6008,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f3f9990-8584-4a25-a757-32341a320e23")
 		(property "Reference" "D2001"
-			(at 173.99 130.7465 90)
+			(at 173.99 130.7464 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +6017,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 173.99 133.2865 90)
+			(at 173.99 133.2864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6023,7 +6025,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 171.45 132.08 90)
 			(effects
 				(font
