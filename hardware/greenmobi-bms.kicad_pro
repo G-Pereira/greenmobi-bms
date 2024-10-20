@@ -74,6 +74,7 @@
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -482,6 +483,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -646,14 +648,6 @@
     [
       "10854291-e499-47cf-bc6f-4ce26b968542",
       "Frontend"
-    ],
-    [
-      "696fadde-4a78-41e4-9330-aa8318f0eb7b",
-      "OLED"
-    ],
-    [
-      "b1abebf7-38b9-44bd-9506-7ade495be8e0",
-      "Charger monitoring"
     ]
   ],
   "text_variables": {}
