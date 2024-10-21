@@ -1,0 +1,74 @@
+name: Export ECAD
+on:
+  workflow_dispatch:
+  release:
+    types: [ published ]
+    
+jobs:
+  export-ecad:
+    name: Export ECAD
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto
+      
+    steps:
+
+    - name: Generate Short SHA Environment Variable
+      run: echo "SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8`" >> $GITHUB_ENV
+      
+    - name: Update system repositories, Install Required Libraries and Initialize git-lfs
+      run: |
+        apt update
+        apt -y install zip librsvg2-bin imagemagick
+
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+        
+    - name: Extract branch name
+      shell: bash
+      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+      id: extract_branch            
+
+    - name: Update the PCBs with on default branch with git hash
+      if: github.event_name == 'release' || steps.extract_branch.outputs.branch == env.main_branch
+      run: |
+        export COMMIT=$(git rev-parse --short HEAD)
+        echo "COMMIT = ${COMMIT}"    
+        echo "ref: ${{ github.ref }}"
+        echo "default: ${{ env.default }}"
+        sed -i "s!<<hash>>!${COMMIT}!" hardware/greenmobi-bms.kicad_pcb
+
+    - name: Update the PCBs with the git hash and BETA.
+      if: steps.extract_branch.outputs.branch != env.main_branch
+      run: |
+        export COMMIT=$(git rev-parse --short HEAD)
+        echo "COMMIT = ${COMMIT}"
+        sed -i "s!<<hash>>!BETA-${COMMIT}!" hardware/greenmobi-bms.kicad_pcb
+
+    - name: Generate Export Files
+      run: |
+        cd hardware
+        rm -rf greenmobi-bms/
+        kibot -c ../.github/workflows/scripts/config.kibot.yaml -e greenmobi-bms.kicad_sch -b greenmobi-bms.kicad_pcb -d greenmobi-bms
+        zip -r -j GreenMobi-BMS.zip greenmobi-bms/
+
+# Zip and Upload
+
+    - name: Zip Export Files for Release  
+      run: |
+        cd hardware
+        zip -r -j GreenMobi-BMS-${{ github.event.release.tag_name }}.zip greenmobi-bms/
+
+    - name: Upload Export Files as Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: GreenMobi-BMS.zip
+        path: hardware/GreenMobi-BMS.zip
+        if-no-files-found: error
+        retention-days: 60
+
+    - name: Upload Artifacts to Release
+      uses: softprops/action-gh-release@v1
+      if: github.event_name == 'release'
+      with:
+        files: |
+          hardware/GreenMobi-BMS-${{ github.event.release.tag_name }}.zip     
