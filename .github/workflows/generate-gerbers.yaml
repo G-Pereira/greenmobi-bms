@@ -50,9 +50,6 @@ jobs:
         cd hardware
         rm -rf greenmobi-bms/
         kibot -c ../.github/workflows/scripts/config.kibot.yaml -e greenmobi-bms.kicad_sch -b greenmobi-bms.kicad_pcb -d greenmobi-bms -v
-        zip -r -j GreenMobi-BMS.zip greenmobi-bms/
-
-# Zip and Upload
 
     - name: Zip Export Files for Release  
       run: |
@@ -63,7 +60,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: GreenMobi-BMS.zip
-        path: hardware/GreenMobi-BMS.zip
+        path: hardware/greenmobi-bms/
         if-no-files-found: error
         retention-days: 60
 
