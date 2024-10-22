@@ -179,7 +179,7 @@ outputs:
           name: Designator
         - field: Footprint
           name: Footprint
-        - field: JLCPCB
+        - field: LCSC
           name: 'LCSC Part #'
       csv:
         hide_pcb_info: true
