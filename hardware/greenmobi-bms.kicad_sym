@@ -368,7 +368,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 25.4 180)
+				(at 12.7 27.94 180)
 				(length 2.54)
 				(name "REG18"
 					(effects
@@ -566,7 +566,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 27.94 180)
+				(at 12.7 30.48 180)
 				(length 2.54)
 				(name "REG2"
 					(effects
@@ -584,7 +584,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 30.48 180)
+				(at 12.7 33.02 180)
 				(length 2.54)
 				(name "REG1"
 					(effects
@@ -800,7 +800,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 33.02 180)
+				(at 12.7 25.4 180)
 				(length 2.54)
 				(name "CP1"
 					(effects
