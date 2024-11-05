@@ -12,7 +12,7 @@ Since there is not yet a opensource design of a VESC fully compatible BMS this b
 
 - Popular and easy to source connectors are used (JST PH, screw terminals, etc) even if in most end uses it would be better to have weatherproof panel connectors.
 - SMD packages optimized for JLC assembly or PnP on premises (down to 0402 passives).
-- Daisychaining multiple AFEs and ESD protection are targeted to a second iteration of the design.
+- Up to 32S supported.
 
 Here it is a block diagram of the design:
 
@@ -21,6 +21,10 @@ Here it is a block diagram of the design:
 ## Contributions
 
 Since the design is at a schematic phase, it would be helpful if you can review the board's schematic to look for misconnections and erros using any of the given ICs. However, any other kind of productive feedback and work is welcome. Be sure to read the [design approach](#desing-approach) so your contributions match the goals of the project.
+
+### Schematic PDF
+
+To get the latest PDF version of the shematic go to GitHub Actions and download the artifacts of the latest workflow run.
 
 ## Credits
 
