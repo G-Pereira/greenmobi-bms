@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - "**.kicad_sch"
+      - "**.kicad_pcb"
   workflow_dispatch:
   release:
     types: [ published ]
