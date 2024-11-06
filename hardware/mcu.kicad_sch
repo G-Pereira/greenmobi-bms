@@ -4372,6 +4372,28 @@
 		)
 		(uuid "6d4fce1a-6c5e-4909-b8aa-cf525e5dde44")
 	)
+	(label "CAN_EN"
+		(at 125.73 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f2d5138-92f0-4fa2-8664-4985a1ed5d07")
+	)
+	(label "USB"
+		(at 267.97 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "786a1240-f677-483b-8fd7-7b441c9eff38")
+	)
 	(label "LED_RED"
 		(at 195.58 147.32 180)
 		(fields_autoplaced yes)
@@ -4437,6 +4459,17 @@
 			(justify left bottom)
 		)
 		(uuid "b4b7aaf2-cd53-4052-84e8-3fb84978cd07")
+	)
+	(label "USB"
+		(at 49.53 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba38704e-99c6-4c2b-8697-8e967981f0e1")
 	)
 	(label "CAN_TX"
 		(at 160.02 38.1 180)
@@ -4577,18 +4610,6 @@
 		)
 		(uuid "8118fdd0-6c74-473f-9258-e44d2d230586")
 	)
-	(hierarchical_label "USB_DN"
-		(shape bidirectional)
-		(at 92.71 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "82bdb1d7-531d-4dfe-9c29-4981685c5987")
-	)
 	(hierarchical_label "Charger_current"
 		(shape input)
 		(at 86.36 156.21 180)
@@ -4601,42 +4622,6 @@
 		)
 		(uuid "99679f3f-2a64-46d1-b8fa-aea6d93dae24")
 	)
-	(hierarchical_label "USB"
-		(shape bidirectional)
-		(at 49.53 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a03ef5b6-9715-4847-9cbb-a22827d664e1")
-	)
-	(hierarchical_label "USB"
-		(shape bidirectional)
-		(at 267.97 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ad50aaff-e1e5-4a46-bbad-396ffab2927e")
-	)
-	(hierarchical_label "USB_DP"
-		(shape bidirectional)
-		(at 92.71 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b5b94ca3-c2af-4ed5-a3bc-ee76c87d26f3")
-	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
 		(at 59.69 104.14 180)
@@ -4648,18 +4633,6 @@
 			(justify right)
 		)
 		(uuid "cee0d551-ec86-4368-9f50-ee24288299e6")
-	)
-	(hierarchical_label "CAN_EN"
-		(shape output)
-		(at 125.73 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d92421ee-d33c-4152-ade2-f57071b14452")
 	)
 	(hierarchical_label "USB"
 		(shape bidirectional)

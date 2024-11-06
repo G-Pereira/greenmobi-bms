@@ -1137,6 +1137,16 @@
 			)
 			(uuid "580a5db8-bf58-415b-8f79-0c416c074367")
 		)
+		(pin "USB" bidirectional
+			(at 170.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fe12c0be-5763-4d26-af9d-06b04c894a14")
+		)
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
