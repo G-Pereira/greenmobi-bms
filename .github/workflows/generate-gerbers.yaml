@@ -77,4 +77,4 @@ jobs:
         webhook_id: ${{ secrets.WEBHOOK_ID }}
         webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
         message: "New version of the Schematic!"
-        file: greenmobi-bms/greenmobi-bms/Schematic.pdf
+        file: hardware/greenmobi-bms/Schematic.pdf
