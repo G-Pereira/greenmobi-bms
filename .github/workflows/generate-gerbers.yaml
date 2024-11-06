@@ -76,8 +76,22 @@ jobs:
 
     - name: Send Schematic to Discord
       uses: appleboy/discord-action@master
+      if: contains(join(github.event.commits*.added,github.event.commits*.modified,github.event.commits*.removed),'.kicad_sch')
       with:
         webhook_id: ${{ secrets.WEBHOOK_ID }}
         webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
-        message: "New version of the Schematic!"
-        file: hardware/greenmobi-bms/Schematic.pdf
+        message: "There is a new version of the Schematic!"
+        file:
+          - hardware/greenmobi-bms/Schematic.pdf
+
+    - name: Send Schematic to Discord
+      uses: appleboy/discord-action@master
+      if: contains(join(github.event.commits*.added,github.event.commits*.modified,github.event.commits*.removed),'.kicad_pcb')
+      with:
+        webhook_id: ${{ secrets.WEBHOOK_ID }}
+        webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
+        message: "There is a new version of the PCB!"
+        file:
+          - hardware/greenmobi-bms/PCB.pdf
+          - hardware/greenmobi-bms/greenmobi-bms-top.png
+          - hardware/greenmobi-bms/greenmobi-bms-bottom.png
