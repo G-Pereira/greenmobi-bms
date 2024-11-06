@@ -76,7 +76,7 @@ jobs:
 
     - name: Send Schematic to Discord
       uses: appleboy/discord-action@master
-      if: contains(join(github.event.commits.*.added,github.event.commits.*.modified,github.event.commits.*.removed),'.kicad_sch')
+      if: contains(join(github.event.commits.added,github.event.commits.modified,github.event.commits.removed),'.kicad_sch')
       with:
         webhook_id: ${{ secrets.WEBHOOK_ID }}
         webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
