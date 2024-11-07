@@ -62,8 +62,26 @@ jobs:
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: GreenMobi-BMS.zip
-        path: hardware/greenmobi-bms/
+        name: GreenMobi-BMS
+        path: | 
+          hardware/greenmobi-bms/
+          hardware/greenmobi-bms/*.pdf
+        if-no-files-found: error
+        retention-days: 60
+      
+    - name: Upload Schematic PDF as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: Schematic.pdf
+        path: hardware/greenmobi-bms/Schematic.pdf
+        if-no-files-found: error
+        retention-days: 60
+
+    - name: Upload PCB PDF as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: PCB.pdf
+        path: hardware/greenmobi-bms/PCB.pdf
         if-no-files-found: error
         retention-days: 60
 
