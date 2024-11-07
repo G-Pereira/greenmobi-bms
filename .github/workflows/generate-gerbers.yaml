@@ -74,26 +74,17 @@ jobs:
         files: |
           hardware/GreenMobi-BMS-${{ github.event.release.tag_name }}.zip     
 
-    - name: Debugging - List Changed Files
-      run: |
-        echo "Added files: ${{ toJson(github.event.commits.*.added) }}"
-        echo "Modified files: ${{ toJson(github.event.commits.*.modified) }}"
-        echo "Removed files: ${{ toJson(github.event.commits.*.removed) }}"
-    
     - name: Send PCB Schematic to Discord
       uses: appleboy/discord-action@master
-      if: contains(toJson(github.event.commits.*.added), '.kicad_sch') || contains(toJson(github.event.commits.*.modified), '.kicad_sch') || contains(toJson(github.event.commits.*.removed), '.kicad_sch')
       with:
         webhook_id: ${{ secrets.WEBHOOK_ID }}
         webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
-        message: "There is a new version of the Schematic!"
+        message: "There is a new version of the board!"
         file: hardware/greenmobi-bms/Schematic.pdf
 
     - name: Send PCB Layout to Discord
       uses: appleboy/discord-action@master
-      if: contains(toJson(github.event.commits.*.added), '.kicad_pcb') || contains(toJson(github.event.commits.*.modified), '.kicad_pcb') || contains(toJson(github.event.commits.*.removed), '.kicad_pcb')
       with:
         webhook_id: ${{ secrets.WEBHOOK_ID }}
         webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
-        message: "There is a new version of the PCB!"
         file: hardware/greenmobi-bms/PCB.pdf
