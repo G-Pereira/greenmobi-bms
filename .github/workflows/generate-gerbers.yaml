@@ -65,7 +65,7 @@ jobs:
         name: GreenMobi-BMS
         path: | 
           hardware/greenmobi-bms/
-          hardware/greenmobi-bms/*.pdf
+          !hardware/greenmobi-bms/*.pdf
         if-no-files-found: error
         retention-days: 60
       
