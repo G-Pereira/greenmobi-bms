@@ -339,14 +339,14 @@
 		)
 	)
 	(junction
-		(at 59.69 67.31)
+		(at 101.6 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "708d681b-7457-45c4-a75f-13e8c813077a")
 	)
 	(wire
 		(pts
-			(xy 111.76 74.93) (xy 142.24 74.93)
+			(xy 124.46 64.77) (xy 142.24 64.77)
 		)
 		(stroke
 			(width 0)
@@ -356,7 +356,17 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 88.9) (xy 63.5 88.9)
+			(xy 124.46 67.31) (xy 142.24 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4255a9cf-8194-4c75-9119-e678f14a065c")
+	)
+	(wire
+		(pts
+			(xy 146.05 48.26) (xy 124.46 48.26)
 		)
 		(stroke
 			(width 0)
@@ -366,7 +376,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 67.31) (xy 58.42 67.31)
+			(xy 101.6 48.26) (xy 100.33 48.26)
 		)
 		(stroke
 			(width 0)
@@ -376,17 +386,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 77.47) (xy 142.24 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82b79487-3969-49f0-91ce-a8bf72260bb3")
-	)
-	(wire
-		(pts
-			(xy 59.69 67.31) (xy 67.31 67.31)
+			(xy 101.6 48.26) (xy 109.22 48.26)
 		)
 		(stroke
 			(width 0)
@@ -536,13 +536,13 @@
 		(uuid "bf9ce823-20a6-4765-a026-481c03b10d1d")
 	)
 	(label "PACK+"
-		(at 43.18 88.9 0)
+		(at 144.78 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f6e59831-c24a-4142-8276-28f4f0e6589d")
 	)
@@ -678,7 +678,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 59.69 67.31 0)
+		(at 101.6 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -687,7 +687,7 @@
 		(fields_autoplaced yes)
 		(uuid "6481c5ff-d81b-41f8-9ba9-8afacdf0d2db")
 		(property "Reference" "#PWR01001"
-			(at 59.69 71.12 0)
+			(at 101.6 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -696,7 +696,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 59.69 62.23 0)
+			(at 101.6 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -704,7 +704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 67.31 0)
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -713,7 +713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 67.31 0)
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -722,7 +722,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 67.31 0)
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,16 +744,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 36.83 88.9 180)
+		(at 151.13 48.26 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "91547ac0-9b3c-4053-bd10-113b4355ccc5")
 		(property "Reference" "J1004"
-			(at 36.83 82.55 0)
+			(at 151.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -761,7 +761,7 @@
 			)
 		)
 		(property "Value" "PACK+"
-			(at 36.83 85.09 0)
+			(at 151.13 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -769,7 +769,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 36.83 88.9 0)
+			(at 151.13 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -778,7 +778,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 88.9 0)
+			(at 151.13 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -787,7 +787,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 88.9 0)
+			(at 151.13 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -809,7 +809,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 53.34 67.31 180)
+		(at 95.25 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -818,7 +818,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc5cd5e8-b385-4a7b-ace2-4fe61f4bd9ae")
 		(property "Reference" "J1003"
-			(at 53.34 60.96 0)
+			(at 95.25 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -826,7 +826,7 @@
 			)
 		)
 		(property "Value" "BAT+"
-			(at 53.34 63.5 0)
+			(at 95.25 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -834,7 +834,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 53.34 67.31 0)
+			(at 95.25 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -843,7 +843,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 67.31 0)
+			(at 95.25 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -852,7 +852,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 67.31 0)
+			(at 95.25 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -874,7 +874,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 59.69 67.31 180)
+		(at 101.6 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -883,7 +883,7 @@
 		(fields_autoplaced yes)
 		(uuid "da5c3a4b-3467-4417-b0b7-0b2d1d3dc95d")
 		(property "Reference" "#FLG01001"
-			(at 59.69 69.215 0)
+			(at 101.6 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -892,7 +892,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 59.69 72.39 0)
+			(at 101.6 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -901,7 +901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 67.31 0)
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -910,7 +910,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 67.31 0)
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -919,7 +919,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 67.31 0)
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -940,8 +940,8 @@
 		)
 	)
 	(sheet
-		(at 96.52 72.39)
-		(size 15.24 16.51)
+		(at 109.22 45.72)
+		(size 15.24 43.18)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -952,7 +952,7 @@
 		)
 		(uuid "10854291-e499-47cf-bc6f-4ce26b968542")
 		(property "Sheetname" "Frontend"
-			(at 96.52 71.6784 0)
+			(at 109.22 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -961,7 +961,7 @@
 			)
 		)
 		(property "Sheetfile" "frontend.kicad_sch"
-			(at 96.52 89.4846 0)
+			(at 109.22 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -970,7 +970,7 @@
 			)
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 111.76 74.93 0)
+			(at 124.46 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -980,7 +980,7 @@
 			(uuid "1c48768a-de8f-4b71-9b6b-891835f34907")
 		)
 		(pin "I2C_SCL" input
-			(at 111.76 77.47 0)
+			(at 124.46 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -988,6 +988,106 @@
 				(justify right)
 			)
 			(uuid "748a5b36-f4dc-4e25-8201-a05d16e3ff3c")
+		)
+		(pin "BOT_I2C_EN" input
+			(at 124.46 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "effa873c-7fc3-4947-b492-278a4896f2dc")
+		)
+		(pin "TOP_ALERT" output
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3472359f-8555-41c8-8e5e-de1dc088be2a")
+		)
+		(pin "BOT_ALERT" output
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c5046af4-e738-44f4-95f8-2185f74b83aa")
+		)
+		(pin "DFETOFF" input
+			(at 124.46 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e7f6242f-68d9-4b21-8304-3494daab1498")
+		)
+		(pin "CFETOFF" input
+			(at 124.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1f5e4446-4629-46a0-8e62-2f058c2f09cc")
+		)
+		(pin "PACK-" output
+			(at 124.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ed2a3261-9324-4b57-8a00-7f538b084485")
+		)
+		(pin "BAT-" input
+			(at 109.22 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4decf1b5-2ee2-4613-b391-d396faf340d4")
+		)
+		(pin "TOP_I2C_EN" input
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "536de427-77b0-4207-8e9c-0fbdac9b6e8c")
+		)
+		(pin "BAT+" input
+			(at 109.22 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "93d7f157-41ab-4a2c-8c5e-9a180441b1b8")
+		)
+		(pin "PACK+" input
+			(at 124.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e33264bc-2787-4cc7-b43b-fd57df1cd8fe")
 		)
 		(instances
 			(project "greenmobi-bms"
@@ -1028,7 +1128,7 @@
 			)
 		)
 		(pin "SCL" output
-			(at 142.24 77.47 180)
+			(at 142.24 67.31 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1038,7 +1138,7 @@
 			(uuid "e7927af9-81d2-441b-bbcd-ead962b27f23")
 		)
 		(pin "SDA" bidirectional
-			(at 142.24 74.93 180)
+			(at 142.24 64.77 180)
 			(effects
 				(font
 					(size 1.27 1.27)
