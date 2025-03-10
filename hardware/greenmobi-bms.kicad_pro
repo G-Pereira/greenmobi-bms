@@ -665,12 +665,76 @@
       "MCU"
     ],
     [
+      "5010d67a-4eb9-4f33-9977-d1ee68dbd349",
+      "Cell Discharge1"
+    ],
+    [
+      "bb32a0a3-8e2d-4121-ad08-49e4139482ba",
+      "Cell Discharge2"
+    ],
+    [
+      "e7cfac8f-8076-4840-88ff-208b5a92562b",
+      "Cell Discharge"
+    ],
+    [
       "600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8",
       "Power Supply"
     ],
     [
       "10854291-e499-47cf-bc6f-4ce26b968542",
       "Frontend"
+    ],
+    [
+      "b13d811d-80fa-4639-9484-50994b19b392",
+      "Cell Discharge3"
+    ],
+    [
+      "eb545c5b-f2f4-4863-b0b0-5b025d6f2818",
+      "Cell Discharge4"
+    ],
+    [
+      "7e93ed7a-308c-4a1a-8763-d1420a07707d",
+      "Cell Discharge4"
+    ],
+    [
+      "d9674d57-752a-4721-bef5-17721ea30e41",
+      "Cell Discharge4"
+    ],
+    [
+      "986fe2c6-cb30-47f1-962f-cc34651f2eb9",
+      "Cell Discharge5"
+    ],
+    [
+      "ff5958fe-aab0-4b11-92a0-ba1b94420b27",
+      "Cell Discharge5"
+    ],
+    [
+      "a725e1e0-ea70-434a-b15a-111295be3c88",
+      "Cell Discharge5"
+    ],
+    [
+      "f412b0a3-3603-46ae-8fce-adda24336678",
+      "Cell Discharge6"
+    ],
+    [
+      "d3ab348e-3785-4bc4-b32c-2adcbcfaa2d3",
+      "Cell Discharge6"
+    ],
+    [
+      "d6d835c6-ad04-4883-a11c-fbbf281adcad",
+      "Cell Discharge6"
+    ],
+    [
+      "8494e1b0-b853-4a02-b6a5-496b4f49debc",
+      "Cell Discharge7"
+    ],
+    [
+      "d8aa5e74-302b-4613-97ad-fecd4e2f7374",
+      "Cell Discharge7"
+    ],
+    [
+      "556c3299-3449-435c-9f39-b3e196eabb16",
+      "Cell Discharge7"
     ]
   ],
   "text_variables": {}

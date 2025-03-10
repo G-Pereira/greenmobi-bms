@@ -12,7 +12,7 @@ Since there is not yet a opensource design of a VESC fully compatible BMS this b
 
 - Popular and easy to source connectors are used (JST PH, screw terminals, etc) even if in most end uses it would be better to have weatherproof panel connectors.
 - SMD packages optimized for JLC assembly or PnP on premises (down to 0402 passives).
-- Up to 32S supported.
+- Up to 16S supported. It would be greate to suppoert 32S but it requires a speacial circuit to syncronize two AFE modules and this is very time consuming to design and get right so it will be done in a second iteration. So in this iteration we can clear some uncertanties we have while making this BMS compatible with VESC. Anyway, if you feel confident designing that circuit your contribution is very welcomed!
 
 Here it is a block diagram of the design:
 
