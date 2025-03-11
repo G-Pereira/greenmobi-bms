@@ -34,7 +34,7 @@ variants:
 preflight:
   # Disable ERC for now while GPereira updates these items.
   run_erc: false
-  update_xml: false
+  update_xml: true
   # Disable DRC for now while GPereira updates these items.
   run_drc: false
   check_zone_fills: true
