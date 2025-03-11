@@ -665,24 +665,20 @@
       "MCU"
     ],
     [
-      "5010d67a-4eb9-4f33-9977-d1ee68dbd349",
-      "Cell 2 Discharge"
-    ],
-    [
-      "bb32a0a3-8e2d-4121-ad08-49e4139482ba",
-      "Cell 3 Discharge"
-    ],
-    [
-      "e7cfac8f-8076-4840-88ff-208b5a92562b",
-      "Cell 1 Discharge"
-    ],
-    [
       "600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8",
       "Power Supply"
     ],
     [
       "10854291-e499-47cf-bc6f-4ce26b968542",
       "Frontend"
+    ],
+    [
+      "bb32a0a3-8e2d-4121-ad08-49e4139482ba",
+      "Cell 3 Discharge"
+    ],
+    [
+      "5010d67a-4eb9-4f33-9977-d1ee68dbd349",
+      "Cell 2 Discharge"
     ],
     [
       "b13d811d-80fa-4639-9484-50994b19b392",
@@ -735,6 +731,10 @@
     [
       "556c3299-3449-435c-9f39-b3e196eabb16",
       "Cell 16 Discharge"
+    ],
+    [
+      "e7cfac8f-8076-4840-88ff-208b5a92562b",
+      "Cell 1 Discharge"
     ]
   ],
   "text_variables": {}
