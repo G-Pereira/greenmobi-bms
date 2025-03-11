@@ -124,148 +124,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+BATT"
 			(power)
 			(pin_names
@@ -604,13 +462,13 @@
 		)
 	)
 	(junction
-		(at 101.6 58.42)
+		(at 101.6 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02ab3054-6a2f-40d5-9565-839090b9bc65")
 	)
 	(junction
-		(at 101.6 48.26)
+		(at 101.6 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "708d681b-7457-45c4-a75f-13e8c813077a")
@@ -627,6 +485,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 38.1) (xy 106.68 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fcc6809-4629-4853-b84f-5d3ec86c5335")
+	)
+	(wire
+		(pts
 			(xy 124.46 67.31) (xy 142.24 67.31)
 		)
 		(stroke
@@ -637,7 +505,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 48.26) (xy 124.46 48.26)
+			(xy 124.46 38.1) (xy 133.35 38.1)
 		)
 		(stroke
 			(width 0)
@@ -647,7 +515,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 48.26) (xy 100.33 48.26)
+			(xy 101.6 38.1) (xy 100.33 38.1)
 		)
 		(stroke
 			(width 0)
@@ -657,7 +525,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 50.8) (xy 124.46 50.8)
+			(xy 124.46 48.26) (xy 133.35 48.26)
 		)
 		(stroke
 			(width 0)
@@ -667,33 +535,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 58.42) (xy 100.33 58.42)
+			(xy 101.6 48.26) (xy 106.68 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf8e16e-44f1-49d8-95d5-c050d226424e")
+	)
+	(wire
+		(pts
+			(xy 101.6 48.26) (xy 100.33 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a34ad1d4-30c0-4ae2-b1b2-126a8305815f")
-	)
-	(wire
-		(pts
-			(xy 101.6 48.26) (xy 109.22 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a435afe3-86d7-4ed9-aa13-94780181e483")
-	)
-	(wire
-		(pts
-			(xy 101.6 58.42) (xy 109.22 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a91e6346-c472-4435-8375-53c283474cf8")
 	)
 	(label "CHG_EN"
 		(at 142.24 102.87 180)
@@ -806,7 +664,7 @@
 		(uuid "bf9ce823-20a6-4765-a026-481c03b10d1d")
 	)
 	(label "PACK-"
-		(at 133.35 50.8 180)
+		(at 133.35 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -816,7 +674,7 @@
 		(uuid "f4b889db-12a8-44b2-acaf-7307ebbe8ff6")
 	)
 	(label "PACK+"
-		(at 133.35 48.26 180)
+		(at 133.35 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -826,8 +684,75 @@
 		(uuid "f6e59831-c24a-4142-8276-28f4f0e6589d")
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 138.43 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b271d05-ba48-4c40-845a-8260cff7d191")
+		(property "Reference" "J4"
+			(at 140.97 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PACK-"
+			(at 140.97 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
+			(at 138.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5fe231d-94a8-4d4e-b482-523874e177db")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-BATT")
-		(at 101.6 58.42 180)
+		(at 101.6 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -835,8 +760,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32a8a10a-545e-4d77-869d-89ac08c56e84")
-		(property "Reference" "#PWR029"
-			(at 101.6 54.61 0)
+		(property "Reference" "#PWR02"
+			(at 101.6 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -845,7 +770,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 101.6 63.5 0)
+			(at 101.6 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -853,7 +778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 58.42 0)
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,7 +787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 58.42 0)
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,7 +796,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 101.6 58.42 0)
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,275 +810,7 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 101.6 58.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d1fa7e1-5422-4bf6-9b72-7318c1071037")
-		(property "Reference" "#FLG01"
-			(at 101.6 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 101.6 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e8c325a-2037-4d4e-bc30-5116ea431029")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 101.6 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6481c5ff-d81b-41f8-9ba9-8afacdf0d2db")
-		(property "Reference" "#PWR01001"
-			(at 101.6 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 101.6 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10f0dc3d-85d4-4d92-bd87-93ef9b97f201")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "#PWR01001")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 138.43 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9be9716d-68dd-4008-9147-5e11729bf4eb")
-		(property "Reference" "J3"
-			(at 140.97 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PACK"
-			(at 140.97 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT90PW-M_1x02_P10.90mm_Horizontal"
-			(at 138.43 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 138.43 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d48081c7-4512-4ced-8d83-851c3e8050f7")
-		)
-		(pin "2"
-			(uuid "63a376bd-24ce-4fa9-b97f-0b8e078fbf97")
-		)
-		(instances
-			(project ""
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 95.25 58.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3e92609-a4da-4ecf-8a66-bf3311dfd432")
-		(property "Reference" "J2"
-			(at 95.25 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT-"
-			(at 95.25 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 95.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7cc325a5-6e77-437e-9230-51786253b2fa")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "J2")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1168,8 +825,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc5cd5e8-b385-4a7b-ace2-4fe61f4bd9ae")
-		(property "Reference" "J1003"
+		(uuid "4af496ea-937f-4c8e-8b16-9b8b5d51b0a8")
+		(property "Reference" "J2"
 			(at 95.25 41.91 0)
 			(effects
 				(font
@@ -1177,7 +834,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT+"
+		(property "Value" "BAT-"
 			(at 95.25 44.45 0)
 			(effects
 				(font
@@ -1213,12 +870,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "71ebc1c1-07c7-4670-9391-cf6b2fa3a02c")
+			(uuid "c3fe3223-1883-41cf-af34-e75b036c0a44")
 		)
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "J1003")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1226,16 +883,16 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 101.6 48.26 180)
+		(at 101.6 48.26 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da5c3a4b-3467-4417-b0b7-0b2d1d3dc95d")
-		(property "Reference" "#FLG01001"
-			(at 101.6 50.165 0)
+		(uuid "4d1fa7e1-5422-4bf6-9b72-7318c1071037")
+		(property "Reference" "#FLG02"
+			(at 101.6 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +901,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 101.6 53.34 0)
+			(at 101.6 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1280,20 +937,285 @@
 			)
 		)
 		(pin "1"
+			(uuid "7e8c325a-2037-4d4e-bc30-5116ea431029")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 101.6 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6481c5ff-d81b-41f8-9ba9-8afacdf0d2db")
+		(property "Reference" "#PWR01"
+			(at 101.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 101.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10f0dc3d-85d4-4d92-bd87-93ef9b97f201")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 138.43 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8682957a-2980-43c1-9fe7-aa32da90a845")
+		(property "Reference" "J3"
+			(at 140.97 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PACK+"
+			(at 140.97 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
+			(at 138.43 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1e281fb-d08f-45ec-918d-d981f1f2e376")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 95.25 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc5cd5e8-b385-4a7b-ace2-4fe61f4bd9ae")
+		(property "Reference" "J1"
+			(at 95.25 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT+"
+			(at 95.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71ebc1c1-07c7-4670-9391-cf6b2fa3a02c")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 101.6 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da5c3a4b-3467-4417-b0b7-0b2d1d3dc95d")
+		(property "Reference" "#FLG01"
+			(at 101.6 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "c03ef29f-9ca2-4ce1-a65d-fb121b155b45")
 		)
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "#FLG01001")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 109.22 45.72)
-		(size 15.24 43.18)
+		(at 106.68 35.56)
+		(size 17.78 53.34)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1308,7 +1230,7 @@
 		)
 		(uuid "10854291-e499-47cf-bc6f-4ce26b968542")
 		(property "Sheetname" "Frontend"
-			(at 109.22 45.0084 0)
+			(at 106.68 34.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +1239,7 @@
 			)
 		)
 		(property "Sheetfile" "frontend.kicad_sch"
-			(at 109.22 89.4846 0)
+			(at 106.68 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,7 +1318,7 @@
 			)
 		)
 		(pin "PACK-" output
-			(at 124.46 50.8 0)
+			(at 124.46 48.26 0)
 			(uuid "ed2a3261-9324-4b57-8a00-7f538b084485")
 			(effects
 				(font
@@ -1406,7 +1328,7 @@
 			)
 		)
 		(pin "BAT-" input
-			(at 109.22 58.42 180)
+			(at 106.68 48.26 180)
 			(uuid "4decf1b5-2ee2-4613-b391-d396faf340d4")
 			(effects
 				(font
@@ -1426,7 +1348,7 @@
 			)
 		)
 		(pin "BAT+" input
-			(at 109.22 48.26 180)
+			(at 106.68 38.1 180)
 			(uuid "93d7f157-41ab-4a2c-8c5e-9a180441b1b8")
 			(effects
 				(font
@@ -1436,7 +1358,7 @@
 			)
 		)
 		(pin "PACK+" input
-			(at 124.46 48.26 0)
+			(at 124.46 38.1 0)
 			(uuid "e33264bc-2787-4cc7-b43b-fd57df1cd8fe")
 			(effects
 				(font
