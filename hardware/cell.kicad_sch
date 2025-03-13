@@ -1060,7 +1060,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "82"
+		(property "Value" "36"
 			(at 153.67 97.7899 0)
 			(effects
 				(font
@@ -1088,6 +1088,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3000629"
 			(at 151.13 96.52 0)
 			(effects
 				(font
