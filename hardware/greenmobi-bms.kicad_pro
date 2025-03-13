@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 3.4,
+          "width": 1.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -49,10 +49,16 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -185,7 +191,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -212,7 +220,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -673,12 +686,16 @@
       "Frontend"
     ],
     [
-      "bb32a0a3-8e2d-4121-ad08-49e4139482ba",
-      "Cell 3 Discharge"
+      "e7cfac8f-8076-4840-88ff-208b5a92562b",
+      "Cell 1 Discharge"
     ],
     [
       "5010d67a-4eb9-4f33-9977-d1ee68dbd349",
       "Cell 2 Discharge"
+    ],
+    [
+      "bb32a0a3-8e2d-4121-ad08-49e4139482ba",
+      "Cell 3 Discharge"
     ],
     [
       "b13d811d-80fa-4639-9484-50994b19b392",
@@ -731,10 +748,6 @@
     [
       "556c3299-3449-435c-9f39-b3e196eabb16",
       "Cell 16 Discharge"
-    ],
-    [
-      "e7cfac8f-8076-4840-88ff-208b5a92562b",
-      "Cell 1 Discharge"
     ]
   ],
   "text_variables": {}

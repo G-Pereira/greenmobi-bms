@@ -11,7 +11,7 @@
 		(company "GreenMobi")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
+		(symbol "Connector_Generic_MountingPin:Conn_01x02_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -27,12 +27,13 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x02_MountingPin"
+				(at 1.27 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -53,21 +54,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -79,7 +72,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -88,32 +81,43 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_Pin_1_1"
+			(symbol "Conn_01x02_MountingPin_1_1"
 				(rectangle
-					(start 0.8636 0.127)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
 					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(rectangle
-					(start 0.8636 -2.413)
+					(start -1.27 -2.413)
 					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0.8636 0)
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
 					)
 					(stroke
 						(width 0.1524)
@@ -123,20 +127,16 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -154,7 +154,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -171,10 +171,28 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x03"
+		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -190,12 +208,13 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x03_MountingPin"
+				(at 1.27 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -216,7 +235,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -234,7 +253,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -243,7 +262,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_1_1"
+			(symbol "Conn_01x03_MountingPin_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -3.81)
@@ -286,6 +305,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -342,10 +381,28 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x11"
+		(symbol "Connector_Generic_MountingPin:Conn_01x11_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -361,12 +418,13 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x11"
-				(at 0 -15.24 0)
+			(property "Value" "Conn_01x11_MountingPin"
+				(at 1.27 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -387,7 +445,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -405,7 +463,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -414,7 +472,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x11_1_1"
+			(symbol "Conn_01x11_MountingPin_1_1"
 				(rectangle
 					(start -1.27 13.97)
 					(end 1.27 -13.97)
@@ -545,6 +603,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -14.732) (xy 1.016 -14.732)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -14.351 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -738,6 +816,24 @@
 						)
 					)
 					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2044,6 +2140,107 @@
 				)
 			)
 			(symbol "GND_2_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_3_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_3_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -4279,7 +4476,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 95.25) (xy 373.38 95.25)
+			(xy 375.92 80.01) (xy 373.38 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4469,16 +4666,6 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 82.55) (xy 372.11 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "201d9718-fada-466a-b317-d0d796f47b74")
-	)
-	(wire
-		(pts
 			(xy 355.6 118.11) (xy 364.49 118.11)
 		)
 		(stroke
@@ -4629,7 +4816,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 92.71) (xy 375.92 92.71)
+			(xy 374.65 77.47) (xy 375.92 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4839,7 +5026,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 100.33) (xy 370.84 87.63)
+			(xy 370.84 92.71) (xy 370.84 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4999,7 +5186,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 100.33) (xy 370.84 100.33)
+			(xy 375.92 92.71) (xy 370.84 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5439,16 +5626,6 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 105.41) (xy 368.3 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e7676b0-b164-46b9-babe-73903d2c7746")
-	)
-	(wire
-		(pts
 			(xy 180.34 182.88) (xy 180.34 193.04)
 		)
 		(stroke
@@ -5659,7 +5836,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 97.79) (xy 368.3 97.79)
+			(xy 350.52 97.79) (xy 375.92 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5889,7 +6066,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 92.71) (xy 369.57 102.87)
+			(xy 369.57 92.71) (xy 369.57 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5906,16 +6083,6 @@
 			(type default)
 		)
 		(uuid "c18238d5-524c-4d3e-92aa-98130613ed0d")
-	)
-	(wire
-		(pts
-			(xy 372.11 97.79) (xy 375.92 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c21aa441-5e5f-4501-b47e-310c432fda7f")
 	)
 	(wire
 		(pts
@@ -5949,7 +6116,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 95.25) (xy 373.38 77.47)
+			(xy 373.38 80.01) (xy 373.38 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6029,7 +6196,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 82.55) (xy 372.11 82.55)
+			(xy 350.52 82.55) (xy 375.92 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6269,7 +6436,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 72.39) (xy 374.65 92.71)
+			(xy 374.65 72.39) (xy 374.65 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6289,7 +6456,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 102.87) (xy 375.92 102.87)
+			(xy 369.57 95.25) (xy 375.92 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6476,16 +6643,6 @@
 			(type default)
 		)
 		(uuid "f4833362-fbbd-4af0-b58b-267f5f5463e4")
-	)
-	(wire
-		(pts
-			(xy 368.3 105.41) (xy 368.3 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6428361-2725-4e79-a6a9-cbf932612299")
 	)
 	(wire
 		(pts
@@ -7346,7 +7503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04676187-2ebd-483b-a179-08a9e8a67978")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR040"
 			(at 364.49 204.47 0)
 			(effects
 				(font
@@ -7396,15 +7553,16 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "#PWR037")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x11")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x11_MountingPin")
 		(at 381 120.65 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7413,7 +7571,7 @@
 		(fields_autoplaced yes)
 		(uuid "0539b9f2-164f-46e9-abb9-18717133eeb6")
 		(property "Reference" "J11"
-			(at 383.54 119.3799 0)
+			(at 383.54 119.0243 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7421,8 +7579,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x11"
-			(at 383.54 121.9199 0)
+		(property "Value" "Conn_01x11_MountingPin"
+			(at 383.54 121.5643 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7448,7 +7606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 381 120.65 0)
 			(effects
 				(font
@@ -7498,6 +7656,9 @@
 		)
 		(pin "8"
 			(uuid "ba97b024-e5ee-40bd-9cef-ca787d083f41")
+		)
+		(pin "MP"
+			(uuid "96c801f3-0e87-4836-8666-549c27e2ff14")
 		)
 		(instances
 			(project ""
@@ -7578,9 +7739,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
 		(at 369.57 195.58 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7588,7 +7748,7 @@
 		(dnp no)
 		(uuid "0c587f3e-26d5-478b-beae-ef569c755e9d")
 		(property "Reference" "J8"
-			(at 374.65 195.58 0)
+			(at 372.618 194.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7596,11 +7756,12 @@
 			)
 		)
 		(property "Value" "EXT_NTC"
-			(at 374.65 198.12 0)
+			(at 371.348 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
@@ -7621,7 +7782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 369.57 195.58 0)
 			(effects
 				(font
@@ -7635,6 +7796,9 @@
 		)
 		(pin "1"
 			(uuid "2df2bcd9-311b-45eb-8c91-484d7625e770")
+		)
+		(pin "MP"
+			(uuid "bb8d6a4d-5d30-4e28-a5dc-e56bd5acfadd")
 		)
 		(instances
 			(project "greenmobi-bms"
@@ -7655,7 +7819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c8cd6e4-fb11-41c6-ac24-415273790997")
-		(property "Reference" "C20"
+		(property "Reference" "C19"
 			(at 336.55 161.2962 0)
 			(effects
 				(font
@@ -7709,7 +7873,140 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "C20")
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 369.57 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14aabaf6-f672-4bc7-90c7-b32985c8e7cd")
+		(property "Reference" "#PWR044"
+			(at 369.57 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 369.57 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 369.57 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b637dfba-4f9f-49fa-99da-36d581b5d651")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 347.98 203.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "267ca283-244a-45ed-9cf1-3ffd2361931f")
+		(property "Reference" "#PWR045"
+			(at 347.98 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 347.98 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 347.98 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a256bee-d827-4e7c-9773-876f084778d7")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7725,7 +8022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d31a5ea-39fa-4e4b-8b0e-906a1e29068d")
-		(property "Reference" "R39"
+		(property "Reference" "R27"
 			(at 187.96 64.7699 0)
 			(effects
 				(font
@@ -7779,7 +8076,7 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "R39")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7794,7 +8091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2dbce6f2-c410-4953-adce-04121ecf39ec")
-		(property "Reference" "C17"
+		(property "Reference" "C16"
 			(at 175.2663 186.69 90)
 			(effects
 				(font
@@ -7846,7 +8143,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "C17")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7917,6 +8214,74 @@
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
 					(reference "TH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_3")
+		(lib_id "power:GND")
+		(at 381 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33d4e66a-b859-411b-9030-6e782dbec531")
+		(property "Reference" "#PWR042"
+			(at 387.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 384.81 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 381 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65154f4a-66d4-4e7b-81b9-ae37779d2338")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8001,7 +8366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a503f05-41a3-4c75-b382-c8b9c665bc1a")
-		(property "Reference" "Q9"
+		(property "Reference" "Q6"
 			(at 181.61 57.1499 0)
 			(effects
 				(font
@@ -8061,7 +8426,7 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "Q9")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -8077,7 +8442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ae673a3-25a3-486d-b0b2-16022ab76c7f")
-		(property "Reference" "R41"
+		(property "Reference" "R29"
 			(at 198.12 71.1199 0)
 			(effects
 				(font
@@ -8131,7 +8496,7 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "R41")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -8147,7 +8512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40ca27a4-2de6-4319-9828-d8f04f17b85b")
-		(property "Reference" "R42"
+		(property "Reference" "R30"
 			(at 210.82 53.3399 0)
 			(effects
 				(font
@@ -8201,7 +8566,7 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "R42")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -8217,7 +8582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "420cfc41-4bf0-4003-87e6-d29b860796e0")
-		(property "Reference" "R33"
+		(property "Reference" "R21"
 			(at 132.08 62.2299 0)
 			(effects
 				(font
@@ -8271,7 +8636,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "R33")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8286,7 +8651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4573a8a2-d5ea-4678-93e4-d37fa2473b69")
-		(property "Reference" "R43"
+		(property "Reference" "R31"
 			(at 344.17 160.02 90)
 			(effects
 				(font
@@ -8338,7 +8703,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "R43")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -8425,7 +8790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e2effd2-e1ba-4834-9066-bba462123ceb")
-		(property "Reference" "R37"
+		(property "Reference" "R25"
 			(at 175.26 214.63 90)
 			(effects
 				(font
@@ -8477,7 +8842,7 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "R37")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -8494,7 +8859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52e24fc8-9eff-46a5-a5fb-33237fafb329")
-		(property "Reference" "Q7"
+		(property "Reference" "Q4"
 			(at 129.54 44.45 90)
 			(effects
 				(font
@@ -8570,7 +8935,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "Q7")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -8587,7 +8952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "530ebe1d-d8ed-419b-9992-01787110690a")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR038"
 			(at 334.01 172.72 0)
 			(effects
 				(font
@@ -8637,15 +9002,16 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "#PWR035")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 381 95.25 0)
+		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(at 381 80.01 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8654,7 +9020,7 @@
 		(fields_autoplaced yes)
 		(uuid "53269cb1-c633-4d98-8633-ea9f7ce036e5")
 		(property "Reference" "J9"
-			(at 383.54 93.9799 0)
+			(at 383.54 78.3843 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8662,8 +9028,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
-			(at 383.54 96.5199 0)
+		(property "Value" "Conn_01x03_MountingPin"
+			(at 383.54 80.9243 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8672,7 +9038,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal"
-			(at 381 95.25 0)
+			(at 381 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8681,7 +9047,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381 95.25 0)
+			(at 381 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,8 +9055,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 381 95.25 0)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 381 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8699,7 +9065,7 @@
 			)
 		)
 		(property "LCSC" "C2845443"
-			(at 381 95.25 0)
+			(at 381 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8715,6 +9081,9 @@
 		)
 		(pin "1"
 			(uuid "bd819c28-e884-45b5-bb5c-f756c70d8079")
+		)
+		(pin "MP"
+			(uuid "940c38d2-0aa4-4640-a2fd-9fe2b4827262")
 		)
 		(instances
 			(project "greenmobi-bms"
@@ -8734,7 +9103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56b0a493-b8fe-427d-bf3a-712b65ceeaab")
-		(property "Reference" "Q8"
+		(property "Reference" "Q5"
 			(at 149.86 44.45 90)
 			(effects
 				(font
@@ -8810,7 +9179,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "Q8")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -8826,7 +9195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "583ed651-e2cb-44cd-b926-c75d5ab9e209")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR037"
 			(at 322.58 208.28 0)
 			(effects
 				(font
@@ -8876,7 +9245,75 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "#PWR034")
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_3")
+		(lib_id "power:GND")
+		(at 381 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "625a15e7-db88-4220-82f4-f389e0b372b4")
+		(property "Reference" "#PWR043"
+			(at 387.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 384.81 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 381 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42c73eb3-b25f-4417-8b7d-b70294270734")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8892,7 +9329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ac4e877-6d87-444b-ae38-720a21694d96")
-		(property "Reference" "R40"
+		(property "Reference" "R28"
 			(at 187.96 126.9999 0)
 			(effects
 				(font
@@ -8946,7 +9383,7 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "R40")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -8963,7 +9400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6da1b377-67e8-48f4-88a9-9efdcc284d5c")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 185.42 143.51 0)
 			(effects
 				(font
@@ -9013,7 +9450,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9029,7 +9466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e7418df-9c59-4dbc-b1ec-3aca8f22c959")
-		(property "Reference" "R38"
+		(property "Reference" "R26"
 			(at 182.88 207.0099 0)
 			(effects
 				(font
@@ -9083,7 +9520,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "R38")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -9099,7 +9536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "721900bd-9314-463f-b071-1f9a8892121b")
-		(property "Reference" "R34"
+		(property "Reference" "R22"
 			(at 152.4 62.2299 0)
 			(effects
 				(font
@@ -9153,7 +9590,7 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "R34")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -9169,7 +9606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76c9d17d-7c25-4e83-b84a-b7740a3caf94")
-		(property "Reference" "R35"
+		(property "Reference" "R23"
 			(at 162.56 59.6899 0)
 			(effects
 				(font
@@ -9223,7 +9660,78 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "R35")
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
+		(at 347.98 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "794b7b3a-e78a-4fcf-855e-615c03a4288d")
+		(property "Reference" "J12"
+			(at 351.536 194.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EXT_NTC"
+			(at 349.758 196.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 347.98 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 347.98 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 347.98 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f58fff8-ea60-4c85-94e0-87a0fdf821c0")
+		)
+		(pin "1"
+			(uuid "9e9b8ba7-6f5a-4f68-b124-cd3ac95b7c10")
+		)
+		(pin "MP"
+			(uuid "7c5c6c82-1ee9-4db0-a749-179fbda0aafe")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -9300,8 +9808,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 381 102.87 0)
+		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(at 381 95.25 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9310,7 +9819,7 @@
 		(fields_autoplaced yes)
 		(uuid "986c7af9-ae7b-478c-b8a3-488a66dec50e")
 		(property "Reference" "J10"
-			(at 383.54 101.5999 0)
+			(at 383.54 93.6243 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9318,8 +9827,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
-			(at 383.54 104.1399 0)
+		(property "Value" "Conn_01x03_MountingPin"
+			(at 383.54 96.1643 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9328,7 +9837,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal"
-			(at 381 102.87 0)
+			(at 381 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9337,7 +9846,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381 102.87 0)
+			(at 381 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9345,8 +9854,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 381 102.87 0)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 381 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9355,7 +9864,7 @@
 			)
 		)
 		(property "LCSC" "C2845443"
-			(at 381 102.87 0)
+			(at 381 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9372,10 +9881,81 @@
 		(pin "1"
 			(uuid "a11f9634-800e-4d84-961c-90f677c8a52f")
 		)
+		(pin "MP"
+			(uuid "c79704ad-2ee5-4931-99f5-fdcfeb2b20fc")
+		)
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_3")
+		(lib_id "power:GND")
+		(at 381 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d7cf649-bcda-4ca7-b6af-9836bc9e285d")
+		(property "Reference" "#PWR041"
+			(at 387.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 384.81 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 381 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5db0a4bb-4c87-4d7c-b59b-d17ec4274420")
+		)
+		(instances
+			(project ""
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9392,7 +9972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0be7948-3af7-42e8-8068-05cf8d9ad3ec")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR034"
 			(at 153.67 196.85 0)
 			(effects
 				(font
@@ -9442,7 +10022,7 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "#PWR031")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9459,7 +10039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab539dd7-a671-4db4-8132-96a30d0d13f9")
-		(property "Reference" "R32"
+		(property "Reference" "R20"
 			(at 116.84 57.1499 0)
 			(effects
 				(font
@@ -9513,7 +10093,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "R32")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9530,7 +10110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad60464d-415c-46d7-a9a0-6a89846fc2c1")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR039"
 			(at 342.9 204.47 0)
 			(effects
 				(font
@@ -9580,7 +10160,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "#PWR036")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -9596,7 +10176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afdb7a69-980e-4bfa-ae3b-1c1ab05f769d")
-		(property "Reference" "C19"
+		(property "Reference" "C18"
 			(at 187.96 133.3562 0)
 			(effects
 				(font
@@ -9650,7 +10230,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "C19")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -9666,7 +10246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5642f93-3cce-45d6-b90c-b8241fedcca5")
-		(property "Reference" "C16"
+		(property "Reference" "C15"
 			(at 177.8 133.3562 0)
 			(effects
 				(font
@@ -9720,7 +10300,7 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "C16")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -9737,7 +10317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c153b817-0265-4464-a0e7-dc65b05d8473")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR035"
 			(at 175.26 143.51 0)
 			(effects
 				(font
@@ -9787,7 +10367,7 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "#PWR032")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9803,7 +10383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce91c7a1-2f63-40b6-8146-f4584c6cbbf5")
-		(property "Reference" "R31"
+		(property "Reference" "R19"
 			(at 102.87 63.5 90)
 			(effects
 				(font
@@ -9855,7 +10435,7 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "R31")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -9870,7 +10450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d61c5e55-f33e-4dc2-abd7-0ab53cfb408a")
-		(property "Reference" "C18"
+		(property "Reference" "C17"
 			(at 175.2663 196.85 90)
 			(effects
 				(font
@@ -9922,75 +10502,7 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 347.98 195.58 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "db7eab19-9655-423c-aa60-ce40df01888b")
-		(property "Reference" "J7"
-			(at 353.06 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EXT_NTC"
-			(at 353.06 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
-			(at 347.98 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 347.98 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 347.98 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "db7ee03b-9155-45cc-9047-77a1e2e7fea9")
-		)
-		(pin "1"
-			(uuid "344ed508-ed5c-4dec-9c58-37b019f6103e")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "J7")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -10006,7 +10518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e840a383-2fe3-4ba5-ad1a-10bc4dc5e71e")
-		(property "Reference" "R36"
+		(property "Reference" "R24"
 			(at 172.72 207.0099 0)
 			(effects
 				(font
@@ -10060,7 +10572,7 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "R36")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -10524,7 +11036,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(page "19")
+					(page "20")
 				)
 			)
 		)
@@ -10608,7 +11120,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(page "9")
+					(page "10")
 				)
 			)
 		)
@@ -10692,7 +11204,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(page "17")
+					(page "18")
 				)
 			)
 		)
@@ -10776,7 +11288,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(page "11")
+					(page "12")
 				)
 			)
 		)
@@ -10860,7 +11372,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(page "13")
+					(page "14")
 				)
 			)
 		)
@@ -10944,7 +11456,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(page "7")
+					(page "8")
 				)
 			)
 		)
@@ -11028,7 +11540,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(page "5")
+					(page "7")
 				)
 			)
 		)
@@ -11112,7 +11624,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(page "15")
+					(page "16")
 				)
 			)
 		)
@@ -11196,7 +11708,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(page "16")
+					(page "17")
 				)
 			)
 		)
@@ -11280,7 +11792,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(page "18")
+					(page "19")
 				)
 			)
 		)
@@ -11364,7 +11876,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(page "10")
+					(page "11")
 				)
 			)
 		)
@@ -11447,7 +11959,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(page "20")
+					(page "5")
 				)
 			)
 		)
@@ -11531,7 +12043,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(page "8")
+					(page "9")
 				)
 			)
 		)
@@ -11615,7 +12127,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(page "14")
+					(page "15")
 				)
 			)
 		)
@@ -11699,7 +12211,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(page "12")
+					(page "13")
 				)
 			)
 		)
