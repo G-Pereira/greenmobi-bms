@@ -11,6 +11,113 @@
 		(company "GreenMobi")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic_MountingPin:Conn_01x02_MountingPin"
 			(pin_names
 				(offset 1.016)
@@ -3039,6 +3146,24 @@
 				(pin output line
 					(at -12.7 33.02 0)
 					(length 2.54)
+					(name "BREG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 30.48 0)
+					(length 2.54)
 					(name "CHG"
 						(effects
 							(font
@@ -3055,7 +3180,7 @@
 					)
 				)
 				(pin output line
-					(at -12.7 30.48 0)
+					(at -12.7 27.94 0)
 					(length 2.54)
 					(name "DSG"
 						(effects
@@ -3073,7 +3198,7 @@
 					)
 				)
 				(pin output line
-					(at -12.7 27.94 0)
+					(at -12.7 25.4 0)
 					(length 2.54)
 					(name "PCHG"
 						(effects
@@ -3091,7 +3216,7 @@
 					)
 				)
 				(pin output line
-					(at -12.7 25.4 0)
+					(at -12.7 22.86 0)
 					(length 2.54)
 					(name "PDSG"
 						(effects
@@ -3101,24 +3226,6 @@
 						)
 					)
 					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 22.86 0)
-					(length 2.54)
-					(name "BREG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4404,6 +4511,34 @@
 		(color 0 0 0 0)
 		(uuid "fb0a675e-33ed-4850-992c-c675717a1e18")
 	)
+	(no_connect
+		(at 140.97 154.94)
+		(uuid "0ac70913-9af4-4288-9757-a83610498ffc")
+	)
+	(no_connect
+		(at 140.97 127)
+		(uuid "1b4226a3-157b-4835-9c4a-591a28b7b1f7")
+	)
+	(no_connect
+		(at 140.97 172.72)
+		(uuid "4ad1bd27-b36e-4676-a879-a513eb2ac161")
+	)
+	(no_connect
+		(at 140.97 170.18)
+		(uuid "b043ee50-4060-456a-9633-b167559a3a84")
+	)
+	(no_connect
+		(at 140.97 129.54)
+		(uuid "c6210a21-65b4-44bc-b95c-b3efe10b360f")
+	)
+	(no_connect
+		(at 140.97 124.46)
+		(uuid "de3c96bb-12b5-448b-b8af-86328fa526bb")
+	)
+	(no_connect
+		(at 140.97 121.92)
+		(uuid "e1bd242f-17ec-44aa-8a17-b4ab3cd1a2e8")
+	)
 	(wire
 		(pts
 			(xy 350.52 74.93) (xy 349.25 74.93)
@@ -4483,6 +4618,16 @@
 			(type default)
 		)
 		(uuid "06f35a5b-9778-4332-a546-f88a8624e3f0")
+	)
+	(wire
+		(pts
+			(xy 123.19 149.86) (xy 140.97 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076de4a9-ac3f-4f8a-82f2-cc7017b71bd0")
 	)
 	(wire
 		(pts
@@ -6516,6 +6661,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 162.56) (xy 140.97 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede43c3d-e29f-4fb0-b0fd-d4ecaacc2512")
+	)
+	(wire
+		(pts
 			(xy 350.52 148.59) (xy 350.52 146.05)
 		)
 		(stroke
@@ -6653,6 +6808,16 @@
 			(type default)
 		)
 		(uuid "fb3d9843-24fc-453b-8821-fee3c09b1e4e")
+	)
+	(wire
+		(pts
+			(xy 123.19 160.02) (xy 140.97 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce498ad-91fb-4f61-8f59-47aac4e84eb0")
 	)
 	(wire
 		(pts
@@ -7294,41 +7459,6 @@
 		)
 		(uuid "ff71c14f-da8b-49b8-920c-f1763050ece2")
 	)
-	(hierarchical_label "DSG"
-		(shape input)
-		(at 140.97 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "32d4afcd-4e6d-430e-8c09-a896c1b9c986")
-	)
-	(hierarchical_label "DFETOFF"
-		(shape input)
-		(at 140.97 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "42eab493-c1ad-4d24-84bc-96f9a13ab19b")
-	)
-	(hierarchical_label "CHG"
-		(shape input)
-		(at 140.97 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "42f556c2-6a61-4314-9240-8c774f1b465c")
-	)
 	(hierarchical_label "PACK-"
 		(shape input)
 		(at 227.33 76.2 0)
@@ -7384,30 +7514,6 @@
 		)
 		(uuid "6c352242-4f27-4ad7-a7db-4d9f0ceb9706")
 	)
-	(hierarchical_label "PDSG"
-		(shape input)
-		(at 140.97 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "84c394be-5743-4b4b-8e15-5a88a54c9b84")
-	)
-	(hierarchical_label "PCHG"
-		(shape input)
-		(at 140.97 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "9fb43cec-f93f-4f24-b2cb-643499792316")
-	)
 	(hierarchical_label "BAT-"
 		(shape input)
 		(at 189.23 220.98 0)
@@ -7430,27 +7536,16 @@
 		)
 		(uuid "b48b3302-10cf-48c0-9a9b-e134f8da1245")
 	)
-	(hierarchical_label "CFETOFF"
+	(hierarchical_label "EN"
 		(shape input)
-		(at 140.97 172.72 180)
+		(at 140.97 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e52856e6-9966-41c1-a783-b2600f2d8e48")
-	)
-	(hierarchical_label "ALERT"
-		(shape output)
-		(at 140.97 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f4dbdf2a-8b4c-4568-abc4-ab90d9f92764")
+		(uuid "e83169a3-4151-48c0-8527-cf1a1457c1cc")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -8827,7 +8922,7 @@
 				)
 			)
 		)
-		(property "Value" "IPTC025N15NM6"
+		(property "Value" "AGM015N10LL"
 			(at 129.54 46.99 90)
 			(effects
 				(font
@@ -9055,6 +9150,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 123.19 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53cf723d-5e3b-406f-95cc-2310ba32dc48")
+		(property "Reference" "TP3"
+			(at 125.73 145.2879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 125.73 147.8279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 123.19 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "717cf224-39e4-4b21-b995-619e1e652cbf")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:IPT015N10N5")
 		(at 149.86 53.34 90)
 		(unit 1)
@@ -9071,7 +9233,7 @@
 				)
 			)
 		)
-		(property "Value" "IPTC025N15NM6"
+		(property "Value" "AGM015N10LL"
 			(at 149.86 46.99 90)
 			(effects
 				(font
@@ -9989,6 +10151,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 110.49 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a382a69e-213a-441a-aa3c-038efaa85d1e")
+		(property "Reference" "TP2"
+			(at 113.03 157.9879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 113.03 160.5279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 110.49 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88b07cea-831d-43c4-be00-772362520f78")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 119.38 58.42 0)
 		(mirror y)
@@ -10546,7 +10775,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f4db0782-e740-4c40-854b-84c042ca4752")
 		(property "Reference" "U5"
 			(at 155.8641 111.76 0)
@@ -10741,6 +10969,73 @@
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 123.19 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb6332b3-f344-4e73-90e4-59dab4b6b40f")
+		(property "Reference" "TP1"
+			(at 125.73 155.4479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 125.73 157.9879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 123.19 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc343cb0-ba9a-4635-acce-6833ebe42195")
+		)
+		(instances
+			(project ""
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
