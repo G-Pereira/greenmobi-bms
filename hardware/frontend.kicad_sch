@@ -8922,7 +8922,7 @@
 				)
 			)
 		)
-		(property "Value" "AGM015N10LL"
+		(property "Value" "IPT015N10N5"
 			(at 129.54 46.99 90)
 			(effects
 				(font
@@ -9233,7 +9233,7 @@
 				)
 			)
 		)
-		(property "Value" "AGM015N10LL"
+		(property "Value" "IPT015N10N5"
 			(at 149.86 46.99 90)
 			(effects
 				(font
