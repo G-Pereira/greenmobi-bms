@@ -704,10 +704,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e1e3b03-32a3-40da-9fa5-76b2bfe93c1b")
+			(uuid "54db1c48-3935-4cb2-b325-bfe0c429705f")
 		)
 		(pin "2"
-			(uuid "2353db89-53d9-4c77-b025-0ebcec9dff77")
+			(uuid "322ed7a4-0b2f-405d-839a-7708e3b3a3eb")
 		)
 		(instances
 			(project "greenmobi-bms"
@@ -901,13 +901,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "80371253-16e1-4a20-b190-13375e401904")
+			(uuid "f4edebfe-0979-4ee3-a876-7ede6dd9571c")
 		)
 		(pin "3"
-			(uuid "bdd79ccd-cf01-4b42-8fe1-bba2833ef609")
+			(uuid "2192ef83-1700-48f4-9602-e721c94b60f7")
 		)
 		(pin "1"
-			(uuid "e8eb5457-b3ff-47cf-b5c9-dd9201973c7b")
+			(uuid "e1ab89ba-3f56-4c24-9886-fdcd00444710")
 		)
 		(instances
 			(project "greenmobi-bms"
@@ -1095,10 +1095,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "912dd724-4339-4374-a996-d7f2ae279461")
+			(uuid "96c99388-e9bc-4085-be59-d9f9e6d7c65b")
 		)
 		(pin "2"
-			(uuid "d0a340f6-cc35-422f-89ce-276326abf3b2")
+			(uuid "886d579c-6ca0-477c-80d3-020953e531b3")
 		)
 		(instances
 			(project "greenmobi-bms"
@@ -1298,10 +1298,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7ea40a74-1eb5-497f-8cff-c673f84f6edf")
+			(uuid "f7975925-873e-4541-8795-1e4ec4dbe550")
 		)
 		(pin "1"
-			(uuid "35a890a8-79e2-43e7-a206-488a97a3ac39")
+			(uuid "d80833e8-07b2-4ad5-8611-43b0ee2ee4db")
 		)
 		(instances
 			(project "greenmobi-bms"
@@ -1490,10 +1490,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ba67d5b-3b89-4f90-92c5-8b67192b8718")
+			(uuid "35006b12-d221-46af-9b13-1f7f8328b043")
 		)
 		(pin "2"
-			(uuid "ac677fce-52be-44d5-a210-270068c77405")
+			(uuid "9ebd73d6-d49e-461c-8dde-c4676b576bfc")
 		)
 		(instances
 			(project "greenmobi-bms"
