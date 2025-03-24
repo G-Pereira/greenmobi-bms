@@ -565,10 +565,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:TPS7A0533PDBZ"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -580,7 +577,7 @@
 					)
 				)
 			)
-			(property "Value" "TPS7A0533PDBZ"
+			(property "Value" "AMS1117-3.3"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -589,7 +586,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -598,8 +595,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a05.pdf"
-				(at 0 -1.27 0)
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -607,7 +604,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "200-mA Ultra-Low-Iq LDO, 3.3V, SOT-23-3"
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -616,7 +613,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Single Output LDO Low-Iq"
+			(property "ki_keywords" "linear regulator ldo fixed positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -625,7 +622,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -634,7 +631,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TPS7A0533PDBZ_0_1"
+			(symbol "AMS1117-3.3_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -647,7 +644,7 @@
 					)
 				)
 			)
-			(symbol "TPS7A0533PDBZ_1_1"
+			(symbol "AMS1117-3.3_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -3386,77 +3383,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:TPS7A0533PDBZ")
-		(at 130.81 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b7b059f-4c0c-4d5c-bebe-c9c1d27598c0")
-		(property "Reference" "U4"
-			(at 130.81 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS7A0533PDBZ"
-			(at 130.81 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 130.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a05.pdf"
-			(at 130.81 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e02ea134-addd-461a-bb4f-95028fb1ac2d")
-		)
-		(pin "1"
-			(uuid "5c613509-de7a-46f2-a0f7-35a2f13ef37c")
-		)
-		(pin "3"
-			(uuid "1bba5388-eee5-4c88-9562-675b7c204789")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 180.34 64.77 0)
 		(unit 1)
@@ -4251,6 +4177,77 @@
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
 					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 130.81 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df4fe21e-9961-454b-a2a4-6e9b41078332")
+		(property "Reference" "U4"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3.3"
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 130.81 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 130.81 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4e40aade-902b-47bf-925a-6da2f3cf7e2d")
+		)
+		(pin "2"
+			(uuid "b0f682f2-9eb8-4700-bf8f-edac44ecd56a")
+		)
+		(pin "1"
+			(uuid "bb887b72-419c-4858-9382-2c84d6a2e30d")
+		)
+		(instances
+			(project ""
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
+					(reference "U4")
 					(unit 1)
 				)
 			)
