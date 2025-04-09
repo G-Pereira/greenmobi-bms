@@ -11,113 +11,6 @@
 		(company "GreenMobi")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic_MountingPin:Conn_01x02_MountingPin"
 			(pin_names
 				(offset 1.016)
@@ -1213,7 +1106,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Thermistor_NTC"
+		(symbol "Device:Thermistor"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1224,23 +1117,24 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "TH"
-				(at -4.445 0 90)
+				(at 2.54 1.27 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Thermistor_NTC"
-				(at 3.175 0 90)
+			(property "Value" "Thermistor"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 1.27 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1249,15 +1143,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Temperature dependent resistor, negative temperature coefficient"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1266,7 +1151,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "thermistor NTC resistor sensor RTD"
+			(property "Description" "Temperature dependent resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1275,7 +1160,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
+			(property "ki_keywords" "R res thermistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1284,143 +1169,20 @@
 					(hide yes)
 				)
 			)
-			(symbol "Thermistor_NTC_0_1"
-				(arc
-					(start -3.175 2.413)
-					(mid -3.0506 2.3165)
-					(end -3.048 2.159)
-					(stroke
-						(width 0)
-						(type default)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
-				(arc
-					(start -3.048 2.794)
-					(mid -2.9736 2.9736)
-					(end -2.794 3.048)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 3.048)
-					(mid -2.6144 2.9736)
-					(end -2.54 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 2.54)
-					(mid -2.9736 2.6144)
-					(end -3.048 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 1.905)
-					(mid -2.9736 1.9794)
-					(end -3.048 2.159)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.159)
-					(mid -2.6144 1.9794)
-					(end -2.794 1.905)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.159 2.794)
-					(mid -2.434 2.5608)
-					(end -2.794 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "Thermistor_0_1"
 				(polyline
 					(pts
-						(xy -2.54 2.159) (xy -2.54 2.794)
+						(xy -1.905 3.175) (xy -1.905 1.905) (xy 1.905 -1.905) (xy 1.905 -3.175) (xy 1.905 -3.175)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.397) (xy -1.778 -3.683) (xy -2.032 -2.921) (xy -1.524 -2.921) (xy -1.778 -3.683)
-						(xy -1.778 -3.429)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1429,11 +1191,22 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "Thermistor_NTC_1_1"
+			(symbol "Thermistor_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 0 5.08 270)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -1450,8 +1223,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 0 -5.08 90)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -3875,18 +3648,6 @@
 		)
 	)
 	(rectangle
-		(start 31.75 237.49)
-		(end 99.06 262.89)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c5c956a1-bd0d-4e34-b0f3-348821166456)
-	)
-	(rectangle
 		(start 304.8 24.13)
 		(end 383.54 246.38)
 		(stroke
@@ -3900,7 +3661,7 @@
 	)
 	(text "PCB"
 		(exclude_from_sim no)
-		(at 37.338 241.046 0)
+		(at 20.066 256.286 0)
 		(effects
 			(font
 				(size 1.8796 1.8796)
@@ -3921,20 +3682,9 @@
 		)
 		(uuid "3a2e98a0-8de1-4137-9d93-2757469b0b4d")
 	)
-	(text "Cells"
-		(exclude_from_sim no)
-		(at 56.134 240.792 0)
-		(effects
-			(font
-				(size 1.8796 1.8796)
-				(thickness 0.235)
-			)
-		)
-		(uuid "4914b438-87dc-4476-a0ef-060e584407bd")
-	)
 	(text "Temperature sensors"
 		(exclude_from_sim no)
-		(at 51.435 234.315 0)
+		(at 36.195 250.825 0)
 		(effects
 			(font
 				(size 2.3368 2.3368)
@@ -4111,6 +3861,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "506e065a-d2e8-4b1b-920f-0269b7b621c4")
+	)
+	(junction
+		(at 119.38 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52ddc3de-cd4a-4388-bb6d-e0047e9d936d")
 	)
 	(junction
 		(at 55.88 52.07)
@@ -4359,12 +4115,6 @@
 		(uuid "c273eebf-7f7a-498e-a005-814d408f9351")
 	)
 	(junction
-		(at 245.11 243.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5c9e434-c45c-4e74-b39f-79ecd30523bf")
-	)
-	(junction
 		(at 95.25 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4507,6 +4257,10 @@
 		(uuid "1b4226a3-157b-4835-9c4a-591a28b7b1f7")
 	)
 	(no_connect
+		(at 146.05 236.22)
+		(uuid "201004ea-6717-4abc-9fb4-6237f83def69")
+	)
+	(no_connect
 		(at 146.05 226.06)
 		(uuid "4ad1bd27-b36e-4676-a879-a513eb2ac161")
 	)
@@ -4517,10 +4271,6 @@
 	(no_connect
 		(at 232.41 223.52)
 		(uuid "85a0934e-32c3-4a73-b3e2-7034fbeeb344")
-	)
-	(no_connect
-		(at 146.05 228.6)
-		(uuid "8b63ee8a-5574-4d8f-8075-85518163d2ba")
 	)
 	(no_connect
 		(at 257.81 236.22)
@@ -4549,10 +4299,6 @@
 	(no_connect
 		(at 146.05 175.26)
 		(uuid "e1bd242f-17ec-44aa-8a17-b4ab3cd1a2e8")
-	)
-	(no_connect
-		(at 232.41 228.6)
-		(uuid "f1e1fcca-348f-4d3f-ad33-aa9cf7cea128")
 	)
 	(wire
 		(pts
@@ -4666,6 +4412,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 207.01) (xy 110.49 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06d0589f-cdb9-4780-907a-21488e664277")
+	)
+	(wire
+		(pts
 			(xy 99.06 52.07) (xy 104.14 52.07)
 		)
 		(stroke
@@ -4673,16 +4429,6 @@
 			(type default)
 		)
 		(uuid "07023af8-766a-4a7f-a8cb-301af2fa7dc9")
-	)
-	(wire
-		(pts
-			(xy 128.27 203.2) (xy 146.05 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "076de4a9-ac3f-4f8a-82f2-cc7017b71bd0")
 	)
 	(wire
 		(pts
@@ -4946,16 +4692,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 218.44) (xy 232.41 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c2c104b-7b2c-492c-a8c7-bc668c897a93")
-	)
-	(wire
-		(pts
 			(xy 340.36 177.8) (xy 340.36 175.26)
 		)
 		(stroke
@@ -5006,6 +4742,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 219.71) (xy 219.71 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20864c55-8e5f-4a4a-b308-4214b2c969cb")
+	)
+	(wire
+		(pts
 			(xy 344.17 210.82) (xy 344.17 217.17)
 		)
 		(stroke
@@ -5033,6 +4779,16 @@
 			(type default)
 		)
 		(uuid "247f7419-7375-460c-8f2d-4ce97590b44f")
+	)
+	(wire
+		(pts
+			(xy 219.71 218.44) (xy 222.25 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2523c38a-ccb1-4b97-9b6d-fda5540385de")
 	)
 	(wire
 		(pts
@@ -5103,6 +4859,16 @@
 			(type default)
 		)
 		(uuid "295bc214-e005-4539-895a-6d5eab846695")
+	)
+	(wire
+		(pts
+			(xy 111.76 215.9) (xy 111.76 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298e40d3-154a-44d7-96ee-4ffc4655d5d8")
 	)
 	(wire
 		(pts
@@ -5223,6 +4989,16 @@
 			(type default)
 		)
 		(uuid "30a28516-f9d0-4fa8-b51d-2a4a57da857c")
+	)
+	(wire
+		(pts
+			(xy 102.87 226.06) (xy 109.22 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314e11ae-8928-4b10-9383-9e2e3bca5c21")
 	)
 	(wire
 		(pts
@@ -5486,6 +5262,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 215.9) (xy 111.76 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438b3c46-501d-47eb-a772-dc5861945c6c")
+	)
+	(wire
+		(pts
 			(xy 340.36 53.34) (xy 340.36 55.88)
 		)
 		(stroke
@@ -5616,7 +5402,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 218.44) (xy 146.05 218.44)
+			(xy 102.87 245.11) (xy 109.22 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d26504-b0ae-4c4d-8cd2-1a5e0564c302")
+	)
+	(wire
+		(pts
+			(xy 143.51 218.44) (xy 146.05 218.44)
 		)
 		(stroke
 			(width 0)
@@ -5756,6 +5552,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 187.96) (xy 111.76 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bfd3912-809d-442f-b53c-5998d2dff100")
+	)
+	(wire
+		(pts
 			(xy 340.36 60.96) (xy 368.3 60.96)
 		)
 		(stroke
@@ -5776,6 +5582,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 207.01) (xy 110.49 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f740479-556a-441f-9061-582f5c64780c")
+	)
+	(wire
+		(pts
 			(xy 365.76 137.16) (xy 365.76 149.86)
 		)
 		(stroke
@@ -5783,6 +5599,16 @@
 			(type default)
 		)
 		(uuid "60298967-47fb-4ae7-97d5-279f2fd9b111")
+	)
+	(wire
+		(pts
+			(xy 48.26 261.62) (xy 43.18 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6070c300-765c-454a-87bd-2749f83c142a")
 	)
 	(wire
 		(pts
@@ -5833,6 +5659,16 @@
 			(type default)
 		)
 		(uuid "62a35f45-9d9b-4db8-a10d-a5145b66a9c7")
+	)
+	(wire
+		(pts
+			(xy 109.22 238.76) (xy 146.05 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f29abb-62b9-48e7-a591-73b558f0d3ee")
 	)
 	(wire
 		(pts
@@ -5923,6 +5759,16 @@
 			(type default)
 		)
 		(uuid "67d050d8-9e28-411a-b5be-e0f56e1718ed")
+	)
+	(wire
+		(pts
+			(xy 133.35 218.44) (xy 135.89 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "689a518d-e8eb-4d19-b3f6-05c3cd7bc818")
 	)
 	(wire
 		(pts
@@ -6166,6 +6012,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 218.44) (xy 232.41 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7639b16a-ba55-4174-bfff-f535dd3d69cc")
+	)
+	(wire
+		(pts
 			(xy 320.04 177.8) (xy 323.85 177.8)
 		)
 		(stroke
@@ -6266,16 +6122,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 243.84) (xy 245.11 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bbbbd4f-9e42-42ac-87c0-dac2e1fb0e47")
-	)
-	(wire
-		(pts
 			(xy 339.09 104.14) (xy 340.36 104.14)
 		)
 		(stroke
@@ -6333,6 +6179,16 @@
 			(type default)
 		)
 		(uuid "7f130541-7380-4547-ae7c-bc2ce3d454f3")
+	)
+	(wire
+		(pts
+			(xy 29.21 261.62) (xy 24.13 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1d5a33-3197-48ea-832f-8a7cf952ae80")
 	)
 	(wire
 		(pts
@@ -6606,6 +6462,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 245.11) (xy 109.22 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932980c3-876f-46e1-9628-23209b749433")
+	)
+	(wire
+		(pts
 			(xy 323.85 63.5) (xy 323.85 66.04)
 		)
 		(stroke
@@ -6613,6 +6479,16 @@
 			(type default)
 		)
 		(uuid "9573911d-4801-4e51-acba-ef2f505deccf")
+	)
+	(wire
+		(pts
+			(xy 113.03 168.91) (xy 113.03 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96050f24-4467-469c-a786-572c850d66bf")
 	)
 	(wire
 		(pts
@@ -6886,6 +6762,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 226.06) (xy 109.22 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f5853c-5da8-425d-8deb-d69ffc6cd9bd")
+	)
+	(wire
+		(pts
 			(xy 368.3 125.73) (xy 369.57 125.73)
 		)
 		(stroke
@@ -7003,6 +6889,16 @@
 			(type default)
 		)
 		(uuid "abfed42a-4faa-49b4-b699-36eebf02ec44")
+	)
+	(wire
+		(pts
+			(xy 110.49 228.6) (xy 146.05 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac78e193-4ab3-408a-b51c-b03f355354f4")
 	)
 	(wire
 		(pts
@@ -7156,7 +7052,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 30.48) (xy 114.3 30.48)
+			(xy 132.08 30.48) (xy 119.38 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7296,6 +7192,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 168.91) (xy 113.03 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5ae844-4838-4080-8d10-ff180eb3de3f")
+	)
+	(wire
+		(pts
 			(xy 325.12 147.32) (xy 323.85 147.32)
 		)
 		(stroke
@@ -7343,16 +7249,6 @@
 			(type default)
 		)
 		(uuid "be91731a-8d6d-4865-8513-fbb0de8c3b06")
-	)
-	(polyline
-		(pts
-			(xy 50.8 237.49) (xy 50.8 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf63bebf-8171-428d-8498-6c2b0949b2e4")
 	)
 	(wire
 		(pts
@@ -7796,6 +7692,26 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 30.48) (xy 114.3 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ebf2bc-0e1a-410b-ae78-f5665d65eed8")
+	)
+	(wire
+		(pts
+			(xy 133.35 219.71) (xy 133.35 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e74a5d-eed8-4c13-9f7d-a028c6f83ae1")
+	)
+	(wire
+		(pts
 			(xy 175.26 256.54) (xy 177.8 256.54)
 		)
 		(stroke
@@ -8076,6 +7992,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 203.2) (xy 146.05 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e368034f-0a19-4e2e-9114-8921324401c3")
+	)
+	(wire
+		(pts
 			(xy 320.04 111.76) (xy 323.85 111.76)
 		)
 		(stroke
@@ -8266,16 +8192,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 215.9) (xy 146.05 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ede43c3d-e29f-4fb0-b0fd-d4ecaacc2512")
-	)
-	(wire
-		(pts
 			(xy 363.22 172.72) (xy 363.22 167.64)
 		)
 		(stroke
@@ -8393,6 +8309,16 @@
 			(type default)
 		)
 		(uuid "f3798569-3383-4bda-83d9-7e0c9ad632ff")
+	)
+	(wire
+		(pts
+			(xy 109.22 233.68) (xy 146.05 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37fd0f2-9ec2-4a4c-bb53-37c6cabe74c5")
 	)
 	(wire
 		(pts
@@ -8543,16 +8469,6 @@
 			(type default)
 		)
 		(uuid "fce323b7-e66f-4f86-bcce-8647b9b7673e")
-	)
-	(wire
-		(pts
-			(xy 128.27 213.36) (xy 146.05 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fce498ad-91fb-4f61-8f59-47aac4e84eb0")
 	)
 	(wire
 		(pts
@@ -8744,16 +8660,6 @@
 		)
 		(uuid "2d47aec9-8b32-49c7-a7d7-856d56c63504")
 	)
-	(label "TS3"
-		(at 146.05 238.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2d9e8606-d42b-4461-ab5a-acb85626e4f3")
-	)
 	(label "CEL_0"
 		(at 345.44 217.17 0)
 		(effects
@@ -8784,16 +8690,6 @@
 		)
 		(uuid "32968993-3788-4379-afe6-d019ae8378fa")
 	)
-	(label "TS1"
-		(at 146.05 233.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "34368ebb-5f19-49db-b8ea-301e79dc316c")
-	)
 	(label "CEL_27"
 		(at 345.44 76.2 0)
 		(effects
@@ -8813,6 +8709,16 @@
 			(justify left bottom)
 		)
 		(uuid "36dac396-c997-4ea9-b487-7234da1235ef")
+	)
+	(label "PCB_NTC_2"
+		(at 48.26 261.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3bdaaacd-ef52-4e19-8aff-283b5d5f6a9f")
 	)
 	(label "CEL_14"
 		(at 345.44 142.24 0)
@@ -9134,16 +9040,6 @@
 		)
 		(uuid "860816a4-27ee-4eb1-9ca2-9d3d812dc9fc")
 	)
-	(label "TS2"
-		(at 59.69 247.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8660dedf-e366-4b67-aafe-cf7700e55ff7")
-	)
 	(label "CEL_22"
 		(at 345.44 101.6 0)
 		(effects
@@ -9154,8 +9050,8 @@
 		)
 		(uuid "88a9cf8e-7d93-45a7-9255-856d92089eeb")
 	)
-	(label "TS1"
-		(at 39.37 246.38 180)
+	(label "PCB_NTC_1"
+		(at 29.21 261.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9494,16 +9390,6 @@
 		)
 		(uuid "ce376010-cf4c-433e-a7a3-ef72fe1bb3d2")
 	)
-	(label "TS2"
-		(at 146.05 236.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cf9e9fed-e32c-4a16-a986-0e8c3f8fe6f9")
-	)
 	(label "VC25"
 		(at 320.04 86.36 180)
 		(effects
@@ -9714,16 +9600,6 @@
 		)
 		(uuid "fd7147ed-3fa3-4bfb-bcc7-be96e831b27e")
 	)
-	(label "TS3"
-		(at 81.28 247.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ff71c14f-da8b-49b8-920c-f1763050ece2")
-	)
 	(hierarchical_label "DSG"
 		(shape input)
 		(at 95.25 102.87 180)
@@ -9757,17 +9633,6 @@
 		)
 		(uuid "5757fb08-4d13-493f-b440-976d5c9fea31")
 	)
-	(hierarchical_label "PACK-"
-		(shape input)
-		(at 163.83 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6487d581-eadd-4019-a3b3-f2a084525083")
-	)
 	(hierarchical_label "BAT+"
 		(shape input)
 		(at 35.56 30.48 180)
@@ -9781,7 +9646,7 @@
 	)
 	(hierarchical_label "PACK+"
 		(shape output)
-		(at 119.38 30.48 0)
+		(at 132.08 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9941,88 +9806,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 218.44 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "040b0012-bc2c-46ba-ba19-4b48da4de9b7")
-		(property "Reference" "R20"
-			(at 220.98 220.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 220.98 223.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 216.662 222.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 218.44 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a0de3288-aa7a-4b8f-b3ed-a9b439d12001")
-		)
-		(pin "1"
-			(uuid "aa2f5bd9-e254-4ae5-b9fb-1b9709dc71b3")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "GND_4")
 		(lib_id "power:GND")
-		(at 81.28 250.19 0)
-		(mirror y)
+		(at 133.35 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "04676187-2ebd-483b-a179-08a9e8a67978")
-		(property "Reference" "#PWR042"
-			(at 81.28 256.54 0)
+		(uuid "0b72abbe-a35c-443d-939a-c2afe839451a")
+		(property "Reference" "#PWR015"
+			(at 133.35 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10031,7 +9826,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 255.27 0)
+			(at 133.35 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10039,7 +9834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 250.19 0)
+			(at 133.35 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10048,7 +9843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 250.19 0)
+			(at 133.35 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10056,8 +9851,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 81.28 250.19 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10066,83 +9861,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d24b1264-416b-433a-91fa-dd68abdaaec1")
+			(uuid "7d1e684d-4624-46d3-aa5f-659205accbe7")
 		)
 		(instances
-			(project "greenmobi-bms"
+			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
-		(at 86.36 247.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c587f3e-26d5-478b-beae-ef569c755e9d")
-		(property "Reference" "J8"
-			(at 89.408 246.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EXT_NTC"
-			(at 88.138 248.666 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
-			(at 86.36 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ffff6014-e006-4b99-8f58-dbd29850624b")
-		)
-		(pin "1"
-			(uuid "2df2bcd9-311b-45eb-8c91-484d7625e770")
-		)
-		(pin "MP"
-			(uuid "bb8d6a4d-5d30-4e28-a5dc-e56bd5acfadd")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "J8")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10219,6 +9943,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 97.79 233.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "114760d5-7df3-4583-aca0-1eadc26aa86b")
+		(property "Reference" "#PWR071"
+			(at 97.79 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01d4d2be-5930-4cbe-995c-fde13987eb13")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VP")
 		(at 233.68 264.16 0)
 		(unit 1)
@@ -10279,72 +10070,6 @@
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 86.36 255.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14aabaf6-f672-4bc7-90c7-b32985c8e7cd")
-		(property "Reference" "#PWR043"
-			(at 86.36 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b637dfba-4f9f-49fa-99da-36d581b5d651")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -10977,73 +10702,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 64.77 255.27 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "267ca283-244a-45ed-9cf1-3ffd2361931f")
-		(property "Reference" "#PWR041"
-			(at 64.77 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a256bee-d827-4e7c-9773-876f084778d7")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:IPT015N10N5")
 		(at 109.22 97.79 90)
 		(unit 1)
@@ -11203,76 +10861,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Thermistor_NTC")
-		(at 39.37 250.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e34c7af-2dba-4b89-a5d5-87acfeefe1bd")
-		(property "Reference" "TH1"
-			(at 41.91 249.8725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 41.91 252.4125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 39.37 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34550807-756b-45b9-82c7-b6f4878da146")
-		)
-		(pin "2"
-			(uuid "4eeb7f29-d0dc-4413-8786-88e1d59ef659")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "TH1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:IPT015N10N5")
 		(at 109.22 33.02 90)
 		(unit 1)
@@ -11358,6 +10946,78 @@
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
+		(at 97.79 245.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3efdc4b7-1e21-4851-9bab-90c01292a399")
+		(property "Reference" "J11"
+			(at 94.742 244.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EXT_NTC"
+			(at 96.012 246.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 97.79 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 97.79 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e0aa695-6b61-4dab-b8a2-ddcd8c738ccf")
+		)
+		(pin "1"
+			(uuid "3ef8ad6e-715e-4e13-bf95-6fcf6c881093")
+		)
+		(pin "MP"
+			(uuid "031c23ef-2d37-46a6-a502-46f9c6a0bb21")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -11592,6 +11252,72 @@
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 219.71 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49ccc459-60eb-456d-bee1-eb1150c5a845")
+		(property "Reference" "#PWR056"
+			(at 219.71 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 219.71 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 219.71 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62db1eaf-e1f8-4406-bd4c-e2c74c524c74")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -11859,6 +11585,210 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 102.87 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ea9cd47-ef7a-4af6-9dd3-ccc69bf78122")
+		(property "Reference" "#PWR073"
+			(at 102.87 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acafcfd8-76ff-459d-a270-8e105bbbe218")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
+		(at 97.79 168.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ed47a27-b69a-4a9d-a8b6-bdf3476acdc7")
+		(property "Reference" "J18"
+			(at 94.742 167.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EXT_NTC"
+			(at 96.012 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 97.79 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 97.79 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8d16d83-0e5a-4c1a-9e02-e6a41efb8824")
+		)
+		(pin "1"
+			(uuid "e2e2e104-964f-4a38-a6a7-22e87eeb7e44")
+		)
+		(pin "MP"
+			(uuid "b9338b28-e02d-4484-bf50-102cc4807779")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4feaced4-a1aa-45bd-b39c-f24ac081755c")
+		(property "Reference" "#PWR079"
+			(at 102.87 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7345aa93-383c-415f-8e7d-4d48dc6cb7eb")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 72.39 102.87 90)
 		(unit 1)
@@ -11920,6 +11850,78 @@
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
 					(reference "R130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
+		(at 97.79 207.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "515ffa60-a40b-487a-ac78-d25264f7b764")
+		(property "Reference" "J17"
+			(at 94.742 205.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EXT_NTC"
+			(at 96.012 208.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 97.79 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 97.79 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21136b19-cb20-4db1-aa8b-9d39f23cd019")
+		)
+		(pin "1"
+			(uuid "6f50febd-3e14-4e2c-b87d-d9cc68931c39")
+		)
+		(pin "MP"
+			(uuid "aa3b0826-f999-4713-9392-20abb0e38a29")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -12085,75 +12087,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 128.27 203.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53cf723d-5e3b-406f-95cc-2310ba32dc48")
-		(property "Reference" "TP3"
-			(at 130.81 198.6279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 130.81 201.1679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 128.27 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "717cf224-39e4-4b21-b995-619e1e652cbf")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 39.37 254 0)
+		(at 24.13 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12162,7 +12097,7 @@
 		(fields_autoplaced yes)
 		(uuid "583ed651-e2cb-44cd-b926-c75d5ab9e209")
 		(property "Reference" "#PWR038"
-			(at 39.37 260.35 0)
+			(at 24.13 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12171,7 +12106,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 259.08 0)
+			(at 24.13 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12179,7 +12114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 254 0)
+			(at 24.13 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12188,7 +12123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 254 0)
+			(at 24.13 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12197,7 +12132,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 254 0)
+			(at 24.13 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12212,6 +12147,209 @@
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor")
+		(at 43.18 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d429b60-8d2f-4fea-9eec-d135b169a7a8")
+		(property "Reference" "TH2"
+			(at 46.99 265.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Thermistor"
+			(at 46.99 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 43.18 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor"
+			(at 43.18 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b967a16c-6c7d-4aaa-bd69-c8858c017abc")
+		)
+		(pin "2"
+			(uuid "023b2ac5-c696-4b49-bf87-89d22e2d0294")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "TH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 226.06 218.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66edea01-41e2-4fee-9ee9-f1b7f5029ad6")
+		(property "Reference" "R20"
+			(at 226.06 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 226.06 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 220.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 226.06 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5b78656-a30e-4883-a02b-6311870a106b")
+		)
+		(pin "1"
+			(uuid "d6872d58-e1b7-4f6a-b829-115da88dfa08")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "681b4bf5-7c0c-46d4-babb-7260624e970e")
+		(property "Reference" "#PWR075"
+			(at 102.87 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6981a50-8732-428a-94af-708c7c1da155")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -12282,73 +12420,6 @@
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 217.17 243.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6acb6381-9b37-4e3c-a023-5381935b55b7")
-		(property "Reference" "TP4"
-			(at 219.71 239.2679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 219.71 241.8079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 217.17 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c93ec6bf-7a1a-4d31-a50a-0577d1115c8d")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -12553,143 +12624,6 @@
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
 					(reference "R129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
-		(at 64.77 247.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "794b7b3a-e78a-4fcf-855e-615c03a4288d")
-		(property "Reference" "J7"
-			(at 68.326 246.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EXT_NTC"
-			(at 66.548 248.666 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
-			(at 64.77 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 64.77 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0f58fff8-ea60-4c85-94e0-87a0fdf821c0")
-		)
-		(pin "1"
-			(uuid "9e9b8ba7-6f5a-4f68-b124-cd3ac95b7c10")
-		)
-		(pin "MP"
-			(uuid "7c5c6c82-1ee9-4db0-a749-179fbda0aafe")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND2")
-		(at 218.44 226.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "837e165f-1908-4575-b5a3-4c3cd62b033c")
-		(property "Reference" "#PWR056"
-			(at 218.44 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 218.44 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 218.44 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c49a9744-14c6-4482-ab51-0cc89ae75974")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -13261,17 +13195,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 115.57 215.9 0)
+		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
+		(at 97.79 226.06 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a382a69e-213a-441a-aa3c-038efaa85d1e")
-		(property "Reference" "TP2"
-			(at 118.11 211.3279 0)
+		(uuid "a5cd9d7b-4bd1-4f01-8521-0d5979bdea34")
+		(property "Reference" "J10"
+			(at 94.742 225.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EXT_NTC"
+			(at 96.012 227.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13279,17 +13221,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 118.11 213.8679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 215.9 0)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 97.79 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13298,7 +13231,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 215.9 0)
+			(at 97.79 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13306,89 +13239,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 115.57 215.9 0)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 97.79 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "61b09c4d-6947-4ac5-87a1-cea89701a47e")
 		)
 		(pin "1"
-			(uuid "88b07cea-831d-43c4-be00-772362520f78")
+			(uuid "da8383b1-2c31-44e2-ac2b-de4de9491b2d")
+		)
+		(pin "MP"
+			(uuid "568cfff0-4861-4344-8bb0-8dc64d4262c7")
 		)
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_4")
-		(lib_id "power:GND")
-		(at 130.81 226.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa99b5a2-eb0f-4999-ba5d-26c4bc9afc67")
-		(property "Reference" "#PWR053"
-			(at 130.81 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd7243cc-dab2-4d8d-8da6-924a3d654f50")
-		)
-		(instances
-			(project ""
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "#PWR053")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -13396,7 +13268,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 250.19 0)
+		(at 97.79 195.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13404,9 +13276,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ad60464d-415c-46d7-a9a0-6a89846fc2c1")
-		(property "Reference" "#PWR040"
-			(at 59.69 256.54 0)
+		(uuid "af419711-8f83-48af-886e-5769c1247e03")
+		(property "Reference" "#PWR074"
+			(at 97.79 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13415,7 +13287,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 255.27 0)
+			(at 97.79 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13423,7 +13295,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 250.19 0)
+			(at 97.79 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13432,7 +13304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 250.19 0)
+			(at 97.79 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13441,7 +13313,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 250.19 0)
+			(at 97.79 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13450,12 +13322,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "68c30499-2bd5-44c0-bbe3-19116e27abd1")
+			(uuid "b680bf4a-ee74-4969-981b-02facc8328fa")
 		)
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "#PWR040")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -13737,6 +13609,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 97.79 214.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d58a7dff-d87c-470d-8442-43e29d597e8d")
+		(property "Reference" "#PWR076"
+			(at 97.79 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ca65750-4bfc-4076-b9f9-1169a5823a9a")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 180.34 256.54 90)
 		(unit 1)
@@ -13804,35 +13743,99 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 130.81 222.25 0)
+		(lib_id "power:GND")
+		(at 97.79 176.53 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d79444ee-1f6b-46b0-b766-d03f521a4c11")
-		(property "Reference" "R19"
-			(at 133.35 220.9799 0)
+		(uuid "d76f9d09-a657-4ef9-8869-ada3506eb351")
+		(property "Reference" "#PWR078"
+			(at 97.79 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 133.35 223.5199 0)
+		(property "Value" "GND"
+			(at 97.79 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 129.032 222.25 90)
+			(at 97.79 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "677a34cd-1fb9-4f9f-859b-1b4ba4ecadde")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 218.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d79444ee-1f6b-46b0-b766-d03f521a4c11")
+		(property "Reference" "R19"
+			(at 139.7 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 139.7 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 220.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13841,7 +13844,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 222.25 0)
+			(at 139.7 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13850,7 +13853,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 130.81 222.25 0)
+			(at 139.7 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13868,6 +13871,78 @@
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
+		(at 97.79 187.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da342ce2-c7aa-433c-8cd2-403c2dbc0b87")
+		(property "Reference" "J16"
+			(at 94.742 186.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EXT_NTC"
+			(at 96.012 188.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 97.79 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 97.79 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6664d073-ac99-4f7c-a3c7-f7e4a94fa76c")
+		)
+		(pin "1"
+			(uuid "58c6afe5-c772-4356-b044-deca295df469")
+		)
+		(pin "MP"
+			(uuid "539bd5e8-3b51-4058-a050-b8ef1b3d854a")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -14033,6 +14108,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Thermistor")
+		(at 24.13 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1d724b5-0079-4937-a602-e8e1be28e7a6")
+		(property "Reference" "TH1"
+			(at 27.94 265.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Thermistor"
+			(at 27.94 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 24.13 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor"
+			(at 24.13 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39e3d198-30e7-43ed-b1c6-783e1513d978")
+		)
+		(pin "2"
+			(uuid "06e2b633-33bd-4b3c-9598-b723cc0a99b7")
+		)
+		(instances
+			(project ""
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "TH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e46ecf31-007a-48c5-8d0d-ebdfbde7a2ed")
+		(property "Reference" "#PWR070"
+			(at 102.87 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1384a730-c02a-4335-b5a7-24d0741537d1")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x08_MountingPin")
 		(at 372.11 157.48 0)
 		(unit 1)
@@ -14127,6 +14338,72 @@
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
 					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7eb6db2-efc6-424d-ae65-fa77de959f1a")
+		(property "Reference" "#PWR077"
+			(at 102.87 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98a2b2df-8797-4599-a741-5d32cf38f357")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -14263,6 +14540,72 @@
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f12cf2f5-ef35-43fb-b837-fccfc6a6edcd")
+		(property "Reference" "#PWR048"
+			(at 43.18 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7955582-2690-4dcd-94f5-bc5125e6a29c")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -14544,73 +14887,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 128.27 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb6332b3-f344-4e73-90e4-59dab4b6b40f")
-		(property "Reference" "TP1"
-			(at 130.81 208.7879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 130.81 211.3279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 128.27 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc343cb0-ba9a-4635-acce-6833ebe42195")
-		)
-		(instances
-			(project ""
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 190.5 175.26 90)
 		(unit 1)
@@ -14693,6 +14969,73 @@
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 252.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffc228c3-381c-4a6c-95be-f04cb567ddad")
+		(property "Reference" "#PWR072"
+			(at 97.79 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74a5a635-b01d-4a99-b5c5-213e8a6d435a")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)

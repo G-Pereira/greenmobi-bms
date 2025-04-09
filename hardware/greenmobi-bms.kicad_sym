@@ -406,7 +406,7 @@
 			(pin input line
 				(at -12.7 -30.48 0)
 				(length 2.54)
-				(name "TS1"
+				(name "TS2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -424,7 +424,7 @@
 			(pin input line
 				(at -12.7 -33.02 0)
 				(length 2.54)
-				(name "TS1"
+				(name "TS3"
 					(effects
 						(font
 							(size 1.27 1.27)
