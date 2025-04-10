@@ -4401,7 +4401,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 207.01) (xy 110.49 228.6)
+			(xy 110.49 204.47) (xy 110.49 228.6)
 		)
 		(stroke
 			(width 0)
@@ -5561,7 +5561,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 207.01) (xy 110.49 207.01)
+			(xy 102.87 224.79) (xy 109.22 224.79)
 		)
 		(stroke
 			(width 0)
@@ -5581,7 +5581,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 224.79) (xy 109.22 224.79)
+			(xy 93.98 204.47) (xy 110.49 204.47)
 		)
 		(stroke
 			(width 0)
@@ -11771,7 +11771,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
-		(at 97.79 207.01 0)
+		(at 97.79 224.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11780,7 +11780,7 @@
 		(dnp no)
 		(uuid "515ffa60-a40b-487a-ac78-d25264f7b764")
 		(property "Reference" "J17"
-			(at 94.742 205.994 0)
+			(at 94.742 223.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11788,7 +11788,7 @@
 			)
 		)
 		(property "Value" "EXT_NTC"
-			(at 96.012 208.026 0)
+			(at 96.012 225.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11797,7 +11797,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
-			(at 97.79 207.01 0)
+			(at 97.79 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11806,7 +11806,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 207.01 0)
+			(at 97.79 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11815,7 +11815,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 97.79 207.01 0)
+			(at 97.79 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12068,7 +12068,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor")
-		(at 92.71 229.87 0)
+		(at 93.98 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12077,7 +12077,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d429b60-8d2f-4fea-9eec-d135b169a7a8")
 		(property "Reference" "TH2"
-			(at 96.52 228.5999 0)
+			(at 97.79 208.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12086,7 +12086,7 @@
 			)
 		)
 		(property "Value" "MOS_Temp"
-			(at 96.52 231.1399 0)
+			(at 97.79 210.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12095,7 +12095,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 92.71 229.87 0)
+			(at 93.98 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12104,7 +12104,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 229.87 0)
+			(at 93.98 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12113,7 +12113,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor"
-			(at 92.71 229.87 0)
+			(at 93.98 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13451,7 +13451,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 214.63 0)
+		(at 97.79 232.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13461,7 +13461,7 @@
 		(fields_autoplaced yes)
 		(uuid "d58a7dff-d87c-470d-8442-43e29d597e8d")
 		(property "Reference" "#PWR076"
-			(at 97.79 220.98 0)
+			(at 97.79 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13470,7 +13470,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 219.71 0)
+			(at 97.79 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13478,7 +13478,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 214.63 0)
+			(at 97.79 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13487,7 +13487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 214.63 0)
+			(at 97.79 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13496,7 +13496,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 214.63 0)
+			(at 97.79 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14120,7 +14120,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 209.55 0)
+		(at 102.87 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14129,7 +14129,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7eb6db2-efc6-424d-ae65-fa77de959f1a")
 		(property "Reference" "#PWR077"
-			(at 102.87 215.9 0)
+			(at 102.87 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14138,7 +14138,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 214.63 0)
+			(at 102.87 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14146,7 +14146,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 209.55 0)
+			(at 102.87 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14155,7 +14155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 209.55 0)
+			(at 102.87 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14164,7 +14164,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 209.55 0)
+			(at 102.87 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14322,7 +14322,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 234.95 0)
+		(at 93.98 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14331,7 +14331,7 @@
 		(fields_autoplaced yes)
 		(uuid "f12cf2f5-ef35-43fb-b837-fccfc6a6edcd")
 		(property "Reference" "#PWR048"
-			(at 92.71 241.3 0)
+			(at 93.98 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14340,7 +14340,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 240.03 0)
+			(at 93.98 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14348,7 +14348,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 234.95 0)
+			(at 93.98 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14357,7 +14357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 234.95 0)
+			(at 93.98 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14366,7 +14366,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 234.95 0)
+			(at 93.98 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
