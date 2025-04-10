@@ -4238,6 +4238,10 @@
 		(uuid "1162425f-bab6-498f-b9fc-18eef9466dbc")
 	)
 	(no_connect
+		(at 232.41 182.88)
+		(uuid "130b10ee-baf6-4716-9497-e8fee235e6f8")
+	)
+	(no_connect
 		(at 257.81 238.76)
 		(uuid "13844d37-d776-40b0-a047-4fa003e686c6")
 	)
@@ -4280,6 +4284,10 @@
 	(no_connect
 		(at 146.05 182.88)
 		(uuid "c6210a21-65b4-44bc-b95c-b3efe10b360f")
+	)
+	(no_connect
+		(at 232.41 180.34)
+		(uuid "ca91ae6d-9fc6-493a-989b-61b7e900656f")
 	)
 	(no_connect
 		(at 146.05 177.8)
@@ -6501,7 +6509,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 102.87) (xy 41.91 102.87)
+			(xy 36.83 102.87) (xy 41.91 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7301,7 +7309,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 102.87) (xy 135.89 102.87)
+			(xy 133.35 102.87) (xy 138.43 102.87)
 		)
 		(stroke
 			(width 0)
@@ -8519,6 +8527,16 @@
 		)
 		(uuid "ff938a20-89ed-4929-881e-31394db39f91")
 	)
+	(label "DSG"
+		(at 232.41 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09296e9f-5017-4f1d-8bf5-e9e49d9dc300")
+	)
 	(label "CEL_18"
 		(at 345.44 121.92 0)
 		(effects
@@ -8709,6 +8727,16 @@
 		)
 		(uuid "36dac396-c997-4ea9-b487-7234da1235ef")
 	)
+	(label "CHG"
+		(at 232.41 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3dd51691-a4f1-434b-9998-4a0d8777b920")
+	)
 	(label "CEL_14"
 		(at 345.44 142.24 0)
 		(effects
@@ -8788,6 +8816,16 @@
 			(justify right bottom)
 		)
 		(uuid "4e05120c-684f-415c-9bf1-4330807f5b58")
+	)
+	(label "CHG"
+		(at 36.83 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5036883e-6a45-443d-af48-9f7b1cbb4b5c")
 	)
 	(label "VC30"
 		(at 257.81 195.58 0)
@@ -9239,6 +9277,16 @@
 		)
 		(uuid "b1968bfb-74a3-41c3-82c5-46057be52eb5")
 	)
+	(label "DSG"
+		(at 138.43 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1dfc207-9ac2-4743-bb87-063714ff1868")
+	)
 	(label "VC23"
 		(at 257.81 213.36 0)
 		(effects
@@ -9579,17 +9627,6 @@
 		)
 		(uuid "fd7147ed-3fa3-4bfb-bcc7-be96e831b27e")
 	)
-	(hierarchical_label "DSG"
-		(shape input)
-		(at 135.89 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "01cc1ecb-e9d5-46ce-a5fc-d90a9d433eef")
-	)
 	(hierarchical_label "I2C_SCL"
 		(shape input)
 		(at 234.95 269.24 180)
@@ -9655,17 +9692,6 @@
 			(justify right)
 		)
 		(uuid "6c352242-4f27-4ad7-a7db-4d9f0ceb9706")
-	)
-	(hierarchical_label "CHG"
-		(shape input)
-		(at 39.37 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7cd58c85-a9a8-4882-9f1a-cb70451d9083")
 	)
 	(hierarchical_label "BAT-"
 		(shape input)
