@@ -1195,6 +1195,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GND_1"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GND_2"
 			(power)
 			(pin_numbers
@@ -2266,6 +2367,12 @@
 		(uuid "a685f5de-d634-42c6-90a1-2dfca17a3543")
 	)
 	(junction
+		(at 133.35 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be7d741f-1ca1-4ce6-8ba0-503772e1879c")
+	)
+	(junction
 		(at 257.81 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2523,16 +2630,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 74.93) (xy 142.24 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7540620e-8373-4792-a549-f2b8142c4a55")
-	)
-	(wire
-		(pts
 			(xy 46.99 148.59) (xy 46.99 146.05)
 		)
 		(stroke
@@ -2580,16 +2677,6 @@
 			(type default)
 		)
 		(uuid "95c15c99-58f8-4bd0-b3ed-0159b29e3611")
-	)
-	(wire
-		(pts
-			(xy 124.46 72.39) (xy 142.24 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "999eda50-f388-4396-8107-38f09552bc46")
 	)
 	(wire
 		(pts
@@ -3874,6 +3961,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 133.35 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c642265a-e868-46ee-99d0-d1294b3c6b38")
+		(property "Reference" "#PWR020"
+			(at 133.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8d25ea1-edc5-4af3-9f5e-5b139a839974")
+		)
+		(instances
+			(project ""
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 95.25 38.1 180)
 		(unit 1)
@@ -4364,26 +4518,6 @@
 		(pin "PACK+" input
 			(at 124.46 38.1 0)
 			(uuid "e33264bc-2787-4cc7-b43b-fd57df1cd8fe")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CHG" input
-			(at 124.46 72.39 0)
-			(uuid "4570dfdb-86d6-498a-ba50-44a6f0cdc98f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DSG" input
-			(at 124.46 74.93 0)
-			(uuid "7d65c15e-7036-49ba-bd91-40a9dc3c7d6d")
 			(effects
 				(font
 					(size 1.27 1.27)
