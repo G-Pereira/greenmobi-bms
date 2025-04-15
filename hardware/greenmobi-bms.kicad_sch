@@ -1397,10 +1397,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_CAN_LIN:MCP2562-E-SN"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "Interface_CAN_LIN:TJA1042T-3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1413,8 +1410,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MCP2562-E-SN"
-				(at 2.54 8.89 0)
+			(property "Value" "TJA1042T-3"
+				(at 1.27 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1432,7 +1429,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf"
+			(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/TJA1042.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1441,7 +1438,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, SOIC-8"
+			(property "Description" "High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1468,7 +1465,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCP2562-E-SN_0_1"
+			(symbol "TJA1042T-3_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 10.16 -7.62)
@@ -1481,7 +1478,7 @@
 					)
 				)
 			)
-			(symbol "MCP2562-E-SN_1_1"
+			(symbol "TJA1042T-3_1_1"
 				(pin input line
 					(at -12.7 5.08 0)
 					(length 2.54)
@@ -1521,7 +1518,7 @@
 				(pin power_in line
 					(at -12.7 -2.54 0)
 					(length 2.54)
-					(name "Vio"
+					(name "VIO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1539,7 +1536,7 @@
 				(pin input line
 					(at -12.7 -5.08 0)
 					(length 2.54)
-					(name "STBY"
+					(name "STB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1557,7 +1554,7 @@
 				(pin power_in line
 					(at 0 10.16 270)
 					(length 2.54)
-					(name "VDD"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1575,7 +1572,7 @@
 				(pin power_in line
 					(at 0 -10.16 90)
 					(length 2.54)
-					(name "VSS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2997,7 +2994,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f15eacc-bd82-435c-ac1d-d9b93305db37")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR06"
 			(at 232.41 113.03 0)
 			(effects
 				(font
@@ -3048,7 +3045,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "#PWR011")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3064,7 +3061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1966ed21-c583-4e0f-bf3d-cbfa2a5f9cde")
-		(property "Reference" "R10"
+		(property "Reference" "R2"
 			(at 119.38 147.3199 0)
 			(effects
 				(font
@@ -3118,7 +3115,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "R10")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3134,7 +3131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b271d05-ba48-4c40-845a-8260cff7d191")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 140.97 46.9899 0)
 			(effects
 				(font
@@ -3185,7 +3182,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3201,7 +3198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32a8a10a-545e-4d77-869d-89ac08c56e84")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 101.6 44.45 0)
 			(effects
 				(font
@@ -3251,7 +3248,7 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3267,7 +3264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38d77a16-74cf-4ee3-ba79-d493323236d1")
-		(property "Reference" "R9"
+		(property "Reference" "R1"
 			(at 110.49 147.3199 0)
 			(effects
 				(font
@@ -3321,7 +3318,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "R9")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3337,7 +3334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4af496ea-937f-4c8e-8b16-9b8b5d51b0a8")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 95.25 41.91 0)
 			(effects
 				(font
@@ -3386,7 +3383,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3460,7 +3457,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_CAN_LIN:MCP2562-E-SN")
+		(lib_id "Interface_CAN_LIN:TJA1042T-3")
 		(at 242.57 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3468,9 +3465,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "578a7e5b-bbd7-4f69-a611-a3992b4ea7bb")
-		(property "Reference" "U2"
-			(at 244.5894 97.79 0)
+		(uuid "51d96047-5996-4848-a071-e9fc0bfd6e2d")
+		(property "Reference" "U1"
+			(at 244.7133 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3478,8 +3475,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP2562-E-SN"
-			(at 244.5894 100.33 0)
+		(property "Value" "TJA1042T-3"
+			(at 244.7133 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3497,7 +3494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf"
+		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/TJA1042.pdf"
 			(at 242.57 110.49 0)
 			(effects
 				(font
@@ -3506,7 +3503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8"
 			(at 242.57 110.49 0)
 			(effects
 				(font
@@ -3515,34 +3512,43 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "8f0be5e9-a1f5-4c69-89d7-1f4a8d09a231")
-		)
-		(pin "2"
-			(uuid "617933ca-218b-4d4c-ac24-0015a11ed90c")
-		)
-		(pin "3"
-			(uuid "7bc7f4c7-a3be-4945-adeb-a764ed1153c7")
-		)
-		(pin "4"
-			(uuid "40a4cee5-32ab-4d77-a54d-47314f5bb8eb")
-		)
-		(pin "5"
-			(uuid "789ebea2-734f-4403-8df8-0e2420b1566e")
+		(property "LCSC" "C132227"
+			(at 242.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "6"
-			(uuid "92e09deb-8b39-43c1-bc3a-a7884ae449af")
+			(uuid "c79d560f-1989-4275-aeec-e8d627df96f7")
 		)
-		(pin "7"
-			(uuid "78c25526-0a31-423c-8399-f5328c91b72d")
+		(pin "1"
+			(uuid "b0c61112-8d17-4cd8-8742-2a4ea4c730f6")
+		)
+		(pin "4"
+			(uuid "f60c5603-42ff-430c-8699-205a45a9e8aa")
+		)
+		(pin "5"
+			(uuid "32b4ee7d-bee3-4f8e-87b5-faf014697d34")
 		)
 		(pin "8"
-			(uuid "be434d7c-9a0c-45cd-a95e-6a31fe2451e8")
+			(uuid "1e872215-2aef-4937-9de6-df71e4f6d388")
+		)
+		(pin "3"
+			(uuid "5798b9d3-a3ae-44cc-b020-adf2033fab22")
+		)
+		(pin "2"
+			(uuid "15839aef-5b8a-4e70-83b0-f29221294523")
+		)
+		(pin "7"
+			(uuid "c4b185d5-5f97-49b8-ac04-7f0a38b0145c")
 		)
 		(instances
-			(project "greenmobi-bms"
+			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3558,7 +3564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5802644f-33cb-4918-8ce9-4a4c8ea5f689")
-		(property "Reference" "J6"
+		(property "Reference" "J1"
 			(at 77.47 129.54 0)
 			(effects
 				(font
@@ -3649,7 +3655,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "J6")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3665,7 +3671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6481c5ff-d81b-41f8-9ba9-8afacdf0d2db")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 101.6 41.91 0)
 			(effects
 				(font
@@ -3715,7 +3721,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3731,7 +3737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8682957a-2980-43c1-9fe7-aa32da90a845")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 140.97 36.8299 0)
 			(effects
 				(font
@@ -3782,7 +3788,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3798,7 +3804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87037e39-e213-43c8-b9e2-a7afab9ea84a")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR07"
 			(at 242.57 104.14 0)
 			(effects
 				(font
@@ -3848,7 +3854,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "#PWR016")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3864,7 +3870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a30ad7d-aa85-44e9-a8d1-23b94db62213")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR01"
 			(at 77.47 184.15 0)
 			(effects
 				(font
@@ -3914,7 +3920,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "#PWR021")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3930,7 +3936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ef89867-7a9d-4496-860b-b4463f8a30b7")
-		(property "Reference" "R6"
+		(property "Reference" "R3"
 			(at 260.35 109.2199 0)
 			(effects
 				(font
@@ -3984,7 +3990,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "R6")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4001,7 +4007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c642265a-e868-46ee-99d0-d1294b3c6b38")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR05"
 			(at 133.35 54.61 0)
 			(effects
 				(font
@@ -4051,7 +4057,7 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "#PWR020")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4067,7 +4073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc5cd5e8-b385-4a7b-ace2-4fe61f4bd9ae")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 95.25 31.75 0)
 			(effects
 				(font
@@ -4116,7 +4122,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4132,7 +4138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1200b07-59e3-4654-9699-2c51c7d47f9e")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 273.05 109.5755 0)
 			(effects
 				(font
@@ -4189,7 +4195,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4205,7 +4211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2ada700-e52b-460f-8278-f712e96dfa8f")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR08"
 			(at 242.57 127 0)
 			(effects
 				(font
@@ -4255,7 +4261,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "#PWR017")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4339,7 +4345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dee1cc9d-e4aa-41f5-99b9-f4c79127a2e3")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR09"
 			(at 270.51 123.19 0)
 			(effects
 				(font
@@ -4389,7 +4395,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "#PWR018")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4405,7 +4411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2f4cdc7-dcb3-4a96-90ea-4a9f904ee426")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR04"
 			(at 113.03 160.02 0)
 			(effects
 				(font
@@ -4455,7 +4461,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "#PWR022")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
