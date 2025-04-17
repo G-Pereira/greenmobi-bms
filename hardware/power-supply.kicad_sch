@@ -995,7 +995,7 @@
 	)
 	(text "5V to 3.3V LDO"
 		(exclude_from_sim no)
-		(at 124.968 117.348 0)
+		(at 124.968 117.602 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1701,7 +1701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ebcf876-519c-48f4-8a2c-36193d20ed5d")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 133.35 95.25 0)
 			(effects
 				(font
@@ -1751,7 +1751,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1954,7 +1954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25f26835-300d-4e25-9ff8-96a24dab692d")
-		(property "Reference" "C24"
+		(property "Reference" "C23"
 			(at 167.64 82.5563 0)
 			(effects
 				(font
@@ -2024,7 +2024,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-					(reference "C24")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -2040,7 +2040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b42271d-d532-4d16-9459-f8bcbc1633fa")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 118.11 82.55 0)
 			(effects
 				(font
@@ -2094,7 +2094,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-					(reference "R11")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2176,7 +2176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cdb191d-7a84-42fb-84a9-88d932be0ee5")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 157.48 135.89 0)
 			(effects
 				(font
@@ -2226,7 +2226,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -2242,7 +2242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40012ec6-c5ce-4075-8548-a0174cf6c97a")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR042"
 			(at 181.61 101.6 0)
 			(effects
 				(font
@@ -2292,7 +2292,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-					(reference "#PWR044")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -2480,7 +2480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a590c8d5-5e37-4e19-84d2-7c450429ce9d")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 184.15 77.4699 0)
 			(effects
 				(font
@@ -2543,7 +2543,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2750,7 +2750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4662536-facd-4d79-9418-76cd62c37775")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 184.15 91.4399 0)
 			(effects
 				(font
@@ -2813,7 +2813,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2829,7 +2829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7665271-acc3-4806-8347-6f3c36597ae8")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 194.31 77.4699 0)
 			(effects
 				(font
@@ -2883,7 +2883,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -2899,7 +2899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caac1afc-b297-4b32-b86d-769bf8fad931")
-		(property "Reference" "R12"
+		(property "Reference" "R11"
 			(at 161.29 73.66 90)
 			(effects
 				(font
@@ -2951,7 +2951,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2967,7 +2967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc6b7e20-0612-49ed-9786-98c974c66aa5")
-		(property "Reference" "C23"
+		(property "Reference" "C24"
 			(at 168.91 124.4663 0)
 			(effects
 				(font
@@ -3037,7 +3037,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -3053,7 +3053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daa4a813-3f89-4cc3-a338-6d5f89577996")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR041"
 			(at 166.37 135.89 0)
 			(effects
 				(font
@@ -3103,7 +3103,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-					(reference "#PWR043")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3119,7 +3119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6ec6e98-a3b7-4a35-84f2-51ad7ba0d282")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 146.05 138.43 0)
 			(effects
 				(font
@@ -3169,7 +3169,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3334,7 +3334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eefaaf58-29a9-413a-8b57-b6ade5fdc792")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 129.54 135.89 0)
 			(effects
 				(font
@@ -3384,7 +3384,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3572,7 +3572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f584f2b3-7b4e-4141-a783-2a51a72f3bc5")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR043"
 			(at 191.77 100.33 0)
 			(effects
 				(font
@@ -3622,7 +3622,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
-					(reference "#PWR045")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
