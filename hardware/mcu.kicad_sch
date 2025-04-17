@@ -2091,6 +2091,18 @@
 		)
 		(uuid "128ba55f-f7e6-4292-a848-ce51b02c1a9c")
 	)
+	(text "WiFi + BLE"
+		(exclude_from_sim no)
+		(at 62.992 75.438 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(italic yes)
+			)
+		)
+		(uuid "12dc74cf-b4e8-457c-9162-219b25277249")
+	)
 	(text "RTC"
 		(exclude_from_sim no)
 		(at 138.684 48.26 90)
@@ -2101,20 +2113,9 @@
 		)
 		(uuid "51610fc5-d0f5-4c8a-80bf-3bcd62cea0f9")
 	)
-	(text "Microcontroller"
-		(exclude_from_sim no)
-		(at 54.356 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b444ef95-7c68-4d2c-aed3-cbb8c0b0dcff")
-	)
 	(text "Power supply decoupling"
 		(exclude_from_sim no)
-		(at 82.55 34.29 0)
+		(at 130.048 58.928 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2133,9 +2134,21 @@
 		)
 		(uuid "b7ef5b47-6355-4bc8-86d3-77e781e7b9cc")
 	)
-	(text "RF Power Decoupling"
+	(text "Microcontroller"
 		(exclude_from_sim no)
-		(at 177.038 33.528 0)
+		(at 70.358 72.136 0)
+		(effects
+			(font
+				(size 2.3368 2.3368)
+				(thickness 0.4674)
+				(bold yes)
+			)
+		)
+		(uuid "cb9ac045-4b76-4205-b0ea-36262937368b")
+	)
+	(text "RF power decoupling"
+		(exclude_from_sim no)
+		(at 198.12 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2395,7 +2408,7 @@
 	)
 	(polyline
 		(pts
-			(xy 53.975 69.85) (xy 53.975 149.86)
+			(xy 53.975 67.31) (xy 53.975 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2595,7 +2608,7 @@
 	)
 	(polyline
 		(pts
-			(xy 245.745 69.85) (xy 245.745 149.86)
+			(xy 245.745 67.31) (xy 245.745 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2685,7 +2698,7 @@
 	)
 	(polyline
 		(pts
-			(xy 53.975 69.85) (xy 245.745 69.85)
+			(xy 53.975 67.31) (xy 245.745 67.31)
 		)
 		(stroke
 			(width 0)
