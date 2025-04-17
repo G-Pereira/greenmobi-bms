@@ -4123,7 +4123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 116.84 48.26 0)
 			(effects
 				(font
@@ -5257,7 +5257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 104.14 48.26 0)
 			(effects
 				(font
@@ -6572,7 +6572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 88.9 48.26 0)
 			(effects
 				(font
@@ -6658,7 +6658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 172.72 48.26 0)
 			(effects
 				(font
@@ -6875,7 +6875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 129.54 48.26 0)
 			(effects
 				(font
@@ -6961,7 +6961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 185.42 48.26 0)
 			(effects
 				(font
@@ -7579,7 +7579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 199.39 48.26 0)
 			(effects
 				(font
@@ -7863,7 +7863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 142.24 48.26 0)
 			(effects
 				(font
@@ -8175,7 +8175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 204.47 124.46 0)
 			(effects
 				(font

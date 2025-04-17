@@ -2901,7 +2901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 172.72 72.39 0)
 			(effects
 				(font
@@ -3053,7 +3053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 114.3 69.85 0)
 			(effects
 				(font
@@ -3137,7 +3137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 181.61 72.39 0)
 			(effects
 				(font
@@ -3221,7 +3221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 71.12 69.85 0)
 			(effects
 				(font
@@ -3487,7 +3487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 			(at 212.09 76.2 0)
 			(effects
 				(font
@@ -3746,7 +3746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 114.3 59.69 0)
 			(effects
 				(font
@@ -4162,7 +4162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 71.12 59.69 0)
 			(effects
 				(font

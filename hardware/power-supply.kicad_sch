@@ -1904,7 +1904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor"
 			(at 165.1 71.12 0)
 			(effects
 				(font
@@ -1990,7 +1990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 165.1 83.82 0)
 			(effects
 				(font
@@ -2344,7 +2344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 191.77 88.9 0)
 			(effects
 				(font
@@ -2430,7 +2430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 157.48 125.73 0)
 			(effects
 				(font
@@ -2593,7 +2593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1A synchronous buck converter with ultra-low IQ, 6V - 100V input, adjustable output voltage, HSOP-8"
 			(at 135.89 73.66 0)
 			(effects
 				(font
@@ -2700,7 +2700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 129.54 125.73 0)
 			(effects
 				(font
@@ -3003,7 +3003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 166.37 125.73 0)
 			(effects
 				(font
@@ -3284,7 +3284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 168.91 78.74 0)
 			(effects
 				(font
@@ -3436,7 +3436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 151.13 68.58 0)
 			(effects
 				(font
@@ -3522,7 +3522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 104.14 77.47 0)
 			(effects
 				(font
