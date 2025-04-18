@@ -6667,20 +6667,13 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "LCSC" ""
 			(at 172.72 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 172.72 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "1"

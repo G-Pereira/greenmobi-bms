@@ -2250,7 +2250,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 40.64) (xy 77.47 40.64)
+			(xy 82.55 41.91) (xy 77.47 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2260,7 +2260,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 40.64) (xy 77.47 59.69)
+			(xy 77.47 41.91) (xy 77.47 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2680,7 +2680,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.83 48.895) (xy 163.83 109.855)
+			(xy 163.83 49.53) (xy 163.83 109.855)
 		)
 		(stroke
 			(width 0)
@@ -4832,8 +4832,18 @@
 			)
 		)
 		(pin "BAT" input
-			(at 82.55 40.64 180)
+			(at 82.55 41.91 180)
 			(uuid "26a262d9-941b-40fe-8390-ba37fee6565e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN" input
+			(at 82.55 39.37 180)
+			(uuid "5a87a693-cde4-443a-b64c-b881375c0b9c")
 			(effects
 				(font
 					(size 1.27 1.27)
