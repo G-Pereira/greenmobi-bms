@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "GreenMobi BMS")
-		(date "2024-02-13")
+		(date "2025-04-23")
 		(rev "ALPHA")
 		(company "GreenMobi")
 	)
@@ -3233,17 +3233,6 @@
 		)
 		(uuid "d5bfb2fe-4ff5-41e6-bcb1-e1dd0a0ddede")
 	)
-	(hierarchical_label "EN"
-		(shape input)
-		(at 127 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f00fd23b-bb2c-4bdb-b766-e312b9cfdfe2")
-	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 173.99 99.06 270)
@@ -3379,6 +3368,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 78.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 78.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3600,6 +3605,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2bcb2130-7f17-4189-85a6-4b64ca53033e")
 		)
@@ -3733,6 +3754,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 204.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 204.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5997,6 +6034,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "159eb5ae-4389-448b-b008-6ebc56b4dcf3")
 		)
@@ -6511,6 +6564,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 96.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 96.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "043f0482-7a98-42f3-bb74-353dce64a8b3")
 		)
@@ -6674,6 +6743,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 172.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 172.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7377,6 +7462,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

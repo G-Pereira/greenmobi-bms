@@ -224,7 +224,7 @@
 	(net 76 "Net-(U3-FB)")
 	(net 77 "Net-(U5-VC15)")
 	(net 78 "Net-(J9-Pin_1)")
-	(net 79 "Net-(Q1-D)")
+	(net 79 "/Frontend/FET_C")
 	(net 80 "Net-(Q1-G)")
 	(net 81 "unconnected-(U5-FUSE-Pad38)")
 	(net 82 "/Frontend/I2C_SCL")
@@ -266,6 +266,13 @@
 	(net 118 "/MCU/CAN_RX")
 	(net 119 "Net-(R15-Pad2)")
 	(net 120 "/Power Supply/EN")
+	(net 121 "unconnected-(Q9-C-Pad3)")
+	(net 122 "unconnected-(Q9-B-Pad1)")
+	(net 123 "unconnected-(Q9-E-Pad2)")
+	(net 124 "unconnected-(U5-BREG-Pad37)")
+	(net 125 "unconnected-(U5-REG2-Pad34)")
+	(net 126 "unconnected-(U5-REGIN-Pad36)")
+	(net 127 "unconnected-(U5-REG1-Pad35)")
 	(footprint "Inductor_SMD:L_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "01d4adc1-2e07-42c1-b5be-b67be4a05c65")
@@ -536,6 +543,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b53adfb1-0fa7-4f97-ba92-f76ddde57393")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77f6f9bd-e0c6-4a50-ac6f-251f76194d19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914/011a29a9-2931-4e4b-85c4-1baecc7a39c1")
 		(sheetname "/Frontend/Load Switch/")
@@ -731,6 +764,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2fb738c-1a9f-4f63-9d94-3571da922b4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8d90f61-6b94-45ab-914d-33b711bd356f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1155,6 +1214,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c5d9d35-c500-4400-a5e7-8fe766dfa160")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f67123f-cd6e-4968-a115-7db1679f903f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2482,6 +2567,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "766a3727-5fd8-4864-930f-b7f287a12d6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91cffa72-299b-4ea5-9217-6e7a00e74e2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D?SOD?123F*")
 		(path "/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914/21f6f213-09f6-45ba-a694-5d708fd94f17")
 		(sheetname "/Frontend/Load Switch/")
@@ -3414,6 +3525,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef69af4f-ea23-41df-bb21-c070782b25f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13d370d9-87a4-4cb6-ac1b-f2113a582419")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914/a31b39e0-5fb8-4252-9114-5513a5790ff3")
 		(sheetname "/Frontend/Load Switch/")
@@ -4077,6 +4214,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "481d563d-7639-4cfb-8890-00e89d870e10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21c91569-e8c1-4674-841f-756ba05056ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8/caac1afc-b297-4b32-b86d-769bf8fad931")
 		(sheetname "/Power Supply/")
@@ -4272,6 +4435,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f47c241d-fb0d-41a5-88ea-7056b0d52b72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20073ee0-8705-454c-965c-4c706f239198")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5235,7 +5424,7 @@
 			(size 1.475 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 2 "GND")
+			(net 125 "unconnected-(U5-REG2-Pad34)")
 			(pinfunction "REG2")
 			(pintype "power_out")
 			(uuid "76ab2718-ca62-41f2-b009-4ed506f42281")
@@ -5245,7 +5434,7 @@
 			(size 1.475 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 2 "GND")
+			(net 127 "unconnected-(U5-REG1-Pad35)")
 			(pinfunction "REG1")
 			(pintype "power_out")
 			(uuid "b5176ecd-d6ae-4aea-b5bf-abe463ac0faa")
@@ -5255,7 +5444,7 @@
 			(size 1.475 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 2 "GND")
+			(net 126 "unconnected-(U5-REGIN-Pad36)")
 			(pinfunction "REGIN")
 			(pintype "power_in")
 			(uuid "a2c16efd-ae5e-4af2-80de-28c47ee86446")
@@ -5265,7 +5454,7 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 2 "GND")
+			(net 124 "unconnected-(U5-BREG-Pad37)")
 			(pinfunction "BREG")
 			(pintype "output")
 			(uuid "643ec210-9761-4ecb-9338-6932a03a0554")
@@ -5441,6 +5630,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95a102a8-caa2-4fb1-96e0-a7a464acb568")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "157f8490-5260-4b6c-a167-c8f7c612ee75")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6811,6 +7026,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3d62fa1-a6fa-4061-8992-e25b102ce8c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7dd667af-24ee-4014-b2c5-d88f0591d64a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/10854291-e499-47cf-bc6f-4ce26b968542/3aafce3b-e0a0-4957-9f2c-98c5413dfb1d")
 		(sheetname "/Frontend/")
@@ -7942,6 +8183,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ca319f1-7fc9-46de-b24b-7d12a86dc03b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4900546b-12e1-4549-90ca-1b0cd2b8ce88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/10854291-e499-47cf-bc6f-4ce26b968542/368b385b-4d54-46f5-b6e7-42a3bd85bb11")
 		(sheetname "/Frontend/")
@@ -8148,6 +8415,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c49f5fb9-bd45-45c9-9426-7c62b4b3dbee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "529f28d1-5e8d-44e3-8b7e-cfc5b7eb452a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2979e19f-e12b-43a3-b9e5-ede42014e46b")
 			(effects
 				(font
 					(size 1 1)
@@ -8813,6 +9106,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f55c46f1-0b7b-4255-ad39-ded0b9054699")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "216d4282-40c9-4b79-9eda-68ec0a05d920")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914/21d1d216-1344-4246-92b1-8b0697c0fd3c")
 		(sheetname "/Frontend/Load Switch/")
@@ -9252,7 +9571,7 @@
 		(property "Reference" "U3"
 			(at 0 -3.4 0)
 			(layer "F.SilkS")
-			(uuid "e3b58395-acf4-438b-86f0-cc16a95bfd22")
+			(uuid "b4381502-1b42-48fd-a729-2e778012c895")
 			(effects
 				(font
 					(size 1 1)
@@ -9263,7 +9582,7 @@
 		(property "Value" "LM5163DDA"
 			(at 0 3.4 0)
 			(layer "F.Fab")
-			(uuid "72dcd14a-1252-40b9-9d2c-76beee2b782d")
+			(uuid "e14f4afd-b8c8-48cc-9aed-49133e696c5e")
 			(effects
 				(font
 					(size 1 1)
@@ -9275,7 +9594,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "36424934-9f3f-4dcd-8e8a-c1f8f63bb669")
+			(uuid "5c1bd1af-268e-416d-be5a-d90d54310ef6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9287,7 +9606,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "40e44d5a-1e97-4a8e-b2b2-351faa95665c")
+			(uuid "12f16f80-efbc-48aa-823f-d2ac2864c804")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,6 +9620,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f5a899ff-9350-42c2-981b-d18e9a76401f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03fc7682-d18b-486b-8970-9afad00ff30b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d744fbe-f4e1-487c-9e9b-5a6d10a93fcd")
 			(effects
 				(font
 					(size 1 1)
@@ -9704,6 +10049,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d1ab090-0e9e-4626-8a37-a4f646e1637b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88b12ea2-b5a7-4315-8a48-5e7e0cf2740c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914/b5342d8f-9c5f-4844-a3c3-481ec4a42d1f")
 		(sheetname "/Frontend/Load Switch/")
@@ -9903,6 +10274,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79fa3bae-045b-4ce4-b269-3e8f66f91d1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e3aa868-dd6b-4260-80bb-573af7629f7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/10854291-e499-47cf-bc6f-4ce26b968542/7ec6f4d0-c8c2-4ac2-bdd0-97cd15d5cf1d")
 		(sheetname "/Frontend/")
@@ -10059,7 +10456,7 @@
 		(property "Reference" "Q3"
 			(at 0 -6 90)
 			(layer "F.SilkS")
-			(uuid "e543f415-21b2-4018-9c65-192e7a180296")
+			(uuid "9c9a0c68-6ca9-4b99-b2a9-3eb853ffedc3")
 			(effects
 				(font
 					(size 1 1)
@@ -10070,7 +10467,7 @@
 		(property "Value" "IPT015N10N5"
 			(at 0 6 90)
 			(layer "F.Fab")
-			(uuid "25667af3-48ca-4113-bb9a-d8704c2e6cbf")
+			(uuid "f0129aa1-cc76-491b-ad30-96a2260b3b6a")
 			(effects
 				(font
 					(size 1 1)
@@ -10083,7 +10480,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d97f9189-5840-4881-ad60-51978315ad55")
+			(uuid "23d6ae62-df41-4c4d-bb47-08751671adfe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10096,7 +10493,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d4a33fc-8ad2-4c27-8d82-1c29daa7eaec")
+			(uuid "766d60cb-5bfd-46e1-9d64-4169dec3fbdd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10673,7 +11070,7 @@
 			(at 3.8 0 90)
 			(size 2.9 8.7)
 			(layers "F.Cu" "F.Mask")
-			(net 79 "Net-(Q1-D)")
+			(net 79 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
 			(zone_connect 2)
@@ -11678,6 +12075,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2de928d0-c6c2-49bd-b82a-114b05bbad0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46cc8b7f-5653-4f23-a610-b90b0a3aa6b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/a043eb2a-f7b6-4ccf-a1ff-2a14a6a2a866")
 		(sheetname "/MCU/")
@@ -11883,6 +12306,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5a6605aa-bde8-4127-96dd-b612927cee6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30764aae-b9a3-4e83-9619-39b0d93e3918")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ecb4cf6-3765-4e25-a0ad-84e80ec4a6ff")
 			(effects
 				(font
 					(size 1 1)
@@ -12314,6 +12763,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69fe94fe-6f62-4bab-a583-2b5f43f8dace")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c2434a8-45c6-4711-9979-a557b0ad8360")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/e3f7fabf-b11d-4406-aa78-c6de2577dc76")
 		(sheetname "/MCU/")
@@ -12709,7 +13184,7 @@
 			(at -3.1 -6.55 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d7125d22-9bea-48e9-99f3-e6df11851708")
+			(uuid "8dca7888-820e-46c4-8422-71389a7e666f")
 			(effects
 				(font
 					(size 1 1)
@@ -12720,7 +13195,7 @@
 		(property "Value" "ESP32-C3"
 			(at 0 3.8 0)
 			(layer "F.Fab")
-			(uuid "67dabab0-9b90-4d8e-be34-1a9374d25358")
+			(uuid "a3ca10d2-25de-4773-9952-bedc9c42c815")
 			(effects
 				(font
 					(size 1 1)
@@ -12733,7 +13208,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "42a3d48c-cc96-4917-8cf7-df031bb1beec")
+			(uuid "45a52436-c6e7-40a8-b9eb-7beda42a73a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12746,7 +13221,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6cb99cf8-108a-4b2f-b228-cccdd4700796")
+			(uuid "cd53812b-670f-4693-9916-9050bedd1555")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14066,6 +14541,256 @@
 			)
 		)
 	)
+	(footprint "Package_TO_SOT_SMD:SOT-23"
+		(layer "F.Cu")
+		(uuid "620d99a3-186a-41de-9133-8996a97c7783")
+		(at 141.8625 86.3)
+		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(tags "SOT TO_SOT_SMD")
+		(property "Reference" "Q9"
+			(at 0 -2.4 0)
+			(layer "F.SilkS")
+			(uuid "8910facb-82b4-43cb-82a1-49d69186d161")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 0 2.4 0)
+			(layer "F.Fab")
+			(uuid "965ec296-e55a-4355-b1c2-d4afe65ed619")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dda47fa0-e504-485d-97fe-8d400b8a0eb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "068dcb3f-245a-4287-80c1-6a024e983cd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee9bff04-9886-41d8-85c3-abc904b62db2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "985e2dd6-c21b-44bd-83c1-3472cc75fa23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SOT?23*")
+		(path "/10854291-e499-47cf-bc6f-4ce26b968542/a516fccc-a248-41ec-bf70-22b67bc0ede9")
+		(sheetname "/Frontend/")
+		(sheetfile "frontend.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -1.56)
+			(end -0.65 -1.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9a430329-8279-4b95-8ac4-cce1c6fa6a85")
+		)
+		(fp_line
+			(start 0 -1.56)
+			(end 0.65 -1.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8624ce37-1992-4a5d-8b21-1d39c2859d4d")
+		)
+		(fp_line
+			(start 0 1.56)
+			(end -0.65 1.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b8d42b9e-04eb-4a47-b8b6-b2b096e78c49")
+		)
+		(fp_line
+			(start 0 1.56)
+			(end 0.65 1.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2a976301-2159-42e7-b43d-deee8d3b3bda")
+		)
+		(fp_poly
+			(pts
+				(xy -1.1625 -1.51) (xy -1.4025 -1.84) (xy -0.9225 -1.84)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "79d661bd-c8e0-4e06-a3c6-0f80d451528c")
+		)
+		(fp_rect
+			(start -1.92 -1.7)
+			(end 1.92 1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f6637f4b-fcf1-4270-8315-574b38042f7a")
+		)
+		(fp_line
+			(start -0.65 -1.125)
+			(end -0.325 -1.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6146433e-9494-4dc9-87ba-0d396be61b7c")
+		)
+		(fp_line
+			(start -0.65 1.45)
+			(end -0.65 -1.125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "29b71fce-49d3-4ef9-bcbd-f7bd7fc8c827")
+		)
+		(fp_line
+			(start -0.325 -1.45)
+			(end 0.65 -1.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "95cc763d-7fb3-4cf2-ad4d-7faffecec846")
+		)
+		(fp_line
+			(start 0.65 -1.45)
+			(end 0.65 1.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4020b256-09b1-4435-9648-4d2ab43a2522")
+		)
+		(fp_line
+			(start 0.65 1.45)
+			(end -0.65 1.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "98da25c2-ca16-46f7-ad98-039b6cab0486")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e61a047d-a95d-41b9-a1ca-b17ba5f3b616")
+			(effects
+				(font
+					(size 0.32 0.32)
+					(thickness 0.05)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9375 -0.95)
+			(size 1.475 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 122 "unconnected-(Q9-B-Pad1)")
+			(pinfunction "B")
+			(pintype "input")
+			(uuid "e7eda053-e36b-47bf-8286-68e77e9d951b")
+		)
+		(pad "2" smd roundrect
+			(at -0.9375 0.95)
+			(size 1.475 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 123 "unconnected-(Q9-E-Pad2)")
+			(pinfunction "E")
+			(pintype "passive")
+			(uuid "eaa42899-1f8e-4847-99af-6b56d8140f75")
+		)
+		(pad "3" smd roundrect
+			(at 0.9375 0)
+			(size 1.475 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 121 "unconnected-(Q9-C-Pad3)")
+			(pinfunction "C")
+			(pintype "passive")
+			(uuid "2307c134-928b-4348-8ae0-15cc7f2340d4")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "629df98a-8a9c-494b-927a-9fd3731ea1c1")
@@ -14356,6 +15081,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1545c3a-dc2a-41ed-a7b9-1f7d821f6c80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6cbb0b1-acdc-41ab-9732-0931c4eaefae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8/c4662536-facd-4d79-9418-76cd62c37775")
 		(sheetname "/Power Supply/")
@@ -14551,6 +15302,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "050bb82e-3023-470d-9a04-b3c9c3a374e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "507fe71a-0566-4350-8250-79f0ab0f571b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16690,6 +17467,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5dd0b1bc-a913-4da4-ae4f-1843d095d676")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4a47ae5-33c1-4cd1-b349-ed1e4bc126a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914/1ccdc45b-212a-4f16-9ba0-61b761a80115")
 		(sheetname "/Frontend/Load Switch/")
@@ -17085,7 +17888,7 @@
 		(property "Reference" "Q6"
 			(at 0 -6 270)
 			(layer "F.SilkS")
-			(uuid "af8e9b77-635e-4f3b-8bfb-95aae0c20922")
+			(uuid "cb894991-eb81-4e06-825e-d1b7dfde8ef0")
 			(effects
 				(font
 					(size 1 1)
@@ -17096,7 +17899,7 @@
 		(property "Value" "IPT015N10N5"
 			(at 0 6 270)
 			(layer "F.Fab")
-			(uuid "2d32bcdc-ff5f-4c3b-9fe8-9dd22e4cb3d5")
+			(uuid "20eaf2ea-263e-4c3d-a666-6d6b7fb2f1bd")
 			(effects
 				(font
 					(size 1 1)
@@ -17109,7 +17912,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6acd4fb-d9e9-4db2-acbb-9b431abd1ca9")
+			(uuid "04dc8f6d-ecb7-4b8c-8b2e-a566054b7274")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17122,7 +17925,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9104c91f-34f9-4980-ac73-b20484d58b9f")
+			(uuid "d9d68bfb-b5af-4a19-8940-fc2f9bf2ad8e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17699,7 +18502,7 @@
 			(at 3.8 0 270)
 			(size 2.9 8.7)
 			(layers "F.Cu" "F.Mask")
-			(net 79 "Net-(Q1-D)")
+			(net 79 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
 			(zone_connect 2)
@@ -18254,6 +19057,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc0ce46d-0914-4744-b64b-4505ac87219b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7dbe4bf-337d-4297-a600-4aa2187cda65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8/4caa9997-835c-492b-b207-048c22fa7f4a")
 		(sheetname "/Power Supply/")
@@ -18410,7 +19239,7 @@
 		(property "Reference" "Q5"
 			(at 0 -6 270)
 			(layer "F.SilkS")
-			(uuid "5d206da6-b9af-4683-9ac7-e968df155433")
+			(uuid "929d027e-fbbe-4e4b-a606-926b95655e26")
 			(effects
 				(font
 					(size 1 1)
@@ -18421,7 +19250,7 @@
 		(property "Value" "IPT015N10N5"
 			(at 0 6 270)
 			(layer "F.Fab")
-			(uuid "a75ff7d3-4a7f-4a6c-abc1-dc81a7ca91c1")
+			(uuid "1bcf4f71-bf98-404c-aa7e-215c8e531377")
 			(effects
 				(font
 					(size 1 1)
@@ -18434,7 +19263,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "201de522-3c0a-4480-b3f5-dcd40fdb2c99")
+			(uuid "ab7964cc-d176-4141-9a40-5b7162646def")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18447,7 +19276,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef895ff8-8fd1-4c7d-99d9-91423f657d7f")
+			(uuid "552ce59b-5330-4d63-abb1-3a8784f431cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19024,7 +19853,7 @@
 			(at 3.8 0 270)
 			(size 2.9 8.7)
 			(layers "F.Cu" "F.Mask")
-			(net 79 "Net-(Q1-D)")
+			(net 79 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
 			(zone_connect 2)
@@ -19112,6 +19941,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1da3e08c-209d-48c4-9976-403046fd81d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a86224d4-505a-4bb2-92a2-bb9dad040f95")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20680,6 +21535,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a516829-a368-4fdf-b81d-a6ff93449437")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a210d0e4-94a3-40b3-87d6-dea1e193426e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914/f8b19c86-3be4-44e8-bae5-7dd2911f8ea2")
 		(sheetname "/Frontend/Load Switch/")
@@ -21104,6 +21985,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc763fad-d121-46eb-b700-980353a5f539")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "462b55c9-7d41-4546-8a76-90bb689d8c95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914/1a5f3244-d33f-4ecb-bad6-7aaf92806e19")
 		(sheetname "/Frontend/Load Switch/")
@@ -21299,6 +22206,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf9fb05d-746b-477e-9356-bfea27734570")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc1765d2-4365-4555-b1d3-0a7287263c4e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -21589,6 +22522,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c65b4720-c5be-4125-8e0f-ca91ea823606")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0579bdc5-c728-453c-a380-6b38793bd3c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8/20f9781d-cdbf-46aa-be07-8033d6d4ad9b")
 		(sheetname "/Power Supply/")
@@ -21830,6 +22789,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac27ecd9-b009-432a-bf6e-089c63801e77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b68c562d-ec42-4372-a167-6b4ff5182051")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914/50ed1e7a-fdb5-419b-b889-6d4f4cf99370")
 		(sheetname "/Frontend/Load Switch/")
@@ -22027,6 +23012,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f7b69b9-f680-4fd5-b22a-afefc3e88899")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd6c60ef-93b1-4f1b-b0c3-b857577e7ae3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -22308,6 +23319,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d5e978e-5f2a-4890-8c71-3cd051e9cd9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da710af2-7635-447f-b142-0f49d84e214b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -22693,7 +23730,7 @@
 		(property "Reference" "Q4"
 			(at 0 -6 90)
 			(layer "F.SilkS")
-			(uuid "d67ddbf1-2a2f-4455-b34e-6f46208842c2")
+			(uuid "d8734342-0e01-4e94-af3c-dfda4313b219")
 			(effects
 				(font
 					(size 1 1)
@@ -22704,7 +23741,7 @@
 		(property "Value" "IPT015N10N5"
 			(at 0 6 90)
 			(layer "F.Fab")
-			(uuid "08860d92-1a9a-4c8b-ab91-7b8fc3b1e064")
+			(uuid "cedceac9-9a90-4533-8f04-973579eaa852")
 			(effects
 				(font
 					(size 1 1)
@@ -22717,7 +23754,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aeef1400-8dbe-4d99-8e39-2683d21ab9cd")
+			(uuid "ed31c04d-0d91-4fa6-abe1-b92fce27ca07")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22730,7 +23767,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5162ad5c-905a-4fb2-a929-c5c1e33aee1b")
+			(uuid "7535d1ca-d652-44bb-8be9-4c245ff76398")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23307,7 +24344,7 @@
 			(at 3.8 0 90)
 			(size 2.9 8.7)
 			(layers "F.Cu" "F.Mask")
-			(net 79 "Net-(Q1-D)")
+			(net 79 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
 			(zone_connect 2)
@@ -23620,6 +24657,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "671930d0-a060-43b7-8f67-732fd82569ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11bae83b-9b03-486b-b4e6-b44d64db151f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -24723,6 +25786,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33ac9747-79cc-4f01-a2b7-31ed6cc8ee4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f73154a7-9c62-4783-8436-bd74db2d1ecd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1c5935ea-6f80-435f-8ae1-741f5546f8d9/21b9b2b5-ff97-447a-a56e-396f0ea09701")
 		(sheetname "/MCU/")
@@ -24918,6 +26007,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c3220d8-d9e4-42c8-9447-9e104f2579b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9e62887-39bd-43be-aff1-1861e0531665")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -25810,6 +26925,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de990578-a13f-4547-bfee-86423f3e8e26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc3841c4-e08d-4a4d-8ced-18a50ad50879")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914/7592dfd4-b179-4ab3-b5e4-bea02991c426")
 		(sheetname "/Frontend/Load Switch/")
@@ -26248,6 +27389,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d8b89bd-07fd-4375-92c4-eba659eed948")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8d0f727-c6af-4dfe-be86-ad0249963666")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9ef89867-7a9d-4496-860b-b4463f8a30b7")
 		(sheetname "/")
@@ -26404,7 +27571,7 @@
 		(property "Reference" "J6"
 			(at 0 -4.58 0)
 			(layer "F.SilkS")
-			(uuid "602c6b2b-a080-4ce4-badd-3319b08b135e")
+			(uuid "9c6788eb-e961-49a3-8a14-861ccb4ebcd8")
 			(effects
 				(font
 					(size 1 1)
@@ -26415,7 +27582,7 @@
 		(property "Value" "USB_C_Receptacle_USB2.0_14P"
 			(at 0 6.24 0)
 			(layer "F.Fab")
-			(uuid "d166e3c2-c048-4f67-a6d0-27aacf678769")
+			(uuid "d4cb15b5-e6a9-42a5-bf7b-f4b440c1ac49")
 			(effects
 				(font
 					(size 1 1)
@@ -26428,7 +27595,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "01d042f4-a71c-447a-af89-51baf8f265ac")
+			(uuid "d54e3c03-1a8c-479c-b0fb-e55df4d64461")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26441,7 +27608,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b1236ab3-ca60-413c-ae44-4461fa6954b5")
+			(uuid "04802e7f-0a83-47db-a0bb-f03301b98cd3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26864,7 +28031,7 @@
 		(property "Reference" "Q8"
 			(at 0 -6 270)
 			(layer "F.SilkS")
-			(uuid "71280e8b-fc94-4649-9d89-9252e9a581de")
+			(uuid "29a41d91-219f-4ba8-970c-015ba9bb4003")
 			(effects
 				(font
 					(size 1 1)
@@ -26875,7 +28042,7 @@
 		(property "Value" "IPT015N10N5"
 			(at 0 6 270)
 			(layer "F.Fab")
-			(uuid "2abbbd8b-6ce7-4655-9763-1b74bd2112cf")
+			(uuid "f6843e7f-38ce-46c4-b77f-3a55c9ac84e5")
 			(effects
 				(font
 					(size 1 1)
@@ -26888,7 +28055,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "919fe4f9-ab06-4270-8f4b-7e7460bb2557")
+			(uuid "f615c960-a41e-48ca-afcb-939e76e38135")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26901,7 +28068,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "864b3307-d899-4dde-83a4-fc264af945b4")
+			(uuid "f7ba48f5-d6ee-49ff-83cb-ac2938f4a196")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27478,7 +28645,7 @@
 			(at 3.8 0 270)
 			(size 2.9 8.7)
 			(layers "F.Cu" "F.Mask")
-			(net 79 "Net-(Q1-D)")
+			(net 79 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
 			(zone_connect 2)
@@ -27980,7 +29147,7 @@
 		(property "Reference" "Q7"
 			(at 0 -6 270)
 			(layer "F.SilkS")
-			(uuid "9455e737-4e75-4eb5-a794-44478ded4ace")
+			(uuid "8d9e1329-8905-47b2-a8b4-8129ada98ec0")
 			(effects
 				(font
 					(size 1 1)
@@ -27991,7 +29158,7 @@
 		(property "Value" "IPT015N10N5"
 			(at 0 6 270)
 			(layer "F.Fab")
-			(uuid "b9ecc493-2553-44cb-b21e-be2d4be24b43")
+			(uuid "9dae67db-d17b-4096-b902-77da748f1bd2")
 			(effects
 				(font
 					(size 1 1)
@@ -28004,7 +29171,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "074176c1-a378-4c71-95ca-4b470cbc70d0")
+			(uuid "8395b9ee-653c-49bc-91e8-67a8c7b50147")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28017,7 +29184,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4967e7d9-2242-4a3c-995e-8ca3aaf07694")
+			(uuid "5647d87c-c625-41a3-aa62-f182e51dd5d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28594,7 +29761,7 @@
 			(at 3.8 0 270)
 			(size 2.9 8.7)
 			(layers "F.Cu" "F.Mask")
-			(net 79 "Net-(Q1-D)")
+			(net 79 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
 			(zone_connect 2)
@@ -28682,6 +29849,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "279147f1-7987-4445-8957-e0676d9260df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cb7b23e-6c23-4162-ab84-3ad8c3aaf122")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -29534,7 +30727,7 @@
 		(property "Reference" "Q2"
 			(at 0 -6 90)
 			(layer "F.SilkS")
-			(uuid "53a846a0-5f03-42c5-be27-b9163bd146b1")
+			(uuid "c37cd9a5-4182-45a7-8f29-c2fa7be328e0")
 			(effects
 				(font
 					(size 1 1)
@@ -29545,7 +30738,7 @@
 		(property "Value" "IPT015N10N5"
 			(at 0 6 90)
 			(layer "F.Fab")
-			(uuid "1c801bee-fe45-4ca2-804c-a6294153cf1e")
+			(uuid "ce60dbd7-bb8d-440d-802e-615b5c0eda7a")
 			(effects
 				(font
 					(size 1 1)
@@ -29558,7 +30751,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9c311998-8aac-4652-9126-47b4dd52ce54")
+			(uuid "89ef1dbe-294f-47dd-8dd4-418f58a76ccb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29571,7 +30764,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3741a7f6-8665-4341-a9b3-faa373b25628")
+			(uuid "4801ff7d-2cd6-47a3-93e4-4fe7426ff4af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30148,7 +31341,7 @@
 			(at 3.8 0 90)
 			(size 2.9 8.7)
 			(layers "F.Cu" "F.Mask")
-			(net 79 "Net-(Q1-D)")
+			(net 79 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
 			(zone_connect 2)
@@ -30653,6 +31846,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45a7f9a7-3259-4e05-9dbd-904738c30056")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b4469f8-7f64-4f8b-96c4-baf81c3416c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/10854291-e499-47cf-bc6f-4ce26b968542/6e7418df-9c59-4dbc-b1ec-3aca8f22c959")
 		(sheetname "/Frontend/")
@@ -30848,6 +32067,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7561d2ed-e7a9-4735-a291-6576fab21db8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f53328d-91eb-4a8f-b702-efe5a257997e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -31514,6 +32759,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22611aa5-2453-43d5-87d5-1db15c406cac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e09dab5-e0d3-4672-aa70-99846eb092e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8/a590c8d5-5e37-4e19-84d2-7c450429ce9d")
 		(sheetname "/Power Supply/")
@@ -31670,7 +32941,7 @@
 		(property "Reference" "Q1"
 			(at 0 -6 90)
 			(layer "F.SilkS")
-			(uuid "19880397-c6de-4212-834f-5c3f49be12f5")
+			(uuid "094486fd-16fd-453f-b630-7257d3053147")
 			(effects
 				(font
 					(size 1 1)
@@ -31681,7 +32952,7 @@
 		(property "Value" "IPT015N10N5"
 			(at 0 6 90)
 			(layer "F.Fab")
-			(uuid "d8e01a88-fd01-4510-90f3-2ca7b23f8bda")
+			(uuid "2513d17e-7292-4a2f-9df3-600615957a7a")
 			(effects
 				(font
 					(size 1 1)
@@ -31694,7 +32965,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "14e74e5f-00c8-4258-9d2d-efc63a086e99")
+			(uuid "960dc9ab-ecfd-4f15-bada-511ce5ac5b62")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31707,7 +32978,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae6a9039-aae2-4d83-bf20-bb5ed9cbd07b")
+			(uuid "959ff6f8-e891-4c57-ad41-3d880b924dec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32284,7 +33555,7 @@
 			(at 3.8 0 90)
 			(size 2.9 8.7)
 			(layers "F.Cu" "F.Mask")
-			(net 79 "Net-(Q1-D)")
+			(net 79 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
 			(zone_connect 2)
@@ -32372,6 +33643,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bb32077-55bf-4cc8-b42b-33c07c12f331")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e7a3809-ee94-410c-be32-706a1a214949")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -34876,6 +36173,32 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf28a495-67eb-4dd5-80dd-bc58f8d13a68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f146b75d-c235-49bf-be06-730962f18b30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8/3da8f9bc-ad69-43ee-8449-c330954953e3")
 		(sheetname "/Power Supply/")
@@ -35658,6 +36981,34 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "895a75e0-67f7-4ff2-8b80-f83ca2f5e9f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "815aa9f2-c3b4-4154-9191-943c34827130")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
