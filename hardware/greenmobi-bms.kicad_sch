@@ -1704,6 +1704,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -2436,7 +2543,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 59.69) (xy 77.47 59.69)
+			(xy 29.21 59.69) (xy 34.29 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2623,6 +2730,16 @@
 			(type default)
 		)
 		(uuid "b286ab32-d7fc-496f-b647-c0cf9ce97045")
+	)
+	(wire
+		(pts
+			(xy 44.45 59.69) (xy 77.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f55b0b-d5cb-4d49-8af2-ea6343b4f904")
 	)
 	(wire
 		(pts
@@ -4290,7 +4407,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 71.12 59.69 180)
+		(at 24.13 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4299,7 +4416,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc5cd5e8-b385-4a7b-ace2-4fe61f4bd9ae")
 		(property "Reference" "J1"
-			(at 71.12 53.34 0)
+			(at 24.13 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,7 +4424,7 @@
 			)
 		)
 		(property "Value" "BAT+"
-			(at 71.12 55.88 0)
+			(at 24.13 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +4432,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 71.12 59.69 0)
+			(at 24.13 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +4441,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 59.69 0)
+			(at 24.13 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,7 +4450,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 71.12 59.69 0)
+			(at 24.13 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,7 +4459,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 71.12 59.69 0)
+			(at 24.13 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +4467,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 71.12 59.69 0)
+			(at 24.13 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,6 +4642,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d63b1474-1beb-403f-8df5-192e61d196c3")
+		(property "Reference" "H1"
+			(at 46.99 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 46.99 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "greenmobi-bms:Automotive_Fuse"
+			(at 44.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 44.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1f7139c-765a-46e1-8a41-b1fe39b199e4")
+		)
+		(instances
+			(project ""
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 222.25 138.43 0)
 		(unit 1)
@@ -4672,6 +4856,73 @@
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
 					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 34.29 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7eab83d-8bbc-4cf0-aecf-02ce554c823a")
+		(property "Reference" "H2"
+			(at 36.83 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 36.83 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "greenmobi-bms:Automotive_Fuse"
+			(at 34.29 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 34.29 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76d2668a-74b3-4491-b8eb-a2db7aeb5057")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
+					(reference "H2")
 					(unit 1)
 				)
 			)

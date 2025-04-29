@@ -1,0 +1,99 @@
+(footprint "Automotive_Fuse"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 6.5mm")
+	(tags "mounting hole 6.5mm")
+	(property "Reference" "H1"
+		(at 0 -6 0)
+		(layer "F.SilkS")
+		(uuid "6e2354e6-7554-4035-9a34-9f56ea07f9fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse"
+		(at 0 7.5 0)
+		(layer "F.Fab")
+		(uuid "b3fe3879-31b8-4e7a-a160-a6eef6708e8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43275a33-299d-4424-b5c2-cad32dd5f373")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mounting Hole with connection"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b93b7e7a-7042-4126-98f5-4bd25c8164b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 4.5 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "7a867274-5016-401e-a9d4-5628fd6ca068")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.75 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2b543e20-e406-45ec-9c84-86933982f5bb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ff4eca51-5fc5-4014-bf2e-10ec35c733c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 9 9)
+		(drill 6.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eda8777e-adcd-470c-84ef-8b437606253b")
+	)
+	(embedded_fonts no)
+)
