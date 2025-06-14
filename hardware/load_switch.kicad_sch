@@ -1782,7 +1782,7 @@
 		)
 		(uuid "a0151f44-dc7c-4e2c-80ae-098ad72bd58b")
 	)
-	(hierarchical_label "BAT+"
+	(hierarchical_label "BAT_F"
 		(shape input)
 		(at 95.25 72.39 180)
 		(effects

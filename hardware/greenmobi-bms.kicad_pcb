@@ -268,7 +268,7 @@
 	(net 120 "Net-(U2-GPIO2)")
 	(net 121 "Net-(R50-Pad2)")
 	(net 122 "Net-(U5-TS2)")
-	(net 123 "/Frontend/PACK-")
+	(net 123 "/Frontend/CEL_0")
 	(net 124 "unconnected-(H2-Pad1)")
 	(footprint "Inductor_SMD:L_0402_1005Metric"
 		(layer "F.Cu")
@@ -2506,7 +2506,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.222222)
-			(net 2 "GND")
+			(net 123 "/Frontend/CEL_0")
 			(pintype "passive")
 			(uuid "9d40aea9-bc96-48c1-9765-5c6e1c8a0f7d")
 		)
@@ -8716,7 +8716,7 @@
 			(size 0.6 1.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 2 "GND")
+			(net 123 "/Frontend/CEL_0")
 			(pinfunction "Pin_17")
 			(pintype "passive")
 			(uuid "8ace4b31-2ccd-46de-9f01-c8a45b42f25c")
@@ -10022,7 +10022,7 @@
 			(drill 6.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 123 "/Frontend/CEL_0")
 			(pinfunction "1")
 			(pintype "input")
 			(uuid "9d040783-76a4-4b72-bee5-74cd52c2c506")
@@ -11819,7 +11819,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "c624e514-77bd-4865-936f-ad2abda91c02")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 -1.2 90)
@@ -11830,7 +11830,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "a05a2bc7-bc3a-4a65-8ae1-6699310fee8f")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 0 90)
@@ -11841,7 +11841,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "d3208d72-96c5-47b4-8021-0949599c184e")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 1.2 90)
@@ -11852,7 +11852,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "81371912-21b7-4911-9d69-68c0b5f9350c")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 2.4 90)
@@ -11863,7 +11863,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "06585147-a942-428a-8374-a05e574f75b6")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 3.6 90)
@@ -11874,7 +11874,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "3b6e1b69-fce2-4d3f-94aa-d88ffd61b945")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -3.6 90)
@@ -11885,7 +11885,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "0bcab422-be20-43df-92ac-54817e5e80fd")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -2.4 90)
@@ -11896,7 +11896,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "f18b4789-cade-47b6-b3e2-a9e8133f3a71")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -1.2 90)
@@ -11907,7 +11907,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "db8cd456-06fe-451e-945c-820dda11106f")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 0 90)
@@ -11918,7 +11918,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "ea1b8624-c9c1-4b3f-96ab-ea03d380e798")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 1.2 90)
@@ -11929,7 +11929,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "c79c08d0-d4c4-470d-9e5a-f8bc01aa2b06")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 2.4 90)
@@ -11940,7 +11940,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "46c59e6a-43e8-4533-8ef3-13813f9944cc")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 3.6 90)
@@ -11951,7 +11951,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "cecfd6f3-abd9-445e-bd39-494883a90f71")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -3.6 90)
@@ -11962,7 +11962,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "0f5bf7da-eec1-4b18-b76a-8fe1bc5c9cf0")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -2.4 90)
@@ -11973,7 +11973,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "72b32a99-39a4-4b62-a90c-c80dd71cc299")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -1.2 90)
@@ -11984,7 +11984,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "2cb3a194-020a-4049-887c-8466e9e99da1")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 0 90)
@@ -11995,7 +11995,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "55f5ef47-66c7-4ffb-a976-717a677ec786")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 1.2 90)
@@ -12006,7 +12006,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "7cf6b63c-829e-4ce3-896b-cd2a273daefe")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 2.4 90)
@@ -12017,7 +12017,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "5f9adfac-4ffa-457c-8d5a-f052c0d55aa7")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 3.6 90)
@@ -12028,7 +12028,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "ef604722-1bf9-4810-a192-bf28e0f30427")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -3.6 90)
@@ -12039,7 +12039,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "6017da9f-a317-4dd7-9781-730c49808ee3")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -2.4 90)
@@ -12050,7 +12050,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "9c86a59f-d931-4a05-9965-4bbae35b7ac1")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -1.2 90)
@@ -12061,7 +12061,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "17e7820e-92b1-481c-ae63-e84f5ca57f0a")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 0 90)
@@ -12072,7 +12072,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "e0ceef83-bf83-4187-bd2e-1c7092ba1522")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 1.2 90)
@@ -12083,7 +12083,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "8f4ce75f-f9cb-420c-a69c-3b9a97f3ec4a")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 2.4 90)
@@ -12094,7 +12094,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "62920d00-9301-42e8-9b20-cd6302b36412")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 3.6 90)
@@ -12105,7 +12105,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "533f7490-c77e-4a6a-a3cb-aa07eb952eb3")
 		)
 		(pad "3" smd custom
 			(at 3.8 0 90)
@@ -12136,7 +12136,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "44ad65bc-5d5c-4dc8-83d5-31d0ee92b66c")
 		)
 		(pad "3" smd custom
 			(at 3.8 0 90)
@@ -12167,7 +12167,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "223ac8e1-5c1b-4b5d-bd02-6e34876ab468")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -3.6 90)
@@ -12178,7 +12178,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "47bb8787-b488-416a-8912-1a7820177a1e")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -2.4 90)
@@ -12189,7 +12189,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "4d1183f4-f9c6-4e90-9a88-6217e2861a19")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -1.2 90)
@@ -12200,7 +12200,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "ddf67ff8-f684-401d-af40-d6e75b2784e2")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 0 90)
@@ -12211,7 +12211,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "55463ef9-695b-4142-8703-7b92673d83f5")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 1.2 90)
@@ -12222,7 +12222,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "6756f00a-4d91-4bc9-88a2-2d8f26da5098")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 2.4 90)
@@ -12233,7 +12233,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "16269567-4efa-4155-aab6-419b77b5c7c4")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 3.6 90)
@@ -12244,7 +12244,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "a7334fc1-d240-41fe-9e35-4b4f5ea0fa22")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -3.6 90)
@@ -12255,7 +12255,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "d531662e-7d44-4432-94ad-8848f11d8449")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -2.4 90)
@@ -12266,7 +12266,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "8326566b-921d-48a5-a814-c4bffd468d0f")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -1.2 90)
@@ -12277,7 +12277,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "2392d364-a941-4f5b-a952-949a2084a585")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 0 90)
@@ -12288,7 +12288,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "3c9bb83c-4272-4b32-b83e-734139a22af5")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 1.2 90)
@@ -12299,7 +12299,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "dbe80229-b70f-4b1b-a22d-7edce702609f")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 2.4 90)
@@ -12310,7 +12310,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "4e4adc75-d163-4a31-be5f-a93615db673d")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 3.6 90)
@@ -12321,7 +12321,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "69990d9e-bcc5-423a-aba8-965c0b4ba917")
+			(uuid "10386fa0-c9d3-4d2d-bba3-4bdb6f165c0c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-HSOF-8-1.step"
@@ -12339,13 +12339,13 @@
 	(footprint "greenmobi-bms:Automotive_Fuse"
 		(layer "F.Cu")
 		(uuid "47aae526-0a0c-43d2-8a5e-1fba46ecb1d4")
-		(at 153.95 94.05)
+		(at 150.4 94.7)
 		(descr "Mounting Hole 6.5mm")
 		(tags "mounting hole 6.5mm")
 		(property "Reference" "H2"
 			(at 0 -6 0)
 			(layer "F.SilkS")
-			(uuid "de01521c-c000-488d-94d6-7f096a9c66c0")
+			(uuid "365f3990-07e0-47f4-8ad7-0645fbbef3df")
 			(effects
 				(font
 					(size 1 1)
@@ -12356,7 +12356,7 @@
 		(property "Value" "BAT+"
 			(at 0 7.5 0)
 			(layer "F.Fab")
-			(uuid "297cb555-78bb-4122-acdb-6a28dc670e2f")
+			(uuid "fc7b724a-4fa1-43ef-987f-0b3177fbb1d1")
 			(effects
 				(font
 					(size 1 1)
@@ -12369,7 +12369,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc6a9a64-edd1-4bd5-80c4-327e5d74a28a")
+			(uuid "10a150a9-2223-4aeb-95e7-93196f186e4d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12382,7 +12382,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3cf8177c-2a9e-43eb-b8af-a61de935efe2")
+			(uuid "54a0b66a-28bc-401f-ba43-0290af0ada90")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13439,7 +13439,7 @@
 			(drill 6.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 123 "/Frontend/PACK-")
+			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
 			(uuid "dd9cc96a-83d8-44bb-8260-4e7d732ba882")
@@ -14810,7 +14810,7 @@
 			(at -4.575 0 180)
 			(size 3.94 5.84)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 123 "/Frontend/PACK-")
+			(net 2 "GND")
 			(pintype "passive")
 			(uuid "519dbb62-72f2-4ba7-8b85-fffa72bebc6a")
 		)
@@ -14818,7 +14818,7 @@
 			(at 4.575 0 180)
 			(size 3.94 5.84)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 2 "GND")
+			(net 123 "/Frontend/CEL_0")
 			(pintype "passive")
 			(uuid "47023323-82a2-47e5-b727-d1e1bd0688f3")
 		)
@@ -20167,7 +20167,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "a8e4e612-404b-4da8-84c7-898a642c6222")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 -1.2 270)
@@ -20178,7 +20178,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "8bd1d76a-66ce-44b2-8323-6d27be7e0804")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 0 270)
@@ -20189,7 +20189,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "a177a5b7-61ab-48c7-9853-f322d5d0fac1")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 1.2 270)
@@ -20200,7 +20200,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "6158a2f0-aa18-4840-8abb-1f443c61bb2c")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 2.4 270)
@@ -20211,7 +20211,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "8b843b7e-a395-4279-8f7f-55da7451017c")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 3.6 270)
@@ -20222,7 +20222,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "e49753db-2a66-4a4b-a0a4-0caeb78bcded")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -3.6 270)
@@ -20233,7 +20233,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "82df7b23-889d-4c3b-b4a5-30d964b8bf6a")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -2.4 270)
@@ -20244,7 +20244,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "e6f89304-3c29-4284-93e3-512aff8b094a")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -1.2 270)
@@ -20255,7 +20255,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "b02758c1-54b5-4104-ade7-2e6de36f22ac")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 0 270)
@@ -20266,7 +20266,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "997729a4-a8f1-4364-8917-cb56cabe1def")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 1.2 270)
@@ -20277,7 +20277,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "517dcc12-b024-48ed-8f56-33f606a1a41e")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 2.4 270)
@@ -20288,7 +20288,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "e8e69822-b5d1-4526-9219-1e8143da5b2d")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 3.6 270)
@@ -20299,7 +20299,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "2d84c466-b0cd-49a6-a7ef-3de50e75eac4")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -3.6 270)
@@ -20310,7 +20310,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "f087d502-f328-4590-8f4b-2225cb0eec04")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -2.4 270)
@@ -20321,7 +20321,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "2fb93e82-5215-4e1e-a5bd-207e6caf734d")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -1.2 270)
@@ -20332,7 +20332,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "e97c85c3-3793-4987-ae1b-713cd56fcc77")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 0 270)
@@ -20343,7 +20343,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "92b059a3-7ee8-4dc8-b979-3564f79b196c")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 1.2 270)
@@ -20354,7 +20354,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "30286c89-4f1b-4317-b4d0-da3b6f1319a0")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 2.4 270)
@@ -20365,7 +20365,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "af475260-8057-4120-841d-9aa995936879")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 3.6 270)
@@ -20376,7 +20376,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "eec5d9f2-a19f-44ed-a1d7-959f7973a826")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -3.6 270)
@@ -20387,7 +20387,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "b4808df2-bdd6-4584-897e-13a1f20f4c9b")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -2.4 270)
@@ -20398,7 +20398,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "26570cb7-ad3b-458c-9dc8-584ac473381a")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -1.2 270)
@@ -20409,7 +20409,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "6b49b57b-5dc7-440d-a4da-da6140bcbe78")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 0 270)
@@ -20420,7 +20420,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "139c4698-4d1e-4f74-a599-aabfc1c04a63")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 1.2 270)
@@ -20431,7 +20431,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "3e7d9f82-1c02-4c77-9661-95d23c19cf62")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 2.4 270)
@@ -20442,7 +20442,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "7f10f781-0468-4a3a-9e06-e675f1736b20")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 3.6 270)
@@ -20453,7 +20453,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "5a01104a-512f-4478-b670-56d7d3c7d9a2")
 		)
 		(pad "3" smd custom
 			(at 3.8 0 270)
@@ -20484,7 +20484,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "2e43ab56-a30c-4f0a-95f5-5fadc544b078")
 		)
 		(pad "3" smd custom
 			(at 3.8 0 270)
@@ -20515,7 +20515,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "d96c26b6-d6ed-4a62-9bef-d13d6f70c209")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -3.6 270)
@@ -20526,7 +20526,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "bbd7c973-adf8-405d-b906-3fe7827618b0")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -2.4 270)
@@ -20537,7 +20537,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "e1232f2b-05b4-4911-868d-a3f91bcc9e16")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -1.2 270)
@@ -20548,7 +20548,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "1bcbcf3c-26fe-49d2-8534-825e65036413")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 0 270)
@@ -20559,7 +20559,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "922501e2-0301-4a82-925c-596f0d10e9ed")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 1.2 270)
@@ -20570,7 +20570,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "6b626c04-41cf-40ac-9207-a2fbf6bf0526")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 2.4 270)
@@ -20581,7 +20581,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "f124020c-b2aa-4306-ae6e-2514e8851524")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 3.6 270)
@@ -20592,7 +20592,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "a7c06d07-2905-47c9-87c9-0675d96a9411")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -3.6 270)
@@ -20603,7 +20603,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "82cebf1e-d84e-4b59-b2f6-7ec51e054f75")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -2.4 270)
@@ -20614,7 +20614,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "cd19a0de-2d44-46b3-b58d-7e5fcee298d6")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -1.2 270)
@@ -20625,7 +20625,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "ce018599-77fd-4c06-8040-f80988436f07")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 0 270)
@@ -20636,7 +20636,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "0d3ee6b1-bafa-41af-b606-4cfa7252cc2d")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 1.2 270)
@@ -20647,7 +20647,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "47fa70c7-5c5c-4843-8d7c-db8b9ccfa959")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 2.4 270)
@@ -20658,7 +20658,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "5d1016a6-8078-48aa-8835-f89775be62c9")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 3.6 270)
@@ -20669,7 +20669,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "378045ad-3f49-420e-b017-a6f93f73f899")
+			(uuid "1ebb6c92-072c-4001-9e67-1121fd901d6a")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-HSOF-8-1.step"
@@ -22236,7 +22236,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "e4e5f39d-d494-49cc-95cc-e60ee31a1396")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 -1.2 270)
@@ -22247,7 +22247,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "d592c8e8-aa1c-47cc-b8d9-04dfd09b2351")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 0 270)
@@ -22258,7 +22258,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "458d59c4-d363-4977-a770-7ec74e334a9e")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 1.2 270)
@@ -22269,7 +22269,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "a5102fdd-c5bc-43c3-9367-b9999868f482")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 2.4 270)
@@ -22280,7 +22280,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "81be7028-314d-463d-9865-91d550cf8a70")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 3.6 270)
@@ -22291,7 +22291,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "e66eb34f-24e8-401e-b172-1e5969ea9a25")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -3.6 270)
@@ -22302,7 +22302,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "2d3eb37f-6e11-4a63-8078-fbcebdda50af")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -2.4 270)
@@ -22313,7 +22313,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "5464d1cb-ca4c-45c4-9841-443edeea7c49")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -1.2 270)
@@ -22324,7 +22324,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "28fd261d-facf-47ea-9015-41bac9009286")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 0 270)
@@ -22335,7 +22335,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "d872ecb7-390e-475d-b7f4-5ef66645d42d")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 1.2 270)
@@ -22346,7 +22346,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "b462b675-de67-49ae-b715-057f55b3bd85")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 2.4 270)
@@ -22357,7 +22357,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "cf385fc2-e0e5-4b8b-a71d-782f0493c78b")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 3.6 270)
@@ -22368,7 +22368,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "ffcf11d7-ba1d-4d06-9fd3-ac36a3f79920")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -3.6 270)
@@ -22379,7 +22379,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "d5a18319-3fcd-4d29-9fb8-4052f809dd18")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -2.4 270)
@@ -22390,7 +22390,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "bee092c6-13a9-40ad-b0a8-b94bf87cc852")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -1.2 270)
@@ -22401,7 +22401,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "93fe231c-db19-477b-ab5d-bc031af96623")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 0 270)
@@ -22412,7 +22412,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "e7c2b300-41c1-4023-86bf-6b756be34d0d")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 1.2 270)
@@ -22423,7 +22423,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "1d737bdc-c647-485a-ae80-f39621101931")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 2.4 270)
@@ -22434,7 +22434,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "3250b33d-8f3f-4d99-91b7-c52cc8a2be00")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 3.6 270)
@@ -22445,7 +22445,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "626bb957-44c8-4e58-a471-9cea3b027f1e")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -3.6 270)
@@ -22456,7 +22456,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "90125c50-6249-4e7b-aef1-856eac62f908")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -2.4 270)
@@ -22467,7 +22467,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "20b5cab4-137e-405f-bc5f-0e894e1a8cc0")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -1.2 270)
@@ -22478,7 +22478,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "673bca3b-2c5f-46b9-85cf-4c420ca1acb2")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 0 270)
@@ -22489,7 +22489,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "bbc482dc-f36d-4ca0-9dc4-908c3c558066")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 1.2 270)
@@ -22500,7 +22500,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "57bb7d8c-b693-42e1-ab01-2738da1f28f6")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 2.4 270)
@@ -22511,7 +22511,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "6a9ffd9d-63b7-46f2-a51b-7c7cce8af9ab")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 3.6 270)
@@ -22522,7 +22522,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "af48acee-1f74-47af-9962-96d1ecb8f34a")
 		)
 		(pad "3" smd custom
 			(at 3.8 0 270)
@@ -22553,7 +22553,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "fc76a3d6-d48a-4bd8-9cbc-1c6f34191fa0")
 		)
 		(pad "3" smd custom
 			(at 3.8 0 270)
@@ -22584,7 +22584,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "7a369500-a8e9-404d-82f8-12251778fdf6")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -3.6 270)
@@ -22595,7 +22595,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "9d7c467b-f585-4fc2-a8cc-665ad540ff89")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -2.4 270)
@@ -22606,7 +22606,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "6addb243-db8f-493e-af8c-5ba86a51a4f2")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -1.2 270)
@@ -22617,7 +22617,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "ae925b30-02b8-4131-856f-2e0c644ccc39")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 0 270)
@@ -22628,7 +22628,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "add047bf-009c-413a-b0a1-2b466a1e99fe")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 1.2 270)
@@ -22639,7 +22639,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "032ed18b-210a-4999-aee9-e2a117b98f32")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 2.4 270)
@@ -22650,7 +22650,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "ddf2ba35-0011-4a35-abb7-5e11e2d6deb7")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 3.6 270)
@@ -22661,7 +22661,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "df67555f-be01-402d-8c86-a7bb4698a29d")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -3.6 270)
@@ -22672,7 +22672,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "45fec2f9-bb36-4ce7-a0b9-49626eec17ee")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -2.4 270)
@@ -22683,7 +22683,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "c2498c95-3e3e-4bdb-97b2-db9919e0aca8")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -1.2 270)
@@ -22694,7 +22694,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "d33dc55b-fca6-464b-9392-671df1d1457f")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 0 270)
@@ -22705,7 +22705,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "484073e5-e322-4630-aab3-e647b35b0b85")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 1.2 270)
@@ -22716,7 +22716,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "5ebba139-a2bc-4e55-9413-0af018a9bb6d")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 2.4 270)
@@ -22727,7 +22727,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "599c2cf4-8d92-4327-9583-244a7b0a7fab")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 3.6 270)
@@ -22738,7 +22738,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "4ba68f98-e45c-44a9-9ddc-e3bfc94588d7")
+			(uuid "a2e9b167-8e82-42bd-96ea-f6355a9a24ef")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-HSOF-8-1.step"
@@ -27035,7 +27035,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "0c5b2d4b-0ac9-4c0d-a1b2-061b3d7f14d9")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 -1.2 90)
@@ -27046,7 +27046,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "07ab548a-bf7d-4a1d-ad7c-a8a4e0e1aa51")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 0 90)
@@ -27057,7 +27057,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "e1c0f263-148d-4e9d-b314-16c667d3828c")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 1.2 90)
@@ -27068,7 +27068,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "7de7bf60-7529-4373-830e-e8805e345b7d")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 2.4 90)
@@ -27079,7 +27079,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "f7283bfe-2385-44cc-858e-0ec7432196eb")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 3.6 90)
@@ -27090,7 +27090,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "5a2e71c6-35de-421d-bf15-7bd9da4e2d69")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -3.6 90)
@@ -27101,7 +27101,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "a2ad8d94-5412-4efe-9875-f3eb1cc6c6a7")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -2.4 90)
@@ -27112,7 +27112,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "1939eb7a-0516-4ef6-8f25-7dfd1bff92df")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -1.2 90)
@@ -27123,7 +27123,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "c49822c7-57ea-4e43-bd47-37f24587e481")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 0 90)
@@ -27134,7 +27134,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "0bd27478-c09b-4391-8da8-b2b1a4be0f50")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 1.2 90)
@@ -27145,7 +27145,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "4979df5e-e1fd-4716-a232-9c53af841f2f")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 2.4 90)
@@ -27156,7 +27156,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "53e1b1cb-2824-44b8-9012-be2853ac5c2f")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 3.6 90)
@@ -27167,7 +27167,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "1cde82ae-6434-46d6-aa8e-c7e9d9303c68")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -3.6 90)
@@ -27178,7 +27178,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "5609d2ba-edc5-44da-bc41-7fdb534057a3")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -2.4 90)
@@ -27189,7 +27189,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "17d9cc6a-6d78-4bc7-a164-6b72ba5efe9c")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -1.2 90)
@@ -27200,7 +27200,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "796f2bd5-4269-4e02-b80b-e673396fc894")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 0 90)
@@ -27211,7 +27211,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "d5b1e4ba-20d4-4ca8-b642-b9d8773a9249")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 1.2 90)
@@ -27222,7 +27222,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "e937f656-48b9-4d9e-a161-dda2f60b7414")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 2.4 90)
@@ -27233,7 +27233,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "389a5fdb-968a-44d8-8a46-15a5bffac0e8")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 3.6 90)
@@ -27244,7 +27244,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "502691cf-774a-4443-8e4b-b78f7bc4fe9b")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -3.6 90)
@@ -27255,7 +27255,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "ba009920-daf3-4da3-9bbe-a4977c3f3144")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -2.4 90)
@@ -27266,7 +27266,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "87ae2d1e-b100-406e-9300-65717de91aa1")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -1.2 90)
@@ -27277,7 +27277,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "66d8ee78-1119-43fa-b2d5-ea232fb3a8f8")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 0 90)
@@ -27288,7 +27288,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "1d4f952a-bc42-4033-af93-07ffb70664ed")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 1.2 90)
@@ -27299,7 +27299,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "e9070359-f1c3-4bf2-8bbc-13169f99c6e1")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 2.4 90)
@@ -27310,7 +27310,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "e432c1fe-0044-4d3e-95e2-f34a277c4f92")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 3.6 90)
@@ -27321,7 +27321,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "aae93044-5d5e-48ee-9c40-fea081bd0b09")
 		)
 		(pad "3" smd custom
 			(at 3.8 0 90)
@@ -27352,7 +27352,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "cabd1007-5381-45db-93c1-220cb6f3426b")
 		)
 		(pad "3" smd custom
 			(at 3.8 0 90)
@@ -27383,7 +27383,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "5e16f690-aeb5-4620-b090-5a2c1599fcdf")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -3.6 90)
@@ -27394,7 +27394,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "c9078490-fb84-4843-8937-b2061fc9799b")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -2.4 90)
@@ -27405,7 +27405,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "e3885bf5-3629-434e-b220-5944ab7f22fa")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -1.2 90)
@@ -27416,7 +27416,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "5e9a673c-9107-4cb8-90b3-4bbae2142c66")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 0 90)
@@ -27427,7 +27427,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "457e5f96-8148-4434-a904-1e68dbcc35bf")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 1.2 90)
@@ -27438,7 +27438,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "c5cde877-5d26-45aa-9346-e2db206ffa00")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 2.4 90)
@@ -27449,7 +27449,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "1319c36e-1cff-48a2-aeea-6eef97a4cba6")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 3.6 90)
@@ -27460,7 +27460,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "ea01e705-fdf8-478a-9cfc-dc0fe81161f7")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -3.6 90)
@@ -27471,7 +27471,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "b0abe174-a432-4511-9358-07f8b6451a99")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -2.4 90)
@@ -27482,7 +27482,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "fefad246-b860-4382-a224-c8a1fe513fad")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -1.2 90)
@@ -27493,7 +27493,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "045c7ca4-d25b-4121-9f7d-610ff49ef2ce")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 0 90)
@@ -27504,7 +27504,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "ebfe1b5e-033a-4c5e-85c8-715c7f5cae81")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 1.2 90)
@@ -27515,7 +27515,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "262dacf5-c70a-4354-af81-c97e2c6a92bf")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 2.4 90)
@@ -27526,7 +27526,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "f8721c62-9118-4927-a70c-1da566ffec0c")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 3.6 90)
@@ -27537,7 +27537,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "ad23892e-5a86-44f0-bb9c-4800dc1e08e2")
+			(uuid "d71cfd9f-2a86-4074-9f2f-e5fa85b87804")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-HSOF-8-1.step"
@@ -29580,7 +29580,7 @@
 	(footprint "greenmobi-bms:Automotive_Fuse"
 		(layer "F.Cu")
 		(uuid "aedebecf-6093-4cc4-b4ac-07f1a1be2b37")
-		(at 196.95 94.5)
+		(at 180.4 94.7)
 		(descr "Mounting Hole 6.5mm")
 		(tags "mounting hole 6.5mm")
 		(property "Reference" "H5"
@@ -31934,7 +31934,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "23058f07-516e-4976-b16f-e4083fee47ad")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 -1.2 270)
@@ -31945,7 +31945,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "781300b4-f0a6-46e5-bba1-dde5c5c1032a")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 0 270)
@@ -31956,7 +31956,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "94f311d6-0c96-4fd2-b920-96652f4db36f")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 1.2 270)
@@ -31967,7 +31967,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "8692024f-b483-40ad-9279-39358c32c10e")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 2.4 270)
@@ -31978,7 +31978,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "b2b80777-fb2e-437a-85d6-925c72becae5")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 3.6 270)
@@ -31989,7 +31989,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "d50b2228-b996-46d4-bea8-d4ada10bc110")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -3.6 270)
@@ -32000,7 +32000,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "b35374a8-f285-46c2-b4c9-ca8162e54c8f")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -2.4 270)
@@ -32011,7 +32011,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "7adbf5f3-0d7f-4cf8-94fc-f708b099a814")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -1.2 270)
@@ -32022,7 +32022,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "89b73a6c-2253-4cca-b230-7c5b80246cae")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 0 270)
@@ -32033,7 +32033,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "a03e563b-5e3e-43bf-8d2d-a4a4b1200a16")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 1.2 270)
@@ -32044,7 +32044,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "4efae42e-333e-46f0-80b8-a10c336faeb9")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 2.4 270)
@@ -32055,7 +32055,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "35c0715c-634c-4c9f-b364-b55da5795b62")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 3.6 270)
@@ -32066,7 +32066,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "bef8dff0-3b2a-4742-8cef-d229b538a1b0")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -3.6 270)
@@ -32077,7 +32077,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "b098fda4-e6e2-488b-b79d-ec654ccbf7b7")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -2.4 270)
@@ -32088,7 +32088,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "e96c99fc-f49a-45a1-86fb-973bb5bc3ed2")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -1.2 270)
@@ -32099,7 +32099,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "7d8c681e-ed12-4dfe-9280-961b523a2c3e")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 0 270)
@@ -32110,7 +32110,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "6d7b1186-d5ce-4f72-8e87-0d0c3d252cc6")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 1.2 270)
@@ -32121,7 +32121,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "016058c2-557c-419e-9276-0dbe4b000805")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 2.4 270)
@@ -32132,7 +32132,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "993f83ce-e759-4209-ae37-8baa64c16389")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 3.6 270)
@@ -32143,7 +32143,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "27ed822c-fc61-4857-bfdd-5dc3aa903550")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -3.6 270)
@@ -32154,7 +32154,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "a137ea28-a553-48fa-a980-3231e93a875b")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -2.4 270)
@@ -32165,7 +32165,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "c009fa20-f250-494f-b035-016806d3233c")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -1.2 270)
@@ -32176,7 +32176,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "37244996-af59-4465-b5f6-91998eaa44a0")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 0 270)
@@ -32187,7 +32187,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "e6e96625-b11a-4842-8799-6403112a8ac5")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 1.2 270)
@@ -32198,7 +32198,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "32eebfdf-78e7-4bd2-89d6-fa9937905311")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 2.4 270)
@@ -32209,7 +32209,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "11b94075-eaae-4f29-9b99-c141e2476d6a")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 3.6 270)
@@ -32220,7 +32220,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "7d36b8ac-79d7-4d91-83a2-812cab5c05bc")
 		)
 		(pad "3" smd custom
 			(at 3.8 0 270)
@@ -32251,7 +32251,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "f1e74506-020b-4dc8-8c7b-d3f32f4550ba")
 		)
 		(pad "3" smd custom
 			(at 3.8 0 270)
@@ -32282,7 +32282,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "4a1668dd-e3c5-43f0-ac16-ddf681087ceb")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -3.6 270)
@@ -32293,7 +32293,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "63204524-d00e-4b61-8bd3-72d32942a229")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -2.4 270)
@@ -32304,7 +32304,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "79f51a9c-9d70-4a57-b053-8e7c82bd50cc")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -1.2 270)
@@ -32315,7 +32315,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "c76691e1-916d-4ec6-a742-fc8d0fe9c530")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 0 270)
@@ -32326,7 +32326,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "47631f07-2466-49da-a22e-3f1f926d064f")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 1.2 270)
@@ -32337,7 +32337,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "2e666f23-5d4e-4bcc-bb0c-69bcb9a51285")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 2.4 270)
@@ -32348,7 +32348,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "a6fa67b2-26cf-4851-8e9c-020d43dff010")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 3.6 270)
@@ -32359,7 +32359,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "bd3cbec7-d578-41cd-b2c4-f3fc59ac1353")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -3.6 270)
@@ -32370,7 +32370,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "25eb7043-e174-4353-a8de-889743ce0e6b")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -2.4 270)
@@ -32381,7 +32381,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "94d178d3-fa44-44b5-a678-7f7c6faba324")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -1.2 270)
@@ -32392,7 +32392,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "e73afaa2-45cf-433c-9709-ce9559d62b96")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 0 270)
@@ -32403,7 +32403,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "c5b8bd37-6a38-4dae-ab91-30cc5e756bfc")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 1.2 270)
@@ -32414,7 +32414,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "962a3793-87b8-4954-8706-d45ffb859574")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 2.4 270)
@@ -32425,7 +32425,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "91b0574c-a192-4360-a93e-5d168256b15e")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 3.6 270)
@@ -32436,7 +32436,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "3f82326d-98b7-4c0d-b90f-8f82678f24e8")
+			(uuid "1b9edcdb-bacc-4152-855e-d455cad9039c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-HSOF-8-1.step"
@@ -34019,7 +34019,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "e2a0fbd3-706e-4a43-a70e-79f783492852")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 -1.2 270)
@@ -34030,7 +34030,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "2a81d4c0-76b5-493a-9a97-34ccf6e9b07e")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 0 270)
@@ -34041,7 +34041,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "5bdd0fc8-a2ed-46cc-b806-db703de00d4d")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 1.2 270)
@@ -34052,7 +34052,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "fbe9a96d-57e8-4d3c-962a-80d5c01ad1c4")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 2.4 270)
@@ -34063,7 +34063,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "6c70e4f8-b9db-4244-b3d5-d14fa2d0e98d")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 3.6 270)
@@ -34074,7 +34074,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "6bac931b-b677-4fb8-a1d0-87deeb16cb25")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -3.6 270)
@@ -34085,7 +34085,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "73799375-bd82-4da3-9a8d-507183c328a2")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -2.4 270)
@@ -34096,7 +34096,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "9f2dd96c-7301-4bb6-81fa-c61122c3b45e")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -1.2 270)
@@ -34107,7 +34107,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "ee03f657-16d2-4ea3-b64f-2684a709d0c5")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 0 270)
@@ -34118,7 +34118,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "ab6460a3-28f0-46ff-b043-352c757ef9f8")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 1.2 270)
@@ -34129,7 +34129,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "859b21af-cca0-42d4-b214-76cf7557cf60")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 2.4 270)
@@ -34140,7 +34140,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "f79d9b00-dbb4-4bc2-aea9-6f31731f9306")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 3.6 270)
@@ -34151,7 +34151,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "571ec0a6-50f1-4c34-a0f1-c8452c56a4b6")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -3.6 270)
@@ -34162,7 +34162,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "56506cc2-becd-4df9-8e93-5f99cd3d45c1")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -2.4 270)
@@ -34173,7 +34173,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "4e85a169-6837-4bbf-93cc-8f0135054010")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -1.2 270)
@@ -34184,7 +34184,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "4cb203e7-d311-42d2-ba94-84c762d6c83c")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 0 270)
@@ -34195,7 +34195,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "e7c122ef-58d3-4ba0-907e-8754980cbfd4")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 1.2 270)
@@ -34206,7 +34206,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "dff00c79-e4d7-4198-841b-2964a3eaa201")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 2.4 270)
@@ -34217,7 +34217,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "d88de186-a2f8-4442-a889-5c12e5463ebf")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 3.6 270)
@@ -34228,7 +34228,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "a096cfbb-23e8-4e00-8600-2455daf08812")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -3.6 270)
@@ -34239,7 +34239,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "672f456b-65f2-4447-a7bb-e75618deb65f")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -2.4 270)
@@ -34250,7 +34250,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "316ddda1-d6a7-4a70-99be-dc443670991a")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -1.2 270)
@@ -34261,7 +34261,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "da21450c-2b1a-4580-b7b2-17a0a9c0bfc6")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 0 270)
@@ -34272,7 +34272,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "b34384fd-3eeb-463d-a68a-71da38ef0aff")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 1.2 270)
@@ -34283,7 +34283,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "042d9c97-fb2d-4a95-acde-3d3876b1cc3a")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 2.4 270)
@@ -34294,7 +34294,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "374df81c-e88d-43b8-9dc1-c66a73dde25d")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 3.6 270)
@@ -34305,7 +34305,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "6e35f584-38ce-4375-bc24-56f0a16b887d")
 		)
 		(pad "3" smd custom
 			(at 3.8 0 270)
@@ -34336,7 +34336,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "98405d8b-b3a8-4449-8b26-2599131cbe09")
 		)
 		(pad "3" smd custom
 			(at 3.8 0 270)
@@ -34367,7 +34367,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "987ad968-51ae-4b41-ba18-31cc2cb0ad11")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -3.6 270)
@@ -34378,7 +34378,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "45994f9d-88d9-4d4e-9814-bc7a6f5ce0e6")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -2.4 270)
@@ -34389,7 +34389,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "b4da26fb-289d-4b45-9dc3-c23facd3f225")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -1.2 270)
@@ -34400,7 +34400,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "47b27433-fb30-47a5-9e14-b981321d1fe9")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 0 270)
@@ -34411,7 +34411,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "757ee1ec-8337-4115-8420-d81a593ffb67")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 1.2 270)
@@ -34422,7 +34422,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "4ad75d7f-0a15-4742-bcad-bda683a82259")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 2.4 270)
@@ -34433,7 +34433,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "b04e4647-497a-4591-8059-23273e7ac3fa")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 3.6 270)
@@ -34444,7 +34444,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "35ff22d9-fac1-4bce-a869-6426e7966a15")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -3.6 270)
@@ -34455,7 +34455,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "53a005f0-2002-432c-8066-7fca7d6f9cc4")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -2.4 270)
@@ -34466,7 +34466,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "37694c35-233a-492c-a2fe-308336611ea3")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -1.2 270)
@@ -34477,7 +34477,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "3460de63-3d3c-4d39-b8c6-a209b744aec4")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 0 270)
@@ -34488,7 +34488,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "b235a6e9-b532-4730-9b0c-a5e9f484f41c")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 1.2 270)
@@ -34499,7 +34499,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "e96b86b9-7c12-4567-8f83-089b51def050")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 2.4 270)
@@ -34510,7 +34510,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "57583446-038e-4084-854b-6e11187d30c5")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 3.6 270)
@@ -34521,7 +34521,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "d5c2e6ea-d9a0-4245-8145-f6a3ad4b4150")
+			(uuid "d0f66641-f3ae-4ffd-96c2-8037a6e2c4e9")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-HSOF-8-1.step"
@@ -34744,7 +34744,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 123 "/Frontend/PACK-")
+			(net 2 "GND")
 			(pintype "passive")
 			(uuid "080caf09-fa24-427c-bf55-1e2f8d14c736")
 		)
@@ -36092,7 +36092,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "b7360c06-8d3a-42a4-bd57-a7db856deff4")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 -1.2 90)
@@ -36103,7 +36103,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "383cae87-d2dc-4399-860f-8fdb875f08b9")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 0 90)
@@ -36114,7 +36114,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "7776011f-c578-43e9-99b4-5365fed4e0a0")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 1.2 90)
@@ -36125,7 +36125,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "91fe3686-8249-4bd4-a19d-80219095bfb2")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 2.4 90)
@@ -36136,7 +36136,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "edc9d63d-f41e-4f30-b436-02994d81ec7f")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 3.6 90)
@@ -36147,7 +36147,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "9c4708a2-632f-4d5a-a0db-a5b10994614e")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -3.6 90)
@@ -36158,7 +36158,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "4fc1e459-4ddc-4277-a362-9100cdf6e5c0")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -2.4 90)
@@ -36169,7 +36169,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "bfd6a7d0-01d9-4c34-96e0-61de750b6cc8")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -1.2 90)
@@ -36180,7 +36180,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "398f715e-8f9d-4e56-8391-b3db711cac88")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 0 90)
@@ -36191,7 +36191,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "c2f2da3f-9a18-4c69-9bd3-64a7d4d3f279")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 1.2 90)
@@ -36202,7 +36202,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "5ee56193-e045-4190-83b9-bcca4dfaf302")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 2.4 90)
@@ -36213,7 +36213,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "359e0804-face-41b6-b8a5-d97397f4d7b2")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 3.6 90)
@@ -36224,7 +36224,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "da0d5369-56d3-4a90-839e-e7559f7b7198")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -3.6 90)
@@ -36235,7 +36235,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "79730a95-9632-4922-9877-1c40a7b7e193")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -2.4 90)
@@ -36246,7 +36246,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "51bf1ec6-1d2e-471e-86c2-9fb1b48ff822")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -1.2 90)
@@ -36257,7 +36257,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "82bbfa4e-62a3-4841-97cb-1be7e0701bf4")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 0 90)
@@ -36268,7 +36268,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "e5176394-59d8-4a5a-a8f9-e7fb61512ee1")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 1.2 90)
@@ -36279,7 +36279,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "537c7bf7-5236-4cb3-825f-945a59b47071")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 2.4 90)
@@ -36290,7 +36290,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "4ad0b901-a1e8-436b-960f-36c67cd6fe44")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 3.6 90)
@@ -36301,7 +36301,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "f44c41b2-2b18-4709-9ed2-66393a2bdf09")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -3.6 90)
@@ -36312,7 +36312,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "8f35f244-5d16-48ee-8257-fb3ddcd8b214")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -2.4 90)
@@ -36323,7 +36323,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "ee6f82ac-44c3-44e9-9f40-03a217eb5680")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -1.2 90)
@@ -36334,7 +36334,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "449ff55f-a9ff-4dec-93e8-40fce89b46b8")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 0 90)
@@ -36345,7 +36345,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "a5c477b2-982b-4218-af14-558131009c9d")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 1.2 90)
@@ -36356,7 +36356,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "beb3629f-4557-440a-808e-f716008fe15b")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 2.4 90)
@@ -36367,7 +36367,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "1eecbb13-8f6a-47de-a080-959ed8ff6186")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 3.6 90)
@@ -36378,7 +36378,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "e3ecdedf-333a-4493-9070-727e625d1677")
 		)
 		(pad "3" smd custom
 			(at 3.8 0 90)
@@ -36409,7 +36409,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "5e4dd3ce-363e-4bb3-baab-4e2e36674234")
 		)
 		(pad "3" smd custom
 			(at 3.8 0 90)
@@ -36440,7 +36440,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "19247c66-db66-4591-9bf5-caefbb3cc2ac")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -3.6 90)
@@ -36451,7 +36451,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "cb885970-7016-4567-8760-f7968a801413")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -2.4 90)
@@ -36462,7 +36462,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "c92d6e20-7845-4596-95e8-98106dd91255")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -1.2 90)
@@ -36473,7 +36473,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "ad8edab7-90ef-42d9-bebe-9ac047ba35f4")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 0 90)
@@ -36484,7 +36484,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "7c2ef81f-1357-41ce-87c4-940c5dae1c1d")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 1.2 90)
@@ -36495,7 +36495,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "9c4a99f3-acf9-464b-b0d6-f832fd3a4f04")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 2.4 90)
@@ -36506,7 +36506,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "765d836f-a1e7-48d4-8c65-3f0295b070d4")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 3.6 90)
@@ -36517,7 +36517,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "311f10b3-0e79-415f-b38b-d1d8c04c0036")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -3.6 90)
@@ -36528,7 +36528,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "02635cda-d334-4144-a7fa-ec08803d937b")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -2.4 90)
@@ -36539,7 +36539,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "61189b70-bfa7-4e64-a9b5-b8bfba9819d1")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -1.2 90)
@@ -36550,7 +36550,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "c4f44121-3135-42c7-9bad-738236aea39a")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 0 90)
@@ -36561,7 +36561,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "9d22c302-d7f8-4ee0-80d4-83f9f9716c3b")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 1.2 90)
@@ -36572,7 +36572,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "40f1e82a-b0d7-4172-9e36-5f0a515932cf")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 2.4 90)
@@ -36583,7 +36583,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "d5bfdcf1-449d-4ef4-a26d-723b95d48ad7")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 3.6 90)
@@ -36594,7 +36594,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "efe27a38-510f-4545-8dbe-81c19d972daf")
+			(uuid "323141db-a241-4206-8e4c-14a3e5a61639")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-HSOF-8-1.step"
@@ -37267,7 +37267,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 2 "GND")
+			(net 123 "/Frontend/CEL_0")
 			(pintype "passive")
 			(uuid "f2c06948-7f01-41e2-942a-6949871c8a62")
 		)
@@ -39074,7 +39074,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "80bdf981-c497-4c8d-a347-f7494d1b4fb9")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 -1.2 90)
@@ -39085,7 +39085,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "f0ad98ad-182e-4b0e-8ffd-aae0e977101b")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 0 90)
@@ -39096,7 +39096,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "225e4744-6914-4f4c-97ae-b1f63c478bc3")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 1.2 90)
@@ -39107,7 +39107,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "0edcdfdd-9367-46e1-844b-85f518572efb")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 2.4 90)
@@ -39118,7 +39118,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "8167a5ce-446f-4ebd-90e1-ab04d528ecdd")
 		)
 		(pad "3" thru_hole circle
 			(at -0.67 3.6 90)
@@ -39129,7 +39129,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "b9f4396c-99ff-43c4-97b4-35a76f94f02d")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -3.6 90)
@@ -39140,7 +39140,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "36d56da6-7db7-4471-bcb6-0d0a3a99f47b")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -2.4 90)
@@ -39151,7 +39151,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "ba0900fa-6183-47e2-94f6-c269eb8f6dac")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 -1.2 90)
@@ -39162,7 +39162,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "a0b22b27-b9a5-45cc-8d5c-2cf18583b1a3")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 0 90)
@@ -39173,7 +39173,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "62fee594-18d0-4487-a118-b9e7b74afd42")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 1.2 90)
@@ -39184,7 +39184,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "ab82a509-cbdd-478b-aafc-2c97fafcf2ce")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 2.4 90)
@@ -39195,7 +39195,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "2e5b5cca-b3c7-4d1e-b6d6-a2c6ce4e979b")
 		)
 		(pad "3" thru_hole circle
 			(at 0.53 3.6 90)
@@ -39206,7 +39206,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "25aae478-a79a-4fd2-a8e2-0351546b83c5")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -3.6 90)
@@ -39217,7 +39217,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "42e0024a-3ad6-482c-ad4b-6ad34b7fb32a")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -2.4 90)
@@ -39228,7 +39228,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "ebace41e-aa49-45f1-8ccd-a90129bf6466")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 -1.2 90)
@@ -39239,7 +39239,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "aa7ff994-1475-47dd-b037-04e380595f90")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 0 90)
@@ -39250,7 +39250,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "8c1d4547-7367-4024-8c69-0784e8a5affc")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 1.2 90)
@@ -39261,7 +39261,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "4c02a477-984a-46eb-b7dd-1d5af0a6c0f2")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 2.4 90)
@@ -39272,7 +39272,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "a80c8b54-2a17-400b-86dd-ade7be188099")
 		)
 		(pad "3" thru_hole circle
 			(at 1.73 3.6 90)
@@ -39283,7 +39283,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "f1f03dd4-5af3-49cd-bc16-d72c531784ec")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -3.6 90)
@@ -39294,7 +39294,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "d76058a9-bfcf-462b-917b-53947ef334d3")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -2.4 90)
@@ -39305,7 +39305,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "178be289-a40f-4cfd-8b67-d2e868ef03a6")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 -1.2 90)
@@ -39316,7 +39316,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "bc750ff7-120a-480f-a13f-7f1fdf4874e0")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 0 90)
@@ -39327,7 +39327,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "9553f9ba-5e5e-423d-a024-2d1d671b39db")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 1.2 90)
@@ -39338,7 +39338,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "78be1f16-b75f-473b-9f7f-0d0a588e4166")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 2.4 90)
@@ -39349,7 +39349,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "49c6e734-e99e-4822-8344-190971f5afdd")
 		)
 		(pad "3" thru_hole circle
 			(at 2.93 3.6 90)
@@ -39360,7 +39360,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "18d0d499-d079-444d-8c78-0bf4ea1ce2b7")
 		)
 		(pad "3" smd custom
 			(at 3.8 0 90)
@@ -39391,7 +39391,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "ce12aa52-66e4-4303-aad9-2c9180608fe0")
 		)
 		(pad "3" smd custom
 			(at 3.8 0 90)
@@ -39422,7 +39422,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "c705378b-71fa-4df0-be20-5acec743ce33")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -3.6 90)
@@ -39433,7 +39433,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "fbbcf518-44a0-4fac-89e5-3a4d1c240b1f")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -2.4 90)
@@ -39444,7 +39444,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "c481b599-e688-4114-8a61-dc235b0e9bd3")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 -1.2 90)
@@ -39455,7 +39455,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "b677ee72-e688-4230-a64c-aacb098e0d2e")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 0 90)
@@ -39466,7 +39466,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "741bf306-95f9-4b4e-a73e-b0eb1bd987e5")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 1.2 90)
@@ -39477,7 +39477,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "2e3f2d18-78ee-405e-a0ab-f2e3484dc63a")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 2.4 90)
@@ -39488,7 +39488,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "0d4c2723-ac6b-4586-9385-b8c8f4f9c3ff")
 		)
 		(pad "3" thru_hole circle
 			(at 4.13 3.6 90)
@@ -39499,7 +39499,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "b652b00d-628b-4bf1-ac7a-a91cb199cbd1")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -3.6 90)
@@ -39510,7 +39510,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "17daeeba-b7e5-4ba5-a927-00e77913cf2c")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -2.4 90)
@@ -39521,7 +39521,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "3239e460-8971-4815-8f5c-d73dae137210")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 -1.2 90)
@@ -39532,7 +39532,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "d1c0c346-ec56-4884-a144-00044bffdb83")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 0 90)
@@ -39543,7 +39543,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "c21ea889-055a-4759-8963-1ccb85b17e9b")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 1.2 90)
@@ -39554,7 +39554,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "0c47d1c3-edd2-4aec-8d78-ee4bb491e65d")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 2.4 90)
@@ -39565,7 +39565,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "a212ee10-6df8-423c-bbdf-24a0b7300b44")
 		)
 		(pad "3" thru_hole circle
 			(at 5.33 3.6 90)
@@ -39576,7 +39576,7 @@
 			(net 78 "/Frontend/FET_C")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "60932519-dcff-4338-b0f6-9ce41dfd09cb")
+			(uuid "135d9633-63af-44ff-9979-f881dfe5fc45")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-HSOF-8-1.step"
