@@ -2826,12 +2826,6 @@
 		(uuid "980c1be3-fbbb-43c4-b20f-a41ab9f9304a")
 	)
 	(junction
-		(at 229.87 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f8a2e95-ac67-4463-bc53-8b07ce5311d0")
-	)
-	(junction
 		(at 189.23 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3350,16 +3344,6 @@
 			(type default)
 		)
 		(uuid "3245c5f9-f497-417f-9e9b-afd131815b8a")
-	)
-	(wire
-		(pts
-			(xy 229.87 116.84) (xy 232.41 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "324d2629-ff82-4f17-8b1b-01c22576b4f1")
 	)
 	(wire
 		(pts
@@ -5190,17 +5174,6 @@
 	)
 	(hierarchical_label "BAT-"
 		(shape input)
-		(at 232.41 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a31a219f-982e-4e0a-87c5-018acc77c038")
-	)
-	(hierarchical_label "BAT-"
-		(shape input)
 		(at 140.97 142.24 0)
 		(effects
 			(font
@@ -5908,7 +5881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 149.86 35.56 0)
 			(effects
 				(font
@@ -8262,7 +8235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 35.56 0)
 			(effects
 				(font
@@ -9078,7 +9051,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 157.48 31.75 0)
 			(effects
 				(font
