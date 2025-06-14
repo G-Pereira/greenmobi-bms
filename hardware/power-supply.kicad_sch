@@ -970,7 +970,7 @@
 		(uuid 9be7a9c3-31c1-4c5e-a4a4-3753ea66f385)
 	)
 	(rectangle
-		(start 79.375 51.435)
+		(start 73.66 51.435)
 		(end 213.36 105.41)
 		(stroke
 			(width 0)
@@ -1007,7 +1007,7 @@
 	)
 	(text "Main Buck"
 		(exclude_from_sim no)
-		(at 90.932 55.372 0)
+		(at 85.09 54.864 0)
 		(effects
 			(font
 				(size 2.3368 2.3368)
@@ -1019,7 +1019,7 @@
 	)
 	(text "BAT to 5V buck"
 		(exclude_from_sim no)
-		(at 89.408 58.674 0)
+		(at 83.566 58.166 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1052,6 +1052,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2983fb39-d0f2-4cd0-b3b0-5708ed24b2a8")
+	)
+	(junction
+		(at 86.36 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d58f9b6-e170-47ae-b8aa-3638ee4a81fa")
 	)
 	(junction
 		(at 157.48 121.92)
@@ -1135,7 +1141,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 66.04) (xy 96.52 66.04)
+			(xy 81.28 66.04) (xy 86.36 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1185,6 +1191,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 66.04) (xy 96.52 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e6a5230-ad00-41ea-b1f1-b7c04f8d5e1e")
+	)
+	(wire
+		(pts
 			(xy 107.95 78.74) (xy 115.57 78.74)
 		)
 		(stroke
@@ -1192,6 +1208,16 @@
 			(type default)
 		)
 		(uuid "3049683c-d51f-4fe5-a294-326490c061cd")
+	)
+	(wire
+		(pts
+			(xy 86.36 66.04) (xy 86.36 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310c1058-0f64-4c6b-9578-4c449b06b894")
 	)
 	(wire
 		(pts
@@ -1422,6 +1448,16 @@
 			(type default)
 		)
 		(uuid "9fa917d5-fc09-41e7-bc1d-a48383d68ce5")
+	)
+	(wire
+		(pts
+			(xy 86.36 80.01) (xy 86.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a326b77e-a3e0-4bf2-81c3-895a4b9542c4")
 	)
 	(wire
 		(pts
@@ -1729,7 +1765,7 @@
 	)
 	(hierarchical_label "BAT"
 		(shape input)
-		(at 87.63 66.04 180)
+		(at 81.28 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3339,6 +3375,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 86.36 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6db513c-b84f-4d5e-b984-be74c2f2c3f9")
+		(property "Reference" "C58"
+			(at 88.9 76.1935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 88.9 78.7335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C577211"
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2eada41d-c48c-4c41-8d29-f4642d763593")
+		)
+		(pin "2"
+			(uuid "7c219adb-f6ee-4a52-a4ff-fb4703f349ce")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
+					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 166.37 129.54 0)
 		(unit 1)
@@ -3696,7 +3827,7 @@
 		(fields_autoplaced yes)
 		(uuid "f38b4c10-023d-4b32-9b93-8e1d5eabd290")
 		(property "Reference" "C21"
-			(at 146.05 67.3163 0)
+			(at 146.05 67.3162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +3836,7 @@
 			)
 		)
 		(property "Value" "2.2n"
-			(at 146.05 69.8563 0)
+			(at 146.05 69.8562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 143.51 68.58 0)
 			(effects
 				(font
@@ -3746,6 +3877,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Pins" ""
@@ -3754,6 +3886,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106861"
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3766,6 +3908,72 @@
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4e8cbfb-1d56-44fe-b6ff-dc8df8c04fd9")
+		(property "Reference" "#PWR061"
+			(at 86.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36e15863-7dc3-4200-bf39-420dcd43680b")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/600d3fd5-a2c8-411e-91ac-e4cbb4ace0f8"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3832,6 +4040,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Pins" ""
@@ -3840,6 +4049,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1945"
+			(at 96.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
