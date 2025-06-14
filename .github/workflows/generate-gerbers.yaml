@@ -15,6 +15,10 @@ jobs:
     container: ghcr.io/inti-cmnb/kicad9_auto
       
     steps:
+    - name: Install dependencies
+      run: |
+            sudo apt update
+            sudo apt install -y zip
 
     - name: Generate Short SHA Environment Variable
       run: echo "SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8`" >> $GITHUB_ENV
