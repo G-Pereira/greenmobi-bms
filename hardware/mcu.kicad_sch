@@ -3977,7 +3977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "greenmobi-bms:TestPoint_Pad_0.55x0.62mm"
 			(at 210.82 81.28 0)
 			(effects
 				(font

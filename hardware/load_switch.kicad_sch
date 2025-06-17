@@ -779,7 +779,7 @@
 		(uuid "13716f2e-1b53-44cf-bc59-bcd1520beeda")
 	)
 	(junction
-		(at 107.95 129.54)
+		(at 107.95 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1987e4ca-389c-404f-bbe7-0b9446dfc699")
@@ -791,16 +791,10 @@
 		(uuid "200f4dc1-036f-4b20-ae40-770ee6370263")
 	)
 	(junction
-		(at 172.72 129.54)
+		(at 172.72 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "225506d1-88e8-4c90-bd81-881ad8d0fbb6")
-	)
-	(junction
-		(at 119.38 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d310646-14df-4d9c-b159-346c72a13200")
 	)
 	(junction
 		(at 119.38 88.9)
@@ -809,19 +803,13 @@
 		(uuid "2f4cf27f-212d-41f6-89bd-4daa5c6c92e1")
 	)
 	(junction
-		(at 160.02 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "368511b1-9771-4c15-ad79-806f287392b9")
-	)
-	(junction
 		(at 119.38 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41469716-3bbf-4075-a7f2-c324c29f0889")
 	)
 	(junction
-		(at 163.83 129.54)
+		(at 163.83 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e23185b-cf47-4c1d-8973-400c86672e37")
@@ -863,12 +851,6 @@
 		(uuid "6ef9b071-b725-4dbb-91b8-93bdfc27794f")
 	)
 	(junction
-		(at 137.16 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73fdf206-faad-4a90-a5e0-4e62617238b5")
-	)
-	(junction
 		(at 152.4 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -893,40 +875,22 @@
 		(uuid "79b6b328-d7f5-4b32-938a-187baf1d364a")
 	)
 	(junction
-		(at 134.62 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96c9fe70-d07c-4806-a221-a1d0a063628b")
-	)
-	(junction
 		(at 160.02 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bbd87cf-f4e3-4ee6-bc39-a32a892039c2")
 	)
 	(junction
-		(at 99.06 129.54)
+		(at 99.06 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ceae7aab-0935-4c55-b86e-6650db4a553c")
 	)
 	(junction
-		(at 111.76 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1ab3a00-9167-4cc6-be3b-9b40d990f6e8")
-	)
-	(junction
-		(at 187.96 129.54)
+		(at 187.96 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4a826ef-e66c-4944-8b82-4ad33af12812")
-	)
-	(junction
-		(at 152.4 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f87cf0d5-74d6-49a9-9b38-89f6bf7b3877")
 	)
 	(wire
 		(pts
@@ -940,27 +904,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 121.92) (xy 152.4 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0374eb00-0bd8-468b-b377-82d97d429f29")
-	)
-	(wire
-		(pts
-			(xy 137.16 105.41) (xy 137.16 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "066a51d9-3594-4a1c-9f78-dfe19b7edc2d")
-	)
-	(wire
-		(pts
-			(xy 99.06 106.68) (xy 99.06 129.54)
+			(xy 99.06 96.52) (xy 99.06 113.03)
 		)
 		(stroke
 			(width 0)
@@ -970,7 +914,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 72.39) (xy 107.95 100.33)
+			(xy 107.95 72.39) (xy 107.95 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1007,16 +951,6 @@
 			(type default)
 		)
 		(uuid "0f15f059-fa4a-4b3e-84c1-84006e781d1a")
-	)
-	(wire
-		(pts
-			(xy 160.02 113.03) (xy 160.02 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f79d872-3690-4c17-9e0b-3ebf20ada0b2")
 	)
 	(wire
 		(pts
@@ -1090,7 +1024,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 100.33) (xy 163.83 72.39)
+			(xy 163.83 91.44) (xy 163.83 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1120,7 +1054,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 129.54) (xy 111.76 129.54)
+			(xy 107.95 113.03) (xy 111.76 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1170,16 +1104,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 129.54) (xy 153.67 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3af82762-a534-45ad-a228-4d6927047fe5")
-	)
-	(wire
-		(pts
 			(xy 158.75 113.03) (xy 160.02 113.03)
 		)
 		(stroke
@@ -1220,17 +1144,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 129.54) (xy 118.11 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44bf40d9-b224-4aea-bb17-bd5d31805e39")
-	)
-	(wire
-		(pts
-			(xy 187.96 72.39) (xy 187.96 96.52)
+			(xy 187.96 72.39) (xy 187.96 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1270,7 +1184,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 101.6) (xy 187.96 105.41)
+			(xy 187.96 91.44) (xy 187.96 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1300,7 +1214,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 105.41) (xy 107.95 129.54)
+			(xy 107.95 95.25) (xy 107.95 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1330,26 +1244,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 121.92) (xy 152.4 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64d5acde-224e-42e0-94bd-49ae17476aec")
-	)
-	(wire
-		(pts
-			(xy 121.92 121.92) (xy 119.38 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a5c5046-18d5-4d2e-8856-98c0cd5ba2bc")
-	)
-	(wire
-		(pts
 			(xy 158.75 80.01) (xy 160.02 80.01)
 		)
 		(stroke
@@ -1360,33 +1254,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 129.54) (xy 163.83 129.54)
+			(xy 160.02 113.03) (xy 163.83 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6f656d4b-ece9-4338-96cc-8402e16d243f")
-	)
-	(wire
-		(pts
-			(xy 134.62 121.92) (xy 132.08 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fba3fa1-bf4c-4c9e-aadc-7a12f5c28f93")
-	)
-	(wire
-		(pts
-			(xy 134.62 105.41) (xy 134.62 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70f9399e-29aa-42c2-9300-0fff52eb76d4")
 	)
 	(wire
 		(pts
@@ -1450,16 +1324,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 113.03) (xy 111.76 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e7dfcad-f9cf-48e5-b37f-a6cf99f2e642")
-	)
-	(wire
-		(pts
 			(xy 163.83 72.39) (xy 172.72 72.39)
 		)
 		(stroke
@@ -1470,7 +1334,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 110.49) (xy 187.96 129.54)
+			(xy 187.96 100.33) (xy 187.96 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1510,7 +1374,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 105.41) (xy 163.83 129.54)
+			(xy 163.83 96.52) (xy 163.83 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1550,7 +1414,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 129.54) (xy 187.96 129.54)
+			(xy 172.72 113.03) (xy 187.96 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1560,7 +1424,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 129.54) (xy 172.72 129.54)
+			(xy 163.83 113.03) (xy 172.72 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1570,7 +1434,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 72.39) (xy 99.06 99.06)
+			(xy 99.06 72.39) (xy 99.06 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1580,7 +1444,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 129.54) (xy 198.12 129.54)
+			(xy 187.96 113.03) (xy 198.12 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1590,7 +1454,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 72.39) (xy 172.72 99.06)
+			(xy 172.72 72.39) (xy 172.72 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1610,23 +1474,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 106.68) (xy 172.72 129.54)
+			(xy 172.72 97.79) (xy 172.72 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cf7c7145-347a-48f7-9b9f-870578d08dd8")
-	)
-	(wire
-		(pts
-			(xy 119.38 121.92) (xy 119.38 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0671e58-f140-4f8d-992e-e4e6e348065e")
 	)
 	(wire
 		(pts
@@ -1640,16 +1494,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 129.54) (xy 113.03 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9c3f0f8-e02f-40cc-be90-730b00e191a1")
-	)
-	(wire
-		(pts
 			(xy 152.4 59.69) (xy 152.4 72.39)
 		)
 		(stroke
@@ -1657,16 +1501,6 @@
 			(type default)
 		)
 		(uuid "db39f9f0-ca4e-49f6-bb2c-ab724cc4f94c")
-	)
-	(wire
-		(pts
-			(xy 137.16 121.92) (xy 139.7 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbf8d725-571c-4df5-88b3-93585711f7b4")
 	)
 	(wire
 		(pts
@@ -1690,23 +1524,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 129.54) (xy 107.95 129.54)
+			(xy 99.06 113.03) (xy 107.95 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ed9f025e-92b1-496e-a3d0-8779dd151f1e")
-	)
-	(wire
-		(pts
-			(xy 158.75 129.54) (xy 160.02 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5ad110b-8ffb-4ddf-bb83-71655585fdc7")
 	)
 	(wire
 		(pts
@@ -1730,7 +1554,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 129.54) (xy 99.06 129.54)
+			(xy 96.52 113.03) (xy 99.06 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1740,7 +1564,7 @@
 	)
 	(hierarchical_label "DSG"
 		(shape input)
-		(at 198.12 129.54 0)
+		(at 198.12 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1773,7 +1597,7 @@
 	)
 	(hierarchical_label "CHG"
 		(shape input)
-		(at 96.52 129.54 180)
+		(at 96.52 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1795,7 +1619,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 163.83 102.87 0)
+		(at 163.83 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1804,7 +1628,7 @@
 		(fields_autoplaced yes)
 		(uuid "011a29a9-2931-4e4b-85c4-1baecc7a39c1")
 		(property "Reference" "R48"
-			(at 166.37 101.5999 0)
+			(at 166.37 92.7099 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1813,7 +1637,7 @@
 			)
 		)
 		(property "Value" "10M"
-			(at 166.37 104.1399 0)
+			(at 166.37 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,7 +1646,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 163.83 102.87 0)
+			(at 163.83 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1831,7 +1655,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 102.87 0)
+			(at 163.83 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +1664,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 163.83 102.87 0)
+			(at 163.83 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +1673,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 163.83 102.87 0)
+			(at 163.83 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1857,7 +1681,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 163.83 102.87 0)
+			(at 163.83 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,7 +1705,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 187.96 107.95 180)
+		(at 187.96 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1890,7 +1714,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e12a930-9aa0-4817-8204-ad1dd931e6cd")
 		(property "Reference" "C53"
-			(at 190.5 106.6735 0)
+			(at 190.5 96.5135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +1723,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 190.5 109.2135 0)
+			(at 190.5 99.0535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +1732,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 187.96 107.95 0)
+			(at 187.96 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +1741,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 107.95 0)
+			(at 187.96 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +1750,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 187.96 107.95 0)
+			(at 187.96 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +1759,7 @@
 			)
 		)
 		(property "LCSC" "C1945"
-			(at 187.96 107.95 90)
+			(at 187.96 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,7 +1768,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 187.96 107.95 0)
+			(at 187.96 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1952,7 +1776,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 187.96 107.95 0)
+			(at 187.96 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2167,7 +1991,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 107.95 102.87 0)
+		(at 107.95 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2175,7 +1999,7 @@
 		(dnp no)
 		(uuid "1ccdc45b-212a-4f16-9ba0-61b761a80115")
 		(property "Reference" "R39"
-			(at 102.362 101.6 0)
+			(at 102.362 91.44 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2184,7 +2008,7 @@
 			)
 		)
 		(property "Value" "10M"
-			(at 102.362 104.14 0)
+			(at 102.362 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2193,7 +2017,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 107.95 102.87 0)
+			(at 107.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2202,7 +2026,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 102.87 0)
+			(at 107.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2035,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 107.95 102.87 0)
+			(at 107.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +2044,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 107.95 102.87 0)
+			(at 107.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,7 +2052,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 107.95 102.87 0)
+			(at 107.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2160,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BZT52Bxx")
-		(at 172.72 102.87 90)
+		(at 172.72 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2345,7 +2169,7 @@
 		(fields_autoplaced yes)
 		(uuid "21f6f213-09f6-45ba-a694-5d708fd94f17")
 		(property "Reference" "D2"
-			(at 175.26 101.5999 90)
+			(at 175.26 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +2178,7 @@
 			)
 		)
 		(property "Value" "BZT52Bxx"
-			(at 175.26 104.1399 90)
+			(at 175.26 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2363,7 +2187,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 177.165 102.87 0)
+			(at 177.165 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2372,7 +2196,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf"
-			(at 172.72 102.87 0)
+			(at 172.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,7 +2205,7 @@
 			)
 		)
 		(property "Description" "500mW Zener Diode, SOD-123F"
-			(at 172.72 102.87 0)
+			(at 172.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2214,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 172.72 102.87 0)
+			(at 172.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,7 +2222,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 172.72 102.87 0)
+			(at 172.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2530,114 +2354,6 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IPT015N10N5")
-		(at 144.78 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cb50d71-217e-439c-9b9f-bdf68704359c")
-		(property "Reference" "Q8"
-			(at 144.78 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IPT015N10N5"
-			(at 144.78 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1_ThermalVias"
-			(at 146.685 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-IPT015N10N5-DS-v02_01-EN.pdf?fileId=5546d4624a75e5f1014ac94680661aff"
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "300A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 1.5mOhm Ron, Qg (typ) 169.0nC, PG-HSOF-8"
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C108964"
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate" "C2979263"
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "abcd0ea6-1697-4307-9430-7089e7e1b41b")
-		)
-		(pin "2"
-			(uuid "41581492-2b5b-4a3b-b4e9-a5f3c9ae3462")
-		)
-		(pin "3"
-			(uuid "69dc6fcb-730e-46ef-a298-c0bb738f9abc")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IPT015N10N5")
 		(at 144.78 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2745,7 +2461,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BZT52Bxx")
-		(at 99.06 102.87 90)
+		(at 99.06 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2753,7 +2469,7 @@
 		(dnp no)
 		(uuid "349bc3b9-e677-4330-bfd6-b06b67d92c0b")
 		(property "Reference" "D1"
-			(at 93.98 101.6 90)
+			(at 93.98 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +2478,7 @@
 			)
 		)
 		(property "Value" "BZT52Bxx"
-			(at 87.122 103.886 90)
+			(at 87.122 93.726 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +2487,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 103.505 102.87 0)
+			(at 103.505 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +2496,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf"
-			(at 99.06 102.87 0)
+			(at 99.06 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +2505,7 @@
 			)
 		)
 		(property "Description" "500mW Zener Diode, SOD-123F"
-			(at 99.06 102.87 0)
+			(at 99.06 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,7 +2514,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 99.06 102.87 0)
+			(at 99.06 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,7 +2522,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 99.06 102.87 0)
+			(at 99.06 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,90 +2732,6 @@
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
 					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 115.57 129.54 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50ed1e7a-fdb5-419b-b889-6d4f4cf99370")
-		(property "Reference" "R43"
-			(at 115.57 131.826 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "75"
-			(at 115.57 134.366 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 115.57 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 115.57 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 115.57 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 115.57 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "92f2460a-5fdb-4cb9-b7ab-14ee84aeb3af")
-		)
-		(pin "1"
-			(uuid "bcb880db-4fc3-428c-8619-09d6699ed6ed")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -3484,198 +3116,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IPT015N10N5")
-		(at 127 124.46 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "890300ac-c72c-4469-a734-d7acbc973ca4")
-		(property "Reference" "Q4"
-			(at 127 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IPT015N10N5"
-			(at 127 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1_ThermalVias"
-			(at 125.095 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-IPT015N10N5-DS-v02_01-EN.pdf?fileId=5546d4624a75e5f1014ac94680661aff"
-			(at 127 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "300A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 1.5mOhm Ron, Qg (typ) 169.0nC, PG-HSOF-8"
-			(at 127 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C108964"
-			(at 127 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate" "C2979263"
-			(at 127 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 127 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 127 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f609b9e8-4745-431c-8925-c6f9083e6acc")
-		)
-		(pin "2"
-			(uuid "5188c354-61cc-4a13-a16e-500526305d03")
-		)
-		(pin "3"
-			(uuid "61896955-b40d-4396-a8fd-0cda60780dd1")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 156.21 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a31b39e0-5fb8-4252-9114-5513a5790ff3")
-		(property "Reference" "R47"
-			(at 156.21 131.826 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "75"
-			(at 156.21 134.366 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 156.21 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 156.21 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 156.21 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 156.21 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e97fe9d9-3e54-4faa-93cf-0e382b1adb86")
-		)
-		(pin "1"
-			(uuid "37e156d7-d30f-4387-be2e-3ef5643ad8b1")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 156.21 80.01 90)
 		(unit 1)
@@ -3867,7 +3307,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 187.96 99.06 180)
+		(at 187.96 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3876,7 +3316,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecb06c2b-a9ac-4371-a9ca-c957765a24b7")
 		(property "Reference" "C52"
-			(at 190.5 97.7835 0)
+			(at 190.5 87.6235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3885,7 +3325,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 190.5 100.3235 0)
+			(at 190.5 90.1635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,7 +3334,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 187.96 99.06 0)
+			(at 187.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,7 +3343,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 99.06 0)
+			(at 187.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +3352,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 187.96 99.06 0)
+			(at 187.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3921,7 +3361,7 @@
 			)
 		)
 		(property "LCSC" "C1945"
-			(at 187.96 99.06 90)
+			(at 187.96 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +3370,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 187.96 99.06 0)
+			(at 187.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +3378,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 187.96 99.06 0)
+			(at 187.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)

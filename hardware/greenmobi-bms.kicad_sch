@@ -2268,12 +2268,6 @@
 		(uuid "a685f5de-d634-42c6-90a1-2dfca17a3543")
 	)
 	(junction
-		(at 106.68 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab666f59-dcc5-4212-bcad-af3976e938af")
-	)
-	(junction
 		(at 31.75 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2300,10 +2294,6 @@
 	(no_connect
 		(at 196.85 91.44)
 		(uuid "044ef2b6-98ef-4798-b3bd-c9019364698f")
-	)
-	(no_connect
-		(at 25.4 59.69)
-		(uuid "3eabde1b-7ad8-45b3-b531-8aee17be6094")
 	)
 	(no_connect
 		(at 196.85 60.96)
@@ -2565,16 +2555,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 69.85) (xy 106.68 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58cabb97-4d8f-4412-b545-d66b51766ce8")
-	)
-	(wire
-		(pts
 			(xy 217.17 120.65) (xy 222.25 120.65)
 		)
 		(stroke
@@ -2595,7 +2575,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 69.85) (xy 109.22 69.85)
+			(xy 100.33 69.85) (xy 109.22 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3002,6 +2982,16 @@
 			(justify right bottom)
 		)
 		(uuid "260f7fe6-6812-414a-b294-6b9ce4da2517")
+	)
+	(label "BAT+"
+		(at 25.4 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52642686-3e83-4799-b099-45cbe076d00c")
 	)
 	(label "CAN+"
 		(at 209.55 129.54 90)
@@ -4351,72 +4341,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 106.68 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c642265a-e868-46ee-99d0-d1294b3c6b38")
-		(property "Reference" "#PWR04"
-			(at 106.68 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 106.68 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8d25ea1-edc5-4af3-9f5e-5b139a839974")
-		)
-		(instances
-			(project ""
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "Conn_01x02_MountingPin_1")
 		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
 		(at 222.25 133.35 0)
@@ -5064,16 +4988,6 @@
 				(justify left)
 			)
 		)
-		(pin "BAT+" input
-			(at 82.55 59.69 180)
-			(uuid "93d7f157-41ab-4a2c-8c5e-9a180441b1b8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "Shutdown" input
 			(at 82.55 78.74 180)
 			(uuid "5fb12c07-c619-4a21-b46d-f33a571fc974")
@@ -5092,6 +5006,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "BAT_F" input
+			(at 82.55 59.69 180)
+			(uuid "282e1eee-b86a-4a5b-a951-a082b99f2e8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -2682,6 +2682,12 @@
 		(uuid "082eae1d-f489-4efd-899e-7ccd9c8aff63")
 	)
 	(junction
+		(at 229.87 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a448ec3-5bd3-4cb7-8b36-6b415b7e058d")
+	)
+	(junction
 		(at 132.08 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4247,6 +4253,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 125.73) (xy 229.87 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e4817f-0ac5-4452-81e9-befb0f059014")
+	)
+	(wire
+		(pts
 			(xy 166.37 86.36) (xy 166.37 91.44)
 		)
 		(stroke
@@ -5106,6 +5122,17 @@
 		)
 		(uuid "0c42c42f-bc26-4d67-8018-ded25ba96175")
 	)
+	(hierarchical_label "BAT_F"
+		(shape input)
+		(at 149.86 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e74d7dd-3157-415f-a84f-72e84aca7649")
+	)
 	(hierarchical_label "PACK+"
 		(shape output)
 		(at 116.84 166.37 0)
@@ -5149,17 +5176,6 @@
 			(justify right)
 		)
 		(uuid "6cf1b581-92de-4096-a789-6a322984143a")
-	)
-	(hierarchical_label "BAT+"
-		(shape input)
-		(at 149.86 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7db0baef-5893-4185-bc79-e8048ead18c9")
 	)
 	(hierarchical_label "Shutdown"
 		(shape input)
@@ -9741,6 +9757,72 @@
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1c07886-9fa5-4752-92bc-ee00b371f7ce")
+		(property "Reference" "#PWR027"
+			(at 229.87 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcb5093c-3d91-4fcf-bd22-14ecc5c64b18")
+		)
+		(instances
+			(project "greenmobi-bms"
+				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
