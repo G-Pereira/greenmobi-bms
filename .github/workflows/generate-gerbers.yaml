@@ -53,7 +53,7 @@ jobs:
       run: |
         cd hardware
         rm -rf greenmobi-bms/
-        kibot -c ../.github/workflows/scripts/config.kibot.yaml -e greenmobi-bms.kicad_sch -b greenmobi-bms.kicad_pcb -d greenmobi-bms
+        kibot -c ../.github/workflows/scripts/config.kibot.yaml -e greenmobi-bms.kicad_sch -b greenmobi-bms.kicad_pcb -d greenmobi-bms -v
 
     - name: Zip Export Files for Release  
       run: |
