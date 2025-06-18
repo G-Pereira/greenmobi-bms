@@ -54,6 +54,7 @@ jobs:
         cd hardware
         rm -rf greenmobi-bms/
         kibot -c ../.github/workflows/scripts/config.kibot.yaml -e greenmobi-bms.kicad_sch -b greenmobi-bms.kicad_pcb -d greenmobi-bms -v
+        cd greenmobi-bms
         pdfunite PCB-front.pdf PCB-back.pdf PCB.pdf
 
     - name: Zip Export Files for Release  
