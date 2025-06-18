@@ -85,9 +85,9 @@ outputs:
         description: 'Front Copper'
       - layer: B.Cu
         description: 'Back Copper'
-      - layer: F.SilkS
+      - layer: F.Silkscreen
         description: 'Front Silk'
-      - layer: B.SilkS
+      - layer: B.Silkscreen
         description: 'Rear Silk'
       - layer: Edge.Cuts
         description: 'Edge'
