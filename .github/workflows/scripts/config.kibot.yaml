@@ -74,21 +74,34 @@ outputs:
       output: Schematic.pdf
 
   - name: 'print_front'
-    comment: "Print F.Cu+Dwgs.User"
+    comment: "Print Board Front"
     type: pdf_pcb_print
     dir: .
     options:
       output_name: PCB.pdf
       separated: false
+      append: false
     layers:
-      - layer: F.Cu
-        description: 'Front Copper'
-      - layer: B.Cu
-        description: 'Back Copper'
       - layer: F.Silkscreen
         description: 'Front Silk'
+      - layer: F.Cu
+        description: 'Front Copper'
+      - layer: Edge.Cuts
+        description: 'Edge'
+
+  - name: 'print_back'
+    comment: "Print Board Back"
+    type: pdf_pcb_print
+    dir: .
+    options:
+      output_name: PCB.pdf
+      separated: false
+      append: true
+    layers:
       - layer: B.Silkscreen
-        description: 'Rear Silk'
+        description: 'Back Silk'
+      - layer: B.Cu
+        description: 'Back Copper'
       - layer: Edge.Cuts
         description: 'Edge'
 
