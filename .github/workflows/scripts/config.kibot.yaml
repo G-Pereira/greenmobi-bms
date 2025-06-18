@@ -78,9 +78,8 @@ outputs:
     type: pdf_pcb_print
     dir: .
     options:
-      output_name: PCB.pdf
+      output_name: PCB-front.pdf
       separated: false
-      append: false
     layers:
       - layer: F.Silkscreen
         description: 'Front Silk'
@@ -94,9 +93,8 @@ outputs:
     type: pdf_pcb_print
     dir: .
     options:
-      output_name: PCB.pdf
+      output_name: PCB-back.pdf
       separated: false
-      append: true
     layers:
       - layer: B.Silkscreen
         description: 'Back Silk'
