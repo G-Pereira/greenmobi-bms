@@ -4,6 +4,8 @@ on:
     paths:
       - "**.kicad_sch"
       - "**.kicad_pcb"
+      - github/workflows/scripts/config.kibot.yaml
+      - github/workflows/generate-gerbers.yaml
   workflow_dispatch:
   release:
     types: [ published ]
