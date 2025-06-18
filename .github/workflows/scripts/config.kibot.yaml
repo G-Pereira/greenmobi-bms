@@ -79,7 +79,7 @@ outputs:
     dir: .
     options:
       output_name: PCB.pdf
-      separated: true
+      separated: false
     layers:
       - layer: F.Cu
         description: 'Front Copper'
@@ -89,6 +89,8 @@ outputs:
         description: 'Front Silk'
       - layer: B.SilkS
         description: 'Rear Silk'
+      - layer: Edge.Cuts
+        description: 'Edge'
 
   - name: 'gerbers'
     comment: "Gerbers for the board house"
