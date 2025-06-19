@@ -74,7 +74,7 @@ outputs:
 
   - name: 'print_front'
     comment: "Print Board Front"
-    type: pdf_pcb_print
+    type: pcb_print
     dir: .
     options:
       output_name: PCB-front.pdf
@@ -89,7 +89,7 @@ outputs:
 
   - name: 'print_back'
     comment: "Print Board Back"
-    type: pdf_pcb_print
+    type: pcb_print
     dir: .
     options:
       output_name: PCB-back.pdf
@@ -221,5 +221,5 @@ outputs:
 
   - name: 'step_file'
     comment: 'STEP file generation'
-    type: step
+    type: export_3d
     dir: .
