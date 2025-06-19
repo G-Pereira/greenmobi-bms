@@ -72,35 +72,27 @@ outputs:
     options:
       output: Schematic.pdf
 
-  - name: 'print_front'
-    comment: "Print Board Front"
+  - name: 'print_pcb'
+    comment: "Print Board Layout"
     type: pcb_print
     dir: .
     options:
-      output_name: PCB-front.pdf
-      separated: false
-    layers:
-      - layer: F.Silkscreen
-        description: 'Front Silk'
-      - layer: F.Cu
-        description: 'Front Copper'
-      - layer: Edge.Cuts
-        description: 'Edge'
-
-  - name: 'print_back'
-    comment: "Print Board Back"
-    type: pcb_print
-    dir: .
-    options:
-      output_name: PCB-back.pdf
-      separated: false
-    layers:
-      - layer: B.Silkscreen
-        description: 'Back Silk'
-      - layer: B.Cu
-        description: 'Back Copper'
-      - layer: Edge.Cuts
-        description: 'Edge'
+      output: PCB.pdf
+      pages:
+        - layers:
+          - layer: F.Silkscreen
+            description: 'Front Silk'
+          - layer: F.Cu
+            description: 'Front Copper'
+          - layer: Edge.Cuts
+            description: 'Edge'
+        - layers:
+          - layer: B.Silkscreen
+            description: 'Back Silk'
+          - layer: B.Cu
+            description: 'Back Copper'
+          - layer: Edge.Cuts
+            description: 'Edge'
 
   - name: 'gerbers'
     comment: "Gerbers for the board house"
