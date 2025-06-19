@@ -1210,130 +1210,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -2313,6 +2189,16 @@
 		)
 		(uuid "01430606-c88e-47ff-abbe-65fd3808585a")
 	)
+	(wire
+		(pts
+			(xy 181.61 74.93) (xy 181.61 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03138370-00ae-42b4-9fa6-f6ff3b78ca34")
+	)
 	(polyline
 		(pts
 			(xy 231.14 109.855) (xy 231.14 49.53)
@@ -2342,16 +2228,6 @@
 			(type default)
 		)
 		(uuid "0782b23d-ab43-4bfd-939c-1b47d14474ab")
-	)
-	(wire
-		(pts
-			(xy 181.61 76.2) (xy 181.61 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ccaa6ff-4971-45e7-b196-9e74932f5190")
 	)
 	(wire
 		(pts
@@ -2422,6 +2298,16 @@
 			(type default)
 		)
 		(uuid "20be59eb-251a-47f0-a7f6-672ef8cf83fd")
+	)
+	(wire
+		(pts
+			(xy 181.61 68.58) (xy 181.61 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26643057-1b3a-41c6-ace2-0462541a4ba2")
 	)
 	(wire
 		(pts
@@ -2565,13 +2451,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 68.58) (xy 172.72 66.04)
+			(xy 172.72 66.04) (xy 172.72 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "68bda64b-1faf-4853-ac3a-48fc4c921560")
+	)
+	(wire
+		(pts
+			(xy 172.72 74.93) (xy 172.72 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e150edc-32eb-4393-9869-ed203d4b6bd5")
 	)
 	(wire
 		(pts
@@ -2655,16 +2551,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 29.21) (xy 62.23 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98a153e3-52f0-4ac5-aba7-ca88a61bbc4f")
-	)
-	(wire
-		(pts
 			(xy 62.23 78.74) (xy 82.55 78.74)
 		)
 		(stroke
@@ -2685,6 +2571,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 36.83) (xy 62.23 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09dd9f3-dfb6-4485-9fdc-6827608c3e45")
+	)
+	(wire
+		(pts
 			(xy 62.23 39.37) (xy 82.55 39.37)
 		)
 		(stroke
@@ -2692,16 +2588,6 @@
 			(type default)
 		)
 		(uuid "a3b8139c-cfd7-4c1f-adfa-31faf68bfe34")
-	)
-	(wire
-		(pts
-			(xy 172.72 76.2) (xy 172.72 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af96aaa4-9d1b-44b1-9b16-51e476e11bbb")
 	)
 	(polyline
 		(pts
@@ -2752,16 +2638,6 @@
 			(type default)
 		)
 		(uuid "b2f55b0b-d5cb-4d49-8af2-ea6343b4f904")
-	)
-	(wire
-		(pts
-			(xy 62.23 38.1) (xy 62.23 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3ed56ab-a834-4160-9f6b-484520e21bb9")
 	)
 	(wire
 		(pts
@@ -2902,6 +2778,16 @@
 			(type default)
 		)
 		(uuid "e8390303-31eb-4a9d-b21a-25bdbe53879d")
+	)
+	(wire
+		(pts
+			(xy 62.23 29.21) (xy 62.23 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9eb0af9-265d-4f42-87f9-89b41fd08bd9")
 	)
 	(wire
 		(pts
@@ -3080,7 +2966,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_Small")
 		(at 172.72 72.39 0)
 		(mirror y)
 		(unit 1)
@@ -3091,21 +2977,21 @@
 		(fields_autoplaced yes)
 		(uuid "1966ed21-c583-4e0f-bf3d-cbfa2a5f9cde")
 		(property "Reference" "R1"
-			(at 170.18 71.1199 0)
+			(at 175.26 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "5.1k"
-			(at 170.18 73.6599 0)
+			(at 175.26 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -3126,7 +3012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 172.72 72.39 0)
 			(effects
 				(font
@@ -3233,7 +3119,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_Small")
 		(at 181.61 72.39 0)
 		(mirror y)
 		(unit 1)
@@ -3244,21 +3130,21 @@
 		(fields_autoplaced yes)
 		(uuid "38d77a16-74cf-4ee3-ba79-d493323236d1")
 		(property "Reference" "R2"
-			(at 179.07 71.1199 0)
+			(at 184.15 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "5.1k"
-			(at 179.07 73.6599 0)
+			(at 184.15 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -3279,7 +3165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 181.61 72.39 0)
 			(effects
 				(font
@@ -4628,7 +4514,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_Small")
 		(at 62.23 34.29 0)
 		(mirror x)
 		(unit 1)
@@ -4674,7 +4560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 62.23 34.29 0)
 			(effects
 				(font

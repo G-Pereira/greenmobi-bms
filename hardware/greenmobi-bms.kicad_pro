@@ -194,7 +194,7 @@
       ],
       "track_widths": [
         0.0,
-        0.2
+        0.16
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -226,6 +226,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.25,
+          "drill": 0.15
         }
       ],
       "zones_allow_external_fillets": false,
@@ -494,6 +498,16 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1,
+        "name": "Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.16,
+        "via_diameter": 0.25,
+        "via_drill": 0.15
       }
     ],
     "meta": {
@@ -501,7 +515,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Signal",
+        "pattern": "Net*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -578,12 +597,6 @@
         },
         {
           "group_by": false,
-          "label": "Alternate",
-          "name": "Alternate",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
           "show": true
@@ -592,19 +605,7 @@
           "group_by": false,
           "label": "Notes",
           "name": "Notes",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
