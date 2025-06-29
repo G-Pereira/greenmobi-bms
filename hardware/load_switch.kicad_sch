@@ -785,12 +785,6 @@
 		(uuid "1987e4ca-389c-404f-bbe7-0b9446dfc699")
 	)
 	(junction
-		(at 187.96 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "200f4dc1-036f-4b20-ae40-770ee6370263")
-	)
-	(junction
 		(at 172.72 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -885,12 +879,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ceae7aab-0935-4c55-b86e-6650db4a553c")
-	)
-	(junction
-		(at 187.96 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4a826ef-e66c-4944-8b82-4ad33af12812")
 	)
 	(wire
 		(pts
@@ -1144,16 +1132,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 72.39) (xy 187.96 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "470b6480-9f66-4336-b0ca-6a582b9d27e1")
-	)
-	(wire
-		(pts
 			(xy 132.08 72.39) (xy 134.62 72.39)
 		)
 		(stroke
@@ -1164,7 +1142,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 72.39) (xy 195.58 72.39)
+			(xy 172.72 72.39) (xy 195.58 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1181,16 +1159,6 @@
 			(type default)
 		)
 		(uuid "52d1d6c2-b6dc-4d31-9433-bcfe3848cc24")
-	)
-	(wire
-		(pts
-			(xy 187.96 91.44) (xy 187.96 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53032bb8-0db7-43e7-afad-0a2da14eedb2")
 	)
 	(wire
 		(pts
@@ -1231,16 +1199,6 @@
 			(type default)
 		)
 		(uuid "5e1f9c4c-0772-427d-a509-8d366e0f71bd")
-	)
-	(wire
-		(pts
-			(xy 172.72 72.39) (xy 187.96 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61d3e80b-31ff-4668-a44f-19c7c8945f92")
 	)
 	(wire
 		(pts
@@ -1334,16 +1292,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 100.33) (xy 187.96 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cb81638-0cd5-4df6-8f86-de7a8ca66284")
-	)
-	(wire
-		(pts
 			(xy 118.11 80.01) (xy 127 80.01)
 		)
 		(stroke
@@ -1414,7 +1362,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 113.03) (xy 187.96 113.03)
+			(xy 172.72 113.03) (xy 198.12 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1441,16 +1389,6 @@
 			(type default)
 		)
 		(uuid "c465402e-942e-465e-b0c9-bb694841b2a2")
-	)
-	(wire
-		(pts
-			(xy 187.96 113.03) (xy 198.12 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5ce1485-f2bd-4345-9cb0-5149a9f018b1")
 	)
 	(wire
 		(pts
@@ -1627,7 +1565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "011a29a9-2931-4e4b-85c4-1baecc7a39c1")
-		(property "Reference" "R48"
+		(property "Reference" "R47"
 			(at 166.37 92.7099 0)
 			(effects
 				(font
@@ -1681,86 +1619,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 187.96 97.79 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e12a930-9aa0-4817-8204-ad1dd931e6cd")
-		(property "Reference" "C53"
-			(at 190.5 96.5135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 190.5 99.0535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1945"
-			(at 187.96 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "65aeacc0-a14c-4eeb-8e0e-2b2a62fd65f3")
-		)
-		(pin "1"
-			(uuid "6e5fa968-e303-4819-a511-41a752dfd023")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "C53")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -1934,7 +1793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ccdc45b-212a-4f16-9ba0-61b761a80115")
-		(property "Reference" "R39"
+		(property "Reference" "R40"
 			(at 102.362 91.44 0)
 			(effects
 				(font
@@ -1988,7 +1847,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "R39")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -2004,7 +1863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21d1d216-1344-4246-92b1-8b0697c0fd3c")
-		(property "Reference" "R41"
+		(property "Reference" "R42"
 			(at 115.57 98.806 90)
 			(effects
 				(font
@@ -2056,7 +1915,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "R41")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -2142,7 +2001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23e52f59-6da7-4bb5-911e-abe46019d18b")
-		(property "Reference" "Q7"
+		(property "Reference" "Q6"
 			(at 144.78 99.06 90)
 			(effects
 				(font
@@ -2218,7 +2077,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "Q7")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -2233,7 +2092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "331777a5-fd3a-445b-9e47-0c67a93a9972")
-		(property "Reference" "Q5"
+		(property "Reference" "Q4"
 			(at 144.78 66.04 90)
 			(effects
 				(font
@@ -2309,7 +2168,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "Q5")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -2394,7 +2253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "420cfc41-4bf0-4003-87e6-d29b860796e0")
-		(property "Reference" "R40"
+		(property "Reference" "R41"
 			(at 115.57 82.296 90)
 			(effects
 				(font
@@ -2446,7 +2305,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "R40")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -2638,7 +2497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57f902e0-6efb-4748-b849-cb03dc2fb58d")
-		(property "Reference" "C51"
+		(property "Reference" "C50"
 			(at 142.2463 53.34 90)
 			(effects
 				(font
@@ -2699,7 +2558,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "C51")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -2715,7 +2574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7592dfd4-b179-4ab3-b5e4-bea02991c426")
-		(property "Reference" "R42"
+		(property "Reference" "R43"
 			(at 115.57 115.316 90)
 			(effects
 				(font
@@ -2767,7 +2626,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "R42")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -2783,7 +2642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87818d72-0b6f-4aba-a770-7c9a0138cd2e")
-		(property "Reference" "C50"
+		(property "Reference" "C49"
 			(at 129.5463 53.34 90)
 			(effects
 				(font
@@ -2844,7 +2703,7 @@
 		(instances
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "C50")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -2926,7 +2785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de16c52e-da42-4a25-b88d-b62f4a8e3c24")
-		(property "Reference" "Q6"
+		(property "Reference" "Q5"
 			(at 144.78 82.55 90)
 			(effects
 				(font
@@ -3002,86 +2861,7 @@
 		(instances
 			(project "greenmobi-bms"
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 187.96 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecb06c2b-a9ac-4371-a9ca-c957765a24b7")
-		(property "Reference" "C52"
-			(at 190.5 87.6235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 190.5 90.1635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 187.96 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 187.96 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1945"
-			(at 187.96 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c6030f14-9cca-4a1b-8921-a9bd6db95f7d")
-		)
-		(pin "1"
-			(uuid "a3359bd3-46a1-480d-9922-f263837e3d2e")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "C52")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
