@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.8,
-          "width": 1.15
+          "drill": 0.2,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.75
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -194,10 +194,7 @@
       ],
       "track_widths": [
         0.0,
-        0.2,
-        0.5,
-        0.75,
-        1.0
+        0.16
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -229,6 +226,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.25,
+          "drill": 0.15
         }
       ],
       "zones_allow_external_fillets": false,
@@ -499,11 +500,14 @@
         "wire_width": 6
       },
       {
-        "name": "Power",
+        "clearance": 0.1,
+        "name": "Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgb(255, 153, 0)",
-        "wire_width": 24
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.16,
+        "via_diameter": 0.25,
+        "via_drill": 0.15
       }
     ],
     "meta": {
@@ -513,28 +517,8 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Power",
-        "pattern": "*BAT+*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "*PACK+*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "*PACK-*"
-      },
-      {
-        "netclass": "Default",
-        "pattern": ""
-      },
-      {
-        "netclass": "Power",
-        "pattern": "*BAT-*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "*BAT_F*"
+        "netclass": "Signal",
+        "pattern": "Net*"
       }
     ]
   },
@@ -613,12 +597,6 @@
         },
         {
           "group_by": false,
-          "label": "Alternate",
-          "name": "Alternate",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
           "show": true
@@ -627,19 +605,7 @@
           "group_by": false,
           "label": "Notes",
           "name": "Notes",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
