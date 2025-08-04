@@ -761,100 +761,22 @@
 		(uuid "d51c3a71-d9be-47e4-912a-697ae76b7f6f")
 	)
 	(junction
-		(at 111.76 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0059d31a-2634-4cd7-842d-93d7b2da4a68")
-	)
-	(junction
 		(at 99.06 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ecf4267-b862-4a0d-be90-51dca5adb48c")
 	)
 	(junction
-		(at 134.62 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13716f2e-1b53-44cf-bc59-bcd1520beeda")
-	)
-	(junction
-		(at 107.95 113.03)
+		(at 107.95 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1987e4ca-389c-404f-bbe7-0b9446dfc699")
 	)
 	(junction
-		(at 172.72 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "225506d1-88e8-4c90-bd81-881ad8d0fbb6")
-	)
-	(junction
-		(at 119.38 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f4cf27f-212d-41f6-89bd-4daa5c6c92e1")
-	)
-	(junction
-		(at 119.38 72.39)
+		(at 111.76 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41469716-3bbf-4075-a7f2-c324c29f0889")
-	)
-	(junction
-		(at 163.83 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e23185b-cf47-4c1d-8973-400c86672e37")
-	)
-	(junction
-		(at 172.72 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54f6b2ba-e3f2-40e5-824c-850fc907fc98")
-	)
-	(junction
-		(at 134.62 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58abc279-5811-48f8-96fa-f55aa072291d")
-	)
-	(junction
-		(at 137.16 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5aa3c611-c22a-4a8a-9256-56a6d84b5c37")
-	)
-	(junction
-		(at 111.76 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ae5470c-22be-4af0-bd64-bf6c7ef10fe8")
-	)
-	(junction
-		(at 163.83 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68dc1c94-2d73-4818-95f8-10097ef479c4")
-	)
-	(junction
-		(at 160.02 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ef9b071-b725-4dbb-91b8-93bdfc27794f")
-	)
-	(junction
-		(at 152.4 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "741d75d8-ef5e-4d32-9e17-3be91787cc74")
-	)
-	(junction
-		(at 137.16 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76b9c487-0366-419f-84e8-a0b4f3e1b4f4")
 	)
 	(junction
 		(at 107.95 72.39)
@@ -863,46 +785,30 @@
 		(uuid "78ad82c7-743e-4a3b-a712-eaf83697df64")
 	)
 	(junction
-		(at 152.4 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79b6b328-d7f5-4b32-938a-187baf1d364a")
-	)
-	(junction
-		(at 160.02 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9bbd87cf-f4e3-4ee6-bc39-a32a892039c2")
-	)
-	(junction
-		(at 99.06 113.03)
+		(at 99.06 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ceae7aab-0935-4c55-b86e-6650db4a553c")
 	)
+	(junction
+		(at 127 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0dab2c9-891e-44a9-98b9-5465d0748d74")
+	)
 	(wire
 		(pts
-			(xy 134.62 88.9) (xy 134.62 105.41)
+			(xy 127 62.23) (xy 125.73 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00bccb4e-e5ba-4d7e-a385-87de5c3e2794")
+		(uuid "07d819cd-3330-442c-9462-15e1a1cc0ca3")
 	)
 	(wire
 		(pts
-			(xy 99.06 96.52) (xy 99.06 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a755e31-3ecc-4f69-8ad5-29b94ad2f740")
-	)
-	(wire
-		(pts
-			(xy 107.95 72.39) (xy 107.95 90.17)
+			(xy 107.95 72.39) (xy 107.95 73.66)
 		)
 		(stroke
 			(width 0)
@@ -912,37 +818,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 88.9) (xy 119.38 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c27d0a6-ea18-4159-8f26-eef6a9f24283")
-	)
-	(wire
-		(pts
-			(xy 111.76 113.03) (xy 113.03 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e6e7474-1d26-4b22-9754-f04363871314")
-	)
-	(wire
-		(pts
-			(xy 119.38 105.41) (xy 119.38 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f15f059-fa4a-4b3e-84c1-84006e781d1a")
-	)
-	(wire
-		(pts
-			(xy 119.38 59.69) (xy 119.38 72.39)
+			(xy 111.76 62.23) (xy 111.76 72.39)
 		)
 		(stroke
 			(width 0)
@@ -962,47 +838,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 88.9) (xy 132.08 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13d8ec45-d6ef-44a0-b921-53f8ad303d41")
-	)
-	(wire
-		(pts
-			(xy 111.76 96.52) (xy 111.76 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14f809dd-867f-45ad-bfda-13e38bd73e15")
-	)
-	(wire
-		(pts
-			(xy 121.92 105.41) (xy 119.38 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17d5eae3-9347-40ec-9e48-a69834b53c3f")
-	)
-	(wire
-		(pts
-			(xy 107.95 72.39) (xy 119.38 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19126ff1-b4d2-47c3-a7be-99bb2e6ebfff")
-	)
-	(wire
-		(pts
-			(xy 119.38 72.39) (xy 121.92 72.39)
+			(xy 111.76 72.39) (xy 114.3 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1012,153 +848,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 91.44) (xy 163.83 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21b76a38-166e-4fa2-88ed-8c171dee21db")
-	)
-	(wire
-		(pts
-			(xy 152.4 88.9) (xy 152.4 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29f468ef-1acd-42e4-9bbc-d6460fd701c9")
-	)
-	(wire
-		(pts
-			(xy 134.62 72.39) (xy 134.62 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b25594e-1193-435f-9f91-fa678fb593ec")
-	)
-	(wire
-		(pts
-			(xy 107.95 113.03) (xy 111.76 113.03)
+			(xy 107.95 80.01) (xy 110.49 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2c9acd92-3d02-4945-87d1-92da91cc2ab2")
-	)
-	(wire
-		(pts
-			(xy 137.16 88.9) (xy 137.16 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dc6fdba-f7b3-4880-81ec-c218be6d0fee")
-	)
-	(wire
-		(pts
-			(xy 118.11 113.03) (xy 127 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30341121-6947-4e13-8c48-708fdc1207b7")
-	)
-	(wire
-		(pts
-			(xy 134.62 105.41) (xy 132.08 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31e0a623-5143-4ab0-9d24-cacd924811f7")
-	)
-	(wire
-		(pts
-			(xy 134.62 72.39) (xy 137.16 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34166f03-50e9-405d-b39d-a1eb9e06ed07")
-	)
-	(wire
-		(pts
-			(xy 158.75 113.03) (xy 160.02 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e5b78cf-e30f-4134-8fde-6b89eba6ddae")
-	)
-	(wire
-		(pts
-			(xy 152.4 72.39) (xy 163.83 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f46187c-cb92-41ee-bef9-fc6f88d9788b")
-	)
-	(wire
-		(pts
-			(xy 160.02 80.01) (xy 160.02 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "419f5c24-889f-46a0-8a7f-14b51f678493")
-	)
-	(wire
-		(pts
-			(xy 137.16 72.39) (xy 137.16 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "423df419-48b8-4a96-8696-bcc7fe59ff1c")
-	)
-	(wire
-		(pts
-			(xy 132.08 72.39) (xy 134.62 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d307d22-30a5-40c4-9aa2-7e934d5c698b")
-	)
-	(wire
-		(pts
-			(xy 172.72 72.39) (xy 195.58 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "529d8e86-0cd9-48c3-9048-b44f02cf683b")
-	)
-	(wire
-		(pts
-			(xy 144.78 96.52) (xy 153.67 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52d1d6c2-b6dc-4d31-9433-bcfe3848cc24")
 	)
 	(wire
 		(pts
@@ -1172,17 +868,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 59.69) (xy 152.4 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5480b4c6-6940-4cf4-93de-b57889a5d685")
-	)
-	(wire
-		(pts
-			(xy 107.95 95.25) (xy 107.95 113.03)
+			(xy 107.95 78.74) (xy 107.95 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1192,57 +878,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 88.9) (xy 152.4 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e1f9c4c-0772-427d-a509-8d366e0f71bd")
-	)
-	(wire
-		(pts
-			(xy 158.75 80.01) (xy 160.02 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e7851f2-a68f-40cc-95c1-f9a4bbc530e4")
-	)
-	(wire
-		(pts
-			(xy 160.02 113.03) (xy 163.83 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f656d4b-ece9-4338-96cc-8402e16d243f")
-	)
-	(wire
-		(pts
-			(xy 152.4 105.41) (xy 152.4 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72f50b1f-a76d-44a9-821c-e4eb690669ee")
-	)
-	(wire
-		(pts
-			(xy 111.76 80.01) (xy 111.76 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78f07013-8771-4b10-86fa-8cd8d2dd4d31")
-	)
-	(wire
-		(pts
-			(xy 139.7 59.69) (xy 132.08 59.69)
+			(xy 120.65 62.23) (xy 118.11 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1252,17 +888,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 105.41) (xy 152.4 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "827a4daf-0e00-42eb-8138-b45a95aa4e4d")
-	)
-	(wire
-		(pts
-			(xy 127 59.69) (xy 119.38 59.69)
+			(xy 113.03 62.23) (xy 111.76 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1272,27 +898,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 113.03) (xy 153.67 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85daf0ef-7030-4ccf-94f1-846ef86743bc")
-	)
-	(wire
-		(pts
-			(xy 163.83 72.39) (xy 172.72 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95caf0ae-5f95-4d2a-bf29-e91010a81c22")
-	)
-	(wire
-		(pts
-			(xy 118.11 80.01) (xy 127 80.01)
+			(xy 115.57 80.01) (xy 119.38 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1302,137 +908,27 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 88.9) (xy 139.7 88.9)
+			(xy 127 72.39) (xy 129.54 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ec40f6e-74f7-4ba5-b41d-c1513e178154")
+		(uuid "be3d6c94-4787-43e7-8f01-70240d615df8")
 	)
 	(wire
 		(pts
-			(xy 111.76 80.01) (xy 113.03 80.01)
+			(xy 111.76 72.39) (xy 107.95 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ecafb0f-f509-41c3-852d-1d2e2b399d00")
+		(uuid "be9742ac-bf6c-4523-93a5-3713adc7f944")
 	)
 	(wire
 		(pts
-			(xy 163.83 96.52) (xy 163.83 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a64847e5-9a67-4c11-99a6-6b73dce8fe6e")
-	)
-	(wire
-		(pts
-			(xy 119.38 88.9) (xy 119.38 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4a05caf-665a-44a7-9d2c-4031f5f4d703")
-	)
-	(wire
-		(pts
-			(xy 137.16 105.41) (xy 139.7 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b549f0eb-0a6c-44a3-aa34-60153a380e31")
-	)
-	(wire
-		(pts
-			(xy 144.78 80.01) (xy 153.67 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9bd8f3d-fed4-459d-9d87-a0b2f2c5beab")
-	)
-	(wire
-		(pts
-			(xy 172.72 113.03) (xy 198.12 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bddad4e5-cd4f-4ff2-8671-11a1a5690227")
-	)
-	(wire
-		(pts
-			(xy 163.83 113.03) (xy 172.72 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3822197-5a4b-441d-b793-f545da3f0bf6")
-	)
-	(wire
-		(pts
-			(xy 99.06 72.39) (xy 99.06 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c465402e-942e-465e-b0c9-bb694841b2a2")
-	)
-	(wire
-		(pts
-			(xy 172.72 72.39) (xy 172.72 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c93afe69-f4b3-47a8-a958-87aa36040f5b")
-	)
-	(wire
-		(pts
-			(xy 158.75 96.52) (xy 160.02 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9affc61-f798-46ae-8a04-a8a91eb88b01")
-	)
-	(wire
-		(pts
-			(xy 172.72 97.79) (xy 172.72 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf7c7145-347a-48f7-9b9f-870578d08dd8")
-	)
-	(wire
-		(pts
-			(xy 111.76 96.52) (xy 113.03 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d86b7070-379f-4bbc-b3c0-92b9c468303e")
-	)
-	(wire
-		(pts
-			(xy 152.4 59.69) (xy 152.4 72.39)
+			(xy 127 62.23) (xy 127 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1442,17 +938,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 96.52) (xy 127 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc32bb01-b98c-44a4-9099-712a6b1115a4")
-	)
-	(wire
-		(pts
-			(xy 137.16 72.39) (xy 139.7 72.39)
+			(xy 124.46 72.39) (xy 127 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1462,7 +948,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 113.03) (xy 107.95 113.03)
+			(xy 99.06 80.01) (xy 107.95 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1472,27 +958,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 96.52) (xy 160.02 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8510885-37d4-4a7a-a2fe-03a35cfc5338")
-	)
-	(wire
-		(pts
-			(xy 152.4 72.39) (xy 149.86 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd57ebc3-a796-45c0-95ce-7ce3be8d192a")
-	)
-	(wire
-		(pts
-			(xy 96.52 113.03) (xy 99.06 113.03)
+			(xy 96.52 80.01) (xy 99.06 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1500,42 +966,20 @@
 		)
 		(uuid "fecf8c0e-6796-437b-84d1-eef42f9a9570")
 	)
-	(hierarchical_label "DSG"
+	(hierarchical_label "CHG+"
 		(shape input)
-		(at 198.12 113.03 0)
+		(at 129.54 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "1296aa9f-1542-4bf9-950f-c3bc6c65118c")
-	)
-	(hierarchical_label "FET_C"
-		(shape output)
-		(at 135.89 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52ef8439-a5d2-439c-96db-9dd0fa3c1de9")
-	)
-	(hierarchical_label "PACK+"
-		(shape output)
-		(at 195.58 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7a89571c-1b6b-43af-8425-9810f127756a")
+		(uuid "4ae95ad2-ac08-47f2-bc98-8d561f7e4310")
 	)
 	(hierarchical_label "CHG"
 		(shape input)
-		(at 96.52 113.03 180)
+		(at 96.52 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1544,7 +988,7 @@
 		)
 		(uuid "a0151f44-dc7c-4e2c-80ae-098ad72bd58b")
 	)
-	(hierarchical_label "BAT_F"
+	(hierarchical_label "BAT+"
 		(shape input)
 		(at 95.25 72.39 180)
 		(effects
@@ -1557,236 +1001,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 163.83 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "011a29a9-2931-4e4b-85c4-1baecc7a39c1")
-		(property "Reference" "R47"
-			(at 166.37 92.7099 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10M"
-			(at 166.37 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 163.83 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 163.83 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d50d0ddd-efae-4f75-b8f7-f8ce0232940e")
-		)
-		(pin "2"
-			(uuid "ff54be62-069b-4e50-8572-257ecb5a7214")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IPT015N10N5")
-		(at 127 91.44 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1870d317-23b3-450a-af81-282e529ae50b")
-		(property "Reference" "Q2"
-			(at 127 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IPT015N10N5"
-			(at 127 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1_ThermalVias"
-			(at 125.095 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-IPT015N10N5-DS-v02_01-EN.pdf?fileId=5546d4624a75e5f1014ac94680661aff"
-			(at 127 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "300A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 1.5mOhm Ron, Qg (typ) 169.0nC, PG-HSOF-8"
-			(at 127 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C108964"
-			(at 127 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "Alternative: C2979263"
-			(at 127 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d22dd47b-9a08-4744-8033-5f59c611486b")
-		)
-		(pin "2"
-			(uuid "b071a4de-26e0-4616-b617-f18137399a0a")
-		)
-		(pin "3"
-			(uuid "348e0088-c3f1-4f6e-ae57-b838793732e9")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 156.21 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a5f3244-d33f-4ecb-bad6-7aaf92806e19")
-		(property "Reference" "R46"
-			(at 156.21 115.316 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "75"
-			(at 156.21 117.856 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 156.21 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 156.21 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ba82f2eb-810c-44a8-872d-dc31275ecf37")
-		)
-		(pin "1"
-			(uuid "8366b321-af83-4c38-95b7-4b892eef17d6")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 107.95 92.71 0)
+		(at 107.95 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1794,7 +1009,7 @@
 		(dnp no)
 		(uuid "1ccdc45b-212a-4f16-9ba0-61b761a80115")
 		(property "Reference" "R40"
-			(at 102.362 91.44 0)
+			(at 102.362 74.93 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1803,7 +1018,7 @@
 			)
 		)
 		(property "Value" "10M"
-			(at 102.362 93.98 0)
+			(at 102.362 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,7 +1027,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 107.95 92.71 0)
+			(at 107.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1821,7 +1036,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 92.71 0)
+			(at 107.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1830,7 +1045,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 107.95 92.71 0)
+			(at 107.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1854,329 +1069,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 115.57 96.52 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21d1d216-1344-4246-92b1-8b0697c0fd3c")
-		(property "Reference" "R42"
-			(at 115.57 98.806 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "75"
-			(at 115.57 101.346 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 115.57 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 115.57 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ca864d31-986c-4e8b-a763-1b51f39a089f")
-		)
-		(pin "1"
-			(uuid "3a483d24-f76b-438a-9c97-be6cf2d3d491")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:BZT52Bxx")
-		(at 172.72 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21f6f213-09f6-45ba-a694-5d708fd94f17")
-		(property "Reference" "D2"
-			(at 175.26 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BZT52Bxx"
-			(at 175.26 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 177.165 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf"
-			(at 172.72 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "500mW Zener Diode, SOD-123F"
-			(at 172.72 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e73123c1-158e-4921-9b0c-8a427149e3c4")
-		)
-		(pin "2"
-			(uuid "5a21e1eb-584c-4529-8210-c38a6071f256")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IPT015N10N5")
-		(at 144.78 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23e52f59-6da7-4bb5-911e-abe46019d18b")
-		(property "Reference" "Q6"
-			(at 144.78 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IPT015N10N5"
-			(at 144.78 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1_ThermalVias"
-			(at 146.685 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-IPT015N10N5-DS-v02_01-EN.pdf?fileId=5546d4624a75e5f1014ac94680661aff"
-			(at 144.78 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "300A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 1.5mOhm Ron, Qg (typ) 169.0nC, PG-HSOF-8"
-			(at 144.78 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C108964"
-			(at 144.78 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "Alternative: C2979263"
-			(at 144.78 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37261fcb-01ca-4d92-8ce3-b67c4e9506a9")
-		)
-		(pin "2"
-			(uuid "1c80571d-76c4-4ae7-ac36-8175714627b0")
-		)
-		(pin "3"
-			(uuid "1913c7e5-263f-4d6e-9e51-6b9da58bbee1")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IPT015N10N5")
-		(at 144.78 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "331777a5-fd3a-445b-9e47-0c67a93a9972")
-		(property "Reference" "Q4"
-			(at 144.78 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IPT015N10N5"
-			(at 144.78 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1_ThermalVias"
-			(at 146.685 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-IPT015N10N5-DS-v02_01-EN.pdf?fileId=5546d4624a75e5f1014ac94680661aff"
-			(at 144.78 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "300A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 1.5mOhm Ron, Qg (typ) 169.0nC, PG-HSOF-8"
-			(at 144.78 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C108964"
-			(at 144.78 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "Alternative: C2979263"
-			(at 144.78 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "821a5fd5-e283-4fe1-a973-0a1fb6f4dc0a")
-		)
-		(pin "2"
-			(uuid "2f1a79d5-c6ad-44a8-b345-6a3f868ac13a")
-		)
-		(pin "3"
-			(uuid "046076a1-c167-4d37-92f3-0236c5bf37d9")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BZT52Bxx")
-		(at 99.06 92.71 90)
+		(at 99.06 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2184,7 +1078,7 @@
 		(dnp no)
 		(uuid "349bc3b9-e677-4330-bfd6-b06b67d92c0b")
 		(property "Reference" "D1"
-			(at 93.98 91.44 90)
+			(at 93.98 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2193,7 +1087,7 @@
 			)
 		)
 		(property "Value" "BZT52Bxx"
-			(at 87.122 93.726 90)
+			(at 87.122 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2202,7 +1096,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 103.505 92.71 0)
+			(at 103.505 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +1105,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf"
-			(at 99.06 92.71 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +1114,7 @@
 			)
 		)
 		(property "Description" "500mW Zener Diode, SOD-123F"
-			(at 99.06 92.71 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2245,7 +1139,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 115.57 80.01 270)
+		(at 113.03 80.01 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2254,7 +1148,7 @@
 		(dnp no)
 		(uuid "420cfc41-4bf0-4003-87e6-d29b860796e0")
 		(property "Reference" "R41"
-			(at 115.57 82.296 90)
+			(at 113.03 82.296 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,7 +1156,7 @@
 			)
 		)
 		(property "Value" "75"
-			(at 115.57 84.836 90)
+			(at 113.03 84.836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,7 +1164,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 115.57 80.01 0)
+			(at 113.03 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +1173,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 80.01 0)
+			(at 113.03 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,7 +1182,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 115.57 80.01 0)
+			(at 113.03 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,100 +1207,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IPT015N10N5")
-		(at 127 107.95 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bf8512f-b07d-4d6f-91f7-d81e8349ce12")
-		(property "Reference" "Q3"
-			(at 127 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IPT015N10N5"
-			(at 127 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1_ThermalVias"
-			(at 125.095 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-IPT015N10N5-DS-v02_01-EN.pdf?fileId=5546d4624a75e5f1014ac94680661aff"
-			(at 127 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "300A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 1.5mOhm Ron, Qg (typ) 169.0nC, PG-HSOF-8"
-			(at 127 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C108964"
-			(at 127 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "Alternative: C2979263"
-			(at 127 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a5fb906-2ed0-428a-af3b-e80e09f96cc9")
-		)
-		(pin "2"
-			(uuid "7415e3a6-60c2-41bc-9d0c-9a70c0dd969b")
-		)
-		(pin "3"
-			(uuid "bd098940-6ac2-472b-afde-2c7da3e5d69a")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IPT015N10N5")
-		(at 127 74.93 270)
+		(at 119.38 74.93 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2415,7 +1216,7 @@
 		(dnp no)
 		(uuid "52e24fc8-9eff-46a5-a5fb-33237fafb329")
 		(property "Reference" "Q1"
-			(at 127 66.04 90)
+			(at 119.38 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +1224,7 @@
 			)
 		)
 		(property "Value" "IPT015N10N5"
-			(at 127 68.58 90)
+			(at 119.38 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +1232,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1_ThermalVias"
-			(at 125.095 69.85 0)
+			(at 117.475 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2442,7 +1243,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-IPT015N10N5-DS-v02_01-EN.pdf?fileId=5546d4624a75e5f1014ac94680661aff"
-			(at 127 74.93 0)
+			(at 119.38 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +1253,7 @@
 			)
 		)
 		(property "Description" "300A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 1.5mOhm Ron, Qg (typ) 169.0nC, PG-HSOF-8"
-			(at 127 74.93 0)
+			(at 119.38 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,7 +1262,7 @@
 			)
 		)
 		(property "LCSC" "C108964"
-			(at 127 74.93 0)
+			(at 119.38 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,7 +1290,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 142.24 59.69 90)
+		(at 123.19 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2498,7 +1299,7 @@
 		(fields_autoplaced yes)
 		(uuid "57f902e0-6efb-4748-b849-cb03dc2fb58d")
 		(property "Reference" "C50"
-			(at 142.2463 53.34 90)
+			(at 123.1963 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2506,7 +1307,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 142.2463 55.88 90)
+			(at 123.1963 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2514,7 +1315,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 142.24 59.69 0)
+			(at 123.19 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,7 +1324,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 59.69 0)
+			(at 123.19 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,7 +1333,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 142.24 59.69 0)
+			(at 123.19 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,7 +1342,7 @@
 			)
 		)
 		(property "LCSC" "C1945"
-			(at 142.24 59.69 90)
+			(at 123.19 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,76 +1366,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 115.57 113.03 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7592dfd4-b179-4ab3-b5e4-bea02991c426")
-		(property "Reference" "R43"
-			(at 115.57 115.316 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "75"
-			(at 115.57 117.856 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 115.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 115.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e31857d5-0a80-45ad-a298-f351bf28eeb0")
-		)
-		(pin "1"
-			(uuid "5445422b-7447-4662-81f8-34644464f3c1")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 129.54 59.69 90)
+		(at 115.57 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2643,7 +1376,7 @@
 		(fields_autoplaced yes)
 		(uuid "87818d72-0b6f-4aba-a770-7c9a0138cd2e")
 		(property "Reference" "C49"
-			(at 129.5463 53.34 90)
+			(at 115.5763 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,7 +1384,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 129.5463 55.88 90)
+			(at 115.5763 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +1392,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 129.54 59.69 0)
+			(at 115.57 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2668,7 +1401,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 59.69 0)
+			(at 115.57 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2677,7 +1410,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 129.54 59.69 0)
+			(at 115.57 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,7 +1419,7 @@
 			)
 		)
 		(property "LCSC" "C1945"
-			(at 129.54 59.69 90)
+			(at 115.57 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,231 +1437,6 @@
 			(project ""
 				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
 					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 156.21 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5342d8f-9c5f-4844-a3c3-481ec4a42d1f")
-		(property "Reference" "R44"
-			(at 156.21 82.296 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "75"
-			(at 156.21 84.836 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 156.21 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 156.21 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "21168326-4494-4527-8bab-88a583324263")
-		)
-		(pin "1"
-			(uuid "5512b1d0-4a5f-4937-a8a6-e8603bc01802")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IPT015N10N5")
-		(at 144.78 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de16c52e-da42-4a25-b88d-b62f4a8e3c24")
-		(property "Reference" "Q5"
-			(at 144.78 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IPT015N10N5"
-			(at 144.78 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1_ThermalVias"
-			(at 146.685 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-IPT015N10N5-DS-v02_01-EN.pdf?fileId=5546d4624a75e5f1014ac94680661aff"
-			(at 144.78 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "300A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 1.5mOhm Ron, Qg (typ) 169.0nC, PG-HSOF-8"
-			(at 144.78 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C108964"
-			(at 144.78 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "Alternative: C2979263"
-			(at 144.78 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3231375a-8cdc-45b5-85f2-4efbff7ccedb")
-		)
-		(pin "2"
-			(uuid "19bde442-b53f-4c71-9267-59aa9fa11d13")
-		)
-		(pin "3"
-			(uuid "3a2b83ca-c20d-4060-8252-1748f389b6b2")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 156.21 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8b19c86-3be4-44e8-bae5-7dd2911f8ea2")
-		(property "Reference" "R45"
-			(at 156.21 98.806 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "75"
-			(at 156.21 101.346 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 156.21 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 156.21 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6ed334c0-4dd2-46e1-800e-aea85e3ca0fc")
-		)
-		(pin "1"
-			(uuid "1433b545-43c6-4d28-9136-e44719d4e2ff")
-		)
-		(instances
-			(project "greenmobi-bms"
-				(path "/3e668e3e-3e16-4665-a807-4735962c41d3/10854291-e499-47cf-bc6f-4ce26b968542/7ea15ede-c02c-4daa-9784-228fbfa65914"
-					(reference "R45")
 					(unit 1)
 				)
 			)
